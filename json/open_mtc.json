@@ -3,15 +3,5 @@
 	"docCompleteness": "D",
 	"docSoundness" : "D",
 	"failureRate" : "A+++",
-	"failureValue" : 0,
-	"timeToCharge" : "Not Tested",
-	"timeToChargeValue" : "",
-	"timeToFix" : "Not Tested",
-	"timeToFixValue" : "",
-	"scalability" : "Not Tested",
-	"scalabilityValue" : "",
-	"performance" : "Not Tested",
-	"performanceValue" : "",
-	"stability" : "Not Tested",
-	"stabilityValue" : ""
+	"failureValue" : 0
 }

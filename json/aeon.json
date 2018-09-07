@@ -1,17 +1,5 @@
 {
 	"version" : "0.3.0",
 	"docCompleteness": "C",
-	"docSoundness" : "C",
-	"failureRate" : "Not Tested",
-	"failureValue" : 0,
-	"timeToCharge" : "Not Tested",
-	"timeToChargeValue" : 0,
-	"timeToFix" : "Not Tested",
-	"timeToFixValue" : 0,
-	"scalability" : "Not Tested",
-	"scalabilityValue" : 0,
-	"performance" : "Not Tested",
-	"performanceValue" : "",
-	"stability" : "Not Tested",
-	"stabilityValue" : ""
+	"docSoundness" : "C"
 }

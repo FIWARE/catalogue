@@ -1,17 +1,9 @@
 {
 	"version" : "0.1",
-	"docCompleteness": "Not Tested",
-	"docSoundness" : "Not Tested",
 	"failureRate" : "A++",
 	"failureValue" : 0.1,
 	"timeToCharge" : "D",
 	"timeToChargeValue" : 36.49,
 	"timeToFix" : "D",
-	"timeToFixValue" : 50.55,
-	"scalability" : "Not Tested",
-	"scalabilityValue" : "",
-	"performance" : "Not Tested",
-	"performanceValue" : "",
-	"stability" : "Not Tested",
-	"stabilityValue" : ""
+	"timeToFixValue" : 50.55
 }
