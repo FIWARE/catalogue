@@ -1,0 +1,17 @@
+{
+	"version" : "unknown",
+	"docCompleteness": "Not Tested",
+	"docSoundness" : "Not Tested",
+	"failureRate" : "Not Tested",
+	"failureValue" : 0,
+	"timeToCharge" : "C",
+	"timeToChargeValue" : 14.84,
+	"timeToFix" : "C",
+	"timeToFixValue" : 16.94,
+	"scalability" : "Not Tested",
+	"scalabilityValue" : "",
+	"performance" : "Not Tested",
+	"performanceValue" : "",
+	"stability" : "Not Tested",
+	"stabilityValue" : ""
+}

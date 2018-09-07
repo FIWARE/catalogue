@@ -1,0 +1,17 @@
+{
+	"version" : "3.2",
+	"docCompleteness": "Not Tested",
+	"docSoundness" : "Not Tested",
+	"failureRate" : "A+++",
+	"failureValue" : "",
+	"timeToCharge" : "Not Tested",
+	"timeToChargeValue" : "",
+	"timeToFix" : "Not Tested",
+	"timeToFixValue" : "",
+	"scalability" : "Not Tested",
+	"scalabilityValue" : "",
+	"performance" : "Not Tested",
+	"performanceValue" : "",
+	"stability" : "Not Tested",
+	"stabilityValue" : ""
+}

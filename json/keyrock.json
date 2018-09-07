@@ -1,0 +1,17 @@
+{
+	"version" : "7.0.0",
+	"docCompleteness": "D",
+	"docSoundness" : "D",
+	"failureRate" : "A++",
+	"failureValue" : 0.13,
+	"timeToCharge" : "A+",
+	"timeToChargeValue" : 5.68,
+	"timeToFix" : "B",
+	"timeToFixValue" : 14.47,
+	"scalability" : "A+++",
+	"scalabilityValue" : 1.003,
+	"performance" : "A+++",
+	"performanceValue" : "77 res/sec",
+	"stability" : "A+++",
+	"stabilityValue" : "STABLE"
+}

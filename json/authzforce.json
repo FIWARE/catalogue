@@ -1,0 +1,17 @@
+{
+	"version" : "8.0.1",
+	"docCompleteness": "A",
+	"docSoundness" : "A+",
+	"failureRate" : "A+++",
+	"failureValue" : 0,
+	"timeToCharge" : "A++",
+	"timeToChargeValue" : 2.66,
+	"timeToFix" : "A+",
+	"timeToFixValue" : 6.13,
+	"scalability" : "A++",
+	"scalabilityValue" : 1086,
+	"performance" : "A+++",
+	"performanceValue" : "11245 res/sec",
+	"stability" : "A+++",
+	"stabilityValue" : "STABLE"
+}

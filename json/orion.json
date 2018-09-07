@@ -1,5 +1,17 @@
 {
-	"documentation": "B",
-	"repsponsiveness" : "A",
-	"test-coverage" : "C"
+	"version" : "1.13.0",
+	"docCompleteness": "B",
+	"docSoundness" : "A",
+	"failureRate" : "A+++",
+	"failureValue" : 0,
+	"timeToCharge" : "A",
+	"timeToChargeValue" : 8.88,
+	"timeToFix" : "B",
+	"timeToFixValue" : 13.81,
+	"scalability" : "A+++",
+	"scalabilityValue" : 1008,
+	"performance" : "A+++",
+	"performanceValue" : "524 updates/sec",
+	"stability" : "A",
+	"stabilityValue" : "HIGHER"
 }

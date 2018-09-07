@@ -1,0 +1,17 @@
+{
+	"version" : "1.6.2",
+	"docCompleteness": "Not Tested",
+	"docSoundness" : "Not Tested",
+	"failureRate" : "A+++",
+	"failureValue" : 0,
+	"timeToCharge" : "D",
+	"timeToChargeValue" : 36.49,
+	"timeToFix" : "D",
+	"timeToFixValue" : 50.55,
+	"scalability" : "A+++",
+	"scalabilityValue" : 1.02,
+	"performance" : "A++",
+	"performanceValue" : "285 updates/sec",
+	"stability" : "A",
+	"stabilityValue" : "HIGHER"
+}

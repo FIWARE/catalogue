@@ -1,0 +1,17 @@
+{
+	"version" : "6.4.0",
+	"docCompleteness": "B",
+	"docSoundness" : "A",
+	"failureRate" : "A++",
+	"failureValue" : 0.11,
+	"timeToCharge" : "D",
+	"timeToChargeValue" : 17.67,
+	"timeToFix" : "D",
+	"timeToFixValue" : 146.69,
+	"scalability" : "Not Tested",
+	"scalabilityValue" : "",
+	"performance" : "Not Tested",
+	"performanceValue" : "",
+	"stability" : "Not Tested",
+	"stabilityValue" : ""
+}

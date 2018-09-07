@@ -1,0 +1,17 @@
+{
+	"version" : "2.3.0",
+	"docCompleteness": "B",
+	"docSoundness" : "B",
+	"failureRate" : "A+++",
+	"failureValue" : 0,
+	"timeToCharge" : "D",
+	"timeToChargeValue" : 21.26,
+	"timeToFix" : "D",
+	"timeToFixValue" : 22.75,
+	"scalability" : "Not Tested",
+	"scalabilityValue" : "",
+	"performance" : "Not Tested",
+	"performanceValue" : "",
+	"stability" : "Not Tested",
+	"stabilityValue" : ""
+}
