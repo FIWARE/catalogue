@@ -130,7 +130,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 * [Git Repository](https://github.com/Kurento/kurento-media-server)
 * [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/)
-* [Documentation](hhttps://kurento.rtfd.io/)
+* [Documentation](https://kurento.rtfd.io/)
 
 ### What is Kurento?
 The Stream Oriented GE is a development framework that provides an abstraction layer for multimedia capabilities, allowing non-expert developers to include interactive media components to their applications. At the heart of this enabler there is the Open API. A REST-like API, based on JSON RPC 2.0, exposing a toolbox of Media Elements that can be chained to create complex media processing pipelines. The Stream Oriented GE provides several client implementations of the Open API. The Java client allows developers to include media capabilities to Java or JEE applications. There is also a Javascript client ready to be used with NodeJS or directly in browser applications. Thanks to these, the Stream Oriented GE provides developers with a set of robust end-to-end interoperable multimedia communication capabilities to deal with the complexity of transport, encoding/decoding, processing and rendering tasks in an easy and efficient way.
