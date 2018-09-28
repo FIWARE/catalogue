@@ -35,11 +35,11 @@
 	path = iot-agents/iotagent-lightweightM2M
 	url = https://github.com/telefonicaid/lightweightm2m-iotagent
 [submodule "iot-agents/iotagent-node-"]
-	path = iot-agents/iotagent-node-
+	path = iot-agents/iotagent-node-lib
 	url = https://github.com/telefonicaid/iotagent-node-lib.git
 [submodule "security/authzforce"]
 	path = security/authzforce
-	url = https://github.com/authzforce/server.git
+	url = https://github.com/authzforce/server
 [submodule "iot-agents/iotagent-LoRaWAN"]
 	path = iot-agents/iotagent-LoRaWAN
 	url = https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN
@@ -52,3 +52,15 @@
 [submodule "processing/knowage-server"]
 	path = processing/knowage-server
 	url = https://github.com/KnowageLabs/Knowage-Server.git
+[submodule "data-management/business-api"]
+	path = data-management/business-api
+	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem
+[submodule "iotagents/iotagent-json"]
+	path = iot-agents/iotagent-json
+	url = https://github.com/telefonicaid/iotagent-json
+[submodule "iot-agents/OpenMTC"]
+	path = iot-agents/OpenMTC
+	url = https://github.com/OpenMTC/OpenMTC
+[submodule "robotics/Fast-RTPS"]
+	path = robotics/Fast-RTPS
+	url = https://github.com/eProsima/Fast-RTPS

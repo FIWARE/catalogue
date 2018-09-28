@@ -32,9 +32,9 @@ git submodule update --recursive --remote
 
 The Orion Context Broker Generic Enabler is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
 
-* The [Orion Context Broker](https://fiware-orion.rtfd.io) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
-* The [STH Comet](https://fiware-sth-comet.rtfd.io) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
-* The [Cygnus](https://fiware-cygnus.rtfd.io) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
+* The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion.git) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
+* The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet.git) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
+* The [Cygnus](https://github.com/telefonicaid/fiware-cygnus.git) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
 
 ## Interface with IoT, Robots and Third-Party Systems
 
@@ -45,16 +45,16 @@ A number of Generic Enablers are available making it easier to interface with th
 
 * The **IDAS** Generic Enabler offers you a wide range of IoT Agents making it easier to interface with devices using the most widely used IoT protocols (LWM2M over CoaP, JSON or UltraLight over HTTP/MQTT or OPC-UA)
 
-  * [IoT Agent for JSON](http://fiware-iotagent-json.rtfd.io/) - a bridge between HTTP/MQTT messaging (with a JSON payload) and NGSI
-  * [IoT Agent for LWM2M](http://fiware-iotagent-lwm2m.rtfd.io)  - a bridge between the [Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and NGSI
-  * [IoT Agent for Ultralight](http://fiware-iotagent-ul.rtfd.io) -  a bridge between HTTP/MQTT messaging (with an UltraLight2.0 payload) and NGSI
-  * [IoT Agent  for LoRaWAN](http://fiware-lorawan.rtfd.io) -  a bridge between the [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and NGSI
-  * [IoT Agent library](https://iotagent-node-lib.rtfd.io) - library for developing your own IoT Agent.
+  * [IoT Agent for JSON](https://github.com/telefonicaid/iotagent-json) - a bridge between HTTP/MQTT messaging (with a JSON payload) and NGSI
+  * [IoT Agent for LWM2M](https://github.com/telefonicaid/lightweightm2m-iotagent)  - a bridge between the [Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and NGSI
+  * [IoT Agent for Ultralight](https://github.com/telefonicaid/iotagent-ul) -  a bridge between HTTP/MQTT messaging (with an UltraLight2.0 payload) and NGSI
+  * [IoT Agent  for LoRaWAN](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) -  a bridge between the [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and NGSI
+  * [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT Agent.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
-* The [Fast RTPS](https://eprosima-fast-rtps.rtfd.io/) Incubated Generic Enabler has been adopted as default middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with robotics systems.
-* The [OpenMTC](http://www.openmtc.org/doc.html) Incubated Generic Enabler brings an open source implementation of the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
+* The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with robotics systems.
+* The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
 
 ## Processing, Analysis and Visualization
 
@@ -84,14 +84,14 @@ The following is a list of Generic Enablers under incubation within this chapter
 
 You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using Generic Enablers of this chapter:
 
-* The [Keyrock Identity Management](https://fiware-idm.readthedocs.io/en/latest/) Generic Enabler brings support to secure and private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
-* The [Wilma PEP Proxy](https://fiware-pep-proxy.rtfd.io/) Generic Enabler brings support of proxy functions within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control schema.
-* The [AuthZForce PDP/PAP](https://authzforce-ce-fiware.rtfd.io/) Generic Enabler brings support to PDP/PAP functions within an access control schema based on the XACML standard.
+* The [Keyrock Identity Management](https://github.com/ging/fiware-idm) Generic Enabler brings support to secure and private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
+* The [Wilma PEP Proxy](https://github.com/ging/fiware-pep-proxy) Generic Enabler brings support of proxy functions within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control schema.
+* The [AuthZForce PDP/PAP](https://github.com/authzforce/server) Generic Enabler brings support to PDP/PAP functions within an access control schema based on the XACML standard.
 
 This chapter also brings Generic Enablers for the publication and monetization of context data resources, available through the core Orion Context Broker component of your platform:
 
-* The [CKAN extensions](https://fiware-ckan-extensions.rtfd.io/) Generic Enabler brings a number of add-ons enabling to extend current capabilities of the world-leading CKAN Open Data publication platform to allow publication of datasets matching right-time context data, the assignment of access terms and policies to those datasets and the assignment of pricing and pay-per-use schemas to datasets.
-* The [Biz Framework](https://business-api-ecosystem.rtfd.io/) Generic Enabler brings backend support to Context API/Data monetization based on open TM Forum Business APIs.
+* The [CKAN extensions](https://github.com/conwetlab/FIWARE-CKAN-Extensions) Generic Enabler brings a number of add-ons enabling to extend current capabilities of the world-leading CKAN Open Data publication platform to allow publication of datasets matching right-time context data, the assignment of access terms and policies to those datasets and the assignment of pricing and pay-per-use schemas to datasets.
+* The [Biz Framework](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) Generic Enabler brings backend support to Context API/Data monetization based on open TM Forum Business APIs.
 
 
 

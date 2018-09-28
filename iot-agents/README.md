@@ -19,7 +19,24 @@ Additionally, you may trigger commands to your actuation devices just by updatin
 
 ---
 
+## IoT Agent Framework
+
+Library for developing your own IoT Agent.
+
+* [Git Repository](https://github.com/telefonicaid/iotagent-node-lib)
+*  Docker Hub : **None**
+* [Documentation](https://iotagent-node-lib.rtfd.io)
+
+
+
 ## IoT Agent for JSON
+
+IoT Agent for a JSON based protocol (with HTTP and MQTT transport)
+
+* [Git Repository](https://github.com/telefonicaid/iotagent-json)
+* [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/)
+* [Documentation](https://fiware-iotagent-json.rtfd.io)
+
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_json.json&query=$.version&colorB=blue)
@@ -32,6 +49,13 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 
 ## IoT Agent for Ultralight
+
+IoT Agent for the Ultralight 2.0 protocol (with HTTP and MQTT transport)
+
+* [Git Repository](https://github.com/telefonicaid/iotagent-ul)
+* [Docker Hub](https://hub.docker.com/r/fiware/iotagent-ul/)
+* [Documentation](https://fiware-iotagent-ul.rtfd.io)
+
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_ul.json&query=$.version&colorB=blue)
@@ -43,6 +67,13 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_ul.json&query=$.stability&colorB=blue)
 
 ## IoT Agent for LoRaWaN
+
+IoT Agent for LoRaWAN protocol (with CayenneLpp and CBOR data models)
+
+* [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN)
+* [Docker Hub](https://hub.docker.com/r/ioeari/iotagent-lora/)
+* [Documentation](https://fiware-lorawan.rtfd.io)
+
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LoRa.json&query=$.version&colorB=blue)
@@ -54,6 +85,13 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LoRa.json&query=$.stability&colorB=blue)
 
 ## IoT Agent for LightWeight Machine2Machine
+
+IoT Agent accepting COAP requests
+
+* [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent)
+* [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/)
+* [Documentation](https://fiware-iotagent-lwm2m.rtfd.io)
+
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LWM2M.json&query=$.version&colorB=blue)
@@ -65,6 +103,13 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
 
 ## Open MTC
+
+A reference implementation of the oneM2M standard, for conducting applied research and developing innovative M2M and IoT applications.
+
+* [Git Repository](https://github.com/OpenMTC/OpenMTC)
+* Docker Hub : TBD
+* [Documentation](http://www.openmtc.org/doc.html)
+
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.version&colorB=blue)
@@ -74,14 +119,3 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.scalability&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.performance&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.stability&colorB=blue)
-
-## Fast RTPS
-This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
-
-* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.version&colorB=blue)
-* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.docSoundness&colorB=blue)
-* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.timeToFix&colorB=blue)
-* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.failureRate&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.scalability&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.performance&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/fastRTPS.json&query=$.stability&colorB=blue)
