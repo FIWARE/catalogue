@@ -150,9 +150,57 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/kurento.json&query=$.stability&colorB=blue)
 
 
+## Fog Flow
+
+* [Documentation](https://fogflow.rtfd.io/)
+
+### What is Fog Flow?
+
+FogFlow is an IoT edge computing framework to orchestrate dynamic processing flows over cloud and edges. It can dynamically and automatically composite multiple NGSI-based data processing tasks to form high level IoT services, and then orchestrate and optimize the deployment of those services within a shared cloud-edge environment, with regards to the availability, locality, and mobility of IoT devices.
+
+### Why use Fog Flow?
+
+The cost of a cloud-only solution is too high to run a large scale IoT system with >1000 geo-distributed devices
+many IoT services require fast response time, such as <10ms end-to-end latency
+service providers are facing huge complexity and cost to fast design and deploy their IoT services in a cloud-edge environment - business demands are changing fast over time and service providers need to try out and release any new services over their shared cloud-edge infrastructure at a fast speed
+lack of programming model to fast design and deploy IoT services over geo-distributed ICT infrastructure
+lack of interoperability and openness to share and reuse data and dervied results across various applications
 
 
+## AEON
 
-* The [FogFlow](https://fogflow.rtfd.io/) Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
-* The [AEON](https://aeon-platform.rtfd.io/) Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
-* The [Domibus](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.
+* [Documentation](https://aeon-platform.rtfd.io/)
+
+### What is AEON?
+
+The Cloud Messaging GE (AEON) provides cloud services (channels) to communicate an unlimited number of entities, interchanging an unlimited amount of information. But it is not only about the communication, it also provides services for easily management of entities participating in your environments: mobile, truck, box, thermometer, even yourself...).
+The Cloud Messaging GE support two main operation blocks:
+
+Resources Management: Management of the different entities and channels.
+Create, Remove, Update and Delete Entities
+Create, Remove, Update and Delete Channels associated to an entity
+Publish/Subscribe: Based on managing the publish and subscribe operations.
+Publish information over a channel.
+Subscribe to a channel. Pause, continue and stop the subscription getting a better control on your operations.
+The Cloud Messaging GE offers, not only and API to mange all the resources but also it provides different SDKs to start using it by just including it in your code.
+
+### Why use AEON?
+
+Each time that you need to develop an application with communication needs, Cloud Messaging GE should be included. It is very difficult to set up a communication environment and it is time you loose on what really matters, develop the main functionalities of your applications. Therefore, Cloud Messaging solves this problem for you, allowing you to focus on your domain. E,g. If you want to develop an application that updates the status of a delivered package in real-time, with a few lines of code, you can update this status from the mobile terminal to the transport operator's back-office.
+
+## Domibus
+
+* [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)
+
+### What is Domibus?
+
+Domibus is a sample implementation of a CEF eDelivery Access Point. CEF eDelivery helps users to exchange electronic data and documents with one another in a reliable and trusted way. The CEF eDelivery solution is based on a distributed model called the “4-corner model”. In this model, the back-end systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other. As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.
+
+### Why use Domibus?
+
+eDelivery helps to achieve the following goals:
+Interoperability: Implementing common technical specifications that enable diverse organisations to exchange data and documents.
+Security: Promoting an atmosphere of trust among all participants in the message exchange network.
+Scalability and Performance: Enabling the number of participants in the data exchange network to grow as well as the number of exchanged messages.
+Legal Assurance and Accountability: Promoting a high level of transparency and confidence among all participants in the message exchange network.
+Re-using CEF eDelivery will accelerate the delivery time of a working document and data exchange network and reduces the cost and risk of creating, maintaining and operating such a network. CEF eDelivery was already tried and tested in multiple domains.
