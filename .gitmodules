@@ -14,7 +14,7 @@
 	path = processing/kurento-media-server
 	url = https://github.com/kurento/kurento-media-server.git
 [submodule "data-management/ckan"]
-	path = data-management/ckan
+	path = data-publication/ckan
 	url = https://github.com/ckan/ckan.git
 [submodule "core/cygnus"]
 	path = core/cygnus
@@ -53,7 +53,7 @@
 	path = processing/knowage-server
 	url = https://github.com/KnowageLabs/Knowage-Server.git
 [submodule "data-management/business-api"]
-	path = data-management/business-api
+	path = data-publication/business-api
 	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem
 [submodule "iotagents/iotagent-json"]
 	path = iot-agents/iotagent-json
