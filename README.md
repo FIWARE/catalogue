@@ -32,9 +32,9 @@ git submodule update --recursive --remote
 
 The Orion Context Broker Generic Enabler is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
 
-* The Orion Context Broker Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
-* The STH Comet Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
-* The Cygnus Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
+* The [Orion Context Broker](https://fiware-orion.rtfd.io) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
+* The [STH Comet](https://fiware-sth-comet.rtfd.io) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
+* The [Cygnus](https://fiware-cygnus.rtfd.io) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
 
 ## Interface with IoT, Robots and Third-Party Systems
 
@@ -43,12 +43,18 @@ The Orion Context Broker Generic Enabler is the core and mandatory component of 
 
 A number of Generic Enablers are available making it easier to interface with the Internet of Things, Robots and Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to context updates:
 
-* The IDAS Generic Enabler offers you a wide range of IoT Agents making it easier to interface with devices using the most widely used IoT protocols (LWM2M over CoaP, JSON or UltraLight over HTTP/MQTT or OPC-UA) as well as develop your own IoT Agent.
+* The **IDAS** Generic Enabler offers you a wide range of IoT Agents making it easier to interface with devices using the most widely used IoT protocols (LWM2M over CoaP, JSON or UltraLight over HTTP/MQTT or OPC-UA)
+
+  * [IoT Agent for JSON](http://fiware-iotagent-json.rtfd.io/) - a bridge between HTTP/MQTT messaging (with a JSON payload) and NGSI
+  * [IoT Agent for LWM2M](http://fiware-iotagent-lwm2m.rtfd.io)  - a bridge between the [Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and NGSI
+  * [IoT Agent for Ultralight](http://fiware-iotagent-ul.rtfd.io) -  a bridge between HTTP/MQTT messaging (with an UltraLight2.0 payload) and NGSI
+  * [IoT Agent  for LoRaWAN](http://fiware-lorawan.rtfd.io) -  a bridge between the [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and NGSI
+  * [IoT Agent library](https://iotagent-node-lib.rtfd.io) - library for developing your own IoT Agent.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
-* The Fast RTPS Incubated Generic Enabler has been adopted as default middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with robotics systems.
-* The OpenMTC Incubated Generic Enabler brings an open source implementation of the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
+* The [Fast RTPS](https://eprosima-fast-rtps.rtfd.io/) Incubated Generic Enabler has been adopted as default middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with robotics systems.
+* The [OpenMTC](http://www.openmtc.org/doc.html) Incubated Generic Enabler brings an open source implementation of the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
 
 ## Processing, Analysis and Visualization
 
@@ -58,16 +64,16 @@ The following is a list of Generic Enablers under incubation within this chapter
 
 A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the purpose of implementing the “smart behaviour” expected in any application:
 
-* The Wirecloud Generic Enabler brings a powerful web mashup platform making it easier to develop operational dashboards which are highly customizable by end users.
-* The Knowage Generic Enabler brings a powerful Business Intelligence platform enabling to perform business analytics over traditional sources and big data systems.
-* The Kurento Generic Enabler enables real-time processing of media streams supporting the transformation of video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
-* The Cosmos Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
+* The [Wirecloud](https://wirecloud.rtfd.io/) Generic Enabler brings a powerful web mashup platform making it easier to develop operational dashboards which are highly customizable by end users.
+* The [Knowage](http://knowage.rtfd.io/) Generic Enabler brings a powerful Business Intelligence platform enabling to perform business analytics over traditional sources and big data systems.
+* The [Kurento](https://kurento.rtfd.io/) Generic Enabler enables real-time processing of media streams supporting the transformation of video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
+* The [Cosmos](https://fiware-cosmos-flink.rtfd.io/) Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
-* The FogFlow Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
-* The AEON Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
-* The Domibus Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.
+* The [FogFlow](https://fogflow.rtfd.io/) Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
+* The [AEON](https://aeon-platform.rtfd.io/) Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
+* The [Domibus](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.
 
 ## Context Data/API Management, Publication and Monetization
 
@@ -78,14 +84,14 @@ The following is a list of Generic Enablers under incubation within this chapter
 
 You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using Generic Enablers of this chapter:
 
-* The Keyrock Identity Management Generic Enabler brings support to secure and private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
-* The Wilma proxy Generic Enabler brings support of proxy functions within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control schema.
-* The AuthZForce PDP/PAP Generic Enabler brings support to PDP/PAP functions within an access control schema based on the XACML standard.
+* The [Keyrock Identity Management](https://fiware-idm.readthedocs.io/en/latest/) Generic Enabler brings support to secure and private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
+* The [Wilma PEP Proxy](https://fiware-pep-proxy.rtfd.io/) Generic Enabler brings support of proxy functions within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control schema.
+* The [AuthZForce PDP/PAP](https://authzforce-ce-fiware.rtfd.io/) Generic Enabler brings support to PDP/PAP functions within an access control schema based on the XACML standard.
 
 This chapter also brings Generic Enablers for the publication and monetization of context data resources, available through the core Orion Context Broker component of your platform:
 
-* The CKAN extensions Generic Enabler brings a number of add-ons enabling to extend current capabilities of the world-leading CKAN Open Data publication platform to allow publication of datasets matching right-time context data, the assignment of access terms and policies to those datasets and the assignment of pricing and pay-per-use schemas to datasets.
-* The Biz Framework Generic Enabler brings backend support to Context API/Data monetization based on open TM Forum Business APIs.
+* The [CKAN extensions](https://fiware-ckan-extensions.rtfd.io/) Generic Enabler brings a number of add-ons enabling to extend current capabilities of the world-leading CKAN Open Data publication platform to allow publication of datasets matching right-time context data, the assignment of access terms and policies to those datasets and the assignment of pricing and pay-per-use schemas to datasets.
+* The [Biz Framework](https://business-api-ecosystem.rtfd.io/) Generic Enabler brings backend support to Context API/Data monetization based on open TM Forum Business APIs.
 
 
 
