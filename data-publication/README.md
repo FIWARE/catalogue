@@ -2,12 +2,12 @@
 
 Publishing and consuming open data is a cornerstone for the development of applications and the creation of an innovation ecosystem. In this regard, this section explains how users (both end users and developers) can expose their data publishing it in CKAN, the Open Data publication GE.
 
-
+To learn more about Data Publication, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/publishing-open-data-in-fiware/introduction/)
 
 ## Extensions to CKAN
 
 * [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions)
-* [Docker Hub](https://hub.docker.com/r/ioeari/iotagent-lora/)
+* [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/)
 * [Documentation](https://fiware-ckan-extensions.rtfd.io/)
 
 ### What is Extensions to CKAN?
