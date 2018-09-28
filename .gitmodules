@@ -8,7 +8,7 @@
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
-	path = core/cosmos
+	path = processing/cosmos
 	url = https://github.com/telefonicaid/fiware-cosmos.git
 [submodule "processing/kurento-media-server"]
 	path = processing/kurento-media-server
