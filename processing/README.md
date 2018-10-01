@@ -134,8 +134,9 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/kurento.json&query=$.performance&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/kurento.json&query=$.stability&colorB=blue)
 
+---
 
-## Fog Flow
+## :arrow_upper_right: Fog Flow (Incubated)
 
 * [Git Repository](https://github.com/smartfog/fogflow)
 * [Documentation](https://fogflow.rtfd.io/)
@@ -152,8 +153,18 @@ service providers are facing huge complexity and cost to fast design and deploy 
 lack of programming model to fast design and deploy IoT services over geo-distributed ICT infrastructure
 lack of interoperability and openness to share and reuse data and dervied results across various applications
 
+This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
-## AEON
+* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.version&colorB=blue)
+* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.docSoundness&colorB=blue)
+* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.timeToFix&colorB=blue)
+* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.failureRate&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.scalability&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.performance&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/fogflow.json&query=$.stability&colorB=blue)
+
+
+## :arrow_upper_right: AEON (Incubated)
 
 * [Git Repository](https://github.com/atos-ari-aeon)
 * [Documentation](https://aeon-platform.rtfd.io/)
@@ -175,19 +186,14 @@ The Cloud Messaging GE offers, not only and API to mange all the resources but a
 
 Each time that you need to develop an application with communication needs, Cloud Messaging GE should be included. It is very difficult to set up a communication environment and it is time you loose on what really matters, develop the main functionalities of your applications. Therefore, Cloud Messaging solves this problem for you, allowing you to focus on your domain. E,g. If you want to develop an application that updates the status of a delivered package in real-time, with a few lines of code, you can update this status from the mobile terminal to the transport operator's back-office.
 
-## Domibus
+This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
-* [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)
+* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.version&colorB=blue)
+* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.docSoundness&colorB=blue)
+* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.timeToFix&colorB=blue)
+* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.failureRate&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.scalability&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.performance&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/aeon.json&query=$.stability&colorB=blue)
 
-### What is Domibus?
 
-Domibus is a sample implementation of a CEF eDelivery Access Point. CEF eDelivery helps users to exchange electronic data and documents with one another in a reliable and trusted way. The CEF eDelivery solution is based on a distributed model called the “4-corner model”. In this model, the back-end systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other. As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.
-
-### Why use Domibus?
-
-eDelivery helps to achieve the following goals:
-Interoperability: Implementing common technical specifications that enable diverse organisations to exchange data and documents.
-Security: Promoting an atmosphere of trust among all participants in the message exchange network.
-Scalability and Performance: Enabling the number of participants in the data exchange network to grow as well as the number of exchanged messages.
-Legal Assurance and Accountability: Promoting a high level of transparency and confidence among all participants in the message exchange network.
-Re-using CEF eDelivery will accelerate the delivery time of a working document and data exchange network and reduces the cost and risk of creating, maintaining and operating such a network. CEF eDelivery was already tried and tested in multiple domains.

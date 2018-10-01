@@ -10,7 +10,7 @@ To learn more about Core Context Management Enablers, check out the [documentati
 
 ## Orion
 
-* [Git Repository](https://github.com/telefonicaid/fiware-orion.git)
+* [Git Repository](https://github.com/telefonicaid/fiware-orion/)
 * [Docker Hub](https://hub.docker.com/r/fiware/orion/)
 * [Documentation](https://fiware-orion.rtfd.io)
 
@@ -49,7 +49,7 @@ The **Orion** project is part of [FIWARE](http://fiware.org/) and has been rated
 
 ## Cygnus
 
-* [Git Repository](https://github.com/telefonicaid/fiware-cygnus.git)
+* [Git Repository](https://github.com/telefonicaid/fiware-cygnus/)
 * [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/)
 * [Documentation](https://fiware-cygnus.rtfd.io)
 
@@ -90,7 +90,7 @@ The **Cygnus** project is part of [FIWARE](http://fiware.org/) and has been rate
 
 ## STH Comet
 
-* [Git Repository](https://github.com/telefonicaid/fiware-sth-comet.git)
+* [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/)
 * [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
 * [Documentation](https://fiware-sth-comet.rtfd.io)
 
@@ -113,6 +113,20 @@ The **STH-Comet** project is part of [FIWARE](http://fiware.org/) and has been r
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/sth_comet.json&query=$.scalability&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/sth_comet.json&query=$.performance&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/sth_comet.json&query=$.stability&colorB=blue)
+
+---
+
+## :new: Perseo (Incubated)
+
+* [Git Repository](https://github.com/telefonicaid/perseo-core/)
+* [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
+* [Documentation](https://fiware-sth-comet.rtfd.io)
+
+## :new: Quantum Leap (Incubated)
+
+* [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/)
+* [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
+* [Documentation](https://quantumleap.rtfd.io/)
 
 
 

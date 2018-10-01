@@ -1,4 +1,7 @@
-# FIWARE Catalogue
+https://jason-fox.github.io/Generic-Enablers/img/fiware.png
+
+# [![FIWARE Catalogue](https://jason-fox.github.io/Generic-Enablers/img/fiware.png)](https://www.fiware.org/developers/catalogue/)
+
 
 [![FIWARE Catalogue](https://img.shields.io/badge/FIWARE-Cross_Chapter-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)](https://www.fiware.org/developers/catalogue/)
 
@@ -32,9 +35,14 @@ git submodule update --recursive --remote
 
 The Orion Context Broker Generic Enabler is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
 
-* The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion.git) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
-* The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet.git) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
-* The [Cygnus](https://github.com/telefonicaid/fiware-cygnus.git) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
+* The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
+* The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
+* The [Cygnus](https://github.com/telefonicaid/fiware-cygnus/) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
+
+The following is a list of Generic Enablers under incubation within this chapter:
+
+* The [Quantum Leap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of FIWARE NGSIv2 data into a time series database (Crate-DB)
+* The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
 
 ## Interface with IoT, Robots and Third-Party Systems
 

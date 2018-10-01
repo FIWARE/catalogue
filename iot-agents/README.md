@@ -102,7 +102,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LWM2M.json&query=$.performance&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
 
-## Open MTC
+## Open MTC (Incubated)
 
 A reference implementation of the oneM2M standard, for conducting applied research and developing innovative M2M and IoT applications.
 
@@ -119,3 +119,32 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.scalability&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.performance&colorB=blue)
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/open_mtc.json&query=$.stability&colorB=blue)
+
+## Domibus (Incubated)
+
+* [Git Repositories](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
+* [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)
+
+### What is Domibus?
+
+Domibus is a sample implementation of a CEF eDelivery Access Point. CEF eDelivery helps users to exchange electronic data and documents with one another in a reliable and trusted way. The CEF eDelivery solution is based on a distributed model called the “4-corner model”. In this model, the back-end systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other. As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.
+
+### Why use Domibus?
+
+eDelivery helps to achieve the following goals:
+Interoperability: Implementing common technical specifications that enable diverse organisations to exchange data and documents.
+Security: Promoting an atmosphere of trust among all participants in the message exchange network.
+Scalability and Performance: Enabling the number of participants in the data exchange network to grow as well as the number of exchanged messages.
+Legal Assurance and Accountability: Promoting a high level of transparency and confidence among all participants in the message exchange network.
+Re-using CEF eDelivery will accelerate the delivery time of a working document and data exchange network and reduces the cost and risk of creating, maintaining and operating such a network. CEF eDelivery was already tried and tested in multiple domains.
+
+This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
+
+* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.version&colorB=blue)
+* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.docSoundness&colorB=blue)
+* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.timeToFix&colorB=blue)
+* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.failureRate&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.scalability&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.performance&colorB=blue)
+![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/domibus.json&query=$.stability&colorB=blue)
+
