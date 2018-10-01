@@ -64,16 +64,16 @@ The following is a list of Generic Enablers under incubation within this chapter
 
 A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the purpose of implementing the “smart behaviour” expected in any application:
 
-* The [Wirecloud](https://github.com/Wirecloud/wirecloud) Generic Enabler brings a powerful web mashup platform making it easier to develop operational dashboards which are highly customizable by end users.
-* The [Knowage](http://knowage.rtfd.io/) Generic Enabler brings a powerful Business Intelligence platform enabling to perform business analytics over traditional sources and big data systems.
-* The [Kurento](https://kurento.rtfd.io/) Generic Enabler enables real-time processing of media streams supporting the transformation of video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
-* The [Cosmos](https://fiware-cosmos-flink.rtfd.io/) Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
+* The [Wirecloud](https://github.com/Wirecloud/) Generic Enabler brings a powerful web mashup platform making it easier to develop operational dashboards which are highly customizable by end users.
+* The [Knowage](https://github.com/KnowageLabs/) Generic Enabler brings a powerful Business Intelligence platform enabling to perform business analytics over traditional sources and big data systems.
+* The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting the transformation of video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
+* The [Cosmos](https://github.com/telefonicaid/fiware-cosmos) Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
-* The [FogFlow](https://fogflow.rtfd.io/) Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
-* The [AEON](https://aeon-platform.rtfd.io/) Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
-* The [Domibus](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.
+* The [FogFlow](https://github.com/smartfog/fogflow) Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
+* The [AEON](https://github.com/atos-ari-aeon) Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
+* The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.
 
 ## Context Data/API Management, Publication and Monetization
 

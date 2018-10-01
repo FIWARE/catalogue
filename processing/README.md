@@ -34,21 +34,6 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/cosmos.json&query=$.stability&colorB=blue)
 
 
-## Cepheus
-
-* [Git Repository](https://github.com/Orange-OpenSource/fiware-cepheus)
-* [Documentation](https://fiware-cepheus.readthedocs.io/)
-
-This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
-
-* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.version&colorB=blue)
-* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.docSoundness&colorB=blue)
-* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.timeToFix&colorB=blue)
-* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.failureRate&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.scalability&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.performance&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://jason-fox.github.io/Generic-Enablers/json/cepheus.json&query=$.stability&colorB=blue)
-
 
 ## Knowage
 
@@ -152,6 +137,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 ## Fog Flow
 
+* [Git Repository](https://github.com/smartfog/fogflow)
 * [Documentation](https://fogflow.rtfd.io/)
 
 ### What is Fog Flow?
@@ -169,6 +155,7 @@ lack of interoperability and openness to share and reuse data and dervied result
 
 ## AEON
 
+* [Git Repository](https://github.com/atos-ari-aeon)
 * [Documentation](https://aeon-platform.rtfd.io/)
 
 ### What is AEON?

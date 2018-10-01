@@ -10,9 +10,6 @@
 [submodule "core/cosmos"]
 	path = processing/cosmos
 	url = https://github.com/telefonicaid/fiware-cosmos.git
-[submodule "processing/kurento-media-server"]
-	path = processing/kurento-media-server
-	url = https://github.com/kurento/kurento-media-server.git
 [submodule "data-management/ckan"]
 	path = data-publication/ckan
 	url = https://github.com/ckan/ckan.git
@@ -25,9 +22,6 @@
 [submodule "security/keyrock"]
 	path = security/keyrock
 	url = https://github.com/ging/fiware-idm.git
-[submodule "processing/cepheus"]
-	path = processing/cepheus
-	url = https://github.com/Orange-OpenSource/fiware-cepheus.git
 [submodule "iot-agents/iotagent-ultralight"]
 	path = iot-agents/iotagent-ultralight
 	url = https://github.com/telefonicaid/iotagent-ul.git
@@ -46,12 +40,6 @@
 [submodule "security/wilma"]
 	path = security/wilma
 	url = https://github.com/ging/fiware-pep-proxy.git
-[submodule "processing/wirecloud"]
-	path = processing/wirecloud
-	url = https://github.com/Wirecloud/wirecloud.git
-[submodule "processing/knowage-server"]
-	path = processing/knowage-server
-	url = https://github.com/KnowageLabs/Knowage-Server.git
 [submodule "data-management/business-api"]
 	path = data-publication/business-api
 	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem
@@ -64,3 +52,51 @@
 [submodule "robotics/Fast-RTPS"]
 	path = robotics/Fast-RTPS
 	url = https://github.com/eProsima/Fast-RTPS
+[submodule "processing/aeon/cloud-messaging-platform"]
+	path = processing/aeon/cloud-messaging-platform
+	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-platform.git
+[submodule "processing/aeon/cloud-messaging-api"]
+	path = processing/aeon/cloud-messaging-api
+	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-api.git
+[submodule "processing/aeon/cloud-messaging-events-manager"]
+	path = processing/aeon/cloud-messaging-events-manager
+	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-events-manager.git
+[submodule "processing/aeon/cloud-messaging-sdk"]
+	path = processing/aeon/cloud-messaging-sdk
+	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-sdk.git
+[submodule "processing/aeon/cloud-messaging-dashboard"]
+	path = processing/aeon/cloud-messaging-dashboard
+	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-dashboard.git
+[submodule "processing/knowage/server"]
+	path = processing/knowage/server
+	url = https://github.com/KnowageLabs/Knowage-Server.git
+[submodule "processing/knowage/documentation"]
+	path = processing/knowage/documentation
+	url = https://github.com/KnowageLabs/Knowage-Documentation.git
+[submodule "processing/knowage/server-docker"]
+	path = processing/knowage/server-docker
+	url = https://github.com/KnowageLabs/Knowage-Server-Docker.git
+[submodule "processing/knowage/server-chef"]
+	path = processing/knowage/server-chef
+	url = https://github.com/KnowageLabs/Knowage-Server-Chef.git
+[submodule "processing/fogflow/fogflow"]
+	path = processing/fogflow/fogflow
+	url = https://github.com/smartfog/fogflow.git
+[submodule "processing/fogflow/adapter"]
+	path = processing/fogflow/adapter
+	url = https://github.com/smartfog/adapter.git
+[submodule "processing/kurento/media-server"]
+	path = processing/kurento/media-server
+	url = https://github.com/Kurento/kurento-media-server.git
+[submodule "processing/kurento/media-server-docker"]
+	path = processing/kurento/media-server-docker
+	url = https://github.com/Kurento/kurento-docker.git
+[submodule "processing/kurento/documentation"]
+	path = processing/kurento/documentation
+	url = https://github.com/Kurento/doc-fiware-readthedocs.git
+[submodule "processing/wirecloud/wirecloud"]
+	path = processing/wirecloud/wirecloud
+	url = https://github.com/Wirecloud/wirecloud
+[submodule "processing/wirecloud/wirecloud-docker"]
+	path = processing/wirecloud/wirecloud-docker
+	url = https://github.com/Wirecloud/docker-wirecloud
