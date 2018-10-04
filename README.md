@@ -37,8 +37,8 @@ The Orion Context Broker Generic Enabler is the core and mandatory component of 
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
-* The [Quantum Leap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of FIWARE NGSIv2 data into a time series database (Crate-DB)
-* The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
+* The [Quantum Leap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of FIWARE NGSIv2 data into a time series database (CrateDB)
+
 
 ## Interface with IoT, Robots and Third-Party Systems
 
@@ -75,6 +75,7 @@ A number of Generic Enablers are available making it easier to process, analyze 
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
+* The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler introduces Complex Event Processing (CEP) defined using a rules-based system, enabling you to fire events which send HTTP requests, emails, tweets, SMS messages etc.
 * The [FogFlow](https://github.com/smartfog/fogflow) Incubated Generic Enabler is a distributed execution framework to support dynamic processing flows over cloud and edges.
 * The [AEON](https://github.com/atos-ari-aeon) Incubated Generic Enabler provides a message channel middleware for the fast distribution of messages among different entities.
 * The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps users to exchange electronic data and documents with one another in a reliable and trusted way.

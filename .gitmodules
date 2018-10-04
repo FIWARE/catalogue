@@ -101,10 +101,10 @@
 	path = processing/wirecloud/wirecloud-docker
 	url = https://github.com/Wirecloud/docker-wirecloud
 [submodule "core/perseo/core"]
-	path = core/perseo/back-end
+	path = processing/perseo/back-end
 	url = https://github.com/telefonicaid/perseo-core.git
 [submodule "core/perseo/front-end"]
-	path = core/perseo/front-end
+	path = processing/perseo/front-end
 	url = https://github.com/telefonicaid/perseo-fe.git
 [submodule "core/quantum-leap"]
 	path = core/quantum-leap
