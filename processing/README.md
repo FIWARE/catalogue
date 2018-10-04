@@ -170,9 +170,7 @@ Event processing in a Smart Solution enables you to listen to changes in the inc
 
 Perseo is an NSGI compliant rules-based query engine for event processing based on Esper CEP which means that rules can be defined using SQL-like queries in EPL eliminating the need to write code to hard-wire event conditions. Therefore Perseo can act as a bridge between the context data and other external systems.
 
-
-
-
+The **Perseo** project is part of [FIWARE](http://fiware.org/) and will be rated as part of the next release.
 
 
 ## :arrow_upper_right: Fog Flow (Incubated)
