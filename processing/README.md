@@ -9,23 +9,20 @@
 
 ### What is Cosmos?
 
-The BigData Analysis GE is intended to deploy means for analyzing both batch and stream data (in order to get, in the end, insights on such a data).
+The Cosmos BigData Analysis GE is a set of tools helping in the task of enabling a [Hadoop](https://hadoop.apache.org/) as a Service (HasS) deployment:
 
-The batch part has been widely developed throught the adoption and/or the in-house creation of the following tools:
-* A Big Data As A Service engine, either the ''official'' one based on Openstack's Sahara, either the light version based on kubernetes cluster.
-* This provides
-* Hadoop
-* Spark Scala
-* Apache Flink
+* A set of administration tools such as [HDFS](https://en.wikipedia.org/wiki/Apache_Hadoop#HDFS) data copiers etc.
+* An OAuth2 token generator
+* A web portal for users and accounts management, running MapReduce jobs and doing I/O of big data
+* A custom authentication provider for Hive
+* A REST API for running MapReduce jobs in a shared Hadoop cluster
+* A specific OAuth2-base proxy for Http/REST operations
 
-The batch part is enriched with the following tools, that conform the so-called Cosmos Ecosystem:
-* Cygnus, a tool for connecting Orion Context Broker with several data storages, HDFS and STH (see below) included, in order to create context data historics.
-* STH Comet, a MongoDB context data storage for short-term historic.
-The fast data (streaming)  part allows an state of the art solution.
-* We provide an apache Flinck connector ( https://github.com/sonsoleslp/fiware-cosmos-orion-flink-connector ) you can follow some examples here ( https://github.com/sonsoleslp/fiware-cosmos-orion-flink-connector-examples )
+### Why use Cosmos?
 
+As the state of the real world changes, the entities representing your IoT devices are constantly changing. Big data analysis allows for the study of datasets coming from your context data which are too large for traditional data-processing software. You can apply predictive analysis or user behaviour analytics to extract meaningful conclusions as to the state of your smart solution and bring value to your solution.
 
-This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
+The **Cosmos** project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
 * **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://jason-fox.github.io/catalogue/json/cosmos.json&query=$.version&colorB=blue)
 * **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://jason-fox.github.io/catalogue/json/cosmos.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://jason-fox.github.io/catalogue/json/cosmos.json&query=$.docSoundness&colorB=blue)
@@ -44,26 +41,28 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 * [Git Repository](https://github.com/KnowageLabs/Knowage-Server)
 * [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/)
 * [Documentation](http://knowage.rtfd.io/)
+* [Website](https://www.knowage-suite.com/site/home/)
 
 ### What is Knowage?
-Knowage is the professional open source suite for modern business analytics over traditional sources and big data systems.
 
-Knowage is the new generation of open source analytical solution, as a natural evolution of the well known SpagoBI. Based on open standards and with a modular offering, Knowage addresses specific domains to particular sub-products, that can be combined each other to get a tailored size in a single solution. The sub-products of the suite are:
+Knowage is a professional open source suite for modern business analytics over 
+traditional sources and big data systems.
 
-* BD (big data), to analyse data stored on big data clusters or NoSQL databases
-* SI (smart intelligence), the usual business intelligence on structured data, but more oriented to self-service capabilities and agile prototyping
-* ER (enterprise reporting), to produce and distribute static reports
-* LI (location intelligence), to relate business data with spatial or geographical information
-* PM (performance management), to manage KPIs and organize scorecards
-* PA (predictive analysis), for more advanced analyses
-* EI (embedded intelligence), to link Knowage with external solutions provided by the customer or third parties.
+Knowage is composed of several modules, each one conceived for a specific analytical domain. They can be used individually or combined with one another to ensure full coverage of user's requirements:
 
-The released packages contain all sub-products combined togheter into an unique and complete data analytics solution.
-Knowage answers to a more modern vision of the data analytics, providing advanced self-service capabilities that give autonomy to the end-user, now able to build his own analysis and explore his own data space, also combining data that come from different sources.
+* Big Data - to analyse data stored on big data clusters or NoSQL databases
+* Smart Intelligence - the usual business intelligence on structured data, but more oriented to self-service capabilities and agile prototyping
+* Enterprise Reporting - to produce and distribute static reports
+* Location Intelligence - to relate business data with spatial or geographical information
+* Performance Management - to manage KPIs and organize scorecards
+* Predictive Analysis - for more advanced analyses
+* Embedded Intelligence - to link Knowage with external solutions provided by the customer or third parties.
 
 ### Why use Knowage?
 
-Knowage suite provides full capabilities to get insights on data and turn them into actionable knowledge for effective decision-making processes. It includes not only usual reporting and charting tools, but also innovative solutions for emerging domains, such as location intelligence, KPIs, real-time, mobile, big data, data mining, what-if, interactive cockpits and self-service capabilities. Its modular approach, scalable architecture and open standards ensure easy customization and the development of user-friendly solutions. Visit www.knowage-suite.com for more details.
+Knowage suite provides full capabilities to get insights on your context data and turn it into actionable knowledge for effective decision-making processes. In addition to the usual reporting and charting tools, Knowage includes also innovative solutions for emerging domains, such as location intelligence, KPIs, real-time, mobile, big data, data mining, what-if, interactive cockpits and self-service capabilities. 
+
+Knowage has a modular approach, scalable architecture and is based on open standards such as NGSI. This ensures that the solution is easily customizable and can be tailored the needs of any Smart Solution powered by FIWARE. 
 
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
@@ -80,21 +79,25 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 * [Git Repository](https://github.com/Wirecloud/wirecloud)
 * [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/)
 * [Documentation](https://https://wirecloud.rtfd.io/)
+* [Website](https://conwet.fi.upm.es/wirecloud)
 
 
 ### What is Wirecloud
 
 [![](https://img.shields.io/badge/FIWARE-Visualization-88a1ce.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)](https://www.fiware.org/developers/catalogue/)
 
-Wirecloud builds on cutting-edge end-user development, RIA and semantic technologies to offer a next-generation end-user centred web application mashup platform aimed at leveraging the long tail of the Internet of Services.
+Wirecloud is a web mashup tool designed to ease the development of  operational dashboards. This allows end users to easily create web applications and dashboards without programming skills and to visualize
+data of interest and control their environment.
 
-Wirecloud builds on cutting-edge end-user (software) development, RIA and semantic technologies to offer a next-generation end-user centred web application mashup platform aimed at allowing end users without programming skills to easily create web applications and dashboards/cockpits (e.g. to visualize their data of interest or to control their domotized home or environment). Web application mashups integrate heterogeneous data, application logic, and UI components (widgets) sourced from the Web to create new coherent and value-adding composite applications. They are targeted at leveraging the "long tail" of the Web of Services (a.k.a. the Programmable Web) by exploiting rapid development, DIY, and shareability. They typically serve a specific situational (i.e. immediate, short-lived, customized) need, frequently with high potential for reuse. Is this "situational" character which precludes them to be offered as 'off-the-shelf' functionality by solution providers, and therefore creates the need for a tool like Wirecloud
+Web application mashups integrate heterogeneous data, application logic, and 
+UI components (widgets) sourced from the Web to create new coherent and value-adding composite applications. They are targeted at leveraging the "long tail" of the Web of Services (a.k.a. the Programmable Web) by exploiting rapid development, DIY, and shareability.
 
-Note: Wirecloud is at the core of the FIWARE infrastructure and is therefore intended to be installed by FIWARE platform providers when setting up a configuring a new instance of the FIWARE instance node. It is not intended to be deployed/configured by a developer. Developers are encouraged to use the global instance of Wirecloud provided in the FIWARE Lab. Nevertheless, we provide an installer for stand-alone instances of Wirecloud, along with recipes and blueprints to install it in the Cloud portal (using the PaaS Manager), and the corresponding installation guides.
+Mashups typically serve a specific situational (i.e. immediate, bespoke, short-term) need, frequently with limited potential for reuse. Is this "situational" character which precludes them to be offered as 'off-the-shelf' functionality by solution providers, and therefore creates the need for a tool like Wirecloud.
+
 
 ### Why use Wirecloud
 
-Web application mashups can be manually developed using conventional web programming technologies (e.g. see http://programmableweb.com). But this fails to take full advantage of the approach. Mashup tools and platforms like Wirecloud aim at development paradigms that do not require programming skills and, hence, target end users, being them citizens, knowledge workers, portal designers, etc.
+Web application mashups can be manually developed using conventional web programming technologies but this fails to take full advantage of the approach. Mashup tools and platforms like Wirecloud aim at development paradigms that do not require programming skills and, hence, target end users, being them citizens, knowledge workers, portal designers, etc.
 
 By using Wirecloud you have access to the following key features:
 
@@ -104,7 +107,7 @@ By using Wirecloud you have access to the following key features:
 * Share your newly created mashup with other colleagues and users. Comment it, tag it and rate it to foster discoverability and shareability
 * Help to build a strong community by commenting, tagging and rating others' widgets, operators and mashups. The platform will also do its best to complement your contribution
 
-More information available at the Wirecloud website: https://conwet.fi.upm.es/wirecloud
+More information available at the Wirecloud website: 
 
 This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
@@ -124,6 +127,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 * [Git Repository](https://github.com/Kurento/kurento-media-server)
 * [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/)
 * [Documentation](https://kurento.rtfd.io/)
+* [Website](https://www.kurento.org/)
 
 ### What is Kurento?
 The Stream Oriented GE is a development framework that provides an abstraction layer for multimedia capabilities, allowing non-expert developers to include interactive media components to their applications. At the heart of this enabler there is the Open API. A REST-like API, based on JSON RPC 2.0, exposing a toolbox of Media Elements that can be chained to create complex media processing pipelines. The Stream Oriented GE provides several client implementations of the Open API. The Java client allows developers to include media capabilities to Java or JEE applications. There is also a Javascript client ready to be used with NodeJS or directly in browser applications. Thanks to these, the Stream Oriented GE provides developers with a set of robust end-to-end interoperable multimedia communication capabilities to deal with the complexity of transport, encoding/decoding, processing and rendering tasks in an easy and efficient way.
@@ -242,6 +246,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 [![](https://img.shields.io/badge/FIWARE-IoT_Agents-45d3dd.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)](https://www.fiware.org/developers/catalogue/)
 
 * [Git Repository](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
+* [Docker](https://hub.docker.com/r/fiware/domibus-tomcat/)
 * [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)
 
 ### What is Domibus?
