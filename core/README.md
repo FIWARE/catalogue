@@ -25,9 +25,6 @@ The Orion Context Broker is an implementation of the Publish/Subscribe Context B
 * Being notified when changes on context information take place (e.g. the temperature has changed) or with a given frequency (e.g. get the temperature each minute)
 * Query context information. The Orion Context Broker stores context information updated from applications, so queries are resolved based on that information.
 
-Apart from Orion Context Broker, there are other related components that you may find useful, such as Cygnus or Wilma PEP Proxy. Cygnus implements a connector for context data coming from Orion Context Broker and aimed to be stored in a specific persistent storage, such as HDFS, CKAN or MySQL. Wilma is a PEP proxy meant to secure Orion Context Broker, by intercepting every request sent to the Orion, validating it against the Access Control component.
-
-
 ## Why Use Orion?
 
 If you are developing a Data/Context scenario, a broker like the Orion Context Broker is a must. You would need a component in the architecture able to mediate between consumer producers (e.g. sensors) and the context consumer applications (e.g. an smartphone applications taking advantage of the context information provided by the sensors). The Orion Context Broker fulfils this functionality in your architecture.
@@ -36,7 +33,12 @@ Orion is an implementation of the FIWARE Publish/Subscribe Context Broker Generi
 
 * [NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 
+For context data management, NGSI and the Orion context broker have been accepted as standards or recommendations by a variety of independent standards bodies, for example,  GSMA recommends NSGI as a standard for relevant parts of their [IoT Big Data architecture](https://www.gsma.com/iot/wp-content/uploads/2016/11/CLP.25-v1.0.pdf) and promotes the Orion Context Broker as the primary example of the standard and NGSI specification has been selected by the European Commission as a 
+[CEF Building Block](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker) for the implementation of new smart applications and Public Administration.
 
+The use of the Orion context broker is  mandatory for any 
+[platform](https://marketplace.fiware.org/pages/platforms) or 
+[solution](https://marketplace.fiware.org/pages/solutions) to be labelled as “Powered by FIWARE” within the [FIWARE marketplace](https://marketplace.fiware.org/)
 
 The **Orion** project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
@@ -59,28 +61,17 @@ The **Orion** project is part of [FIWARE](http://fiware.org/) and has been rated
 
 ### What is Cygnus?
 
-Cygnus is a is an easy to use, powerful, and reliable system to process and distribute data. Internally, Cygnus is based on Apache NiFi, NiFi is a dataflow system based on the concepts of flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic. It was built to automate the flow of data between systems. While the term 'dataflow' is used in a variety of contexts, we use it here to mean the automated and managed flow of information between systems
+Cygnus is a connector in charge of persisting context data sources into other third-party databases and storage systems, creating a historical view of the context. Internally, Cygnus is based on Apache NiFi, [NiFi](https://nifi.apache.org/) is a data flow system based on the concepts of flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic. It was built to automate the flow of data between systems. While the term 'dataflow' can be used in a variety of contexts, we use it here to mean the automated and managed flow of information between systems.
 
-
-Cygnus 2.0 is based on Apache NiFi, a technology addressing the design and execution of data collection and persistence agents.
-An agent is basically composed of a listener or source in charge of receiving the data, a channel where the source puts the data once it has been transformed into a Flume event, and a sink, which takes Flume events from the channel in order to persist the data within its body into a third-party storage.
+Each data persistence agent within Cygnus is composed of three parts - a listener or source in charge of receiving the data, a channel where the source puts the data once it has been transformed into a Flume event, and a sink, which takes Flume events from the channel in order to persist the data within its body into a third-party storage.
 
 ## Why Use Cygnus?
 
-Cygnus plays the role of a connector between Orion Context Broker (which is a NGSI source of data) and many external and FIWARE storages like MySQL, MongoDB etc. You should use Cygnus if you need to process and persist Context Data so that you can keep a historical record.
+Persisting historical context data is useful for big data analysis - it can be used to discover trends, or data can be sampled and aggregated to remove the influence of outlying data measurements. However within each Smart Solution, the significance of each entity type will differ and entities and attributes may need to be sampled at different rates.
 
+Since the business requirements for using context data differ from application to application, there is no one standard use case for historical data persistence. Therefore rather than overloading the context broker with the job of historical context data persistence, this role has been separated out into a separate, highly configurable component - Cygnus.
 
-Cygnus is designed to run specific set of processors and templates for persistence context data to multiple sinks.
-
-Current stable release is able to persist data to many  third-party storages including:
-
-* NGSI context data in and out.
-* MySQL, the well-known relational database manager.
-* MongoDB, the NoSQL document-oriented database.
-* PostgreSQL, the well-know relational database manager.
-
-
-
+Cygnus plays the role of a connector between the Orion Context Broker (which is an [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json) source of data) and a wide range of external systems such as [MySQL](https://www.mysql.com/), [MongoDB](https://www.mongodb.org/) etc. You should use Cygnus if you need to process and persist context data so that you can keep a historical record. Cygnus can also be used the filter and repost context data back into Orion.
 
 The **Cygnus** project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
@@ -129,6 +120,26 @@ The **STH-Comet** project is part of [FIWARE](http://fiware.org/) and has been r
 * [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/)
 * [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
 * [Documentation](https://quantumleap.rtfd.io/)
+
+### What is Quantum Leap?
+
+The Quantum Leap Generic Enabler focuses on persisting historical context data into [time-series databases](https://en.wikipedia.org/wiki/Time_series_database) such as [CrateDB](https://crate.io/) with reference to maintaining a scalable
+architecture and compatibility with visualization tools such as [Grafana](http://www.grafana.com/)
+
+
+### Why use Quantum Leap?
+
+The appropriate use of time series data analysis will depend on your use case and the reliability of the data measurements you receive. Time series data analysis can be used to answer questions such as:
+
+* What was the maximum measurement of a device within a given time period?
+* What was the average measurement of a device within a given time period?
+* What was the sum of the measurements sent by a device within a given time period?
+
+It can also be used to reduce the significance of each individual data point to exclude outliers by smoothing.
+
+Quantum Leap offers great flexibility in measuring and monitoring time-series data and leverages existing time-series-based databases to be able to support complex queries such as cross-entity queries (e.g. an average of averages)
+
+The **Quantum Leap** project is part of [FIWARE](http://fiware.org/) and will be rated as part of the next release.
 
 
 
