@@ -6,7 +6,7 @@ rootDir=`pwd`
 
 git fetch
 git checkout releases
-git reset --hard origin/releases
+#git reset --hard origin/releases
 
 findRelease () {
 	echo $1
@@ -53,15 +53,15 @@ findRelease iot-agents/OpenMTC OpenMTC/OpenMTC latest
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
 findRelease processing/domibus edelivery/domibus latest
 findRelease processing/cosmos telefonicaid/fiware-cosmos 1.0.0
-findRelease processing/aeon/cloud-messaging-platform atos-ari-aeon/fiware-cloud-messaging-platform latest
+findRelease processing/aeon/cloud-messaging-platform atos-ari-aeon/fiware-cloud-messaging-platform R4
 findRelease processing/aeon/cloud-messaging-api atos-ari-aeon/fiware-cloud-messaging-api latest
 findRelease processing/aeon/cloud-messaging-events-manager atos-ari-aeon/fiware-cloud-messaging-events-manager latest
 findRelease processing/aeon/cloud-messaging-sdk atos-ari-aeon/fiware-cloud-messaging-sdk latest
 findRelease processing/aeon/cloud-messaging-dashboard atos-ari-aeon/fiware-cloud-messaging-dashboard latest
 findRelease processing/knowage/server KnowageLabs/Knowage-Server knowage-server-6.2.0
-findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation latest
-findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker latest
-findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef latest
+findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
+findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
+findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/fogflow/fogflow smartfog/fogflow v2.0
 findRelease processing/fogflow/adapter smartfog/adapter latest
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.8.0
