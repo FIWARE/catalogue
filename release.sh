@@ -51,7 +51,7 @@ findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-Lo
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC latest
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
-findRelease processing/domibus edelivery/domibus latest
+findRelease processing/domibus edelivery/domibus 4.0
 findRelease processing/cosmos telefonicaid/fiware-cosmos 1.0.0
 findRelease processing/aeon/cloud-messaging-platform atos-ari-aeon/fiware-cloud-messaging-platform R4
 findRelease processing/aeon/cloud-messaging-api atos-ari-aeon/fiware-cloud-messaging-api latest
