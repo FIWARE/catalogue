@@ -128,7 +128,7 @@ The **STH-Comet** project is part of [FIWARE](http://fiware.org/) and has been r
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
 
 * [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/)
-* [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
+* [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/)
 * [Documentation](https://quantumleap.rtfd.io/)
 
 ### What is Quantum Leap?
