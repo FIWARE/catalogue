@@ -5,7 +5,7 @@ set -e
 rootDir=`pwd`
 
 git fetch
-git checkout releases
+#git checkout releases
 #git reset --hard origin/releases
 
 findRelease () {
@@ -49,7 +49,7 @@ findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotag
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.7.0
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN "latest"
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
-findRelease iot-agents/OpenMTC OpenMTC/OpenMTC latest
+findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
 findRelease processing/domibus edelivery/domibus 4.0
 findRelease processing/cosmos telefonicaid/fiware-cosmos 1.0.0
@@ -67,7 +67,7 @@ findRelease processing/fogflow/adapter smartfog/adapter latest
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.8.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs 6.6.0
-findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.0.2
+findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.1.4
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud latest
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.2.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.7.0
