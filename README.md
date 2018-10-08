@@ -22,7 +22,7 @@ More information about what FIWARE is and how to use it can be found within the 
 
 ## Background
 
-[FIWARE](fiware.org) is a curated framework of open source platform components 
+[FIWARE](https://www.fiware.org) is a curated framework of open source platform components 
 which can be assembled together and with other third-party platform components 
 to accelerate the development of Smart Solutions.
 The main and only mandatory component of any *“Powered by FIWARE”* platform or 
