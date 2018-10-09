@@ -145,8 +145,6 @@ The appropriate use of time series data analysis will depend on your use case an
 * What was the average measurement of a device within a given time period?
 * What was the sum of the measurements sent by a device within a given time period?
 
-It can also be used to reduce the significance of each individual data point to exclude outliers by smoothing.
-
 Quantum Leap offers great flexibility in measuring and monitoring time-series data and leverages existing time-series-based databases to be able to support complex queries such as cross-entity queries (e.g. an average of averages)
 
 The **Quantum Leap** project is part of [FIWARE](http://fiware.org/) and will be rated as part of the next release.

@@ -10,9 +10,6 @@
 [submodule "core/cosmos"]
 	path = processing/cosmos
 	url = https://github.com/telefonicaid/fiware-cosmos.git
-[submodule "data-management/ckan"]
-	path = data-publication/ckan
-	url = https://github.com/ckan/ckan.git
 [submodule "core/cygnus"]
 	path = core/cygnus
 	url = https://github.com/telefonicaid/fiware-cygnus.git
@@ -109,3 +106,6 @@
 [submodule "core/quantum-leap"]
 	path = core/quantum-leap
 	url = https://github.com/smartsdk/ngsi-timeseries-api.git
+[submodule "data-publication/ckan"]
+	path = data-publication/ckan
+	url = https://github.com/conwetlab/FIWARE-CKAN-Extensions.git
