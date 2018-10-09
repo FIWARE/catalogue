@@ -1,24 +1,44 @@
 [![FIWARE Catalogue](https://fiware.github.io/catalogue/img/fiware.png)](https://www.fiware.org/developers/catalogue/)
 
-[![FIWARE Catalogue](https://img.shields.io/badge/FIWARE-Cross_Chapter-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)](https://www.fiware.org/developers/catalogue/)
+![FIWARE Catalogue](https://img.shields.io/badge/FIWARE-Cross_Chapter-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)
 
-FIWARE is a curated framework of open source platform components which can be
-assembled together and with other third-party platform components to 
-accelerate the development of Smart Solutions.
-The main and only mandatory component of any “Powered by FIWARE” platform or 
+This is an umbrella repository holding all of the source code for 
+all Generic Enablers which make up the [FIWARE catalogue](https://www.fiware.org/developers/catalogue/). The purpose of the catalogue is to briefly introduce each Generic Enabler and allow users and 
+developers to easily navigate to the relevant source code repositories, documentation and Docker images.
+
+More information about what FIWARE is and how to use it can be found within the FIWARE [Tour Guide](https://fiwaretourguide.rtfd.io/) and Step-by-Step [Tutorials](https://fiware-tutorials.rtfd.io/).
+
+## Contents
+
+- [Background](#background)
+- [Installation](#installation)
+- [Generic Enablers](#generic-enablers)
+  * [Core Context Management](#core-context-management)
+  * [Interface with IoT, Robots and Third-Party Systems](#interface-with-iot-robots-and-third-party-systems)
+  * [Processing, Analysis and Visualization](#processing-analysis-and-visualization)
+  * [Context Data/API Management, Publication and Monetization](#context-dataapi-management-publication-and-monetization)
+- [Testing](#testing)
+- [License](#license)
+
+## Background
+
+[FIWARE](https://www.fiware.org) is a curated framework of open source platform components 
+which can be assembled together and with other third-party platform components 
+to accelerate the development of Smart Solutions.
+The main and only mandatory component of any *“Powered by FIWARE”* platform or 
 solution is the FIWARE Orion Context Broker Generic Enabler, which brings a 
 cornerstone function in any smart solution: the need to manage context 
 information, enabling to perform updates and bring access to context.
 
 Building around the FIWARE Context Broker, a rich suite of complementary 
 FIWARE components are available, dealing with: 
-* Interfacing with the Internet of Things (IoT), Robots and third-party systems, for capturing updates on context information and translating required actuations.
-* Context Data/API management, publication and monetization, implementing the expected smart behaviour of applications and/or assisting end users in making smart decisions.
-* Processing, analysis and visualization of context information, bringing support to usage control and the opportunity to publish and monetize part of managed context data.
 
-FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context Broker technology to manage context information, your platform can be labeled as “Powered by FIWARE” and solutions build on top as well.
-The following sections describes the current list of Generic Enablers of the FIWARE platform structured in chapters.
+* **[Core Context Management](./core)** manipulates and stores context data so it can be used for further processesing
+* **Interfacing with the [Internet of Things](./iot-agents) (IoT), [Robots](./robotics) and third-party systems**, for capturing updates on context information and translating required actuations.
+* **[Context Data/API management](./security), [publication and monetization](./data-publication)**, implementing the expected smart behaviour of applications and/or assisting end users in making smart decisions.
+* **[Processing, analysis and visualization](./processing)** of context information, bringing support to usage control and the opportunity to publish and monetize part of managed context data.
 
+FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context Broker technology to manage context information, your platform can be labeled as *“Powered by FIWARE”* and solutions build on top as well.
 
 ## Installation
 
@@ -33,11 +53,13 @@ git submodule update --recursive --remote
 
 ## Generic Enablers
 
+The following sections describes the current list of Generic Enablers of the FIWARE platform structured in chapters.
+
 ### Core Context Management
 
 [![](https://img.shields.io/badge/FIWARE-Core-233c68.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAABHNCSVQICAgIfAhkiAAAA8NJREFUSEuVlUtIFlEUx+eO+j3Uz8wSLLJ3pBiBUljRu1WLCAKXbXpQEUFERSQF0aKVFAUVrSJalNXGgmphFEhQiZEIPQwKLbEUK7VvZrRvbr8zzjfNl4/swplz7rn/8z/33HtmRhn/MWzbXmloHVeG0a+VSmAXorXS+oehVD9+0zDN9mgk8n0sWtYnHo5tT9daH4BsM+THQC8naK02jCZ83/HlKaVSzBey1sm8BP9nnUpdjOfl/Qyzj5ust6cnO5FItJLoJqB6yJ4QuNcjVOohegpihshS4F6S7DTVVlNtFFxzNBa7kcaEwUGcbVnH8xOJD67WG9n1NILuKtOsQG9FngOc+lciic1iQ8uQGhJ1kVAKKXUs60RoQ5km93IfaREvuoFj7PZsy9rGXE9G/NhBsDOJ63Acp1J82eFU7OIVO1OxWGwpSU5hb0GqfMydMHYSdiMVnncNY5Vy3VbwRUEydvEaRxmAOSSqJMlJISTxS9YWTYLcg3B253xsPkc5lXk3XLlwrPLuDPKDqDIutzYaj3eweMkPeCCahO3+fEIF8SfLtg/5oI3Mh0ylKM4YRBaYzuBgPuRnBYD3mmhA1X5Aka8NKl4nNz7BaKTzSgsLCzWbvyo4eK9r15WwLKRAmmCXXDoA1kaG2F4jWFbgkxUnlcrB/xj5iHxFPiBN4JekY4nZ6ccOiQ87hgwhe+TOdogT1nfpgEDTvYAucIwHxBfNyhpGrR+F8x00WD33VCNTOr/Wd+9C51Ben7S0ZJUq3qZJ2OkZz+cL87ZfWuePlwRcHZjeUMxFwTrJZAJfSvyWZc1VgORTY8rBcubetdiOk+CO+jPOcCRTF+oZ0okUIyuQeSNL/lPrulg8flhmJHmE2gBpE9xrJNkwpN4rQIIyujGoELCQz8ggG38iGzjKkXufJ2Klun1iu65bnJub2yut3xbEK3UvsDEInCmvA6YjMeE1bCn8F9JBe1eAnS2JksmkIlEDfi8R46kkEkMWdqOv+AvS9rcp2bvk8OAESvgox7h4aWNMLd32jSMLvuwDAwORSE7Oe3ZRKrFwvYGrPOBJ2nZ20Op/mqKNzgraOTPt6Bnx5citUINIczX/jUw3xGL2+ia8KAvsvp0ePoL5hXkXO5YvQYSFAiqcJX8E/gyX8QUvv8eh9XUq3h7mE9tLJoNKqnhHXmCO+dtJ4ybSkH1jc9XRaHTMz1tATBe2UEkeAdKu/zWIkUbZxD+veLxEQhhUFmbnvOezsJrk+zmqMo6vIL2OXzPvQ8v7dgtpoQnkF/LP8Ruu9zXdJHg4igAAAABJRU5ErkJgggA=)](https://www.fiware.org/developers/catalogue/)
 
-The Orion Context Broker Generic Enabler is the core and mandatory component of any “Powered by FIWARE” platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
+The Orion Context Broker Generic Enabler is the core and mandatory component of any *“Powered by FIWARE”* platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
 
 * The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
 * The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
@@ -106,9 +128,6 @@ This chapter also brings Generic Enablers for the publication and monetization o
 * The [CKAN extensions](https://github.com/conwetlab/FIWARE-CKAN-Extensions) Generic Enabler brings a number of add-ons enabling to extend current capabilities of the world-leading CKAN Open Data publication platform to allow publication of datasets matching right-time context data, the assignment of access terms and policies to those datasets and the assignment of pricing and pay-per-use schemas to datasets.
 * The [Biz Framework](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) Generic Enabler brings backend support to Context API/Data monetization based on open TM Forum Business APIs.
 
-
-
-
 ## Testing
 
 
@@ -122,14 +141,12 @@ Full details of the test results can be found on the [FIWARE website](https://ww
 
 Mature Generic Enablers have been thoroughly tested and have already demonstrated useful role accepted within the FIWARE framework. Incubated Generic enablers (annotated with :seedling:) have also been tested, but are still in the process of maturing to full acceptance with the FIWARE system. Recent applicants to FIWARE (annotated with :new:) are new to FIWARE and will undergo testing in the forthcoming release.
 
-
-
 ## License
 
 [License: CC-BY-4.0](LICENSE) © FIWARE Foundation e.V.
 
 The CC-BY-4.0 License only applies to the texts within the root project.
-The project includes additional submodules which were obtained under license - check the README of each submodule for more details.
+The project includes additional submodules which were obtained under license - check the `README` of each submodule for more details.
 
 
 

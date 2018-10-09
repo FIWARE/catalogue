@@ -87,7 +87,7 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 * [Git Repository](https://github.com/Wirecloud/wirecloud)
 * [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/)
-* [Documentation](https://https://wirecloud.rtfd.io/)
+* [Documentation](https://wirecloud.rtfd.io/)
 * [Website](https://conwet.fi.upm.es/wirecloud)
 
 

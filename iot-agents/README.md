@@ -94,7 +94,7 @@ The **IoT Agent for the Ultralight** project is part of [FIWARE](http://fiware.o
 ![License](https://img.shields.io/github/license/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 
 * [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN)
-* [Docker Hub](https://hub.docker.com/r/ioeari/iotagent-lora/)
+* [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/)
 * [Documentation](https://fiware-lorawan.rtfd.io)
 
 IoT Agent for the LoRaWAN protocol (with CayenneLpp and CBOR data models)
