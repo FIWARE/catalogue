@@ -41,9 +41,9 @@ findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.4.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4
 findRelease data-publication/ckan conwetlab/FIWARE-CKAN-Extensions v6.4.0
 findRelease data-publication/business-api FIWARE-TMForum/Business-API-Ecosystem v6.4.0
-findRelease security/keyrock ging/fiware-idm 7.3.1
+findRelease security/keyrock ging/fiware-idm 7.4.0
 findRelease security/authzforce authzforce/server release-8.0.1
-findRelease security/wilma ging/fiware-pep-proxy 7.0.2
+findRelease security/wilma ging/fiware-pep-proxy 7.4.0
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.7.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 0.2.1
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.7.0
