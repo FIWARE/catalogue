@@ -4,7 +4,7 @@ In FIWARE we offer some services and tools to allow you to manage authentication
 
 This is possible thanks to the OAuth2 protocol and Keyrock, the Identity Manager component of FIWARE. In the same way that you usually log in to some services using your Twitter or Facebook account, your users will use their FIWARE accounts to access your service. But this is only the first step, because you can also secure your backends using FIWARE Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the access to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
 
-To learn more about Security Access and API Management, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/handling-authorization-and-access-control-to-apis/introduction/)
+To learn more about Security Access and API Management, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/security/introduction/)
 
 
 ## Keyrock

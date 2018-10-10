@@ -5,7 +5,7 @@ If you want your application to be “smart”, you have to first make it “awa
 
 Context information is represented through values assigned to attributes that characterize those entities relevant to your application.
 
-To learn more about Core Context Management Enablers, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/development-context-aware-applications/introduction/)
+To learn more about Core Context Management Enablers, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/core/introduction/)
 
 
 ## Orion
