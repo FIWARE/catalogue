@@ -2,7 +2,7 @@
 
 Connecting IoT devices or “things” involves the need to overcome a common set of problems arising in the different layers of the communication model. Using sensor data or acting upon them requires interaction with a heterogeneous environment of devices running different protocols (due to the lack of globally accepted standards), dispersed and accessible through multiple wireless technologies.
 
-To learn more about the Interface to the Internet of Things, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/connection-to-the-internet-of-things/introduction/)
+To learn more about the Interface to the Internet of Things, check out the [documentation](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/)
 
 ### What are IoT Agents?
 
