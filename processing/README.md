@@ -1,6 +1,6 @@
-# Processing, Analysis and Visualization
+# Context Processing, Analysis and Visualization
 
-To learn more about Processing, Analysis and Visualization, check out the documentation on [Big Data Analysis](https://fiwaretourguide.readthedocs.io/en/latest/processing/cosmos/introduction/)
+To learn more about context processing, analysis and visualization, check out the documentation on [Big Data Analysis](https://fiwaretourguide.readthedocs.io/en/latest/processing/cosmos/introduction/)
  [Visualization](https://fiwaretourguide.readthedocs.io/en/latest/visualization/introduction/) and [Media Streams](https://fiwaretourguide.readthedocs.io/en/latest/processing/kurento/introduction//)
 
 ## Cosmos
