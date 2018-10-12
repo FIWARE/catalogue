@@ -8,7 +8,7 @@
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
-	path = processing/cosmos
+	path = processing/cosmos/cosmos
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
 [submodule "core/cygnus"]
 	path = core/cygnus
@@ -109,3 +109,6 @@
 [submodule "data-publication/ckan"]
 	path = data-publication/ckan
 	url = https://github.com/conwetlab/FIWARE-CKAN-Extensions.git
+[submodule "processing/cosmos/examples"]
+	path = processing/cosmos/examples
+	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
