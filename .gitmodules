@@ -9,13 +9,13 @@
 	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
 	path = processing/cosmos
-	url = https://github.com/telefonicaid/fiware-cosmos.git
+	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
 [submodule "core/cygnus"]
 	path = core/cygnus
-	url = https://github.com/telefonicaid/fiware-cygnus.git
+	url = https://github.com/ging/fiware-cygnus.git
 [submodule "core/sth-comet"]
 	path = core/sth-comet
-	url = https://github.com/telefonicaid/fiware-sth-comet.git
+	url = https://github.com/ging/fiware-sth-comet.git
 [submodule "security/keyrock"]
 	path = security/keyrock
 	url = https://github.com/ging/fiware-idm.git

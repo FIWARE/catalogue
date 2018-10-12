@@ -62,8 +62,8 @@ The following sections describes the current list of Generic Enablers of the FIW
 The Orion Context Broker Generic Enabler is the core and mandatory component of any *“Powered by FIWARE”* platform or solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to changes on context information.
 
 * The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler holds information about the current context. However, context information evolves over time, creating a context history. Accompanying the Orion Context Broker component as part of the Core Context Management Chapter:
-* The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
-* The [Cygnus](https://github.com/telefonicaid/fiware-cygnus/) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
+* The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler brings the means for storing a short-term history of context data (typically months) on MongoDB
+* The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler brings the means for managing the history of context that is created as a stream of data which can be injected into multiple data sinks, including some popular databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData platforms like Hadoop, Storm, Spark or Flink.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
@@ -101,7 +101,7 @@ A number of Generic Enablers are available making it easier to process, analyze 
 * The [Wirecloud](https://github.com/Wirecloud/) Generic Enabler brings a powerful web mashup platform making it easier to develop operational dashboards which are highly customizable by end users.
 * The [Knowage](https://github.com/KnowageLabs/) Generic Enabler brings a powerful Business Intelligence platform enabling to perform business analytics over traditional sources and big data systems.
 * The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting the transformation of video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
-* The [Cosmos](https://github.com/telefonicaid/fiware-cosmos) Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
+* The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector) Generic Enabler enables a more easy Bigdata analysis over context integrated with most popular BigData platforms.
 
 The following is a list of Generic Enablers under incubation within this chapter:
 
