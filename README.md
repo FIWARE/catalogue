@@ -45,8 +45,8 @@ FIWARE is not about take it all or nothing. You are not forced to use these comp
 To obtain the latest codebase of all FIWARE Generic Enablers:
 
 ```console
-git clone https://github.com/Fiware/Generic-Enablers.git
-cd tutorials.Generic-Enablers/
+git clone https://github.com/Fiware/catalogue.git
+cd catalogue/
 git submodule update --init --recursive
 git submodule update --recursive --remote
 ```
