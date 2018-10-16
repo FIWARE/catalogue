@@ -36,7 +36,7 @@ displayTag () {
 
 
 findRelease core/orion telefonicaid/fiware-orion 2.0.0
-findRelease core/cygnus ging/fiware-cygnus v2.0.0
+findRelease core/cygnus ging/fiware-cygnus FIWARE_7.4
 findRelease core/sth-comet ging/fiware-sth-comet 2.4.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4
 findRelease data-publication/ckan conwetlab/FIWARE-CKAN-Extensions v6.4.0
@@ -52,8 +52,8 @@ findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
 findRelease processing/domibus edelivery/domibus 4.0
-findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector 1.0
-findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples "latest"
+findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.4
+findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/aeon/cloud-messaging-platform atos-ari-aeon/fiware-cloud-messaging-platform "latest"
 findRelease processing/aeon/cloud-messaging-api atos-ari-aeon/fiware-cloud-messaging-api "latest"
 findRelease processing/aeon/cloud-messaging-events-manager atos-ari-aeon/fiware-cloud-messaging-events-manager "latest"
