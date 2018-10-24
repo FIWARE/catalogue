@@ -38,7 +38,7 @@
 	path = security/wilma
 	url = https://github.com/ging/fiware-pep-proxy.git
 [submodule "data-management/business-api"]
-	path = data-publication/business-api
+	path = data-publication/business-api/business-api
 	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem
 [submodule "iotagents/iotagent-json"]
 	path = iot-agents/iotagent-json
@@ -112,3 +112,33 @@
 [submodule "processing/cosmos/examples"]
 	path = processing/cosmos/examples
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
+[submodule "data-publication/business-api/product-catalog"]
+	path = data-publication/business-api/product-catalog
+	url = https://github.com/FIWARE-TMForum/DSPRODUCTCATALOG2.git
+[submodule "data-publication/business-api/ordering-management"]
+	path = data-publication/business-api/ordering-management
+	url = https://github.com/FIWARE-TMForum/DSPRODUCTORDERING.git
+[submodule "data-publication/business-api/product-inventory"]
+	path = data-publication/business-api/product-inventory
+	url = https://github.com/FIWARE-TMForum/DSPRODUCTINVENTORY.git
+[submodule "data-publication/business-api/party-management"]
+	path = data-publication/business-api/party-management
+	url = https://github.com/FIWARE-TMForum/DSPARTYMANAGEMENT.git
+[submodule "data-publication/business-api/customer-management"]
+	path = data-publication/business-api/customer-management
+	url = https://github.com/FIWARE-TMForum/DSCUSTOMER.git
+[submodule "data-publication/business-api/billing-management"]
+	path = data-publication/business-api/billing-management
+	url = https://github.com/FIWARE-TMForum/DSBILLINGMANAGEMENT.git
+[submodule "data-publication/business-api/usage-management"]
+	path = data-publication/business-api/usage-management
+	url = https://github.com/FIWARE-TMForum/DSUSAGEMANAGEMENT.git
+[submodule "data-publication/business-api/rss"]
+	path = data-publication/business-api/rss
+	url = https://github.com/FIWARE-TMForum/business-ecosystem-rss.git
+[submodule "data-publication/business-api/charging-backend"]
+	path = data-publication/business-api/charging-backend
+	url = https://github.com/FIWARE-TMForum/business-ecosystem-charging-backend.git
+[submodule "data-publication/business-api/logic-proxy"]
+	path = data-publication/business-api/logic-proxy
+	url = https://github.com/FIWARE-TMForum/business-ecosystem-logic-proxy.git
