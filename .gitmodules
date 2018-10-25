@@ -103,9 +103,6 @@
 [submodule "core/quantum-leap"]
 	path = core/quantum-leap
 	url = https://github.com/smartsdk/ngsi-timeseries-api.git
-[submodule "data-publication/ckan"]
-	path = data-publication/ckan
-	url = https://github.com/conwetlab/FIWARE-CKAN-Extensions.git
 [submodule "processing/cosmos/examples"]
 	path = processing/cosmos/examples
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
@@ -121,15 +118,18 @@
 [submodule "data-publication/business-api/party-management"]
 	path = data-publication/business-api/party-management
 	url = https://github.com/FIWARE-TMForum/DSPARTYMANAGEMENT.git
+	branch = develop
 [submodule "data-publication/business-api/customer-management"]
 	path = data-publication/business-api/customer-management
 	url = https://github.com/FIWARE-TMForum/DSCUSTOMER.git
+	branch = develop
 [submodule "data-publication/business-api/billing-management"]
 	path = data-publication/business-api/billing-management
 	url = https://github.com/FIWARE-TMForum/DSBILLINGMANAGEMENT.git
 [submodule "data-publication/business-api/usage-management"]
 	path = data-publication/business-api/usage-management
 	url = https://github.com/FIWARE-TMForum/DSUSAGEMANAGEMENT.git
+	branch = develop
 [submodule "data-publication/business-api/rss"]
 	path = data-publication/business-api/rss
 	url = https://github.com/FIWARE-TMForum/business-ecosystem-rss.git
@@ -142,3 +142,24 @@
 [submodule "data-publication/business-api/business-api"]
 	path = data-publication/business-api/business-api
 	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem.git
+[submodule "data-publication/ckan-extensions/ckan-extensions"]
+	path = data-publication/ckan-extensions/ckan-extensions
+	url = https://github.com/conwetlab/FIWARE-CKAN-Extensions.git
+[submodule "data-publication/ckan-extensions/oauth2"]
+	path = data-publication/ckan-extensions/oauth2
+	url = https://github.com/conwetlab/ckanext-oauth2.git
+[submodule "data-publication/ckan-extensions/private-datasets"]
+	path = data-publication/ckan-extensions/private-datasets
+	url = https://github.com/conwetlab/ckanext-privatedatasets.git
+[submodule "data-publication/ckan-extensions/right-time-context"]
+	path = data-publication/ckan-extensions/right-time-context
+	url = https://github.com/conwetlab/ckanext-right_time_context.git
+[submodule "data-publication/ckan-extensions/business-api-publisher"]
+	path = data-publication/ckan-extensions/business-api-publisher
+	url = https://github.com/FIWARE-TMForum/ckanext-baepublisher.git
+[submodule "data-publication/ckan-extensions/wirecloud-dashboards"]
+	path = data-publication/ckan-extensions/wirecloud-dashboards
+	url = https://github.com/conwetlab/ckanext-wirecloud_view.git
+[submodule "data-publication/ckan-extensions/data-requests"]
+	path = data-publication/ckan-extensions/data-requests
+	url = https://github.com/conwetlab/ckanext-datarequests.git

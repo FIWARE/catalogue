@@ -1,0 +1,51 @@
+{
+	"name": "fiware-catalogue",
+	"version": "7.4.0",
+	"description": "Source code for all Generic Enablers which make up the FIWARE Platform",
+	"keywords": [
+		"node",
+		"fiware",
+		"contextual-data",
+		"iot-agent",
+		"smart-app",
+		"generic-enablers"
+	],
+	"license": "CC-BY-4.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Fiware/catalogue"
+	},
+	"devDependencies": {
+		"eslint": "^5.6.0",
+		"eslint-config-tamia": "^6.0.1",
+		"eslint-plugin-prettier": "^3.0.0",
+		"husky": "^1.1.0",
+		"lint-staged": "^7.3.0",
+		"memfs": "2.10.1",
+		"prettier": "^1.14.2",
+		"textlint": "^11.0.1",
+		"textlint-rule-common-misspellings": "^1.0.1",
+		"textlint-rule-no-dead-link": "^4.4.1",
+		"textlint-rule-terminology": "^1.1.29",
+		"textlint-rule-write-good": "^1.6.2"
+	},
+	"engines": {
+		"node": ">=8.6"
+	},
+	"scripts": {
+		"precommit": "lint-staged",
+		"prettier:text": "prettier 'README.md' '*/README.md' --tab-width 4 --print-width 80 --write --prose-wrap always",
+		"test": "textlint 'README.md' '*/README.md'"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.md": [
+			"prettier --tab-width 4 --print-width 80 --write --prose-wrap always",
+			"git add"
+		]
+	}
+}
