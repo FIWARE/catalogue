@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "terminology": true,
+    "common-misspellings": true,
+    "write-good": {
+      "adverb": false,
+      "passive": false,
+      "tooWordy": false,
+      "weasel": false,
+      "so": false
+    },
+    "no-dead-link": {
+       "ignoreRedirects": true,
+       "ignore": [
+          "mailto:*",
+          "https://oauth.net"
+      ]
+    }
+  }
+}
