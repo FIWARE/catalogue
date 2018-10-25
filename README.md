@@ -132,6 +132,9 @@ context updates:
         a bridge between the
         [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and
         NGSI
+    -   [IoT Agent for OPC-UA](https://github.com/Engineering-Research-and-Development/iotagent-opcua) -
+        a bridge between the [OPC Unified Architecture](http://www.opcua.us/)
+        protocol and NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) -
         library for developing your own IoT Agent.
 

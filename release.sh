@@ -67,6 +67,8 @@ findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotag
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.7.0
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN 0.1.0
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
+findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.0.0
+
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
 findRelease processing/domibus edelivery/domibus 4.0
