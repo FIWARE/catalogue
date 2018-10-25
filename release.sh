@@ -88,7 +88,7 @@ findRelease processing/fogflow/adapter smartfog/adapter "latest"
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.8.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs 6.6.0
-findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.1.4
+findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.2.0
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.2.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.7.0
