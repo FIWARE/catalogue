@@ -209,7 +209,7 @@ The **IoT Agent for LightWeight Machine2Machine** project is part of
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.performance&colorB=blue)
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
 
-## :new: IoT Agent for OPC UA (Incubated)
+## :seedling: IoT Agent for OPC UA (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)

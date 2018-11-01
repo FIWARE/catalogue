@@ -166,3 +166,6 @@
 [submodule "iot-agents/iotagent-opcua"]
 	path = iot-agents/iotagent-opcua
 	url = https://github.com/Engineering-Research-and-Development/iotagent-opcua.git
+[submodule "data-publication/idra"]
+	path = data-publication/idra
+	url = https://github.com/OPSILab/Idra.git
