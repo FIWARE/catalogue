@@ -168,8 +168,8 @@ follows:
 
 ## :new: Idra (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/OPSILab/Idra.svg)
 
 -   [Git Repository](https://github.com/OPSILab/Idra)
 -   [Docker Hub](https://hub.docker.com/u/idraopendata/idra)

@@ -101,7 +101,7 @@ updates, queries or subscribe to changes on context information.
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
--   The [Quantum Leap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
+-   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of FIWARE NGSIv2 data into a time series
     database (CrateDB)
 
