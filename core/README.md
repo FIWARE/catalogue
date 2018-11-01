@@ -206,7 +206,7 @@ rated as follows:
 
 ---
 
-## :new: Quantum Leap (Incubated)
+## :seedling: QuantumLeap (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
@@ -215,30 +215,15 @@ rated as follows:
 -   [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/)
 -   [Documentation](https://quantumleap.rtfd.io/)
 
-### What is Quantum Leap?
+### What is QuantumLeap?
 
-The Quantum Leap Generic Enabler focuses on persisting historical context data
+The QuantumLeap Generic Enabler focuses on persisting historical context data
 into [time-series databases](https://en.wikipedia.org/wiki/Time_series_database)
 such as [CrateDB](https://crate.io/) with reference to maintaining a scalable
 architecture and compatibility with visualization tools such as
 [Grafana](http://www.grafana.com/)
 
-### Why use Quantum Leap?
-
-<<<<<<< HEAD The appropriate use of time series data analysis will depend on
-your use case and the reliability of the data measurements you receive. Time
-series data analysis can be used to answer questions such as:
-
--   What was the maximum measurement of a device within a given time period?
--   What was the average measurement of a device within a given time period?
--   What was the sum of the measurements sent by a device within a given time
-    period?
-
-Quantum Leap offers great flexibility in measuring and monitoring time-series
-data and leverages existing time-series-based databases to be able to support
-complex queries such as cross-entity queries (e.g. an average of averages)
-
-# The **Quantum Leap** project is part of [FIWARE](http://fiware.org/) and will be rated as part of the next release.
+### Why use QuantumLeap?
 
 The appropriate use of time series data analysis will depend on your use case
 and the reliability of the data measurements you receive. Time series data
@@ -249,11 +234,9 @@ analysis can be used to answer questions such as:
 -   What was the sum of the measurements sent by a device within a given time
     period?
 
-Quantum Leap offers great flexibility in measuring and monitoring time-series
+QuantumLeap offers great flexibility in measuring and monitoring time-series
 data and leverages existing time-series-based databases to be able to support
 complex queries such as cross-entity queries (e.g. an average of averages)
 
-The **Quantum Leap** project is part of [FIWARE](https://fiware.org/) and will
-be rated as part of the next release.
-
-> > > > > > > master
+The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
+rated as part of the next release.

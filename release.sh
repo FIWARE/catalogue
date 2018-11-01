@@ -59,6 +59,8 @@ findRelease data-publication/ckan-extensions/business-api-publisher FIWARE-TMFor
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
 findRelease data-publication/ckan-extensions/data-requests conwetlab/ckanext-datarequests v1.1.0
 
+findRelease data-publication/idra opsilab/idra v1.1.0
+
 findRelease security/keyrock ging/fiware-idm 7.4.0
 findRelease security/authzforce authzforce/server release-8.0.1
 findRelease security/wilma ging/fiware-pep-proxy 7.4.0

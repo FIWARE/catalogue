@@ -252,48 +252,7 @@ follows:
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/kurento.json&query=$.performance&colorB=blue)
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/kurento.json&query=$.stability&colorB=blue)
 
----
-
-## :new: Perseo (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
-
-**Core**
-
--   [Git Repository](https://github.com/telefonicaid/perseo-core/)
--   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/)
--   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
-
-**Frontend**
-
--   [Git Repository](https://github.com/telefonicaid/perseo-fe/)
--   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/)
--   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
-
-### What is Perseo?
-
-The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a
-module that listens to events from context data (coming from Orion Context
-Broker or any other NGSI-compliant system or service) in real-time, and
-generates immediate insight, enabling thus instant response to changing
-conditions
-
-### Why use Perseo?
-
-Event processing in a Smart Solution enables you to listen to changes in the
-incoming context data and identify patterns in order to react by triggering
-external actions (e.g sending eMails or SMS messages)
-
-Perseo is an NSGI compliant rules-based query engine for event processing based
-on Esper CEP which means that rules can be defined using SQL-like queries in EPL
-eliminating the need to write code to hard-wire event conditions. Therefore
-Perseo can act as a bridge between the context data and other external systems.
-
-The **Perseo** project is part of [FIWARE](https://fiware.org/) and will be
-rated as part of the next release.
-
-## :seedling: Fog Flow (Incubated)
+## Fog Flow
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
@@ -341,6 +300,47 @@ follows:
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/fogflow.json&query=$.scalability&colorB=blue)
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/fogflow.json&query=$.performance&colorB=blue)
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/fogflow.json&query=$.stability&colorB=blue)
+
+---
+
+## :seedling: Perseo (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
+
+**Core**
+
+-   [Git Repository](https://github.com/telefonicaid/perseo-core/)
+-   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/)
+-   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
+
+**Frontend**
+
+-   [Git Repository](https://github.com/telefonicaid/perseo-fe/)
+-   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/)
+-   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
+
+### What is Perseo?
+
+The Perseo Context-aware Complex Event Processing (Context-aware CEP) GE is a
+module that listens to events from context data (coming from Orion Context
+Broker or any other NGSI-compliant system or service) in real-time, and
+generates immediate insight, enabling thus instant response to changing
+conditions
+
+### Why use Perseo?
+
+Event processing in a Smart Solution enables you to listen to changes in the
+incoming context data and identify patterns in order to react by triggering
+external actions (e.g sending eMails or SMS messages)
+
+Perseo is an NSGI compliant rules-based query engine for event processing based
+on Esper CEP which means that rules can be defined using SQL-like queries in EPL
+eliminating the need to write code to hard-wire event conditions. Therefore
+Perseo can act as a bridge between the context data and other external systems.
+
+The **Perseo** project is part of [FIWARE](https://fiware.org/) and will be
+rated as part of the next release.
 
 ## :seedling: AEON (Incubated)
 

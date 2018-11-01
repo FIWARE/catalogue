@@ -101,7 +101,7 @@ updates, queries or subscribe to changes on context information.
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
--   The [Quantum Leap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
+-   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of FIWARE NGSIv2 data into a time series
     database (CrateDB)
 
@@ -174,6 +174,9 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
+-   The [FogFlow](https://github.com/smartfog/fogflow) Incubated Generic Enabler
+    is a distributed execution framework to support dynamic processing flows
+    over cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
@@ -182,9 +185,6 @@ chapter:
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
--   The [FogFlow](https://github.com/smartfog/fogflow) Incubated Generic Enabler
-    is a distributed execution framework to support dynamic processing flows
-    over cloud and edges.
 -   The [AEON](https://github.com/atos-ari-aeon) Incubated Generic Enabler
     provides a message channel middleware for the fast distribution of messages
     among different entities.
@@ -230,6 +230,13 @@ component of your platform:
     [Biz Framework](https://github.com/FIWARE-TMForum/Business-API-Ecosystem)
     Generic Enabler brings backend support to Context API/Data monetization
     based on open TM Forum Business APIs.
+
+The following Generic Enabler is under incubation within this chapter:
+
+-   [Idra](https://github.com/OPSILab/Idra) is able to federate existing Open
+    Data Management Systems based on heterogeneous technologies (e.g. CKAN,
+    SOCRATA, DKAN etc.) providing a single API and a standard metadata format
+    (DCAT-AP) to discover open datasets.
 
 ## Testing
 
