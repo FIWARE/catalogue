@@ -231,12 +231,17 @@ component of your platform:
     Generic Enabler brings backend support to Context API/Data monetization
     based on open TM Forum Business APIs.
 
-The following Generic Enabler is under incubation within this chapter:
+The following is a list of Generic Enablers under incubation within this
+chapter:
 
 -   [Idra](https://github.com/OPSILab/Idra) is able to federate existing Open
     Data Management Systems based on heterogeneous technologies (e.g. CKAN,
     SOCRATA, DKAN etc.) providing a single API and a standard metadata format
     (DCAT-AP) to discover open datasets.
+-   [APInf](https://github.com/apinf/platform) API Management Framework is a
+    tool for API owners to manage their APIs. It provides all the necessary
+    features to run business with APIs and makes it easy for API consumers to
+    find and start using the standard APIs.
 
 ## Testing
 

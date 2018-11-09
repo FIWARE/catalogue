@@ -60,6 +60,7 @@ findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckan
 findRelease data-publication/ckan-extensions/data-requests conwetlab/ckanext-datarequests v1.1.0
 
 findRelease data-publication/idra opsilab/idra v1.1.0
+findRelease data-publication/apinf apinf/platform 0.57.0
 
 findRelease security/keyrock ging/fiware-idm 7.4.0
 findRelease security/authzforce authzforce/server release-8.0.1
