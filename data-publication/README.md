@@ -1,4 +1,4 @@
-# Data Publication and Monetization
+# API Management, Data Publication and Monetization
 
 Publishing and consuming open data is a cornerstone for the development of
 applications and the creation of an innovation ecosystem. In this regard, this
@@ -241,4 +241,48 @@ stakeholders:
     innovative and added-value application) )
 
 The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated
+as part of the next release.
+
+## :new: Apinf (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/apinf/platform.svg)
+
+-   [Git Repository](https://github.com/apinf/platform)
+-   [Docker Hub](https://hub.docker.com/u/apinf/platform)
+-   [Documentation](https://github.com/apinf/platform/blob/develop/README.md)
+-   [Site](https://apinf.io/)
+
+### What is Apinf?
+
+The Apinf API Management Framework is a Smart City orchestrator to be used
+together with other FIWARE enablers. APInf integrates with FIWARE core
+technologies, such as
+[Identity Management](https://fiware-idm.readthedocs.io/en/latest/), [NGSI
+v2]((https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+and [Business API Ecosystem]((https://business-api-ecosystem.rtfd.io/) along
+with [API Umbrella](https://apiumbrella.io/) to offer a comprehensive toolset to
+let various API Owners to run business with their APIs. Public market place is
+one of the essential GUI tools to help API Owners to reach their customer with
+the showcase.
+
+The Apinf API Management Framework is a highly extendable and can bring huge
+benefits to managed APIs - such as NGSI based interfaces like FIWARE Context
+Broker instances. This extends opportunities to setup a complete IoT cloud for
+Smart Cities using FIWARE technologies alone. Both right-time data and
+historical data will be available for software developers to build Smart
+Applications.
+
+### Why use Apinf?
+
+The APInf API Management Framework is a central part of the FIWARE platform
+combining with other Generic Enablers in an offering a dashboard for all
+application developers. The business tools of the framework help API Owners to
+run their API business. This helps cities to distribute digital technology in
+small pieces in order to let local small software companies to attend in
+building the services to their home city. The support is close and this approach
+creates jobs for local people, which in turn generate move tax money for the
+city to develop better digital services to the citizens.
+
+The **Apinf** project is part of [FIWARE](https://fiware.org/) and will be rated
 as part of the next release.
