@@ -258,13 +258,13 @@ as part of the next release.
 The Apinf API Management Framework is a Smart City orchestrator to be used
 together with other FIWARE enablers. APInf integrates with FIWARE core
 technologies, such as
-[Identity Management](https://fiware-idm.readthedocs.io/en/latest/), [NGSI
-v2]((https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-and [Business API Ecosystem]((https://business-api-ecosystem.rtfd.io/) along
-with [API Umbrella](https://apiumbrella.io/) to offer a comprehensive toolset to
-let various API Owners to run business with their APIs. Public market place is
-one of the essential GUI tools to help API Owners to reach their customer with
-the showcase.
+[Identity Management](https://fiware-idm.readthedocs.io/en/latest/),
+[NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+and [Business API Ecosystem](https://business-api-ecosystem.rtfd.io/) along with
+[API Umbrella](https://apiumbrella.io/) to offer a comprehensive toolset to let
+various API Owners to run business with their APIs. Public market place is one
+of the essential GUI tools to help API Owners to reach their customer with the
+showcase.
 
 The Apinf API Management Framework is a highly extendable and can bring huge
 benefits to managed APIs - such as NGSI based interfaces like FIWARE Context
