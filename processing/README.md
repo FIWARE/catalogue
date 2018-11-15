@@ -260,7 +260,7 @@ follows:
 -   [Git Repository](https://github.com/smartfog/fogflow)
 -   [Documentation](https://fogflow.rtfd.io/)
 
-### What is Fog Flow?
+### What is FogFlow?
 
 FogFlow is an IoT edge computing framework to orchestrate dynamic processing
 flows over cloud and edges. It can dynamically and automatically composite
@@ -269,7 +269,7 @@ then orchestrate and optimize the deployment of those services within a shared
 cloud-edge environment, with regards to the availability, locality, and mobility
 of IoT devices.
 
-### Why use Fog Flow?
+### Why use FogFlow?
 
 The cost of a cloud-only solution is too high to run a large scale IoT system
 with >1000 geo-distributed devices many IoT services require fast response time,
