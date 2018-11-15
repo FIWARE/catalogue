@@ -169,6 +169,9 @@
 [submodule "data-publication/idra"]
 	path = data-publication/idra
 	url = https://github.com/OPSILab/Idra.git
-[submodule "data-publication/apinf"]
-	path = data-publication/apinf
+[submodule "data-publication/apinf/apinf"]
+	path = data-publication/apinf/apinf
 	url = https://github.com/apinf/platform
+[submodule "data-publication/apinf/api-umbrella"]
+	path = data-publication/apinf/api-umbrella
+	url = https://github.com/apinf/api-umbrella

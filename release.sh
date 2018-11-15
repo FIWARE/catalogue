@@ -48,7 +48,8 @@ findRelease core/orion telefonicaid/fiware-orion 2.0.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4
 findRelease core/sth-comet ging/fiware-sth-comet 2.3.0
 
-findRelease data-publication/apinf apinf/platform 0.58.0
+findRelease data-publication/apinf/apinf apinf/platform 0.58.0
+findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.4.0
 findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.4.0
 findRelease data-publication/business-api/customer-management FIWARE-TMForum/DSCUSTOMER v7.4.0
