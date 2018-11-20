@@ -174,9 +174,9 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
--   The [FogFlow](https://github.com/smartfog/fogflow) Incubated Generic Enabler
-    is a distributed execution framework to support dynamic processing flows
-    over cloud and edges.
+-   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
+    distributed execution framework to support dynamic processing flows over
+    cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:

@@ -252,7 +252,7 @@ follows:
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/kurento.json&query=$.performance&colorB=blue)
     ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/kurento.json&query=$.stability&colorB=blue)
 
-## Fog Flow
+## FogFlow
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
@@ -260,7 +260,7 @@ follows:
 -   [Git Repository](https://github.com/smartfog/fogflow)
 -   [Documentation](https://fogflow.rtfd.io/)
 
-### What is Fog Flow?
+### What is FogFlow?
 
 FogFlow is an IoT edge computing framework to orchestrate dynamic processing
 flows over cloud and edges. It can dynamically and automatically composite
@@ -269,7 +269,7 @@ then orchestrate and optimize the deployment of those services within a shared
 cloud-edge environment, with regards to the availability, locality, and mobility
 of IoT devices.
 
-### Why use Fog Flow?
+### Why use FogFlow?
 
 The cost of a cloud-only solution is too high to run a large scale IoT system
 with >1000 geo-distributed devices many IoT services require fast response time,

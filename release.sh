@@ -43,7 +43,7 @@ displayUpdatedTags (){
 }
 
 
-findRelease core/cygnus ging/fiware-cygnus FIWARE_7.4
+findRelease core/cygnus telefonicaid/fiware-cygnus 1.9.0
 findRelease core/orion telefonicaid/fiware-orion 2.0.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4
 findRelease core/sth-comet ging/fiware-sth-comet 2.3.0
