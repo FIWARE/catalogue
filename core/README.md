@@ -89,19 +89,19 @@ rated as follows:
 ## Cygnus
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/ging/fiware-cygnus.svg)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-cygnus.svg)
 
--   [Git Repository](https://github.com/ging/fiware-cygnus/)
+-   [Git Repository](https://github.com/telefonicaid/fiware-cygnus/)
 -   [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/)
--   [Documentation](https://fiware-cygnus-ld.rtfd.io)
+-   [Documentation](https://fiware-cygnus.rtfd.io)
 
 ### What is Cygnus?
 
 Cygnus is a connector in charge of persisting context data sources into other
 third-party databases and storage systems, creating a historical view of the
-context. Internally, Cygnus is based on Apache NiFi,
-[NiFi](https://nifi.apache.org/) is a data flow system based on the concepts of
-flow-based programming. It supports powerful and scalable directed graphs of
+context. Internally, Cygnus is based on Apache Flink,
+[Flink](https://flink.apache.org/) is a data flow system based on the concepts
+of flow-based programming. It supports powerful and scalable directed graphs of
 data routing, transformation, and system mediation logic. It was built to
 automate the flow of data between systems. While the term 'dataflow' can be used
 in a variety of contexts, we use it here to mean the automated and managed flow

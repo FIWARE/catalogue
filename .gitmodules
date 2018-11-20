@@ -10,9 +10,6 @@
 [submodule "core/cosmos"]
 	path = processing/cosmos/cosmos
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
-[submodule "core/cygnus"]
-	path = core/cygnus
-	url = https://github.com/ging/fiware-cygnus.git
 [submodule "core/sth-comet"]
 	path = core/sth-comet
 	url = https://github.com/ging/fiware-sth-comet.git
@@ -175,3 +172,6 @@
 [submodule "data-publication/apinf/api-umbrella"]
 	path = data-publication/apinf/api-umbrella
 	url = https://github.com/apinf/api-umbrella
+[submodule "core/cygnus"]
+	path = core/cygnus
+	url = https://github.com/telefonicaid/fiware-cygnus
