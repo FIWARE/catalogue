@@ -103,6 +103,6 @@ findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "la
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
 
 findRelease security/authzforce authzforce/server release-8.0.1
-findRelease security/keyrock ging/fiware-idm 7.4.0
+findRelease security/keyrock ging/fiware-idm 7.5.0
 findRelease security/wilma ging/fiware-pep-proxy 7.5.0
 
