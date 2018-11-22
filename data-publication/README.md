@@ -243,7 +243,7 @@ stakeholders:
 The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated
 as part of the next release.
 
-## :new: Apinf (Incubated)
+## :new: APInf (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/apinf/platform.svg)
@@ -253,9 +253,9 @@ as part of the next release.
 -   [Documentation](https://github.com/apinf/platform/blob/develop/README.md)
 -   [Site](https://apinf.io/)
 
-### What is Apinf?
+### What is APInf?
 
-The Apinf API Management Framework is a Smart City orchestrator to be used
+The APInf API Management Framework is a Smart City orchestrator to be used
 together with other FIWARE enablers. APInf integrates with FIWARE core
 technologies, such as
 [Identity Management](https://fiware-idm.readthedocs.io/en/latest/),
@@ -266,14 +266,14 @@ various API Owners to run business with their APIs. Public market place is one
 of the essential GUI tools to help API Owners to reach their customer with the
 showcase.
 
-The Apinf API Management Framework is a highly extendable and can bring huge
+The APInf API Management Framework is a highly extendable and can bring huge
 benefits to managed APIs - such as NGSI based interfaces like FIWARE Context
 Broker instances. This extends opportunities to setup a complete IoT cloud for
 Smart Cities using FIWARE technologies alone. Both right-time data and
 historical data will be available for software developers to build Smart
 Applications.
 
-### Why use Apinf?
+### Why use APInf?
 
 The APInf API Management Framework is a central part of the FIWARE platform
 combining with other Generic Enablers in an offering a dashboard for all
@@ -284,5 +284,5 @@ building the services to their home city. The support is close and this approach
 creates jobs for local people, which in turn generate move tax money for the
 city to develop better digital services to the citizens.
 
-The **Apinf** project is part of [FIWARE](https://fiware.org/) and will be rated
+The **APInf** project is part of [FIWARE](https://fiware.org/) and will be rated
 as part of the next release.
