@@ -92,11 +92,12 @@ updates, queries or subscribe to changes on context information.
 -   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
     brings the means for storing a short-term history of context data (typically
     months) on MongoDB
--   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler brings
-    the means for managing the history of context that is created as a stream of
-    data which can be injected into multiple data sinks, including some popular
-    databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB as well as BigData
-    platforms like Hadoop, Storm, Spark or Flink.
+-   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler enables
+    a means of managing the history of context which is created as a stream of
+    data and can be injected into multiple data sinks, including many popular
+    databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data
+    platforms such as Hadoop, Storm or Spark. The component is based on Apache
+    Flink
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
@@ -174,9 +175,9 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
--   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler
-    is a distributed execution framework to support dynamic processing flows
-    over cloud and edges.
+-   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
+    distributed execution framework to support dynamic processing flows over
+    cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
