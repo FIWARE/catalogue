@@ -46,7 +46,7 @@ displayUpdatedTags (){
 findRelease core/cygnus telefonicaid/fiware-cygnus 1.9.0
 findRelease core/draco ging/fiware-draco FIWARE_7.5
 findRelease core/orion telefonicaid/fiware-orion 2.0.0
-findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4
+findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4.1
 findRelease core/sth-comet ging/fiware-sth-comet 2.3.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
@@ -69,7 +69,7 @@ findRelease data-publication/ckan-extensions/oauth2 conwetlab/ckanext-oauth2 v0.
 findRelease data-publication/ckan-extensions/private-datasets conwetlab/ckanext-privatedatasets v0.4
 findRelease data-publication/ckan-extensions/right-time-context conwetlab/ckanext-right_time_context v0.9
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
-findRelease data-publication/idra opsilab/idra v1.1.0
+findRelease data-publication/idra opsilab/idra v1.2.0
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN 0.1.0
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
@@ -79,13 +79,13 @@ findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotag
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.7.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 
-findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.4
+findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.5
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/domibus edelivery/domibus 4.0
 findRelease processing/fogflow/adapter smartfog/adapter "latest"
-findRelease processing/fogflow/fogflow smartfog/fogflow v2.0
+findRelease processing/fogflow/fogflow smartfog/fogflow v2.0_ge
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.2.2
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.2.3
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs 6.6.0
