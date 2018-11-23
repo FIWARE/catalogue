@@ -192,9 +192,6 @@ chapter:
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
--   The [AEON](https://github.com/atos-ari-aeon) Incubated Generic Enabler
-    provides a message channel middleware for the fast distribution of messages
-    among different entities.
 -   The
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
