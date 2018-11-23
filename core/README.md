@@ -99,8 +99,8 @@ rated as follows:
 
 Cygnus is a connector in charge of persisting context data sources into other
 third-party databases and storage systems, creating a historical view of the
-context. Internally, Cygnus is based on Apache Flink,
-[Flink](https://flink.apache.org/) is a data flow system based on the concepts
+context. Internally, Cygnus is based on Apache Flume,
+[Flume](https://flume.apache.org/) is a data flow system based on the concepts
 of flow-based programming. It supports powerful and scalable directed graphs of
 data routing, transformation, and system mediation logic. It was built to
 automate the flow of data between systems. While the term 'dataflow' can be used
@@ -240,3 +240,47 @@ complex queries such as cross-entity queries (e.g. an average of averages)
 
 The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 rated as part of the next release.
+
+## :new: Draco (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/ging/fiware-draco.svg)
+
+-   [Git Repository](https://github.com/ging/fiware-draco)
+-   [Docker Hub](https://hub.docker.com/r/ging/fiware-draco)
+-   [Documentation](https://fiware-draco.rtfd.io)
+
+### What is Draco?
+
+Draco is a connector in charge of persisting context data sources into other
+third-party databases and storage systems, creating a historical view of the
+context. Internally, Draco is based on Apache NiFi.
+[NiFi](https://nifi.apache.org) is a popular framework for data management and
+processing from multiple sources.
+
+Draco plays the role of a connector between the Orion Context Broker (which is
+an
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+source of data) source of data) and a wide range of external systems such as
+MySQL, MongoDB etc. You can use Draco if you need to process and persist context
+data so that you can keep a historical record. Draco can also be used to filter
+and repost context data back into Orion.
+
+### Why Use Draco?
+
+Persisting historical context data is useful for big data analysis - it can be
+used to discover trends, or data can be sampled and aggregated to remove the
+influence of outlying data measurements. However within each Smart Solution, the
+significance of each entity type will differ and entities and attributes may
+need to be sampled at different rates.
+
+Since the business requirements for using context data differ from application
+to application, there is no one standard use case for historical data
+persistence. Therefore rather than overloading the context broker with the job
+of historical context data persistence, this role has been separated out into
+another enabler. Amongst the advantages of the component, Draco offers a
+flexible graphical interface so it is possible to amend your data flows
+according to your current business needs.
+
+The **Draco** project is part of [FIWARE](https://fiware.org/) and will be rated
+as part of the next release.

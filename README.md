@@ -81,8 +81,8 @@ FIWARE platform structured in chapters.
 The Orion Context Broker Generic Enabler is the core and mandatory component of
 any _“Powered by FIWARE”_ platform or solution. It enables to manage context
 information in a highly decentralized and large-scale manner. It provides the
-FIWARE NGSIv2 API which is a simple yet powerful Restful API enabling to perform
-updates, queries or subscribe to changes on context information.
+FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to
+perform updates, queries or subscribe to changes on context information.
 
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/)
     Generic Enabler holds information about the current context. However,
@@ -92,19 +92,25 @@ updates, queries or subscribe to changes on context information.
 -   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
     brings the means for storing a short-term history of context data (typically
     months) on MongoDB
--   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler enables
-    a means of managing the history of context which is created as a stream of
-    data and can be injected into multiple data sinks, including many popular
-    databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data
-    platforms such as Hadoop, Storm or Spark. The component is based on Apache
-    Flink
+-   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler is
+    enables a means of managing the history of context which is created as a
+    stream of data and can be injected into multiple data sinks, including many
+    popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as
+    Big Data platforms such as Hadoop, Storm or Spark. The component is based on
+    Apache Flume
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
-    Enabler supports the storage of FIWARE NGSIv2 data into a time series
-    database (CrateDB)
+    Enabler supports the storage of NGSI data into a time series database
+    (CrateDB)
+-   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an
+    alternative data persistence mechanism for managing the history of context.
+    It is based on Apache NiFi and is a dataflow system based on the concepts of
+    flow-based programming. It supports powerful and scalable directed graphs of
+    data routing, transformation, and system mediation logic and also offers an
+    intuitive graphical interface
 
 ### Interface with IoT, Robots and Third-Party Systems
 
@@ -175,13 +181,13 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
--   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
-    distributed execution framework to support dynamic processing flows over
-    cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
+-   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
+    distributed execution framework to support dynamic processing flows over
+    cloud and edges.
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
