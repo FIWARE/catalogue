@@ -342,62 +342,6 @@ Perseo can act as a bridge between the context data and other external systems.
 The **Perseo** project is part of [FIWARE](https://fiware.org/) and will be
 rated as part of the next release.
 
-## :seedling: AEON (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/atos-ari-aeon/fiware-cloud-messaging-dashboard.svg)
-
--   [Git Repository](https://github.com/atos-ari-aeon)
--   [Documentation](https://aeon-platform.rtfd.io/)
-
-### What is AEON?
-
-The Cloud Messaging GE (AEON) provides cloud services (channels) to communicate
-an unlimited number of entities, interchanging an unlimited amount of
-information. But it is not only about the communication, it also provides
-services for easily management of entities participating in your environments:
-mobile, truck, box, thermometer, even yourself...). The Cloud Messaging GE
-support two main operation blocks:
-
-Resources Management: Management of the different entities and channels. Create,
-Remove, Update and Delete Entities Create, Remove, Update and Delete Channels
-associated to an entity Publish/Subscribe: Based on managing the publish and
-subscribe operations. Publish information over a channel. Subscribe to a
-channel. Pause, continue and stop the subscription getting a better control on
-your operations. The Cloud Messaging GE offers, not only and API to mange all
-the resources but also it provides different SDKs to start using it by just
-including it in your code.
-
-### Why use AEON?
-
-Each time that you need to develop an application with communication needs,
-Cloud Messaging GE should be included. It is very difficult to set up a
-communication environment and it is time you loose on what really matters,
-develop the main functionalities of your applications. Therefore, Cloud
-Messaging solves this problem for you, allowing you to focus on your domain.
-E,g. If you want to develop an application that updates the status of a
-delivered package in real-time, with a few lines of code, you can update this
-status from the mobile terminal to the transport operator's back-office.
-
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as
-follows:
-
--   **Version Tested:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.docCompleteness&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.timeToCharge&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.failureRate&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.scalability&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.performance&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/aeon.json&query=$.stability&colorB=blue)
-
 ## :seedling: Domibus (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)

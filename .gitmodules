@@ -43,21 +43,6 @@
 [submodule "robotics/Fast-RTPS"]
 	path = robotics/Fast-RTPS
 	url = https://github.com/eProsima/Fast-RTPS
-[submodule "processing/aeon/cloud-messaging-platform"]
-	path = processing/aeon/cloud-messaging-platform
-	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-platform.git
-[submodule "processing/aeon/cloud-messaging-api"]
-	path = processing/aeon/cloud-messaging-api
-	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-api.git
-[submodule "processing/aeon/cloud-messaging-events-manager"]
-	path = processing/aeon/cloud-messaging-events-manager
-	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-events-manager.git
-[submodule "processing/aeon/cloud-messaging-sdk"]
-	path = processing/aeon/cloud-messaging-sdk
-	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-sdk.git
-[submodule "processing/aeon/cloud-messaging-dashboard"]
-	path = processing/aeon/cloud-messaging-dashboard
-	url = https://github.com/atos-ari-aeon/fiware-cloud-messaging-dashboard.git
 [submodule "processing/knowage/server"]
 	path = processing/knowage/server
 	url = https://github.com/KnowageLabs/Knowage-Server.git

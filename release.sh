@@ -79,11 +79,6 @@ findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotag
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.7.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 
-findRelease processing/aeon/cloud-messaging-api atos-ari-aeon/fiware-cloud-messaging-api "latest"
-findRelease processing/aeon/cloud-messaging-dashboard atos-ari-aeon/fiware-cloud-messaging-dashboard "latest"
-findRelease processing/aeon/cloud-messaging-events-manager atos-ari-aeon/fiware-cloud-messaging-events-manager "latest"
-findRelease processing/aeon/cloud-messaging-platform atos-ari-aeon/fiware-cloud-messaging-platform "latest"
-findRelease processing/aeon/cloud-messaging-sdk atos-ari-aeon/fiware-cloud-messaging-sdk "latest"
 findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.4
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/domibus edelivery/domibus 4.0
