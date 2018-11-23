@@ -175,6 +175,6 @@
 [submodule "core/cygnus"]
 	path = core/cygnus
 	url = https://github.com/telefonicaid/fiware-cygnus
-[submodule "core/core/draco"]
-	path = core/core/draco
+[submodule "core/draco"]
+	path = core/draco
 	url = https://github.com/ging/fiware-draco
