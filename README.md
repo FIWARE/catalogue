@@ -113,6 +113,8 @@ chapter:
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
+    
+Further information about the Generic Enablers supporting [Core Context Management](./core)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
@@ -158,6 +160,8 @@ chapter:
     brings an open source implementation of the OneM2M standard. A northbound
     interface with the Orion Context Broker is implemented as part of the
     product.
+    
+Further information about the [IoT Agents](./iot-agents) and  [Robotics](./robotics)
 
 ### Context Processing, Analysis and Visualization
 
@@ -198,6 +202,8 @@ chapter:
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
+    
+Further information about the Generic Enablers for [Context Processing, Analysis and Visualization](./processing) 
 
 ### Context Data/API Management, Publication and Monetization
 
@@ -248,6 +254,8 @@ chapter:
     tool for API owners to manage their APIs. It provides all the necessary
     features to run business with APIs and makes it easy for API consumers to
     find and start using the standard APIs.
+    
+Further information about the Generic Enablers supporting [Context Data/API Management, Publication and Monetization](./data-publication) and [Security](./security) 
 
 ## Testing
 
