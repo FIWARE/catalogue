@@ -36,6 +36,8 @@ FIWARE Orion Context Broker Generic Enabler, which brings a cornerstone function
 in any smart solution: the need to manage context information, enabling to
 perform updates and bring access to context.
 
+![](https://fiware.github.io/catalogue/img/catalogue.png)
+
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE
 components are available, dealing with:
 
@@ -92,7 +94,7 @@ perform updates, queries or subscribe to changes on context information.
 -   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
     brings the means for storing a short-term history of context data (typically
     months) on MongoDB
--   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler is
+-   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is
     enables a means of managing the history of context which is created as a
     stream of data and can be injected into multiple data sinks, including many
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as
