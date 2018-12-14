@@ -246,10 +246,8 @@ The **IoT Agent for OPC-UA** project is a new component within
 ![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
 ![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
 
--   [Git Repository](https://github.com/OpenMTC/OpenMTC)
--   Docker Hub : TBD
--   [Documentation](http://www.openmtc.org/doc.html)
--   [Site](https://www.openmtc.org/)
+| [Git Repository](https://github.com/OpenMTC/OpenMTC) | Docker Hub : TBD |  [Documentation](http://www.openmtc.org/doc.html) | [Site](https://www.openmtc.org/) |
+|---|---|---|---|
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
 conducting applied research and developing innovative M2M and IoT applications.
