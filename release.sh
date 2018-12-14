@@ -35,15 +35,15 @@ displayTag () {
 }
 
 displayReleaseDiff (){
-	git diff --compact-summary --submodule=short  FIWARE_7.4..master
+	git diff --compact-summary --submodule=short  FIWARE_7.5..master
 }
 
 displayUpdatedTags (){
-	git diff --compact-summary --submodule=short  FIWARE_7.4..releases
+	git diff --compact-summary --submodule=short  FIWARE_7.5..releases
 }
 
 
-findRelease core/cygnus telefonicaid/fiware-cygnus 1.9.0
+findRelease core/cygnus telefonicaid/fiware-cygnus 1.10.0
 findRelease core/draco ging/fiware-draco FIWARE_7.5
 findRelease core/orion telefonicaid/fiware-orion 2.0.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4.1
@@ -85,18 +85,18 @@ findRelease processing/domibus edelivery/domibus 4.0
 findRelease processing/fogflow/adapter smartfog/adapter "latest"
 findRelease processing/fogflow/fogflow smartfog/fogflow v2.0_ge
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.2.3
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.2.4
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
-findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs 6.6.0
-findRelease processing/kurento/media-server Kurento/kurento-media-server 6.8.1
+findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
+findRelease processing/kurento/media-server Kurento/kurento-media-server 6.9.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.2.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.7.0
 findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.2.0
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 
-findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.6.0
+findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.0
 
 findRelease security/authzforce authzforce/server release-8.0.1
 findRelease security/keyrock ging/fiware-idm 7.5.0
