@@ -22,10 +22,11 @@ To learn more about Security Access and API Management, check out the
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/ging/fiware-idm.svg)
+![](https://img.shields.io/github/release-date/ging/fiware-idm.svg)
+![](https://img.shields.io/github/commits-since/ging/fiware-idm/latest.svg)
 
--   [Git Repository](https://github.com/ging/fiware-idm)
--   [Docker Hub](https://hub.docker.com/r/fiware/idm/)
--   [Documentation](https://fiware-idm.readthedocs.io/en/latest/)
+| :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/)| :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) |
+|---|---|---|---|
 
 ### What is Keyrock?
 
@@ -100,10 +101,11 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/ging/fiware-pep-proxy.svg)
+![](https://img.shields.io/github/release-date/ging/fiware-pep-proxy.svg)
+![](https://img.shields.io/github/commits-since/ging/fiware-pep-proxy/latest.svg)
 
--   [Git Repository](https://github.com/ging/fiware-pep-proxy)
--   [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/)
--   [Documentation](https://fiware-pep-proxy.rtfd.io/)
+| :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) |
+|---|---|---|---|
 
 ### What is Wilma?
 
@@ -146,10 +148,11 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/authzforce/server.svg)
+![](https://img.shields.io/github/release-date/authzforce/server.svg)
+![](https://img.shields.io/github/commits-since/authzforce/server/latest.svg)
 
--   [Git Repository](https://github.com/authzforce/server)
--   [Docker Hub](https://hub.docker.com/r/authzforce/server/)
--   [Documentation](https://authzforce-ce-fiware.rtfd.io/)
+| :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) |
+|---|---|---|---|
 
 ### What is Authzforce?
 
