@@ -4,6 +4,8 @@
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)
+![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
+![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)
 
 eprosima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish
 Subscribe) protocol, which provides publisher-subscriber communications over
@@ -14,9 +16,9 @@ OMG. eProsima Fast RTPS holds the benefit of being standalone and up-to-date, as
 most vendor solutions either implement RTPS as a tool to implement DDS or use
 past versions of the specification.
 
--   [Git Repository](https://github.com/eProsima/Fast-RTPS)
--   Docker Hub : TBD
--   [Documentation](https://eprosima-fast-rtps.rtfd.io/)
+| :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) |
+|---|---|---|---|
+
 
 ### Quality Assurance
 
