@@ -11,11 +11,12 @@ and
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/ging/fiware-cosmos-orion-flink-connector.svg)
+![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
+![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
 
--   [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector)
--   [Documentation](https://fiware-cosmos-flink.readthedocs.io)
--   [Git Repository (Examples)](https://github.com/ging/fiware-cosmos-orion-flink-connector-examples)
--   [Documentation (Examples)](https://fiware-cosmos-flink-examples.readthedocs.io)
+| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector) | :whale: Docker Hub : **none** | :books: [Documentation](https://fiware-cosmos-flink.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) |
+| --------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+
 
 ### What is Cosmos?
 
@@ -63,11 +64,12 @@ rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/KnowageLabs/Knowage-Documentation.svg)
+![](https://img.shields.io/github/release-date/KnowageLabs/Knowage-Server.svg)
+![](https://img.shields.io/github/commits-since/KnowageLabs/Knowage-Server/latest.svg)
 
--   [Git Repository](https://github.com/KnowageLabs/Knowage-Server)
--   [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/)
--   [Documentation](http://knowage.rtfd.io/)
--   [Site](https://www.knowage-suite.com/site/home/)
+| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up: [Site](https://www.knowage-suite.com/site/home/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Knowage?
 
@@ -125,11 +127,12 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/badge/License-AGPLv3+%20with%20classpath--like%20exception-blue.svg)
+![](https://img.shields.io/github/release-date/Wirecloud/wirecloud.svg)
+![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
 
--   [Git Repository](https://github.com/Wirecloud/wirecloud)
--   [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/)
--   [Documentation](https://wirecloud.rtfd.io/)
--   [Site](https://conwet.fi.upm.es/wirecloud)
+| :octocat: [Git Repository](https://github.com/Wirecloud/wirecloud) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/) | :books: [Documentation](https://wirecloud.rtfd.io/) | :page_facing_up: [Site](https://conwet.fi.upm.es/wirecloud) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/wirecloud) |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+
 
 ### What is Wirecloud
 
@@ -197,11 +200,11 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/Kurento/kurento-media-server.svg)
+![](https://img.shields.io/badge/tag-6.9.0-blue.svg)
 
--   [Git Repository](https://github.com/Kurento/kurento-media-server)
--   [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/)
--   [Documentation](https://kurento.rtfd.io/)
--   [Site](https://www.kurento.org/)
+| :octocat: [Git Repository](https://github.com/Kurento/kurento-media-server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/) | :books:[Documentation](https://kurento.rtfd.io/) | :page_facing_up: [Site](https://www.kurento.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/kurento) |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Kurento?
 
@@ -256,9 +259,12 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
+![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
+![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
 
--   [Git Repository](https://github.com/smartfog/fogflow)
--   [Documentation](https://fogflow.rtfd.io/)
+| :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/) |
+| --------------------------------------------------------------- | ------------------------------------------------- |
+
 
 ### What is FogFlow?
 
@@ -307,18 +313,20 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg)
 
 **Core**
 
--   [Git Repository](https://github.com/telefonicaid/perseo-core/)
--   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/)
--   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation) |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 **Frontend**
 
--   [Git Repository](https://github.com/telefonicaid/perseo-fe/)
--   [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/)
--   [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation) |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Perseo?
 
@@ -346,10 +354,11 @@ rated as part of the next release.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/badge/license-EUPL-blue.svg)
+![](https://img.shields.io/badge/tag-4.0-blue.svg)
 
--   [Git Repository](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
--   [Docker](https://hub.docker.com/r/fiware/domibus-tomcat/)
--   [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)
+| :octocat: [Git Repository](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/domibus-tomcat/) | :books: [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/domibus) |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Domibus?
 

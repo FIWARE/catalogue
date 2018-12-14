@@ -36,6 +36,8 @@ FIWARE Orion Context Broker Generic Enabler, which brings a cornerstone function
 in any smart solution: the need to manage context information, enabling to
 perform updates and bring access to context.
 
+![](https://fiware.github.io/catalogue/img/catalogue.png)
+
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE
 components are available, dealing with:
 
@@ -92,8 +94,8 @@ perform updates, queries or subscribe to changes on context information.
 -   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
     brings the means for storing a short-term history of context data (typically
     months) on MongoDB
--   The [Cygnus](https://github.com/ging/fiware-cygnus/) Generic Enabler is
-    enables a means of managing the history of context which is created as a
+-   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler
+    is enables a means of managing the history of context which is created as a
     stream of data and can be injected into multiple data sinks, including many
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as
     Big Data platforms such as Hadoop, Storm or Spark. The component is based on
@@ -111,6 +113,9 @@ chapter:
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
+
+Further information about the Generic Enablers supporting
+[Core Context Management](./core)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
@@ -157,6 +162,9 @@ chapter:
     interface with the Orion Context Broker is implemented as part of the
     product.
 
+Further information about the [IoT Agents](./iot-agents) and
+[Robotics](./robotics)
+
 ### Context Processing, Analysis and Visualization
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
@@ -196,6 +204,9 @@ chapter:
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
+
+Further information about the Generic Enablers for
+[Context Processing, Analysis and Visualization](./processing)
 
 ### Context Data/API Management, Publication and Monetization
 
@@ -246,6 +257,10 @@ chapter:
     tool for API owners to manage their APIs. It provides all the necessary
     features to run business with APIs and makes it easy for API consumers to
     find and start using the standard APIs.
+
+Further information about the Generic Enablers supporting
+[Context Data/API Management, Publication and Monetization](./data-publication)
+and [Security](./security)
 
 ## Testing
 

@@ -51,10 +51,12 @@ interface.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-node-lib.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/iotagent-node-lib.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-node-lib/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/iotagent-node-lib)
--   Docker Hub : **None**
--   [Documentation](https://iotagent-node-lib.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-node-lib) | :whale: Docker Hub : **None** | :books: [Documentation](https://iotagent-node-lib.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
+| ----------------------------------------------------------------------------- | ----------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+
 
 Library for developing your own IoT Agent.
 
@@ -66,10 +68,12 @@ is used in the following IoT Agents:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-json.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/iotagent-json.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-json/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/iotagent-json)
--   [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/)
--   [Documentation](https://fiware-iotagent-json.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-json) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/) | :books: [Documentation](https://fiware-iotagent-json.rtfd.io) |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------- |
+
 
 IoT Agent for a JSON based protocol (with [AMQP](https://www.amqp.org/),
 [HTTP](https://www.w3.org/Protocols/) and [MQTT](https://mqtt.org/) transports)
@@ -103,10 +107,12 @@ has been rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-ul.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/iotagent-ul.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-ul/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/iotagent-ul)
--   [Docker Hub](https://hub.docker.com/r/fiware/iotagent-ul/)
--   [Documentation](https://fiware-iotagent-ul.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-ul) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-ul/) | :books: [Documentation](https://fiware-iotagent-ul.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+
 
 IoT Agent for the Ultralight 2.0 protocol (with [AMQP](https://www.amqp.org/),
 [HTTP](https://www.w3.org/Protocols/) and [MQTT](https://mqtt.org/) transports)
@@ -139,10 +145,12 @@ The **IoT Agent for the Ultralight** project is part of
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
+![](https://img.shields.io/github/release-date/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
+![](https://img.shields.io/github/commits-since/Atos-Research-and-Innovation/IoTagent-LoRaWAN/latest.svg)
 
--   [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN)
--   [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/)
--   [Documentation](https://fiware-lorawan.rtfd.io)
+| :octocat: [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/) | :books: [Documentation](https://fiware-lorawan.rtfd.io) |
+| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
+
 
 IoT Agent for the LoRaWAN protocol (with CayenneLpp and CBOR data models)
 
@@ -175,10 +183,12 @@ and has been rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/lightweightm2m-iotagent.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/lightweightm2m-iotagent.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/lightweightm2m-iotagent/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent)
--   [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/)
--   [Documentation](https://fiware-iotagent-lwm2m.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+
 
 IoT Agent accepting COAP requests.
 
@@ -213,10 +223,12 @@ The **IoT Agent for LightWeight Machine2Machine** project is part of
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
 
--   [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua)
--   [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage)
--   [Documentation](https://iotagent-opcua.rtfd.io)
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
+
 
 IoT Agent accepting data from OPC UA devices.
 
@@ -237,11 +249,12 @@ The **IoT Agent for OPC-UA** project is a new component within
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/OpenMTC/OpenMTC.svg)
+![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
+![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
 
--   [Git Repository](https://github.com/OpenMTC/OpenMTC)
--   Docker Hub : TBD
--   [Documentation](http://www.openmtc.org/doc.html)
--   [Site](https://www.openmtc.org/)
+| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: Docker Hub : TBD | :books: [Documentation](http://www.openmtc.org/doc.html) | :page_facing_up: [Site](https://www.openmtc.org/) |
+| -------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | ------------------------------------------------- |
+
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
 conducting applied research and developing innovative M2M and IoT applications.

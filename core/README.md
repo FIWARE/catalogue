@@ -15,10 +15,12 @@ To learn more about Core Context Management Enablers, check out the
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/fiware-orion/)
--   [Docker Hub](https://hub.docker.com/r/fiware/orion/)
--   [Documentation](https://fiware-orion.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion/) | :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------ |
+
 
 ### What is Orion?
 
@@ -90,10 +92,12 @@ rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-cygnus.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-cygnus.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-cygnus/latest.svg)
 
--   [Git Repository](https://github.com/telefonicaid/fiware-cygnus/)
--   [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/)
--   [Documentation](https://fiware-cygnus.rtfd.io)
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/) | :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+
 
 ### What is Cygnus?
 
@@ -159,10 +163,12 @@ rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/ging/fiware-sth-comet.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
 
--   [Git Repository](https://github.com/ging/fiware-sth-comet/)
--   [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/)
--   [Documentation](https://fiware-sth-comet.rtfd.io)
+| :octocat: [Git Repository](https://github.com/ging/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+
 
 ### What is STH Comet?
 
@@ -210,10 +216,12 @@ rated as follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
+![](https://img.shields.io/github/last-commit/smartsdk/ngsi-timeseries-api.svg)
+![](https://img.shields.io/github/tag/smartsdk/ngsi-timeseries-api.svg)
 
--   [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/)
--   [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/)
--   [Documentation](https://quantumleap.rtfd.io/)
+| :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+
 
 ### What is QuantumLeap?
 
@@ -241,14 +249,16 @@ complex queries such as cross-entity queries (e.g. an average of averages)
 The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 rated as part of the next release.
 
-## :new: Draco (Incubated)
+## :seedling: Draco (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/ging/fiware-draco.svg)
+![](https://img.shields.io/github/release-date/ging/fiware-draco.svg)
+![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
 
--   [Git Repository](https://github.com/ging/fiware-draco)
--   [Docker Hub](https://hub.docker.com/r/ging/fiware-draco)
--   [Documentation](https://fiware-draco.rtfd.io)
+| :octocat: [Git Repository](https://github.com/ging/fiware-draco) | :whale: [Docker Hub](https://hub.docker.com/r/ging/fiware-draco) | :books: [Documentation](https://fiware-draco.rtfd.io) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+
 
 ### What is Draco?
 
