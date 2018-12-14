@@ -12,10 +12,11 @@ To learn more about Data Publication, check out the
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/conwetlab/FIWARE-CKAN-Extensions.svg)
+![](https://img.shields.io/github/release-date/conwetlab/FIWARE-CKAN-Extensions.svg)
+![](https://img.shields.io/github/commits-since/conwetlab/FIWARE-CKAN-Extensions/latest.svg)
 
--   [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions)
--   [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/)
--   [Documentation](https://fiware-ckan-extensions.rtfd.io/)
+| [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | [Documentation](https://fiware-ckan-extensions.rtfd.io/) | [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) |
+|---|---|---|---|
 
 ### What is Extensions to CKAN?
 
@@ -84,10 +85,11 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/FIWARE-TMForum/Business-API-Ecosystem.svg)
+![](https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg)
+![](https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg)
 
--   [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem)
--   [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem)
--   [Documentation](https://business-api-ecosystem.rtfd.io/)
+| [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) | [Documentation](https://business-api-ecosystem.rtfd.io/)  | [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) |
+|---|---|---|---|
 
 ### What is the Business API Ecosystem?
 
@@ -170,11 +172,11 @@ follows:
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/OPSILab/Idra.svg)
+![](https://img.shields.io/github/release-date/OPSILab/Idra.svg)
+![](https://img.shields.io/github/commits-since/OPSILab/Idra/latest.svg) 
 
--   [Git Repository](https://github.com/OPSILab/Idra)
--   [Docker Hub](https://hub.docker.com/u/idraopendata/idra)
--   [Documentation](https://idra.rtfd.io/)
--   [Site](https://idra.eng.it/)
+| [Git Repository](https://github.com/OPSILab/Idra) | [Docker Hub](https://hub.docker.com/u/idraopendata/idra) | [Documentation](https://idra.rtfd.io/) | [Site](https://idra.eng.it/) |
+|---|---|---|---|
 
 ### What is Idra?
 
@@ -247,11 +249,11 @@ as part of the next release.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/apinf/platform.svg)
+![](https://img.shields.io/github/release-date/apinf/platform.svg)
+![](https://img.shields.io/github/commits-since/apinf/platform/latest.svg)
 
--   [Git Repository](https://github.com/apinf/platform)
--   [Docker Hub](https://hub.docker.com/u/apinf/platform)
--   [Documentation](https://github.com/apinf/platform/blob/develop/README.md)
--   [Site](https://apinf.io/)
+| [Git Repository](https://github.com/apinf/platform) | [Docker Hub](https://hub.docker.com/u/apinf/platform) | [Documentation](https://github.com/apinf/platform/blob/develop/README.md)| [Site](https://apinf.io/)  | [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
+|---|---|---|---|---|
 
 ### What is APInf?
 
