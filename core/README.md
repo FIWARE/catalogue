@@ -162,7 +162,7 @@ rated as follows:
 ## STH Comet
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/ging/fiware-sth-comet.svg)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
 

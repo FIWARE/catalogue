@@ -14,8 +14,9 @@ and
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector)| :whale: Docker Hub : **none** |:books: [Documentation](https://fiware-cosmos-flink.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector) | :whale: Docker Hub : **none** | :books: [Documentation](https://fiware-cosmos-flink.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) |
+| --------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+
 
 ### What is Cosmos?
 
@@ -66,8 +67,9 @@ rated as follows:
 ![](https://img.shields.io/github/release-date/KnowageLabs/Knowage-Server.svg)
 ![](https://img.shields.io/github/commits-since/KnowageLabs/Knowage-Server/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up:  [Site](https://www.knowage-suite.com/site/home/)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) |
-|---|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up: [Site](https://www.knowage-suite.com/site/home/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Knowage?
 
@@ -129,7 +131,8 @@ follows:
 ![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
 
 | :octocat: [Git Repository](https://github.com/Wirecloud/wirecloud) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/) | :books: [Documentation](https://wirecloud.rtfd.io/) | :page_facing_up: [Site](https://conwet.fi.upm.es/wirecloud) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/wirecloud) |
-|---|---|---|---|---|
+| ------------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+
 
 ### What is Wirecloud
 
@@ -199,8 +202,9 @@ follows:
 ![License](https://img.shields.io/github/license/Kurento/kurento-media-server.svg)
 ![](https://img.shields.io/badge/tag-6.9.0-blue.svg)
 
-| :octocat:   [Git Repository](https://github.com/Kurento/kurento-media-server) | :whale:   [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/) | :books:[Documentation](https://kurento.rtfd.io/) | :page_facing_up: [Site](https://www.kurento.org/)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/kurento) |
-|---|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/Kurento/kurento-media-server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/) | :books:[Documentation](https://kurento.rtfd.io/) | :page_facing_up: [Site](https://www.kurento.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/kurento) |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Kurento?
 
@@ -258,8 +262,9 @@ follows:
 ![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
 ![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/)  | 
-|---|---|
+| :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/) |
+| --------------------------------------------------------------- | ------------------------------------------------- |
+
 
 ### What is FogFlow?
 
@@ -309,17 +314,19 @@ follows:
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
 ![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg) 
+![](https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg)
 
 **Core**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale:  [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)  | 
-|---|---|---|
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation) |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 **Frontend**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/)| :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation)  | 
-|---|---|---|
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://github.com/telefonicaid/perseo-fe/tree/master/documentation) |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Perseo?
 
@@ -342,56 +349,3 @@ Perseo can act as a bridge between the context data and other external systems.
 
 The **Perseo** project is part of [FIWARE](https://fiware.org/) and will be
 rated as part of the next release.
-
-## :seedling: Domibus (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/badge/license-EUPL-blue.svg)
-![](https://img.shields.io/badge/tag-4.0-blue.svg)
-
-| :octocat: [Git Repository](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/domibus-tomcat/) |:books: [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/domibus) |
-|---|---|---|---|
-
-### What is Domibus?
-
-Domibus is a sample implementation of a
-[CEF eDelivery Access Point](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Access+Point+software).
-CEF eDelivery helps users to exchange electronic data and documents with one
-another in a reliable and trusted way. The CEF eDelivery solution is based on a
-distributed model called the “4-corner model”. In this model, the backend
-systems of the users don’t exchange data directly with each other but do this
-through Access Points. These Access Points are conformant to the same technical
-specifications and therefore capable of communicating with each other. As a
-result of this, users adopting CEF eDelivery can easily and safely exchange data
-even if their IT systems were developed independently from each other.
-
-### Why use Domibus?
-
-eDelivery helps to achieve the following goals: Interoperability: Implementing
-common technical specifications that enable diverse organisations to exchange
-data and documents. Security: Promoting an atmosphere of trust among all
-participants in the message exchange network. Scalability and Performance:
-Enabling the number of participants in the data exchange network to grow as well
-as the number of exchanged messages. Legal Assurance and Accountability:
-Promoting a high level of transparency and confidence among all participants in
-the message exchange network. Re-using CEF eDelivery will accelerate the
-delivery time of a working document and data exchange network and reduces the
-cost and risk of creating, maintaining and operating such a network. CEF
-eDelivery was already tried and tested in multiple domains.
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as
-follows:
-
--   **Version Tested:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.docCompleteness&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.timeToCharge&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.failureRate&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.scalability&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.performance&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/domibus.json&query=$.stability&colorB=blue)
