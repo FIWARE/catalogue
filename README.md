@@ -163,9 +163,13 @@ chapter:
     brings an open source implementation of the OneM2M standard. A northbound
     interface with the Orion Context Broker is implemented as part of the
     product.
+-   The
+    [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
+    Incubated Generic Enabler helps users to exchange electronic data and
+    documents with one another in a reliable and trusted way.
 
 Further information about the [IoT Agents](./iot-agents) and
-[Robotics](./robotics)
+[Robotics](./robotics) and [Third-Party Systems](./third-party)
 
 ### Context Processing, Analysis and Visualization
 
@@ -202,10 +206,6 @@ chapter:
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
--   The
-    [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
-    Incubated Generic Enabler helps users to exchange electronic data and
-    documents with one another in a reliable and trusted way.
 
 Further information about the Generic Enablers for
 [Context Processing, Analysis and Visualization](./processing)
