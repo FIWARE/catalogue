@@ -162,12 +162,12 @@ rated as follows:
 ## STH Comet
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
-![License](https://img.shields.io/github/license/ging/fiware-sth-comet.svg)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
 
 ### What is STH Comet?

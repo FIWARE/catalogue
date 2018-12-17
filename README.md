@@ -121,6 +121,7 @@ Further information about the Generic Enablers supporting
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](https://www.fiware.org/developers/catalogue/)
 
 A number of Generic Enablers are available making it easier to interface with
 the internet of Things, Robots and Third-party systems for the purpose of
@@ -161,9 +162,13 @@ chapter:
     brings an open source implementation of the OneM2M standard. A northbound
     interface with the Orion Context Broker is implemented as part of the
     product.
+-   The
+    [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
+    Incubated Generic Enabler helps users to exchange electronic data and
+    documents with one another in a reliable and trusted way.
 
-Further information about the [IoT Agents](./iot-agents) and
-[Robotics](./robotics)
+Further information about the [IoT Agents](./iot-agents), [Robotics](./robotics)
+and [Third-Party Systems](./third-party)
 
 ### Context Processing, Analysis and Visualization
 
