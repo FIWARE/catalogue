@@ -18,9 +18,8 @@ To learn more about Core Context Management Enablers, check out the
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/)| :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion/)| :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) |
-|---|---|---|---|
-
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion/) | :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------ |
 
 
 ### What is Orion?
@@ -96,8 +95,9 @@ rated as follows:
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-cygnus.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-cygnus/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/) | :books: [Documentation](https://fiware-cygnus.rtfd.io)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/) | :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+
 
 ### What is Cygnus?
 
@@ -166,8 +166,9 @@ rated as follows:
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+
 
 ### What is STH Comet?
 
@@ -218,8 +219,9 @@ rated as follows:
 ![](https://img.shields.io/github/last-commit/smartsdk/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/tag/smartsdk/ngsi-timeseries-api.svg)
 
-| :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/)| :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+
 
 ### What is QuantumLeap?
 
@@ -255,7 +257,8 @@ rated as part of the next release.
 ![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-draco) | :whale: [Docker Hub](https://hub.docker.com/r/ging/fiware-draco) | :books: [Documentation](https://fiware-draco.rtfd.io) |
-|---|---|---|
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+
 
 ### What is Draco?
 

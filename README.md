@@ -44,8 +44,9 @@ components are available, dealing with:
 -   **[Core Context Management](./core)** manipulates and stores context data so
     it can be used for further processesing
 -   **Interfacing with the [Internet of Things](./iot-agents) (IoT),
-    [Robots](./robotics) and third-party systems**, for capturing updates on
-    context information and translating required actuations.
+    [Robots](./robotics) and [third-party systems](./third-party)**, for
+    capturing updates on context information and translating required
+    actuations.
 -   **[Processing, analysis and visualization](./processing)** of context
     information, implementing the expected smart behaviour of applications
     and/or assisting end users in making smart decisions.
@@ -94,8 +95,8 @@ perform updates, queries or subscribe to changes on context information.
 -   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
     brings the means for storing a short-term history of context data (typically
     months) on MongoDB
--   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is
-    enables a means of managing the history of context which is created as a
+-   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler
+    is enables a means of managing the history of context which is created as a
     stream of data and can be injected into multiple data sinks, including many
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as
     Big Data platforms such as Hadoop, Storm or Spark. The component is based on
@@ -113,13 +114,15 @@ chapter:
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
-    
-Further information about the Generic Enablers supporting [Core Context Management](./core)
+
+Further information about the Generic Enablers supporting
+[Core Context Management](./core)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](https://www.fiware.org/developers/catalogue/)
 
 A number of Generic Enablers are available making it easier to interface with
 the internet of Things, Robots and Third-party systems for the purpose of
@@ -160,8 +163,9 @@ chapter:
     brings an open source implementation of the OneM2M standard. A northbound
     interface with the Orion Context Broker is implemented as part of the
     product.
-    
-Further information about the [IoT Agents](./iot-agents) and  [Robotics](./robotics)
+
+Further information about the [IoT Agents](./iot-agents) and
+[Robotics](./robotics)
 
 ### Context Processing, Analysis and Visualization
 
@@ -202,8 +206,9 @@ chapter:
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
-    
-Further information about the Generic Enablers for [Context Processing, Analysis and Visualization](./processing) 
+
+Further information about the Generic Enablers for
+[Context Processing, Analysis and Visualization](./processing)
 
 ### Context Data/API Management, Publication and Monetization
 
@@ -254,8 +259,10 @@ chapter:
     tool for API owners to manage their APIs. It provides all the necessary
     features to run business with APIs and makes it easy for API consumers to
     find and start using the standard APIs.
-    
-Further information about the Generic Enablers supporting [Context Data/API Management, Publication and Monetization](./data-publication) and [Security](./security) 
+
+Further information about the Generic Enablers supporting
+[Context Data/API Management, Publication and Monetization](./data-publication)
+and [Security](./security)
 
 ## Testing
 
