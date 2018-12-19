@@ -11,8 +11,12 @@ developers to easily navigate to the relevant source code repositories,
 documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the
-FIWARE [Tour Guide](https://fiwaretourguide.rtfd.io/) and Step-by-Step
-[Tutorials](https://fiware-tutorials.rtfd.io/).
+**FIWARE Tour Guide**, the **FIWARE Academy** and the **Step-by-Step
+Tutorials**.
+
+| :books: [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: [Docker Hub](https://hub.docker.com/u/fiware) |
+| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+
 
 ## Contents
 
