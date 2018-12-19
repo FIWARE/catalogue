@@ -75,7 +75,7 @@ findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-Lo
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.9.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.0.0
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.8.1
-findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.0.0
+findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.1.0
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 
