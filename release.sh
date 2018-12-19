@@ -45,8 +45,8 @@ displayUpdatedTags (){
 
 findRelease core/cygnus telefonicaid/fiware-cygnus 1.10.0
 findRelease core/draco ging/fiware-draco FIWARE_7.5
-findRelease core/orion telefonicaid/fiware-orion 2.0.0
-findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.4.1
+findRelease core/orion telefonicaid/fiware-orion 2.1.0
+findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.5
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.4.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
@@ -72,11 +72,11 @@ findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckan
 findRelease data-publication/idra opsilab/idra v1.2.0
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN 0.1.0
-findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.8.0
-findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 0.4.0
-findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.7.0
+findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.9.0
+findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.0.0
+findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.8.1
 findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.0.0
-findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.7.0
+findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
 
 findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.5
@@ -84,7 +84,7 @@ findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-
 findRelease processing/fogflow/adapter smartfog/adapter "latest"
 findRelease processing/fogflow/fogflow smartfog/fogflow v2.0_ge
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.2.4
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.3.0
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
@@ -98,8 +98,8 @@ findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "la
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.0
 
 findRelease security/authzforce authzforce/server release-8.0.1
-findRelease security/keyrock ging/fiware-idm 7.5.0
-findRelease security/wilma ging/fiware-pep-proxy 7.5.0
+findRelease security/keyrock ging/fiware-idm 7.5.1
+findRelease security/wilma ging/fiware-pep-proxy 7.5.1
 
 findRelease third-party/domibus edelivery/domibus 4.0
 
