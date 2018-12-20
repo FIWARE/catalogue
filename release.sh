@@ -47,7 +47,7 @@ findRelease core/cygnus telefonicaid/fiware-cygnus 1.10.0
 findRelease core/draco ging/fiware-draco FIWARE_7.5
 findRelease core/orion telefonicaid/fiware-orion 2.1.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.5
-findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.4.0
+findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.5.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
 findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
