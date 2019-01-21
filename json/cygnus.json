@@ -1,9 +1,15 @@
 {
-	"version" : "1.9.0",
+	"version" : "2.0.0",
 	"failureRate" : "A+++",
 	"failureValue" : 0.08,
 	"timeToCharge" : "A+",
 	"timeToChargeValue" : 6.28,
 	"timeToFix" : "A",
-	"timeToFixValue" : 11.85
+	"timeToFixValue" : 11.85,
+	"scalability" : "A+++",
+	"scalabilityValue" : 1.02,
+	"performance" : "A+++",
+	"performanceValue" : "900 updates/sec",
+	"stability" : "A+++",
+	"stabilityValue" : "STABLE"
 }
