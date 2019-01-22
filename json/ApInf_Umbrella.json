@@ -1,0 +1,13 @@
+{
+	"version" : "0.14.4",
+	"docCompleteness": "D",
+	"docSoundness" : "D",
+	"failureRate" : "A+++",
+	"failureValue" : 0.05,
+	"scalability" : "A++",
+	"scalabilityValue" : 1.07,
+	"performance" : "A+++",
+	"performanceValue" : "250 req/sec",
+	"stability" : "A++",
+	"stabilityValue" : "HIGHER"
+}
