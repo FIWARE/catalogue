@@ -186,8 +186,8 @@ and has been rated as follows:
 ![](https://img.shields.io/github/release-date/telefonicaid/lightweightm2m-iotagent.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/lightweightm2m-iotagent/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/lightweightm2m-iotagent/blob/master/docs/roadmap.md)
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |---|
 
 
 IoT Agent accepting COAP requests.
