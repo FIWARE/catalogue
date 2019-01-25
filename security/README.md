@@ -25,8 +25,8 @@ To learn more about Security Access and API Management, check out the
 ![](https://img.shields.io/github/release-date/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-idm/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/)| :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/)| :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) | :dart: [Roadmap](https://github.com/ging/fiware-idm/blob/master/roadmap.md) |
+|---|---|---|---|---|
 
 ### What is Keyrock?
 
@@ -104,8 +104,8 @@ follows:
 ![](https://img.shields.io/github/release-date/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-pep-proxy/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) | :dart: [Roadmap](https://github.com/ging/fiware-pep-proxy/blob/master/roadmap.md)
+|---|---|---|---|---|
 
 ### What is Wilma?
 
