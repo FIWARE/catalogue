@@ -71,8 +71,8 @@ is used in the following IoT Agents:
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-json.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-json/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-json) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/) | :books: [Documentation](https://fiware-iotagent-json.rtfd.io) |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-json) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/) | :books: [Documentation](https://fiware-iotagent-json.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 
 IoT Agent for a JSON based protocol (with [AMQP](https://www.amqp.org/),
@@ -148,8 +148,8 @@ The **IoT Agent for the Ultralight** project is part of
 ![](https://img.shields.io/github/release-date/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 ![](https://img.shields.io/github/commits-since/Atos-Research-and-Innovation/IoTagent-LoRaWAN/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/) | :books: [Documentation](https://fiware-lorawan.rtfd.io) |
-| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/) | :books: [Documentation](https://fiware-lorawan.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN/blob/master/docs/roadmap.md) |
+| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 
 
 IoT Agent for the LoRaWAN protocol (with CayenneLpp and CBOR data models)
@@ -186,8 +186,8 @@ and has been rated as follows:
 ![](https://img.shields.io/github/release-date/telefonicaid/lightweightm2m-iotagent.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/lightweightm2m-iotagent/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/lightweightm2m-iotagent/blob/master/docs/roadmap.md)
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |---|
+| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/lightweightm2m-iotagent/blob/master/docs/roadmap.md) |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 
 
 IoT Agent accepting COAP requests.
@@ -253,7 +253,7 @@ The **IoT Agent for OPC-UA** project is a new component within
 ![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
 
 | :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) |
-| -------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------- | ------------------------------------------------- |
+| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- |
 
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
