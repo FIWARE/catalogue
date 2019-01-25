@@ -14,8 +14,8 @@ and
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector) | :whale: Docker Hub : **none** | :books: [Documentation](https://fiware-cosmos-flink.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) |
-| --------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos-orion-flink-connector) | :whale: Docker Hub : **none** | :books: [Documentation](https://fiware-cosmos-flink.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos-orion-flink-connector/blob/master/ROADMAP.md) |
+| --------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |---|
 
 
 ### What is Cosmos?
