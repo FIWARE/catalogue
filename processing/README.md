@@ -67,8 +67,8 @@ rated as follows:
 ![](https://img.shields.io/github/release-date/KnowageLabs/Knowage-Server.svg)
 ![](https://img.shields.io/github/commits-since/KnowageLabs/Knowage-Server/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up: [Site](https://www.knowage-suite.com/site/home/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up: [Site](https://www.knowage-suite.com/site/home/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) | :dart: [Roadmap](https://github.com/KnowageLabs/Knowage-Server/blob/master/ROADMAP.md) |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---|
 
 
 ### What is Knowage?
