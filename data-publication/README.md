@@ -15,8 +15,8 @@ To learn more about Data Publication, check out the
 ![](https://img.shields.io/github/release-date/conwetlab/FIWARE-CKAN-Extensions.svg)
 ![](https://img.shields.io/github/commits-since/conwetlab/FIWARE-CKAN-Extensions/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) |  :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) |  :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md)
+|---|---|---|---|---|
 
 ### What is Extensions to CKAN?
 
@@ -88,8 +88,8 @@ follows:
 ![](https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) |  :books: [Documentation](https://business-api-ecosystem.rtfd.io/)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) |  :books: [Documentation](https://business-api-ecosystem.rtfd.io/)  | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md)|
+|---|---|---|---|---|
 
 ### What is the Business API Ecosystem?
 
@@ -175,8 +175,8 @@ follows:
 ![](https://img.shields.io/github/release-date/OPSILab/Idra.svg)
 ![](https://img.shields.io/github/commits-since/OPSILab/Idra/latest.svg) 
 
-| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/u/idraopendata/idra) |   :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) |
-|---|---|---|---|
+| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/u/idraopendata/idra) |   :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
+|---|---|---|---|---|
 
 ### What is Idra?
 
