@@ -5,6 +5,14 @@ to learn more details about future developments proposed for an individual
 Generic Enabler please check the "Roadmap" for the actual Generic Enabler
 itself.
 
+> The following release windows have been defined for the development period
+> prior to the next FIWARE Global Summit
+> 
+> -   February 2019 - **7.6** - Release for onboarding new Generic Enablers
+> -   April 2019 - **7.7** - Release for the FIWARE Global Summit in Genoa
+> -   _May 2019_ - **7.7.1** - Patch release of any outstanding items after Genoa
+>    Summit (if necessary)
+
 ## Introduction
 
 This section elaborates on proposed new features or tasks which are expected to
@@ -27,12 +35,6 @@ and incorporated in the releases of the catalogue over the next six months up to
 -   Onboard additional IoT Agents (e.g. Sigfox)
 -   Onboard additional Generic Enablers within the Robotics Domain
 
-The following release windows are currently scheduled:
-
--   February 2019 - **7.6** - Release for onboarding new Generic Enablers
--   April 2019 - **7.7** - Release for the FIWARE Global Summit in Genoa
--   _May 2019_ - **7.7.1** - Patch release of any outstanding items after Genoa
-    Summit (if necessary)
 
 ## Medium term
 
@@ -42,7 +44,6 @@ after next planned release:
 
 -   Require compliance of all **MUST** requirements within the
     [Contributor Requirements](https://fiware-requirements.rtfd.io)
-
 -   Standardize location and naming convention of FIWARE Docker Images
 -   Improve integration testing to ensure all Generic Enablers integrate
     smoothly with the latest stable release of the Context Broker
