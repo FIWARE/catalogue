@@ -219,8 +219,8 @@ rated as follows:
 ![](https://img.shields.io/github/last-commit/smartsdk/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/tag/smartsdk/ngsi-timeseries-api.svg)
 
-| :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) |
-| ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) | :dart: [Roadmap](https://github.com/smartsdk/ngsi-timeseries-api/blob/master/docs/roadmap.md) |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- | --- |
 
 
 ### What is QuantumLeap?
