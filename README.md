@@ -96,9 +96,9 @@ perform updates, queries or subscribe to changes on context information.
     context information evolves over time, creating a context history.
     Accompanying the Orion Context Broker component as part of the Core Context
     Management Chapter:
--   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
-    brings the means for storing a short-term history of context data (typically
-    months) on MongoDB
+-   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic
+    Enabler brings the means for storing a short-term history of context data
+    (typically months) on MongoDB
 -   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler
     is enables a means of managing the history of context which is created as a
     stream of data and can be injected into multiple data sinks, including many
