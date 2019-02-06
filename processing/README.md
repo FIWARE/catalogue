@@ -262,8 +262,8 @@ follows:
 ![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
 ![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :whale: [Docker Hub](https://hub.docker.com/r/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/) | :dart: [Roadmap](https://github.com/smartfog/fogflow/blob/master/roadmap.md) |
-| --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :whale: [Docker Hub](https://hub.docker.com/r/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/fogflow) | :dart: [Roadmap](https://github.com/smartfog/fogflow/blob/master/roadmap.md) |
+| --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 
 
 ### What is FogFlow?
