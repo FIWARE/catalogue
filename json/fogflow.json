@@ -1,11 +1,5 @@
 {
 	"version" : "2.0.0",
-	"failureRate" : "A+++",
-	"failureValue" : 0,
-	"timeToCharge" : "D",
-	"timeToChargeValue" : 29.83,
-	"timeToFix" : "D",
-	"timeToFixValue" : 32.85,
 	"scalability" : "A++",
 	"scalabilityValue" : 1.07,
 	"performance" : "A+++",
