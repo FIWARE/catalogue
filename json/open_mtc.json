@@ -3,5 +3,11 @@
 	"docCompleteness": "D",
 	"docSoundness" : "D",
 	"failureRate" : "A+++",
-	"failureValue" : 0
+	"failureValue" : 0,
+	"scalability" : "A++",
+	"scalabilityValue" : 1.08,
+	"performance" : "A++",
+	"performanceValue" : "375 gets/sec",
+	"stability" : "B",
+	"stabilityValue" : "LEAK"
 }
