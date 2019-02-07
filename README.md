@@ -153,6 +153,9 @@ context updates:
     -   [IoT Agent for OPC-UA](https://github.com/Engineering-Research-and-Development/iotagent-opcua) -
         a bridge between the [OPC Unified Architecture](http://www.opcua.us/)
         protocol and NGSI
+    -   [IoT Agent for Sigfox](https://github.com/telefonicaid/sigfox-iotagent) -
+        a bridge between the [Sigfox](https://www.sigfox.com/en) protocol and
+        NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) -
         library for developing your own IoT Agent.
 

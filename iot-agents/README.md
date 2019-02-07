@@ -243,6 +243,30 @@ interface. It follows the standard interaction model defined in the
 The **IoT Agent for OPC-UA** project is a new component within
 [FIWARE](https://fiware.org/) and will be rated in the current release
 
+## :new: IoT Agent for Sigfox (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/telefonicaid/sigfox-iotagent.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/sigfox-iotagent.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/sigfox-iotagent/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/sigfox-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sigfox-iotagent) | :books: [Documentation](https://github.com/telefonicaid/sigfox-iotagent/tree/master/docs) | :dart: [Roadmap](https://github.com/telefonicaid/sigfox-iotagent/blob/master/docs/roadmap.md) |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+
+
+IoT Agent for the Sigfox protocol.
+
+This IoT Agent is designed to be a bridge between the
+[Sigfox](https://www.sigfox.com/en) protocol and the
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+interface. It follows the standard interaction model defined in the
+[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
+
+### Quality Assurance
+
+The **IoT Agent for Sigfox** project is a new component within
+[FIWARE](https://fiware.org/) and will be rated in the current release
+
 ---
 
 ## :seedling: Open MTC (Incubated)
