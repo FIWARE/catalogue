@@ -334,5 +334,6 @@ states:
 > unmodified version of existing software is not considered  a derivative work.
 
 This means that there is absolute no risk that you are forced to release the software that
-you may have developed using FIWARE GEris under a GPL, AGPL or any other open source license.
+you may have developed using FIWARE Generic Enablers under a GPL, AGPL or any other open 
+source license.
 
