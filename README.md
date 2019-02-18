@@ -324,9 +324,9 @@ that different people assign different interpretations on the meaning of the ter
 is a risk in just using software under GPL or AGPL licenses (even without modifying
 it).
 
-In order to avoid any issue, FIWARE GEri owners who have decided to release their 
-software using a GPL or AGPL license are required to make a public statement that
-says:
+In order to avoid any issue, FIWARE Generic Enabler owners who have decided to release 
+their software using a GPL or AGPL license are required to make a public statement that
+states:
 
 > Please note that software derived as a result of modifying the source code of this
 > software in order to fix a bug or incorporate enhancements is considered a derivative
