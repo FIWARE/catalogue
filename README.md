@@ -316,7 +316,8 @@ project under the Creative Commons
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) License.
 
 
-### Some FIWARE GEris are distributed under GPL or AGPL open source licenses … Is it safe for me?
+### Some FIWARE Components are distributed under GPL or AGPL open source licenses … Is it safe for me to use?
+
 Absolutely. Issues with GPL (or AGPL) licenses are mostly related with the fact
 that different people assign different interpretations on the meaning of the term 
 “derivate work” used in these licenses. Due to this, some people understand that there 
