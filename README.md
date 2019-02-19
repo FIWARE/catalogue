@@ -315,25 +315,24 @@ Additional permission is given to reproduce the texts found within the root
 project under the Creative Commons
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) License.
 
-
 ### Some FIWARE Components are distributed under GPL or AGPL open source licenses … Is it safe for me to use?
 
 Absolutely. Issues with GPL (or AGPL) licenses are mostly related with the fact
-that different people assign different interpretations on the meaning of the term 
-“derivate work” used in these licenses. Due to this, some people understand that there 
-is a risk in just using software under GPL or AGPL licenses (even without modifying
-it).
+that different people assign different interpretations on the meaning of the
+term “derivate work” used in these licenses. Due to this, some people understand
+that there is a risk in just using software under GPL or AGPL licenses (even
+without modifying it).
 
-In order to avoid any issue, FIWARE Generic Enabler owners who have decided to release 
-their software using a GPL or AGPL license are required to make a public statement that
-states:
+In order to avoid any issue, FIWARE Generic Enabler owners who have decided to
+release their software using a GPL or AGPL license are required to make a public
+statement that states:
 
-> Please note that software derived as a result of modifying the source code of this
-> software in order to fix a bug or incorporate enhancements is considered a derivative
-> work of the product. Software that merely uses or aggregates (i.e. links to) an otherwise 
-> unmodified version of existing software is not considered  a derivative work.
+> Please note that software derived as a result of modifying the source code of
+> this software in order to fix a bug or incorporate enhancements is considered
+> a derivative work of the product. Software that merely uses or aggregates
+> (i.e. links to) an otherwise unmodified version of existing software is not
+> considered a derivative work.
 
-This means that there is absolute no risk that you are forced to release the software that
-you may have developed using FIWARE Generic Enablers under a GPL, AGPL or any other open 
-source license.
-
+This means that there is absolute no risk that you are forced to release the
+software that you may have developed using FIWARE Generic Enablers under a GPL,
+AGPL or any other open source license.

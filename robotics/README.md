@@ -7,8 +7,8 @@
 ![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart: [Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md)
-| ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |---|
+| :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart: [Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md) |
+| ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 
 eProsima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish
