@@ -1,7 +1,7 @@
 [submodule "core/orion"]
 	path = core/orion
 	url = https://github.com/telefonicaid/fiware-orion.git
-[submodule "processing/domibus"]
+[submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/cefdigital/code/scm/edelivery/domibus.git
 [submodule "processing/fogflow"]
@@ -163,3 +163,6 @@
 [submodule "core/sth-comet"]
 	path = core/sth-comet
 	url = https://github.com/telefonicaid/fiware-sth-comet.git
+[submodule "iot-agents/iotagent-sigfox"]
+	path = iot-agents/iotagent-sigfox
+	url = https://github.com/telefonicaid/sigfox-iotagent/

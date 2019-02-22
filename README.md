@@ -1,7 +1,7 @@
 [![FIWARE Catalogue](https://fiware.github.io/catalogue/img/fiware.png)](https://www.fiware.org/developers/catalogue/)
 
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
-[![License: MIT](https://img.shields.io/github/license/fiware/catalogue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
 This is an umbrella repository holding all of the source code for all Generic
 Enablers which make up the
@@ -14,9 +14,25 @@ More information about what FIWARE is and how to use it can be found within the
 **FIWARE Tour Guide**, the **FIWARE Academy** and the **Step-by-Step
 Tutorials**.
 
-| :books: [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: [Docker Hub](https://hub.docker.com/u/fiware) |
-| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+<<<<<<< HEAD | :books: [Tour Guide](https://fiwaretourguide.rtfd.io) |
+:mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd:
+[Tutorials](https://fiware-tutorials.rtfd.io) | :whale:
+[Docker Hub](https://hub.docker.com/u/fiware) | |
+----------------------------------------------------- |
+--------------------------------------------------------------- |
+------------------------------------------------------------ |
+----------------------------------------------------- | ======= | :books:
+[Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io) | :capital_abcd:
+[Tutorials](https://fiware-tutorials.rtfd.io) | :whale:
+[Docker Hub](https://hub.docker.com/u/fiware) | :dart: [Roadmap](./roadmap.md) |
+| ----------------------------------------------------- |
+--------------------------------------------------------------- |
+------------------------------------------------------------ |
+----------------------------------------------------- |
+------------------------------ |
 
+> > > > > > > master
 
 ## Contents
 
@@ -95,9 +111,9 @@ perform updates, queries or subscribe to changes on context information.
     context information evolves over time, creating a context history.
     Accompanying the Orion Context Broker component as part of the Core Context
     Management Chapter:
--   The [STH Comet](https://github.com/ging/fiware-sth-comet/) Generic Enabler
-    brings the means for storing a short-term history of context data (typically
-    months) on MongoDB
+-   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic
+    Enabler brings the means for storing a short-term history of context data
+    (typically months) on MongoDB
 -   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler
     is enables a means of managing the history of context which is created as a
     stream of data and can be injected into multiple data sinks, including many
@@ -152,6 +168,9 @@ context updates:
     -   [IoT Agent for OPC-UA](https://github.com/Engineering-Research-and-Development/iotagent-opcua) -
         a bridge between the [OPC Unified Architecture](http://www.opcua.us/)
         protocol and NGSI
+    -   [IoT Agent for Sigfox](https://github.com/telefonicaid/sigfox-iotagent) -
+        a bridge between the [Sigfox](https://www.sigfox.com/en) protocol and
+        NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) -
         library for developing your own IoT Agent.
 
@@ -304,8 +323,35 @@ the forthcoming release.
 
 ## License
 
-[License: CC-BY-4.0](LICENSE) © FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2019 FIWARE Foundation e.V.
 
-The CC-BY-4.0 License only applies to the texts within the root project. The
-project includes additional submodules which were obtained under license - check
-the `README` of each submodule for more details.
+The FIWARE Catalogue includes additional submodules which have been obtained
+under license - check the `README` of each submodule for more details. Some of
+these elements are available under a more permissive license than Affero General
+Public License.
+
+Additional permission is given to reproduce the texts found within the root
+project under the Creative Commons
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) License.
+
+### Some FIWARE Components are distributed under GPL or AGPL open source licenses … Is it safe for me to use?
+
+Absolutely. Issues with GPL (or AGPL) licenses are mostly related with the fact
+that different people assign different interpretations on the meaning of the
+term “derivate work” used in these licenses. Due to this, some people understand
+that there is a risk in just using software under GPL or AGPL licenses (even
+without modifying it).
+
+In order to avoid any issue, FIWARE Generic Enabler owners who have decided to
+release their software using a GPL or AGPL license are required to make a public
+statement that states:
+
+> Please note that software derived as a result of modifying the source code of
+> this software in order to fix a bug or incorporate enhancements is considered
+> a derivative work of the product. Software that merely uses or aggregates
+> (i.e. links to) an otherwise unmodified version of existing software is not
+> considered a derivative work.
+
+This means that there is absolute no risk that you are forced to release the
+software that you may have developed using FIWARE Generic Enablers under a GPL,
+AGPL or any other open source license.

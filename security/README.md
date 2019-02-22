@@ -25,9 +25,26 @@ To learn more about Security Access and API Management, check out the
 ![](https://img.shields.io/github/release-date/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-idm/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/) | :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) |
-| -------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+<<<<<<< HEAD | :octocat: [Git Repository](https://github.com/ging/fiware-idm) |
+:whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/) | :books:
+[Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) | |
+-------------------------------------------------------------- |
+---------------------------------------------------------- |
+--------------------------------------------------------------------- |
+------------------------------------------------------------------------------------------
+| ======= | :octocat: [Git Repository](https://github.com/ging/fiware-idm) |
+:whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/) | :books:
+[Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) |
+:dart: [Roadmap](https://github.com/ging/fiware-idm/blob/master/roadmap.md) | |
+-------------------------------------------------------------- |
+---------------------------------------------------------- |
+--------------------------------------------------------------------- |
+------------------------------------------------------------------------------------------
+| --------------------------------------------------------------------------- |
 
+> > > > > > > master
 
 ### What is Keyrock?
 
@@ -85,18 +102,18 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as
 follows:
 
 -   **Version Tested:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.version&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.version&colorB=blue)
 -   **Documentation:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docCompleteness&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docSoundness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docCompleteness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docSoundness&colorB=blue)
 -   **Responsiveness:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToCharge&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToFix&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToCharge&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToFix&colorB=blue)
 -   **FIWARE Testing:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.failureRate&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.scalability&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.performance&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.stability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.failureRate&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.scalability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.performance&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.stability&colorB=blue)
 
 ## Wilma
 
@@ -105,9 +122,30 @@ follows:
 ![](https://img.shields.io/github/release-date/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-pep-proxy/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) |
-| -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+<<<<<<< HEAD | :octocat:
+[Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale:
+[Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books:
+[Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) | |
+-------------------------------------------------------------------- |
+---------------------------------------------------------------- |
+---------------------------------------------------------- |
+----------------------------------------------------------------------------------------
+| ======= | :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy)
+| :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books:
+[Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) |
+:dart:
+[Roadmap](https://github.com/ging/fiware-pep-proxy/blob/master/roadmap.md) | |
+-------------------------------------------------------------------- |
+---------------------------------------------------------------- |
+---------------------------------------------------------- |
+----------------------------------------------------------------------------------------
+|
+---------------------------------------------------------------------------------
+|
 
+> > > > > > > master
 
 ### What is Wilma?
 
@@ -133,18 +171,18 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as
 follows:
 
 -   **Version Tested:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.version&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.version&colorB=blue)
 -   **Documentation:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docCompleteness&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docSoundness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docCompleteness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docSoundness&colorB=blue)
 -   **Responsiveness:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToCharge&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToFix&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToCharge&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToFix&colorB=blue)
 -   **FIWARE Testing:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.failureRate&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.scalability&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.performance&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.stability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.failureRate&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.scalability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.performance&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.stability&colorB=blue)
 
 ## Authzforce
 
@@ -153,9 +191,26 @@ follows:
 ![](https://img.shields.io/github/release-date/authzforce/server.svg)
 ![](https://img.shields.io/github/commits-since/authzforce/server/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) |
-| ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+<<<<<<< HEAD | :octocat: [Git Repository](https://github.com/authzforce/server)
+| :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books:
+[Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) |
+| ---------------------------------------------------------------- |
+----------------------------------------------------------------- |
+-------------------------------------------------------------- |
+---------------------------------------------------------------------------------------------
+| ======= | :octocat: [Git Repository](https://github.com/authzforce/server) |
+:whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books:
+[Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board:
+[Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) |
+:dart: [Roadmap](https://github.com/authzforce/server/blob/develop/ROADMAP.md) |
+---------------------------------------------------------------- |
+----------------------------------------------------------------- |
+-------------------------------------------------------------- |
+---------------------------------------------------------------------------------------------
+| --- |
 
+> > > > > > > master
 
 ### What is Authzforce?
 
@@ -199,15 +254,15 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as
 follows:
 
 -   **Version Tested:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.version&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.version&colorB=blue)
 -   **Documentation:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docCompleteness&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docSoundness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docCompleteness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docSoundness&colorB=blue)
 -   **Responsiveness:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToCharge&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToFix&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToCharge&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToFix&colorB=blue)
 -   **FIWARE Testing:**
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.failureRate&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.scalability&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.performance&colorB=blue)
-    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.failureRate&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.scalability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.performance&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)

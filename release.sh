@@ -78,6 +78,7 @@ findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.8.1
 findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.1.0
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.1.0
+findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.1.0
 
 findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.5
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
