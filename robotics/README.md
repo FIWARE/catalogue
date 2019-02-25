@@ -50,7 +50,7 @@ follows:
 | ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
 
-# What is Micro XRCE-DDS?
+### What is Micro XRCE-DDS?
 
 eProsima Micro XRCE-DDS is an IoT-oriented middleware based on a
 publish-subscribe messaging pattern.
@@ -74,7 +74,7 @@ XRCE-DDS is a standalone C/C++ implementation of the OMG (Object Management
 Group) DDS-XRCE (DDS for eXtremely Resource Constrained Environments
 Specification).
 
-# Why use Micro XRCE-DDS?
+### Why use Micro XRCE-DDS?
 
 In contrast to other IoT-oriented middleware such as MQTT or CoAP which follow
 centralized-data approach over a single transport protocol, Micro XRCE-DDS
