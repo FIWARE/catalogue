@@ -181,6 +181,9 @@ chapter:
     Enabler has been adopted as default middleware in ROS2, the widely known
     Robot Operating System, therefore it helps to interface with robotics
     systems.
+-   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated
+    Generic Enabler is an IoT-oriented middleware based on a publish-subscribe
+    messaging pattern.
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler
     brings an open source implementation of the OneM2M standard. A northbound
     interface with the Orion Context Broker is implemented as part of the

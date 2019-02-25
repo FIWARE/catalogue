@@ -163,3 +163,6 @@
 [submodule "iot-agents/iotagent-sigfox"]
 	path = iot-agents/iotagent-sigfox
 	url = https://github.com/telefonicaid/sigfox-iotagent/
+[submodule "robotics/Micro-XRCE-DDS"]
+	path = robotics/Micro-XRCE-DDS
+	url = https://github.com/eProsima/Micro-XRCE-DDS.git

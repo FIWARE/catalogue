@@ -97,6 +97,8 @@ findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.2.0
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.1
+findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.0.1
+
 
 findRelease security/authzforce authzforce/server release-8.1.0
 findRelease security/keyrock ging/fiware-idm 7.5.1
