@@ -47,7 +47,7 @@ displayUpdatedTags (){
 findRelease core/cygnus telefonicaid/fiware-cygnus 1.10.0
 findRelease core/draco ging/fiware-draco 1.1.0
 findRelease core/orion telefonicaid/fiware-orion 2.2.0
-findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.5
+findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.5.1
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.5.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
@@ -83,7 +83,6 @@ findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.1.0
 
 findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.5
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
-findRelease processing/fogflow/adapter smartfog/adapter "latest"
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.6
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
 findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.3.1
@@ -99,7 +98,7 @@ findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "la
 
 findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.1
 
-findRelease security/authzforce authzforce/server release-8.0.1
+findRelease security/authzforce authzforce/server release-8.1.0
 findRelease security/keyrock ging/fiware-idm 7.5.1
 findRelease security/wilma ging/fiware-pep-proxy 7.5.1
 

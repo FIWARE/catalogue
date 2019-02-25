@@ -55,9 +55,6 @@
 [submodule "processing/fogflow/fogflow"]
 	path = processing/fogflow/fogflow
 	url = https://github.com/smartfog/fogflow.git
-[submodule "processing/fogflow/adapter"]
-	path = processing/fogflow/adapter
-	url = https://github.com/smartfog/adapter.git
 [submodule "processing/kurento/media-server"]
 	path = processing/kurento/media-server
 	url = https://github.com/Kurento/kurento-media-server.git
