@@ -166,3 +166,6 @@
 [submodule "robotics/Micro-XRCE-DDS"]
 	path = robotics/Micro-XRCE-DDS
 	url = https://github.com/eProsima/Micro-XRCE-DDS.git
+[submodule "processing/wirecloud/ngsijs"]
+	path = processing/wirecloud/ngsijs
+	url = https://github.com/conwetlab/ngsijs
