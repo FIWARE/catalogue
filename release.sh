@@ -81,7 +81,7 @@ findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.1.0
 
-findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.5
+findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.6
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.6
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
@@ -103,8 +103,8 @@ findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.0.2
 
 
 findRelease security/authzforce authzforce/server release-8.1.0
-findRelease security/keyrock ging/fiware-idm 7.5.1
-findRelease security/wilma ging/fiware-pep-proxy 7.5.1
+findRelease security/keyrock ging/fiware-idm FIWARE_7.6
+findRelease security/wilma ging/fiware-pep-proxy FIWARE_7.6
 
 findRelease third-party/domibus edelivery/domibus 4.0.2
 
