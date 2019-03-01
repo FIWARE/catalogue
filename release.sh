@@ -53,10 +53,10 @@ findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.5.0
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
 findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.4.0
-findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.4.0
+findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.6.0
 findRelease data-publication/business-api/customer-management FIWARE-TMForum/DSCUSTOMER v7.4.0
 findRelease data-publication/business-api/charging-backend FIWARE-TMForum/business-ecosystem-charging-backend v7.4.0
-findRelease data-publication/business-api/logic-proxy FIWARE-TMForum/business-ecosystem-logic-proxy v7.4.0
+findRelease data-publication/business-api/logic-proxy FIWARE-TMForum/business-ecosystem-logic-proxy v7.6.0
 findRelease data-publication/business-api/ordering-management FIWARE-TMForum/DSPRODUCTORDERING v7.4.0
 findRelease data-publication/business-api/party-management FIWARE-TMForum/DSPARTYMANAGEMENT v7.4.0
 findRelease data-publication/business-api/product-catalog FIWARE-TMForum/DSPRODUCTCATALOG2 v7.4.0
