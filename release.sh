@@ -52,17 +52,17 @@ findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.5.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.58.0
 findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
-findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.4.0
+findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.6.0
 findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.6.0
-findRelease data-publication/business-api/customer-management FIWARE-TMForum/DSCUSTOMER v7.4.0
-findRelease data-publication/business-api/charging-backend FIWARE-TMForum/business-ecosystem-charging-backend v7.4.0
+findRelease data-publication/business-api/customer-management FIWARE-TMForum/DSCUSTOMER v7.6.0
+findRelease data-publication/business-api/charging-backend FIWARE-TMForum/business-ecosystem-charging-backend v7.6.0
 findRelease data-publication/business-api/logic-proxy FIWARE-TMForum/business-ecosystem-logic-proxy v7.6.0
-findRelease data-publication/business-api/ordering-management FIWARE-TMForum/DSPRODUCTORDERING v7.4.0
-findRelease data-publication/business-api/party-management FIWARE-TMForum/DSPARTYMANAGEMENT v7.4.0
-findRelease data-publication/business-api/product-catalog FIWARE-TMForum/DSPRODUCTCATALOG2 v7.4.0
-findRelease data-publication/business-api/product-inventory FIWARE-TMForum/DSPRODUCTINVENTORY v7.4.0
-findRelease data-publication/business-api/rss FIWARE-TMForum/business-ecosystem-rss v7.4.0
-findRelease data-publication/business-api/usage-management FIWARE-TMForum/DSUSAGEMANAGEMENT v7.4.0
+findRelease data-publication/business-api/ordering-management FIWARE-TMForum/DSPRODUCTORDERING v7.6.0
+findRelease data-publication/business-api/party-management FIWARE-TMForum/DSPARTYMANAGEMENT v7.6.0
+findRelease data-publication/business-api/product-catalog FIWARE-TMForum/DSPRODUCTCATALOG2 v7.6.0
+findRelease data-publication/business-api/product-inventory FIWARE-TMForum/DSPRODUCTINVENTORY v7.6.0
+findRelease data-publication/business-api/rss FIWARE-TMForum/business-ecosystem-rss v7.6.0
+findRelease data-publication/business-api/usage-management FIWARE-TMForum/DSUSAGEMANAGEMENT v7.6.0
 findRelease data-publication/ckan-extensions/business-api-publisher FIWARE-TMForum/ckanext-baepublisher v0.5
 findRelease data-publication/ckan-extensions/ckan-extensions conwetlab/FIWARE-CKAN-Extensions v7.4.0
 findRelease data-publication/ckan-extensions/data-requests conwetlab/ckanext-datarequests v1.1.0
