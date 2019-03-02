@@ -37,7 +37,7 @@
 	"scripts": {
 		"precommit": "lint-staged",
 		"prettier:text": "prettier 'README.md' '*/README.md' --tab-width 4 --print-width 80 --write --prose-wrap always",
-		"lint:md": "remark 'README.md' '*/README.md'",
+		"lint:md": "remark  -f 'README.md' '*/README.md'",
 		"lint:text": "textlint 'README.md' '*/README.md'",
 		"test": "textlint 'README.md' '*/README.md'"
 	},
@@ -51,5 +51,12 @@
 			"prettier --tab-width 4 --print-width 80 --write --prose-wrap always",
 			"git add"
 		]
+	},
+	"remarkConfig": {
+		"settings" : { 
+			"bullet": "-",
+			"paddedTable": true
+		},
+		"plugins": ["remark-preset-lint-recommended"]
 	}
 }
