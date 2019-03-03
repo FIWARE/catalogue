@@ -70,7 +70,7 @@ findRelease data-publication/ckan-extensions/oauth2 conwetlab/ckanext-oauth2 v0.
 findRelease data-publication/ckan-extensions/private-datasets conwetlab/ckanext-privatedatasets v0.4
 findRelease data-publication/ckan-extensions/right-time-context conwetlab/ckanext-right_time_context v0.9
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
-findRelease data-publication/idra opsilab/idra v1.2.0
+findRelease data-publication/idra opsilab/idra v1.3.0
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN FIWARE_7.5.1
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.9.0
