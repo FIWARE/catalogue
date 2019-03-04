@@ -70,7 +70,7 @@ _“Powered by FIWARE”_ and solutions build on top as well.
 To obtain the latest codebase of all FIWARE Generic Enablers:
 
 ```console
-git clone https://github.com/Fiware/catalogue.git
+git clone https://github.com/FIWARE/catalogue.git
 cd catalogue/
 git submodule update --init --recursive
 git submodule update --recursive --remote
