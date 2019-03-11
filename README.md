@@ -205,13 +205,13 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
+-   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
+    distributed execution framework to support dynamic processing flows over
+    cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
--   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
-    distributed execution framework to support dynamic processing flows over
-    cloud and edges.
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
