@@ -1,9 +1,9 @@
 {
-	"version" : "7.0.0",
+	"version" : "7.0.2",
 	"docCompleteness": "D",
 	"docSoundness" : "D",
-	"failureRate" : "A++",
-	"failureValue" : 0.13,
+	"failureRate" : "A+++",
+	"failureValue" : 0,
 	"timeToCharge" : "A+",
 	"timeToChargeValue" : 5.68,
 	"timeToFix" : "B",

@@ -1,4 +1,7 @@
 {
+	"version" : "2.0.0",
+	"docCompleteness": "C",
+	"docSoundness" : "B",
 	"failureValue" : 0,
 	"timeToCharge" : "C",
 	"timeToChargeValue" : 14.84,

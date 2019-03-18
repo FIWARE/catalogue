@@ -1,5 +1,7 @@
 {
 	"version" : "6.4.0",
+	"docCompleteness": "B",
+	"docSoundness" : "B",
 	"failureRate" : "A+++",
 	"failureValue" : 0.06,
 	"timeToCharge" : "D",

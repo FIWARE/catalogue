@@ -1,8 +1,8 @@
 {
-	"version" : "6.4.2",
+	"version" : "7.4.1",
 	"docCompleteness": "A",
 	"docSoundness" : "A+",
-	"failureRate" : "A++",
+	"failureRate" : "A+++",
 	"failureValue" : 0.12,
 	"timeToCharge" : "D",
 	"timeToChargeValue" : 15.74,

@@ -1,9 +1,9 @@
 {
 	"version" : "3.2",
-	"docCompleteness": "Not Tested",
-	"docSoundness" : "Not Tested",
+	"docCompleteness": "B",
+	"docSoundness" : "B",
 	"failureRate" : "A+++",
-	"failureValue" : "",
+	"failureValue" : 0,
 	"timeToCharge" : "Not Tested",
 	"timeToChargeValue" : "",
 	"timeToFix" : "Not Tested",

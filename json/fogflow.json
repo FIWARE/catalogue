@@ -1,5 +1,9 @@
 {
 	"version" : "2.0.0",
+	"docCompleteness": "B",
+	"docSoundness" : "A",
+	"failureRate" : "A+++",
+	"failureValue" : 0,
 	"scalability" : "A++",
 	"scalabilityValue" : 1.07,
 	"performance" : "A+++",
