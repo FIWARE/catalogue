@@ -8,8 +8,8 @@
 	"timeToChargeValue" : 36.49,
 	"timeToFix" : "D",
 	"timeToFixValue" : 50.55,
-	"scalability" : "-"
-	"scalabilityValue" : 
+	"scalability" : "-",
+	"scalabilityValue" : "", 
 	"performance" : "A+",
 	"performanceValue" : "250 req/sec",
 	"stability" : "A+++",
