@@ -3,5 +3,15 @@
 	"docCompleteness": "B",
 	"docSoundness" : "A",
 	"failureRate" : "A+++",
-	"failureValue" : 0
+	"failureValue" : 0,
+	"timeToCharge" : "A++",	
+	"timeToChargeValue" : 3.68,	
+	"timeToFix" : "A+",	
+	"timeToFixValue" : 5.39,	
+	"scalability" : "A+++",	
+	"scalabilityValue" : 1006,	
+	"performance" : "A+++",	
+	"performanceValue" : "1350 res/sec",	
+	"stability" : "A+++",	
+	"stabilityValue" : "STABLE"
 }
