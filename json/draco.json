@@ -3,7 +3,7 @@
 	"docCompleteness": "A",
 	"docSoundness" : "A+",
 	"failureRate" : "A+++",
-	"failureValue" : 0.08,
+	"failureValue" : 0,
 	"scalability" : "A+++",
 	"scalabilityValue" : 1.02,
 	"performance" : "A+++",
