@@ -44,7 +44,7 @@ displayUpdatedTags (){
 }
 
 
-findRelease core/cygnus telefonicaid/fiware-cygnus 1.10.0
+findRelease core/cygnus telefonicaid/fiware-cygnus 1.12.0
 findRelease core/draco ging/fiware-draco 1.1.0
 findRelease core/orion telefonicaid/fiware-orion 2.2.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.6
@@ -70,9 +70,9 @@ findRelease data-publication/ckan-extensions/oauth2 conwetlab/ckanext-oauth2 v0.
 findRelease data-publication/ckan-extensions/private-datasets conwetlab/ckanext-privatedatasets v0.4
 findRelease data-publication/ckan-extensions/right-time-context conwetlab/ckanext-right_time_context v0.9
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
-findRelease data-publication/idra opsilab/idra v1.3.0
+findRelease data-publication/idra opsilab/idra v1.3.1
 
-findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN FIWARE_7.5.1
+findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.0
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.9.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.0.0
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.8.1
@@ -85,11 +85,11 @@ findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FI
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.6
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.3.1
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.3.3
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
-findRelease processing/kurento/media-server Kurento/kurento-media-server 6.9.0
+findRelease processing/kurento/media-server Kurento/kurento-media-server 6.10.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.3.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.8.0
@@ -98,7 +98,7 @@ findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.2.0
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 
 
-findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.1
+findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.7.2
 findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.0.2
 
 

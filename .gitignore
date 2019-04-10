@@ -37,3 +37,4 @@ jspm_packages/
 .env
 .next
 push.sh
+package-lock.json

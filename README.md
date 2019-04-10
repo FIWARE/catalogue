@@ -14,15 +14,7 @@ More information about what FIWARE is and how to use it can be found within the
 **FIWARE Tour Guide**, the **FIWARE Academy** and the **Step-by-Step
 Tutorials**.
 
-<<<<<<< HEAD | :books: [Tour Guide](https://fiwaretourguide.rtfd.io) |
-:mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd:
-[Tutorials](https://fiware-tutorials.rtfd.io) | :whale:
-[Docker Hub](https://hub.docker.com/u/fiware) | |
------------------------------------------------------ |
---------------------------------------------------------------- |
------------------------------------------------------------- |
------------------------------------------------------ | ======= | :books:
-[Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board:
+| :books: [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board:
 [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd:
 [Tutorials](https://fiware-tutorials.rtfd.io) | :whale:
 [Docker Hub](https://hub.docker.com/u/fiware) | :dart: [Roadmap](./roadmap.md) |
@@ -85,7 +77,7 @@ _“Powered by FIWARE”_ and solutions build on top as well.
 To obtain the latest codebase of all FIWARE Generic Enablers:
 
 ```console
-git clone https://github.com/Fiware/catalogue.git
+git clone https://github.com/FIWARE/catalogue.git
 cd catalogue/
 git submodule update --init --recursive
 git submodule update --recursive --remote
@@ -220,13 +212,13 @@ behaviour” expected in any application:
 -   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
     Generic Enabler enables a more easy Bigdata analysis over context integrated
     with most popular BigData platforms.
+-   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
+    distributed execution framework to support dynamic processing flows over
+    cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
 chapter:
 
--   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
-    distributed execution framework to support dynamic processing flows over
-    cloud and edges.
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
