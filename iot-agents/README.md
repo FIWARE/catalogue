@@ -240,8 +240,21 @@ interface. It follows the standard interaction model defined in the
 
 ### Quality Assurance
 
-The **IoT Agent for OPC-UA** project is a new component within
-[FIWARE](https://fiware.org/) and will be rated in the current release
+The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
+
+-   **Version Tested:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.version&colorB=blue)
+-   **Documentation:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.docCompleteness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.docSoundness&colorB=blue)
+-   **Responsiveness:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.timeToCharge&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.timeToFix&colorB=blue)
+-   **FIWARE Testing:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.failureRate&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.scalability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.performance&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.stability&colorB=blue)
 
 ## :new: IoT Agent for Sigfox (Incubated)
 
