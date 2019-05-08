@@ -17,6 +17,7 @@ Tutorials**.
 | :books: [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: [Docker Hub](https://hub.docker.com/u/fiware) | :dart: [Roadmap](./roadmap.md) |
 | ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
 
+
 ## Contents
 
 -   [Background](#background)
@@ -42,7 +43,7 @@ perform updates and bring access to context.
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
 
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE
-components are available, dealing with:
+components are available, dealing with the following:
 
 -   **[Core Context Management](./core)** manipulates and stores context data so
     it can be used for further processesing
@@ -77,7 +78,7 @@ git submodule update --recursive --remote
 ## Generic Enablers
 
 The following sections describes the current list of Generic Enablers of the
-FIWARE platform structured in chapters.
+FIWARE platform structured into five architectural divisions
 
 ### Core Context Management
 
@@ -92,8 +93,8 @@ perform updates, queries or subscribe to changes on context information.
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/)
     Generic Enabler holds information about the current context. However,
     context information evolves over time, creating a context history.
-    Accompanying the Orion Context Broker component as part of the Core Context
-    Management Chapter:
+    Accompanying the Orion Context Broker component as part of Core Context
+    Management:
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic
     Enabler brings the means for storing a short-term history of context data
     (typically months) on MongoDB
@@ -105,7 +106,7 @@ perform updates, queries or subscribe to changes on context information.
     Apache Flume
 
 The following is a list of Generic Enablers under incubation within this
-chapter:
+division:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
@@ -158,7 +159,7 @@ context updates:
         library for developing your own IoT Agent.
 
 The following is a list of Generic Enablers under incubation within this
-chapter:
+division:
 
 -   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic
     Enabler has been adopted as default middleware in ROS2, the widely known
@@ -208,7 +209,7 @@ behaviour” expected in any application:
     cloud and edges.
 
 The following is a list of Generic Enablers under incubation within this
-chapter:
+division:
 
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
@@ -230,7 +231,7 @@ Further information about the Generic Enablers for
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
 
 You can implement secured access to components in the architecture of any
-“Powered by FIWARE” solution using Generic Enablers of this chapter:
+“Powered by FIWARE” solution using Generic Enablers of the security chapter:
 
 -   The [Keyrock Identity Management](https://github.com/ging/fiware-idm)
     Generic Enabler brings support to secure and private OAuth2-based
@@ -245,8 +246,8 @@ You can implement secured access to components in the architecture of any
     Enabler brings support to PDP/PAP functions within an access control schema
     based on the XACML standard.
 
-This chapter also brings Generic Enablers for the publication and monetization
-of context data resources, available through the core Orion Context Broker
+This division also contains a chapter for the publication and monetization of
+context data resources, available through the core Orion Context Broker
 component of your platform:
 
 -   The [CKAN extensions](https://github.com/conwetlab/FIWARE-CKAN-Extensions)
@@ -261,7 +262,7 @@ component of your platform:
     based on open TM Forum Business APIs.
 
 The following is a list of Generic Enablers under incubation within this
-chapter:
+division:
 
 -   [Idra](https://github.com/OPSILab/Idra) is able to federate existing Open
     Data Management Systems based on heterogeneous technologies (e.g. CKAN,

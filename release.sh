@@ -85,7 +85,7 @@ findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FI
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.4
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.6
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.3.3
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.4.0
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
