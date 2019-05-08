@@ -240,7 +240,8 @@ interface. It follows the standard interaction model defined in the
 
 ### Quality Assurance
 
-The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
+The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/)
+and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.version&colorB=blue)
@@ -289,8 +290,8 @@ The **IoT Agent for Sigfox** project is a new component within
 ![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
 ![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
 
-| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) |
-| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
+| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
