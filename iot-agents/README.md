@@ -290,8 +290,8 @@ The **IoT Agent for Sigfox** project is a new component within
 ![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
 ![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
 
-| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) |
-| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/open-mtc) |
+| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
