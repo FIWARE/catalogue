@@ -177,6 +177,10 @@ division:
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
+-   The
+    [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as
+    a translator between the robotics doman and the cloud, transforming ROS messages 
+    into NGSI v2 and vice versa.
 
 Further information about the [IoT Agents](./iot-agents) and
 [Robotics](./robotics) and [Third-Party Systems](./third-party)
