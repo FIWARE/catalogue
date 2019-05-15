@@ -169,3 +169,6 @@
 [submodule "processing/wirecloud/ngsijs"]
 	path = processing/wirecloud/ngsijs
 	url = https://github.com/conwetlab/ngsijs
+[submodule "robotics/firos"]
+	path = robotics/firos
+	url = https://github.com/iml130/firos.git

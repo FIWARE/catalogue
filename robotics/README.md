@@ -85,3 +85,27 @@ communication in resource-constrained devices.
 
 The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
 be rated as part of the next release.
+
+## :seedling: FIROS (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+![License](https://img.shields.io/github/license/iml130/firos.svg)
+![](https://img.shields.io/github/release-date/iml130/firos.svg)
+![](https://img.shields.io/github/commits-since/iml130/firos/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/iml130/firos) | :whale: Docker Hub : TBD | :books: [Documentation](https://firos.rtfd.io/) | :dart: [Roadmap](https://github.com/iml130/firos/blob/master/doc/roadmap.md) |
+| ----------------------------------------------------------- | ------------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------- |
+
+
+### What is FIROS?
+
+FIROS is a tool that helps connecting robots to the cloud. For this purpose it
+uses the Robot Operating System (ROS) and the FIWARE Context Broker as a way to
+publish and listen robot's data.
+
+FIROS works as a translator between the robotics field and the cloud world,
+transforming ROS messages into NGSI to publish them in the cloud, and vice
+versa.
+
+The **FIROS** project is part of [FIWARE](https://fiware.org/) and will be rated
+as part of the next release.
