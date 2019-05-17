@@ -12,7 +12,7 @@ findRelease () {
 	echo $1
 	curr=$3
 	cd $1
-	git fetch --tags
+	git fetch --tags -f
 
 	[[ $curr = "latest" ]] && git reset --hard origin/master -q || git checkout $3 -q
 
@@ -83,7 +83,7 @@ findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.1.0
 
 findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.7
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.7
-findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.6
+findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.7
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
 findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.4.0
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
