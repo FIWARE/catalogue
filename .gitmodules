@@ -8,7 +8,7 @@
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
-	path = processing/cosmos/cosmos
+	path = processing/cosmos/cosmos-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
 [submodule "security/keyrock"]
 	path = security/keyrock
@@ -172,3 +172,6 @@
 [submodule "robotics/firos"]
 	path = robotics/firos
 	url = https://github.com/iml130/firos.git
+[submodule "processing/cosmos-spark"]
+	path = processing/cosmos/cosmos-spark
+	url = https://github.com/ging/fiware-cosmos-orion-spark-connector
