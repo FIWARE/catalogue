@@ -83,7 +83,7 @@
 	path = core/quantum-leap
 	url = https://github.com/smartsdk/ngsi-timeseries-api.git
 [submodule "processing/cosmos/examples"]
-	path = processing/cosmos/examples
+	path = processing/cosmos/examples-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
 [submodule "data-publication/business-api/product-catalog"]
 	path = data-publication/business-api/product-catalog
@@ -175,3 +175,6 @@
 [submodule "processing/cosmos-spark"]
 	path = processing/cosmos/cosmos-spark
 	url = https://github.com/ging/fiware-cosmos-orion-spark-connector
+[submodule "processing/cosmos/examples-spark"]
+	path = processing/cosmos/examples-spark
+	url = https://github.com/ging/fiware-cosmos-orion-spark-connector-examples
