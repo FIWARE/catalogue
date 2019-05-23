@@ -81,8 +81,9 @@ findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.8.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.1.0
 
-findRelease processing/cosmos/cosmos ging/fiware-cosmos-orion-flink-connector FIWARE_7.7
+findRelease processing/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector FIWARE_7.7
 findRelease processing/cosmos/examples ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.7
+findRelease processing/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector FIWARE_7.7
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.7
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
 findRelease processing/knowage/server KnowageLabs/Knowage-Server v6.4.0

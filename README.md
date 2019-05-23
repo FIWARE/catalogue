@@ -176,10 +176,9 @@ division:
     [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
--   The
-    [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as
-    a translator between the robotics doman and the cloud, transforming ROS messages 
-    into NGSI v2 and vice versa.
+-   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works
+    as a translator between the robotics doman and the cloud, transforming ROS
+    messages into NGSI v2 and vice versa.
 
 Further information about the [IoT Agents](./iot-agents), [Robotics](./robotics)
 and [Third-Party Systems](./third-party)
@@ -205,9 +204,9 @@ behaviour” expected in any application:
     into sensors as well as the incorporation of advanced application functions
     (integrated audiovisual communications, augmented reality, flexible media
     playing and recording, etc)
--   The [Cosmos](https://github.com/ging/fiware-cosmos-orion-flink-connector)
-    Generic Enabler enables a more easy Bigdata analysis over context integrated
-    with most popular BigData platforms.
+-   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables
+    a more easy Bigdata analysis over context integrated with most popular
+    BigData platforms.
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
     distributed execution framework to support dynamic processing flows over
     cloud and edges.
