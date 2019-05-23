@@ -206,8 +206,8 @@ behaviour” expected in any application:
     (integrated audiovisual communications, augmented reality, flexible media
     playing and recording, etc)
 -   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables
-    a more easy Bigdata analysis over context integrated with most popular
-    BigData platforms.
+    simpler Big Data analysis over context integrated with popular Big Data
+    platforms.
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
     distributed execution framework to support dynamic processing flows over
     cloud and edges.

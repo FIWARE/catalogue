@@ -14,23 +14,24 @@ and
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub : **none** | :books: [Flink Docs](https://fiware-cosmos-flink.readthedocs.io) [Spark Docs](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
-| ----------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub : **none** | :books: [Flink](https://fiware-cosmos-flink.readthedocs.io) :books: [Spark](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
+| ----------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 
 ### What is Cosmos?
 
-The Cosmos BigData Analysis GE is a set of tools helping in the task of enabling
-a [Hadoop](https://hadoop.apache.org/) as a Service (HasS) deployment:
+The Cosmos Big Data Analysis GE is a set of tools that help achieving the tasks
+of Streaming and Batch processing over context data. These tools are:
 
--   A set of administration tools such as
-    [HDFS](https://en.wikipedia.org/wiki/Apache_Hadoop#HDFS) data copiers etc.
--   An OAuth2 token generator
--   A web portal for users and accounts management, running MapReduce jobs and
-    doing I/O of big data
--   A custom authentication provider for Hive
--   A REST API for running MapReduce jobs in a shared Hadoop cluster
--   A specific OAuth2-base proxy for Http/REST operations
+#### Flink
+
+-   [Orion-Flink Connector](https://github.com/ging/fiware-cosmos-orion-flink-connector)
+-   [Apache Flink Processing Engine](https://flink.apache.org/)
+
+#### Spark
+
+-   [Orion-Spark Connector](https://github.com/ging/fiware-cosmos-orion-spark-connector)
+-   [Apache Spark Processing Engine](https://spark.apache.org/)
 
 ### Why use Cosmos?
 
