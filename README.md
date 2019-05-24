@@ -79,7 +79,7 @@ git submodule update --recursive --remote
 ## Generic Enablers
 
 The following sections describes the current list of Generic Enablers of the
-FIWARE platform structured into five architectural divisions
+FIWARE platform structured into five architectural areas
 
 ### Core Context Management
 
@@ -106,8 +106,8 @@ perform updates, queries or subscribe to changes on context information.
     Big Data platforms such as Hadoop, Storm or Spark. The component is based on
     Apache Flume
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+core context management:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
@@ -119,7 +119,7 @@ division:
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
 
-Further information about the Generic Enablers supporting
+Further information can be found on dedicated pages linked to
 [Core Context Management](./core)
 
 ### Interface with IoT, Robots and Third-Party Systems
@@ -159,8 +159,8 @@ context updates:
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) -
         library for developing your own IoT Agent.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+IoT, Robotics and thiry-party systems:
 
 -   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic
     Enabler has been adopted as default middleware in ROS2, the widely known
@@ -181,8 +181,9 @@ division:
     as a translator between the robotics doman and the cloud, transforming ROS
     messages into NGSI v2 and vice versa.
 
-Further information about the [IoT Agents](./iot-agents) and
-[Robotics](./robotics) and [Third-Party Systems](./third-party)
+Further information can be found on dedicated pages linked to
+[IoT Agents](./iot-agents) and [Robotics](./robotics) and
+[Third-Party Systems](./third-party)
 
 ### Context Processing, Analysis and Visualization
 
@@ -212,15 +213,14 @@ behaviour” expected in any application:
     distributed execution framework to support dynamic processing flows over
     cloud and edges.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within processing:
 
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
 
-Further information about the Generic Enablers for
+Further information can be found on dedicated pages linked to
 [Context Processing, Analysis and Visualization](./processing)
 
 ### Context Data/API Management, Publication and Monetization
@@ -246,7 +246,7 @@ You can implement secured access to components in the architecture of any
     Enabler brings support to PDP/PAP functions within an access control schema
     based on the XACML standard.
 
-This division also contains a chapter for the publication and monetization of
+This area also contains a chapter for the publication and monetization of
 context data resources, available through the core Orion Context Broker
 component of your platform:
 
@@ -261,8 +261,8 @@ component of your platform:
     Generic Enabler brings backend support to Context API/Data monetization
     based on open TM Forum Business APIs.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+API management, publication and monetization:
 
 -   [Idra](https://github.com/OPSILab/Idra) is able to federate existing Open
     Data Management Systems based on heterogeneous technologies (e.g. CKAN,
@@ -273,7 +273,7 @@ division:
     features to run business with APIs and makes it easy for API consumers to
     find and start using the standard APIs.
 
-Further information about the Generic Enablers supporting
+Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication)
 and [Security](./security)
 
