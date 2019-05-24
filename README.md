@@ -246,6 +246,12 @@ You can implement secured access to components in the architecture of any
     Enabler brings support to PDP/PAP functions within an access control schema
     based on the XACML standard.
 
+The incorporation of components and features to support **Advanced Data Usage
+Control** have been introduced as part of FIWARE Release 7.7. For a summary of
+vision and current status of work in this area, please visit the usage control
+pages found at:
+[https://github.com/ging/fiware-usage-control](https://github.com/ging/fiware-usage-control)
+
 This area also contains a chapter for the publication and monetization of
 context data resources, available through the core Orion Context Broker
 component of your platform:
