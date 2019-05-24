@@ -2,7 +2,7 @@
 
 ## :seedling: Fast RTPS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
 ![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)
@@ -41,7 +41,7 @@ follows:
 
 ## :seedling: Micro XRCE-DDS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
 ![License](https://img.shields.io/github/license/eProsima/Micro-XRCE-DDS.svg)
 ![](https://img.shields.io/github/release-date/eProsima/Micro-XRCE-DDS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Micro-XRCE-DDS/latest.svg)
@@ -88,7 +88,7 @@ be rated as part of the next release.
 
 ## :seedling: FIROS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
 ![License](https://img.shields.io/github/license/iml130/firos.svg)
 ![](https://img.shields.io/github/release-date/iml130/firos.svg)
 ![](https://img.shields.io/github/commits-since/iml130/firos/latest.svg)

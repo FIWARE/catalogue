@@ -20,7 +20,7 @@ To learn more about Security Access and API Management, check out the
 
 ## Keyrock
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-idm/latest.svg)
@@ -100,7 +100,7 @@ follows:
 
 ## Wilma
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-pep-proxy/latest.svg)
@@ -148,13 +148,13 @@ follows:
 
 ## Authzforce
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 ![License](https://img.shields.io/github/license/authzforce/server.svg)
 ![](https://img.shields.io/github/release-date/authzforce/server.svg)
 ![](https://img.shields.io/github/commits-since/authzforce/server/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) |  :dart: [Roadmap](https://github.com/authzforce/server/blob/develop/ROADMAP.md)
-| ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --- |
+| :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) | :dart: [Roadmap](https://github.com/authzforce/server/blob/develop/ROADMAP.md) |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 
 ### What is Authzforce?

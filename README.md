@@ -45,8 +45,8 @@ perform updates and bring access to context.
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE
 components are available, dealing with the following:
 
--   **[Core Context Management](./core)** manipulates and stores context data so
-    it can be used for further processesing
+-   **[Core Context Management](./core/README.md)** manipulates and stores
+    context data so it can be used for further processesing
 -   **Interfacing with the [Internet of Things](./iot-agents) (IoT),
     [Robots](./robotics) and [third-party systems](./third-party)**, for
     capturing updates on context information and translating required
@@ -83,7 +83,7 @@ FIWARE platform structured into five architectural areas
 
 ### Core Context Management
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
 The Orion Context Broker Generic Enabler is the core and mandatory component of
 any _“Powered by FIWARE”_ platform or solution. It enables to manage context
@@ -120,13 +120,13 @@ core context management:
     intuitive graphical interface
 
 Further information can be found on dedicated pages linked to
-[Core Context Management](./core)
+[Core Context Management](./core/README.md)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
 
 A number of Generic Enablers are available making it easier to interface with
 the internet of Things, Robots and Third-party systems for the purpose of
@@ -182,14 +182,14 @@ IoT, Robotics and thiry-party systems:
     messages into NGSI v2 and vice versa.
 
 Further information can be found on dedicated pages linked to
-[IoT Agents](./iot-agents) and [Robotics](./robotics) and
-[Third-Party Systems](./third-party)
+[IoT Agents](./iot-agents/README.md) and [Robotics](./robotics/README.md) and
+[Third-Party Systems](./third-party/README.md)
 
 ### Context Processing, Analysis and Visualization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./processing/README.md)
 
 A number of Generic Enablers are available making it easier to process, analyze
 or visualize context information for the purpose of implementing the “smart
@@ -221,14 +221,14 @@ The following is a list of Generic Enablers under incubation within processing:
     tweets, SMS messages etc.
 
 Further information can be found on dedicated pages linked to
-[Context Processing, Analysis and Visualization](./processing)
+[Context Processing, Analysis and Visualization](./processing/README.md)
 
 ### Context Data/API Management, Publication and Monetization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 
 You can implement secured access to components in the architecture of any
 “Powered by FIWARE” solution using Generic Enablers of the security chapter:
@@ -280,8 +280,8 @@ API management, publication and monetization:
     find and start using the standard APIs.
 
 Further information can be found on dedicated pages linked to
-[Context Data/API Management, Publication and Monetization](./data-publication)
-and [Security](./security)
+[Context Data/API Management, Publication and Monetization](./data-publication/README.md)
+and [Security](./security/README.md)
 
 ## Testing
 

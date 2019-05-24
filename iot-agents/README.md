@@ -49,7 +49,7 @@ interface.
 
 ## IoT Agent Framework Library
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-node-lib.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-node-lib.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-node-lib/latest.svg)
@@ -66,7 +66,7 @@ is used in the following IoT Agents:
 
 ## IoT Agent for JSON
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-json.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-json.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-json/latest.svg)
@@ -105,7 +105,7 @@ has been rated as follows:
 
 ## IoT Agent for Ultralight
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-ul.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-ul.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-ul/latest.svg)
@@ -143,7 +143,7 @@ The **IoT Agent for the Ultralight** project is part of
 
 ## IoT Agent for LoRaWaN
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 ![](https://img.shields.io/github/release-date/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 ![](https://img.shields.io/github/commits-since/Atos-Research-and-Innovation/IoTagent-LoRaWAN/latest.svg)
@@ -181,7 +181,7 @@ and has been rated as follows:
 
 ## IoT Agent for LightWeight Machine2Machine
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/lightweightm2m-iotagent.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/lightweightm2m-iotagent.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/lightweightm2m-iotagent/latest.svg)
@@ -221,7 +221,7 @@ The **IoT Agent for LightWeight Machine2Machine** project is part of
 
 ## :seedling: IoT Agent for OPC UA (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
@@ -259,7 +259,7 @@ and has been rated as follows:
 
 ## :new: IoT Agent for Sigfox (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/sigfox-iotagent.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/sigfox-iotagent.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/sigfox-iotagent/latest.svg)
@@ -285,7 +285,7 @@ The **IoT Agent for Sigfox** project is a new component within
 
 ## :seedling: Open MTC (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
 ![License](https://img.shields.io/github/license/OpenMTC/OpenMTC.svg)
 ![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
 ![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
