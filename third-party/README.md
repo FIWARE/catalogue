@@ -2,7 +2,7 @@
 
 ## :seedling: Domibus (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-EUPL-blue.svg)
 ![](https://img.shields.io/badge/tag-4.0-blue.svg)
 

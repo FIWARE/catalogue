@@ -9,7 +9,7 @@ and
 
 ## Cosmos
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
@@ -63,7 +63,7 @@ rated as follows:
 
 ## Knowage
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)
 ![License](https://img.shields.io/github/license/KnowageLabs/Knowage-Documentation.svg)
 ![](https://img.shields.io/github/release-date/KnowageLabs/Knowage-Server.svg)
 ![](https://img.shields.io/github/commits-since/KnowageLabs/Knowage-Server/latest.svg)
@@ -126,7 +126,7 @@ follows:
 
 ## Wirecloud
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)
 ![License](https://img.shields.io/badge/License-AGPLv3+%20with%20classpath--like%20exception-blue.svg)
 ![](https://img.shields.io/github/release-date/Wirecloud/wirecloud.svg)
 ![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
@@ -199,7 +199,7 @@ follows:
 
 ## Kurento
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Kurento/kurento-media-server.svg)
 ![](https://img.shields.io/badge/tag-6.9.0-blue.svg)
 
@@ -258,7 +258,7 @@ follows:
 
 ## FogFlow
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
 ![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
 ![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
@@ -312,7 +312,7 @@ follows:
 
 ## :seedling: Perseo (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg)

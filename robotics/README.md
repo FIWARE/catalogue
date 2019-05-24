@@ -2,7 +2,7 @@
 
 ## :seedling: Fast RTPS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)

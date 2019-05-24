@@ -13,7 +13,7 @@ To learn more about Core Context Management Enablers, check out the
 
 ## Orion
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
@@ -90,7 +90,7 @@ rated as follows:
 
 ## Cygnus
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-cygnus.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-cygnus.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-cygnus/latest.svg)
@@ -161,7 +161,7 @@ rated as follows:
 
 ## STH Comet
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
@@ -214,7 +214,7 @@ rated as follows:
 
 ## :seedling: QuantumLeap (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/last-commit/smartsdk/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/tag/smartsdk/ngsi-timeseries-api.svg)
@@ -251,7 +251,7 @@ rated as part of the next release.
 
 ## :seedling: Draco (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
