@@ -45,8 +45,8 @@ perform updates and bring access to context.
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE
 components are available, dealing with the following:
 
--   **[Core Context Management](./core)** manipulates and stores context data so
-    it can be used for further processesing
+-   **[Core Context Management](./core/README.md)** manipulates and stores
+    context data so it can be used for further processesing
 -   **Interfacing with the [Internet of Things](./iot-agents) (IoT),
     [Robots](./robotics) and third-party systems**, for capturing updates on
     context information and translating required actuations.
@@ -78,11 +78,11 @@ git submodule update --recursive --remote
 ## Generic Enablers
 
 The following sections describes the current list of Generic Enablers of the
-FIWARE platform structured into five architectural divisions
+FIWARE platform structured into five architectural areas
 
 ### Core Context Management
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
 The Orion Context Broker Generic Enabler is the core and mandatory component of
 any _“Powered by FIWARE”_ platform or solution. It enables to manage context
@@ -105,8 +105,8 @@ perform updates, queries or subscribe to changes on context information.
     Big Data platforms such as Hadoop, Storm or Spark. The component is based on
     Apache Flume
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+core context management:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
@@ -118,14 +118,14 @@ division:
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
 
-Further information about the Generic Enablers supporting
-[Core Context Management](./core)
+Further information can be found on dedicated pages linked to
+[Core Context Management](./core/README.md)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
 
 A number of Generic Enablers are available making it easier to interface with
 the internet of Things, Robots and Third-party systems for the purpose of
@@ -158,8 +158,8 @@ context updates:
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) -
         library for developing your own IoT Agent.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+IoT, Robotics and thiry-party systems:
 
 -   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic
     Enabler has been adopted as default middleware in ROS2, the widely known
@@ -180,14 +180,19 @@ division:
     as a translator between the robotics doman and the cloud, transforming ROS
     messages into NGSI v2 and vice versa.
 
-Further information about the [IoT Agents](./iot-agents), [Robotics](./robotics)
-and [Third-Party Systems](./third-party)
+<<<<<<< HEAD Further information about the [IoT Agents](./iot-agents),
+[Robotics](./robotics) and [Third-Party Systems](./third-party) ======= Further
+information can be found on dedicated pages linked to
+[IoT Agents](./iot-agents/README.md) and [Robotics](./robotics/README.md) and
+[Third-Party Systems](./third-party/README.md)
+
+> > > > > > > master
 
 ### Context Processing, Analysis and Visualization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./processing/README.md)
 
 A number of Generic Enablers are available making it easier to process, analyze
 or visualize context information for the purpose of implementing the “smart
@@ -205,14 +210,15 @@ behaviour” expected in any application:
     (integrated audiovisual communications, augmented reality, flexible media
     playing and recording, etc)
 -   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables
-    a more easy Bigdata analysis over context integrated with most popular
-    BigData platforms.
+    <<<<<<< HEAD a more easy Bigdata analysis over context integrated with most
+    popular BigData platforms. ======= simpler Big Data analysis over context
+    integrated with popular Big Data platforms.
+    > > > > > > > master
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
     distributed execution framework to support dynamic processing flows over
     cloud and edges.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within processing:
 
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler
     introduces Complex Event Processing (CEP) defined using a rules-based
@@ -223,15 +229,15 @@ division:
     Incubated Generic Enabler helps users to exchange electronic data and
     documents with one another in a reliable and trusted way.
 
-Further information about the Generic Enablers for
-[Context Processing, Analysis and Visualization](./processing)
+Further information can be found on dedicated pages linked to
+[Context Processing, Analysis and Visualization](./processing/README.md)
 
 ### Context Data/API Management, Publication and Monetization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](https://www.fiware.org/developers/catalogue/)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](https://www.fiware.org/developers/catalogue/)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 
 You can implement secured access to components in the architecture of any
 “Powered by FIWARE” solution using Generic Enablers of the security chapter:
@@ -249,7 +255,13 @@ You can implement secured access to components in the architecture of any
     Enabler brings support to PDP/PAP functions within an access control schema
     based on the XACML standard.
 
-This division also contains a chapter for the publication and monetization of
+The incorporation of components and features to support **Advanced Data Usage
+Control** have been introduced as part of FIWARE Release 7.7. For a summary of
+vision and current status of work in this area, please visit the usage control
+pages found at:
+[https://github.com/ging/fiware-usage-control](https://github.com/ging/fiware-usage-control)
+
+This area also contains a chapter for the publication and monetization of
 context data resources, available through the core Orion Context Broker
 component of your platform:
 
@@ -264,8 +276,8 @@ component of your platform:
     Generic Enabler brings backend support to Context API/Data monetization
     based on open TM Forum Business APIs.
 
-The following is a list of Generic Enablers under incubation within this
-division:
+The following is a list of Generic Enablers under incubation within the area of
+API management, publication and monetization:
 
 -   [Idra](https://github.com/OPSILab/Idra) is able to federate existing Open
     Data Management Systems based on heterogeneous technologies (e.g. CKAN,
@@ -276,9 +288,9 @@ division:
     features to run business with APIs and makes it easy for API consumers to
     find and start using the standard APIs.
 
-Further information about the Generic Enablers supporting
-[Context Data/API Management, Publication and Monetization](./data-publication)
-and [Security](./security)
+Further information can be found on dedicated pages linked to
+[Context Data/API Management, Publication and Monetization](./data-publication/README.md)
+and [Security](./security/README.md)
 
 ## Testing
 
