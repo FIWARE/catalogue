@@ -72,11 +72,11 @@ findRelease data-publication/ckan-extensions/right-time-context conwetlab/ckanex
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
 findRelease data-publication/idra opsilab/idra v2.0.1
 
-findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.1
+findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.2
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.10.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.1.0
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.9.0
-findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.3.0
+findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua 1.3.2
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.9.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.2.0
