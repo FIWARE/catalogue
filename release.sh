@@ -94,7 +94,7 @@ findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "lat
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.10.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.3.0
-findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.8.0
+findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.9.0
 findRelease processing/wirecloud/ngsijs conwetlab/ngsijs v1.2.1
 findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.2.0
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
