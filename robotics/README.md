@@ -46,8 +46,8 @@ follows:
 ![](https://img.shields.io/github/release-date/eProsima/Micro-XRCE-DDS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Micro-XRCE-DDS/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/eProsima/Micro-XRCE-DDS) | :whale: Docker Hub : TBD | :books: [Documentation](https://micro-xrce-dds.rtfd.io/) | :dart: [Roadmap](https://github.com/eProsima/Micro-XRCE-DDS/blob/master/roadmap.md) |
-| ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/eProsima/Micro-XRCE-DDS) | :whale: Docker Hub : TBD | :books: [Documentation](https://micro-xrce-dds.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/eProsima/Micro-XRCE-DDS/blob/master/roadmap.md) |
+| ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------- |
 
 
 ### What is Micro XRCE-DDS?
@@ -93,8 +93,8 @@ be rated as part of the next release.
 ![](https://img.shields.io/github/release-date/iml130/firos.svg)
 ![](https://img.shields.io/github/commits-since/iml130/firos/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/iml130/firos) | :whale: Docker Hub : TBD | :books: [Documentation](https://firos.rtfd.io/) | :dart: [Roadmap](https://github.com/iml130/firos/blob/master/doc/roadmap.md) |
-| ----------------------------------------------------------- | ------------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/iml130/firos) | :whale: Docker Hub : TBD | :books: [Documentation](https://firos.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/iml130/firos/blob/master/doc/roadmap.md) |
+| ----------------------------------------------------------- | ------------------------ | ----------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------- |
 
 
 ### What is FIROS?
