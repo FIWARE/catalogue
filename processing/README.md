@@ -14,17 +14,19 @@ and
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
 
-<<<<<<< HEAD | :octocat: [Git Repository](https://github.com/ging/fiware-cosmos)
-| :whale: Docker Hub : **none** | :books:
-[Flink Docs](https://fiware-cosmos-flink.readthedocs.io)
+<<<<<<< HEAD <<<<<<< HEAD | :octocat:
+[Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub :
+**none** | :books: [Flink Docs](https://fiware-cosmos-flink.readthedocs.io)
 [Spark Docs](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board:
 [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) |
 :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
 | ----------------------------------------------------------------- |
 ----------------------------- |
--------------------------------------------------------------------------------------------------------------------------
-|
--------------------------------------------------------------------------------------------
+
+---
+
+## |
+
 | ------------------------------------------------------------------------------
 | ======= | :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) |
 :whale: Docker Hub : **none** | :books:
@@ -34,11 +36,19 @@ and
 :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
 | ----------------------------------------------------------------- |
 ----------------------------- |
------------------------------------------------------------------------------------------------------------------------
-|
--------------------------------------------------------------------------------------------
+
+---
+
+## |
+
 | ------------------------------------------------------------------------------
 |
+
+> > > > > > > # master
+> > > > > > >
+> > > > > > > | :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub : **none** | :books: [Flink](https://fiware-cosmos-flink.readthedocs.io) | :books: [Spark](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
+> > > > > > > | ----------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+> > > > > > >
 
 > > > > > > > master
 

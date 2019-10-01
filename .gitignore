@@ -38,3 +38,4 @@ jspm_packages/
 .next
 push.sh
 package-lock.json
+.idea
