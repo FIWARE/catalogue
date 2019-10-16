@@ -120,7 +120,7 @@ core context management:
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
--   The [Scorpio](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
+-   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic
     Enabler is an NGSI-LD Broker, i.e. supports the new NGSI-LD linked data
     standard, which is an evolution of NGSI v2.
 
