@@ -310,3 +310,79 @@ rated as follows:
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/draco.json&query=$.scalability&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/draco.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/draco.json&query=$.stability&colorB=blue)
+
+## :new: Scorpio (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/ScorpioBroker/ScorpioBroker.svg)
+![](https://img.shields.io/github/release-date/ScorpioBroker/ScorpioBroker.svg)
+![](https://img.shields.io/github/commits-since/ScorpioBroker/ScorpioBroker/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/ScorpioBroker/ScorpioBroker) | :whale: [Docker Hub](https://cloud.docker.com/u/scorpiobroker/) | :books: [Documentation](https://scorpio.rtfd.io/) |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------- |
+
+
+### What is Scorpio?
+
+Scorpio is an NGSI-LD Broker that allows managing and requesting context
+information. Context Producers can manage their context – creating, updating,
+appending and deleting context information. Context Consumers can request the
+context information they require, either identifying the entity or discover
+relevant entities by providing the entity type, possibly filtering according to
+property value, existing relationship and/or geographic scope provided as a
+GeoJSON feature.
+
+Two interaction styles are supported, a synchronous query-response, and an
+asynchronous subscribe / notify, where notifications can be based on a change in
+property or relationship, or on a fixed time interval. In addition to the
+regular context interface that provides the most current properties and
+relationships for each entity, Scorpio implements NGSI-LD’s optional temporal
+interface for requesting historic information, e.g. the property values measured
+within a specified time interval.
+
+Scorpio supports multiple deployment configurations including centralized,
+distributed and federated ones. In addition to the Context Producers mentioned
+above, there can be Context Sources that themselves implement the NGSI-LD
+interface. These Context Sources can register themselves with the information
+they can provide on request (not the information (values) itself).
+
+A Scorpio Broker in a distributed setting can then discover the Context Sources
+that may have information for answering a request based on their registrations,
+request and aggregate the information from different Context Sources and provide
+it to the requesting Context Consumer. In a federated setting the Context Source
+can itself be an NGSI-LD Broker. Federations can be used to combine information
+from multiple providers that want to (partially) share information. An important
+difference is then typically in the granularity of the registration, e.g. “I
+have information about entities of entity type building within a geographic
+area”, instead of “I have information about Building X”
+
+### Why Use Scorpio?
+
+Scorpio implements NGSI-LD, which is the evolution of NGSI v2 and previous
+versions going back to the OMA NGSI context interfaces. This standardized
+version is based on the NGSI-LD specification published by the ETSI Industry
+Specification Group on Context Information Management.
+
+NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes
+properties and relationships instead of only having attributes. While properties
+have values, relationships explicitly refer to other entities. As a result there
+is an explicit entity graph, as specialized knowledge graph. Relationships can
+be followed to find relevant related entities. NGSI-LD is based on JSON-LD,
+where LD stands for linked data. As required in JSON-LD, NGSI-LD uses entity
+types, relationships and properties defined as unique URIs. The representation
+of the data is still concise as shortname strings can be used, the mapping to
+URIs is done in an `@context` element that can be part of the JSON or be
+referenced as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a
+semantic grounding and can be used with semantic tools and combined with other
+information.
+
+Scorpio supports different deployment configurations, which support scalability
+and extension of scenarios in an evolutionary way. For example two separate
+deployments can be combined or for scalability reasons different brokers can be
+used – completely transparent to Context Consumers that can still use a single
+point of access. Scorpio also implements the optional temporal NGSI-LD
+interface, so any updated context information can automatically be made
+available as history information through the temporal interface.
+
+The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be
+rated as part of the next release.

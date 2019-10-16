@@ -350,3 +350,34 @@ Perseo can act as a bridge between the context data and other external systems.
 
 The **Perseo** project is part of [FIWARE](https://fiware.org/) and will be
 rated as part of the next release.
+
+## :new: OpenVidu (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/OpenVidu/openvidu.svg)
+![](https://img.shields.io/github/release-date/OpenVidu/openvidu.svg)
+![](https://img.shields.io/github/commits-since/OpenVidu/openvidu/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/OpenVidu/openvidu) | :whale: T.B.D. | :books: [Site](https://openvidu.io/docs/home/) |
+| ---------------------------------------------------------------- | -------------- | ---------------------------------------------- |
+
+
+### What is OpenVidu?
+
+The Openvidu Generic Enabler simplifies real-time processing of media streams
+managed or provided by Kurento, providing a simple HTTP REST API that manages
+the streams and provides an extra security layer simplifying the transformation
+of video cameras into sensors as well as the incorporation of advanced
+application functions (integrated audiovisual communications, augmented reality,
+flexible media playing and recording, etc
+
+### Why Use OpenVidu?
+
+Openvidu is a simple (easy to deploy/ easy to use) way to have advanced media
+streams processing and communications. It is opensource, compatible with
+multiple frontend and backend technologies. It provides support for many media
+transmission protocols. It hides the specifics and allows you to focus in your
+use case and business logic.
+
+The **OpenVidu** project is part of [FIWARE](https://fiware.org/) and will be
+rated as part of the next release.

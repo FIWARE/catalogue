@@ -94,8 +94,10 @@ perform updates, queries or subscribe to changes on context information.
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/)
     Generic Enabler holds information about the current context. However,
     context information evolves over time, creating a context history.
-    Accompanying the Orion Context Broker component as part of Core Context
-    Management:
+
+Accompanying the Orion Context Broker component as part of Core Context
+Management:
+
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic
     Enabler brings the means for storing a short-term history of context data
     (typically months) on MongoDB
@@ -111,13 +113,16 @@ core context management:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
-    (CrateDB)
+    (CrateDB and Timescale)
 -   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an
     alternative data persistence mechanism for managing the history of context.
     It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
+-   The [Scorpio](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
+    Enabler is an NGSI-LD Broker, i.e. supports the new NGSI-LD linked data
+    standard, which is an evolution of NGSI v2.
 
 Further information can be found on dedicated pages linked to
 [Core Context Management](./core/README.md)
@@ -219,6 +224,10 @@ The following is a list of Generic Enablers under incubation within processing:
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
+-   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an
+    abstraction layer for Kurento. Kurento runs media processing that allows to
+    generate events from media streams, those events provide can provide
+    IoT-like data that can be fed to Orion.
 
 Further information can be found on dedicated pages linked to
 [Context Processing, Analysis and Visualization](./processing/README.md)

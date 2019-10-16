@@ -178,3 +178,9 @@
 [submodule "processing/cosmos/examples-spark"]
 	path = processing/cosmos/examples-spark
 	url = https://github.com/ging/fiware-cosmos-orion-spark-connector-examples
+[submodule "processing/open-vidu"]
+	path = processing/open-vidu
+	url = https://github.com/OpenVidu/openvidu
+[submodule "core/scorpio"]
+	path = core/scorpio
+	url = https://github.com/ScorpioBroker/ScorpioBroker
