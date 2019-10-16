@@ -353,7 +353,7 @@ rated as part of the next release.
 
 ## :new: OpenVidu (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/github/license/OpenVidu/openvidu.svg)
 ![](https://img.shields.io/github/release-date/OpenVidu/openvidu.svg)
 ![](https://img.shields.io/github/commits-since/OpenVidu/openvidu/latest.svg)
