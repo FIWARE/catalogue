@@ -314,7 +314,7 @@ rated as follows:
 ## :new: Scorpio (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
-![License](https://img.shields.io/github/license/ScorpioBroker/ScorpioBroker.svg)
+![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
 ![](https://img.shields.io/github/release-date/ScorpioBroker/ScorpioBroker.svg)
 ![](https://img.shields.io/github/commits-since/ScorpioBroker/ScorpioBroker/latest.svg)
 
