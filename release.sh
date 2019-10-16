@@ -48,6 +48,7 @@ findRelease core/cygnus telefonicaid/fiware-cygnus 1.16.0
 findRelease core/draco ging/fiware-draco 1.3.0
 findRelease core/orion telefonicaid/fiware-orion 2.2.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
+findRelease core/scorpio ScorpioBroker/ScorpioBroker 0.9
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.6.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.60.0
@@ -93,6 +94,7 @@ findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.11.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
+findRelease processing/open-vidu OpenVidu/openvidu v2.11.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.3.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.9.0
 findRelease processing/wirecloud/ngsijs conwetlab/ngsijs v1.2.1

@@ -48,8 +48,9 @@ components are available, dealing with the following:
 -   **[Core Context Management](./core/README.md)** manipulates and stores
     context data so it can be used for further processesing
 -   **Interfacing with the [Internet of Things](./iot-agents) (IoT),
-    [Robots](./robotics) and third-party systems**, for capturing updates on
-    context information and translating required actuations.
+    [Robots](./robotics) and [third-party systems](./third-party)**, for
+    capturing updates on context information and translating required
+    actuations.
 -   **[Processing, analysis and visualization](./processing)** of context
     information, implementing the expected smart behaviour of applications
     and/or assisting end users in making smart decisions.
@@ -93,8 +94,10 @@ perform updates, queries or subscribe to changes on context information.
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/)
     Generic Enabler holds information about the current context. However,
     context information evolves over time, creating a context history.
-    Accompanying the Orion Context Broker component as part of Core Context
-    Management:
+
+Accompanying the Orion Context Broker component as part of Core Context
+Management:
+
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic
     Enabler brings the means for storing a short-term history of context data
     (typically months) on MongoDB
@@ -110,13 +113,16 @@ core context management:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
-    (CrateDB)
+    (CrateDB and Timescale)
 -   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an
     alternative data persistence mechanism for managing the history of context.
     It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of
     data routing, transformation, and system mediation logic and also offers an
     intuitive graphical interface
+-   The [Scorpio](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
+    Enabler is an NGSI-LD Broker, i.e. supports the new NGSI-LD linked data
+    standard, which is an evolution of NGSI v2.
 
 Further information can be found on dedicated pages linked to
 [Core Context Management](./core/README.md)
@@ -180,13 +186,9 @@ IoT, Robotics and thiry-party systems:
     as a translator between the robotics doman and the cloud, transforming ROS
     messages into NGSI v2 and vice versa.
 
-<<<<<<< HEAD Further information about the [IoT Agents](./iot-agents),
-[Robotics](./robotics) and [Third-Party Systems](./third-party) ======= Further
-information can be found on dedicated pages linked to
+Further information can be found on dedicated pages linked to
 [IoT Agents](./iot-agents/README.md) and [Robotics](./robotics/README.md) and
 [Third-Party Systems](./third-party/README.md)
-
-> > > > > > > master
 
 ### Context Processing, Analysis and Visualization
 
@@ -210,10 +212,8 @@ behaviour” expected in any application:
     (integrated audiovisual communications, augmented reality, flexible media
     playing and recording, etc)
 -   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables
-    <<<<<<< HEAD a more easy Bigdata analysis over context integrated with most
-    popular BigData platforms. ======= simpler Big Data analysis over context
-    integrated with popular Big Data platforms.
-    > > > > > > > master
+    simpler Big Data analysis over context integrated with popular Big Data
+    platforms.
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a
     distributed execution framework to support dynamic processing flows over
     cloud and edges.
@@ -224,10 +224,10 @@ The following is a list of Generic Enablers under incubation within processing:
     introduces Complex Event Processing (CEP) defined using a rules-based
     system, enabling you to fire events which send HTTP requests, emails,
     tweets, SMS messages etc.
--   The
-    [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus)
-    Incubated Generic Enabler helps users to exchange electronic data and
-    documents with one another in a reliable and trusted way.
+-   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an
+    abstraction layer for Kurento. Kurento runs media processing that allows to
+    generate events from media streams, those events provide can provide
+    IoT-like data that can be fed to Orion.
 
 Further information can be found on dedicated pages linked to
 [Context Processing, Analysis and Visualization](./processing/README.md)
