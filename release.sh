@@ -44,9 +44,9 @@ displayUpdatedTags (){
 }
 
 
-findRelease core/cygnus telefonicaid/fiware-cygnus 1.16.0
-findRelease core/draco ging/fiware-draco 1.3.0
-findRelease core/orion telefonicaid/fiware-orion 2.2.0
+findRelease core/cygnus telefonicaid/fiware-cygnus 1.17.0
+findRelease core/draco ging/fiware-draco 1.3.1
+findRelease core/orion telefonicaid/fiware-orion 2.3.0
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker 0.9.1
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.6.0
@@ -74,13 +74,13 @@ findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckan
 findRelease data-publication/idra opsilab/idra v2.0.2
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.3
-findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.11.0
-findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.2.0
-findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.10.0
+findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.12.0
+findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.3.0
+findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.11.0
 findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.4
-findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.10.0
+findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.11.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
-findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.2.0
+findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.3.0
 
 findRelease processing/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.0
 findRelease processing/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.1.0
@@ -95,8 +95,8 @@ findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "lat
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.12.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker 6.8.0
 findRelease processing/open-vidu OpenVidu/openvidu v2.11.0
-findRelease processing/perseo/back-end telefonicaid/perseo-core 1.3.0
-findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.9.0
+findRelease processing/perseo/back-end telefonicaid/perseo-core 1.4.0
+findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.10.0
 findRelease processing/wirecloud/ngsijs conwetlab/ngsijs v1.2.1
 findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.3.1
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
