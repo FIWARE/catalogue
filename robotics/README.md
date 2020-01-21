@@ -11,19 +11,15 @@
 | ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 
-eProsima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish
-Subscribe) protocol, which provides publisher-subscriber communications over
-unreliable transports such as UDP, as defined and maintained by the Object
-Management Group (OMG) consortium. RTPS is also the wire interoperability
-protocol defined for the Data Distribution Service (DDS) standard, again by the
-OMG. eProsima Fast RTPS holds the benefit of being standalone and up-to-date, as
-most vendor solutions either implement RTPS as a tool to implement DDS or use
-past versions of the specification.
+eProsima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
+publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object
+Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution
+Service (DDS) standard, again by the OMG. eProsima Fast RTPS holds the benefit of being standalone and up-to-date, as
+most vendor solutions either implement RTPS as a tool to implement DDS or use past versions of the specification.
 
 ### Quality Assurance
 
-This project is part of [FIWARE](https://fiware.org/) and has been rated as
-follows:
+This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.version&colorB=blue)
@@ -52,39 +48,30 @@ follows:
 
 ### What is Micro XRCE-DDS?
 
-eProsima Micro XRCE-DDS is an IoT-oriented middleware based on a
-publish-subscribe messaging pattern.
+eProsima Micro XRCE-DDS is an IoT-oriented middleware based on a publish-subscribe messaging pattern.
 
-Micro XRCE-DDS follows a client-server architecture where low resource devices
-(Micro XRCE-DDS Clients) are connected to a server (Micro XRCE-DDS Agent).
+Micro XRCE-DDS follows a client-server architecture where low resource devices (Micro XRCE-DDS Clients) are connected to
+a server (Micro XRCE-DDS Agent).
 
-On the one hand, Micro XRCE-DDS Client (C library) is focused on addressing the
-challenges of resource-constrained environments such as a microcontroller. For
-this reason, this library is designed to offer a completely dynamic-memory free
-implementation and really low memory usage (~2.5 KB of stack usage for a simple
-publisher-subscribe application).
+On the one hand, Micro XRCE-DDS Client (C library) is focused on addressing the challenges of resource-constrained
+environments such as a microcontroller. For this reason, this library is designed to offer a completely dynamic-memory
+free implementation and really low memory usage (~2.5 KB of stack usage for a simple publisher-subscribe application).
 
-On the other hand, Micro XRCE-DDS Agent (C++ application) is a self-contained
-application which is in charge of providing a presence to the Clients in the DDS
-(Data Distribution Service) global data space.
+On the other hand, Micro XRCE-DDS Agent (C++ application) is a self-contained application which is in charge of
+providing a presence to the Clients in the DDS (Data Distribution Service) global data space.
 
-This multi-platform application (Linux and Windows) offers to Clients
-high-performance access to DDS space thanks to the Fast RTPS framework. Micro
-XRCE-DDS is a standalone C/C++ implementation of the OMG (Object Management
-Group) DDS-XRCE (DDS for eXtremely Resource Constrained Environments
-Specification).
+This multi-platform application (Linux and Windows) offers to Clients high-performance access to DDS space thanks to the
+Fast RTPS framework. Micro XRCE-DDS is a standalone C/C++ implementation of the OMG (Object Management Group) DDS-XRCE
+(DDS for eXtremely Resource Constrained Environments Specification).
 
 ### Why use Micro XRCE-DDS?
 
-In contrast to other IoT-oriented middleware such as MQTT or CoAP which follow
-centralized-data approach over a single transport protocol, Micro XRCE-DDS
-offers a decentralized-data approach over multiple transport protocols such as
-UPD, TCP or Serial. Furthermore, Micro XRCE-DDS is designed to offer a really
-low memory footprint, which makes this product particularly appealing for IoT
-communication in resource-constrained devices.
+In contrast to other IoT-oriented middleware such as MQTT or CoAP which follow centralized-data approach over a single
+transport protocol, Micro XRCE-DDS offers a decentralized-data approach over multiple transport protocols such as UPD,
+TCP or Serial. Furthermore, Micro XRCE-DDS is designed to offer a really low memory footprint, which makes this product
+particularly appealing for IoT communication in resource-constrained devices.
 
-The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
-be rated as part of the next release.
+The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
 
 ## :seedling: FIROS (Incubated)
 
@@ -99,13 +86,10 @@ be rated as part of the next release.
 
 ### What is FIROS?
 
-FIROS is a tool that helps connecting robots to the cloud. For this purpose it
-uses the Robot Operating System (ROS) and the FIWARE Context Broker as a way to
-publish and listen robot's data.
+FIROS is a tool that helps connecting robots to the cloud. For this purpose it uses the Robot Operating System (ROS) and
+the FIWARE Context Broker as a way to publish and listen robot's data.
 
-FIROS works as a translator between the robotics field and the cloud world,
-transforming ROS messages into NGSI to publish them in the cloud, and vice
-versa.
+FIROS works as a translator between the robotics field and the cloud world, transforming ROS messages into NGSI to
+publish them in the cloud, and vice versa.
 
-The **FIROS** project is part of [FIWARE](https://fiware.org/) and will be rated
-as part of the next release.
+The **FIROS** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
