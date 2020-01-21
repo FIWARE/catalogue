@@ -107,6 +107,12 @@ Management:
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as
     Big Data platforms such as Hadoop, Storm or Spark. The component is based on
     Apache Flume
+-   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an
+    alternative data persistence mechanism for managing the history of context.
+    It is based on Apache NiFi and is a dataflow system based on the concepts of
+    flow-based programming. It supports powerful and scalable directed graphs of
+    data routing, transformation, and system mediation logic and also offers an
+    intuitive graphical interface
 
 The following is a list of Generic Enablers under incubation within the area of
 core context management:
@@ -114,12 +120,6 @@ core context management:
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic
     Enabler supports the storage of NGSI data into a time series database
     (CrateDB and Timescale)
--   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an
-    alternative data persistence mechanism for managing the history of context.
-    It is based on Apache NiFi and is a dataflow system based on the concepts of
-    flow-based programming. It supports powerful and scalable directed graphs of
-    data routing, transformation, and system mediation logic and also offers an
-    intuitive graphical interface
 -   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic
     Enabler is an NGSI-LD Broker, i.e. supports the new NGSI-LD linked data
     standard, which is an evolution of NGSI v2.
