@@ -29,7 +29,7 @@ findRelease () {
 displayTag () {
 	echo $1
 	cd $1
-	# curl --silent "https://api.github.com/repos/$2/releases/latest?client_id=xxxx&client_secret=yyyy" | grep tag_name
+	#curl --silent "https://api.github.com/repos/$2/releases/latest?client_id=xxxxx&client_secret=yyyyy" | grep tag_name
 	curl --silent "https://api.github.com/repos/$2/releases/latest" | grep tag_name
 	cd $rootDir
 	echo ""
@@ -47,6 +47,7 @@ displayUpdatedTags (){
 findRelease core/cygnus telefonicaid/fiware-cygnus 1.17.1
 findRelease core/draco ging/fiware-draco 1.3.1
 findRelease core/orion telefonicaid/fiware-orion 2.3.0
+findRelease core/orion-ld FIWARE/context.Orion-LD V0.1.1-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker 0.9.5
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.7.0
@@ -74,11 +75,11 @@ findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckan
 findRelease data-publication/idra opsilab/idra v2.0.2
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.3
-findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.12.0
+findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.13.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.3.0
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.11.0
 findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.4
-findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.11.0
+findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.12.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.3.0
 
@@ -88,7 +89,7 @@ findRelease processing/cosmos/examples-flink ging/fiware-cosmos-orion-flink-conn
 findRelease processing/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease processing/fogflow/fogflow smartfog/fogflow v2.3
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.0.0
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.0
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker "latest"
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"

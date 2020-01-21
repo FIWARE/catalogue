@@ -1,47 +1,38 @@
 # Interface to the internet of Things
 
-Connecting IoT devices or “things” involves the need to overcome a common set of
-problems arising in the different layers of the communication model. Using
-sensor data or acting upon them requires interaction with a heterogeneous
-environment of devices running different protocols (due to the lack of globally
-accepted standards), dispersed and accessible through multiple wireless
-technologies.
+Connecting IoT devices or “things” involves the need to overcome a common set of problems arising in the different
+layers of the communication model. Using sensor data or acting upon them requires interaction with a heterogeneous
+environment of devices running different protocols (due to the lack of globally accepted standards), dispersed and
+accessible through multiple wireless technologies.
 
 To learn more about the Interface to the internet of Things, check out the
 [documentation](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/)
 
 ### What are IoT Agents?
 
-The IoT Agent (IDAS) component is an implementation of the Backend Device
-Management GE, according to the FIWARE reference architecture. You are here
-because you need to connect objects to gather data or interact with them,
-typical IoT use case scenario . If so, you need to use one of the existing IoT
-Agents that are part of IDAS.
+The IoT Agent (IDAS) component is an implementation of the Backend Device Management GE, according to the FIWARE
+reference architecture. You are here because you need to connect objects to gather data or interact with them, typical
+IoT use case scenario . If so, you need to use one of the existing IoT Agents that are part of IDAS.
 
-You need this component if you plan to connect IoT devices/gateways to
-FIWARE-based ecosystems. IoT Agents translate IoT-specific protocols into the
-NGSI context information protocol, that is the FIWARE standard data exchange
-model. You do not need this component if your devices or gateways natively
-support the NGSI API.
+You need this component if you plan to connect IoT devices/gateways to FIWARE-based ecosystems. IoT Agents translate
+IoT-specific protocols into the NGSI context information protocol, that is the FIWARE standard data exchange model. You
+do not need this component if your devices or gateways natively support the NGSI API.
 
-FIWARE-Ready IoT devices are able demonstrate the ability of the IoT solutions
-to seamless interoperate with FIWARE platforms. Any IoT device which is able to
-connect to the context broker (either directly or via an IoT Agent) is able to
-undergo a certification and testing process and can be added to the
+FIWARE-Ready IoT devices are able demonstrate the ability of the IoT solutions to seamless interoperate with FIWARE
+platforms. Any IoT device which is able to connect to the context broker (either directly or via an IoT Agent) is able
+to undergo a certification and testing process and can be added to the
 [FIWARE marketplace](https://marketplace.fiware.org/) and labelled as a
 [FIWARE-Ready IoT Device](http://marketplace.fiware.org/pages/how-to-devices).
 
 ### Why Use IoT Agents?
 
-By using an IoT Agent , your devices will be represented in a FIWARE platform as
-NGSI entities in a Context Broker. This means that you can query or subscribe to
-changes of device parameters status by querying or subscribing to the
+By using an IoT Agent , your devices will be represented in a FIWARE platform as NGSI entities in a Context Broker. This
+means that you can query or subscribe to changes of device parameters status by querying or subscribing to the
 corresponding NGSI entity attributes at the ContextBroker.
 
-Additionally, you will be able trigger commands to your actuation devices by
-updating specific command-related attributes in the associated NGSI entities
-representation at the Context Broker. This way, all hardware interactions with
-IoT devices can be handled by the Context Broker, using a homogeneous
+Additionally, you will be able trigger commands to your actuation devices by updating specific command-related
+attributes in the associated NGSI entities representation at the Context Broker. This way, all hardware interactions
+with IoT devices can be handled by the Context Broker, using a homogeneous
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface.
 
@@ -60,9 +51,8 @@ interface.
 
 Library for developing your own IoT Agent.
 
-The **IoT Agent Framework Library** project is part of
-[FIWARE](https://fiware.org/) and but is not rated as a standalone component. It
-is used in the following IoT Agents:
+The **IoT Agent Framework Library** project is part of [FIWARE](https://fiware.org/) and but is not rated as a
+standalone component. It is used in the following IoT Agents:
 
 ## IoT Agent for JSON
 
@@ -75,19 +65,17 @@ is used in the following IoT Agents:
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 
 
-IoT Agent for a JSON based protocol (with [AMQP](https://www.amqp.org/),
-[HTTP](https://www.w3.org/Protocols/) and [MQTT](https://mqtt.org/) transports)
+IoT Agent for a JSON based protocol (with [AMQP](https://www.amqp.org/), [HTTP](https://www.w3.org/Protocols/) and
+[MQTT](https://mqtt.org/) transports)
 
-This IoT Agent is designed to be a bridge between [JSON](https://json.org/) and
-the
+This IoT Agent is designed to be a bridge between [JSON](https://json.org/) and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
 ### Quality Assurance
 
-The **IoT Agent for JSON** project is part of [FIWARE](https://fiware.org/) and
-has been rated as follows:
+The **IoT Agent for JSON** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.version&colorB=blue)
@@ -114,8 +102,8 @@ has been rated as follows:
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 
-IoT Agent for the Ultralight 2.0 protocol (with [AMQP](https://www.amqp.org/),
-[HTTP](https://www.w3.org/Protocols/) and [MQTT](https://mqtt.org/) transports)
+IoT Agent for the Ultralight 2.0 protocol (with [AMQP](https://www.amqp.org/), [HTTP](https://www.w3.org/Protocols/) and
+[MQTT](https://mqtt.org/) transports)
 
 This IoT Agent is designed to be a bridge between Ultralight and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
@@ -124,8 +112,7 @@ interface. It follows the standard interaction model defined in the
 
 ### Quality Assurance
 
-The **IoT Agent for the Ultralight** project is part of
-[FIWARE](https://fiware.org/) and has been rated as follows:
+The **IoT Agent for the Ultralight** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.version&colorB=blue)
@@ -154,16 +141,15 @@ The **IoT Agent for the Ultralight** project is part of
 
 IoT Agent for the LoRaWAN protocol (with CayenneLpp and CBOR data models)
 
-This IoT Agent is designed to be a bridge between the
-[LoRaWAN](https://lora-alliance.org/about-lorawan) protocol and the
+This IoT Agent is designed to be a bridge between the [LoRaWAN](https://lora-alliance.org/about-lorawan) protocol and
+the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
 ### Quality Assurance
 
-The **IoT Agent for LoRaWAN** project is part of [FIWARE](https://fiware.org/)
-and has been rated as follows:
+The **IoT Agent for LoRaWAN** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.version&colorB=blue)
@@ -192,18 +178,16 @@ and has been rated as follows:
 
 IoT Agent accepting COAP requests.
 
-This IoT Agent is designed to be a bridge between the
-[OMA](https://www.omaspecworks.org/)
-[Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/)
-protocol and the
+This IoT Agent is designed to be a bridge between the [OMA](https://www.omaspecworks.org/)
+[Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
 ### Quality Assurance
 
-The **IoT Agent for LightWeight Machine2Machine** project is part of
-[FIWARE](https://fiware.org/) and has been rated as follows:
+The **IoT Agent for LightWeight Machine2Machine** project is part of [FIWARE](https://fiware.org/) and has been rated as
+follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.version&colorB=blue)
@@ -232,16 +216,14 @@ The **IoT Agent for LightWeight Machine2Machine** project is part of
 
 IoT Agent accepting data from OPC UA devices.
 
-This IoT Agent is designed to be a bridge between the
-[OPC Unified Architecture](http://www.opcua.us/) protocol and the
+This IoT Agent is designed to be a bridge between the [OPC Unified Architecture](http://www.opcua.us/) protocol and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
 ### Quality Assurance
 
-The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/)
-and has been rated as follows:
+The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.version&colorB=blue)
@@ -270,16 +252,15 @@ and has been rated as follows:
 
 IoT Agent for the Sigfox protocol.
 
-This IoT Agent is designed to be a bridge between the
-[Sigfox](https://www.sigfox.com/en) protocol and the
+This IoT Agent is designed to be a bridge between the [Sigfox](https://www.sigfox.com/en) protocol and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
 ### Quality Assurance
 
-The **IoT Agent for Sigfox** project is a new component within
-[FIWARE](https://fiware.org/) and will be rated in the current release
+The **IoT Agent for Sigfox** project is a new component within [FIWARE](https://fiware.org/) and will be rated in the
+current release
 
 ---
 
@@ -294,16 +275,14 @@ The **IoT Agent for Sigfox** project is a new component within
 | -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
 
-A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
-conducting applied research and developing innovative M2M and IoT applications.
-It offers an
+A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for conducting applied research and
+developing innovative M2M and IoT applications. It offers an
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface for connection to the Orion Context Broker
 
 ### Quality Assurance
 
-The **Open MTC** project is part of [FIWARE](https://fiware.org/) and has been
-rated as follows:
+The **Open MTC** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
 
 -   **Version Tested:**
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.version&colorB=blue)

@@ -184,3 +184,6 @@
 [submodule "core/scorpio"]
 	path = core/scorpio
 	url = https://github.com/ScorpioBroker/ScorpioBroker
+[submodule "core/orion-ld"]
+	path = core/orion-ld
+	url = https://github.com/FIWARE/context.Orion-LD.git
