@@ -102,6 +102,8 @@ The following is a list of Generic Enablers under incubation within the area of 
     data into a time series database (CrateDB and Timescale)
 -   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an NGSI-LD Broker, i.e. supports
     the new NGSI-LD linked data standard, which is an evolution of NGSI v2.
+-   The [Orion-LD](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is an alternative NGSI-LD Broker, the
+    central component for everything related with Linked Data.
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
