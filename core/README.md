@@ -338,7 +338,7 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
 
-### What is Orion?
+### What is Orion-LD?
 
 Orion-LD is an alternative NGSI-LD Context Broker written in C/C++. It is a standalone executable and therefore small,
 fast, lightweight and easy to handle. Context brokers allow for the management and requesting context of information in
