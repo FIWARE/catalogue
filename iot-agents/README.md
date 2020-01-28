@@ -203,7 +203,7 @@ follows:
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
 
-## :seedling: IoT Agent for OPC UA (Incubated)
+## IoT Agent for OPC UA
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
