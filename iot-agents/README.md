@@ -239,7 +239,7 @@ The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) an
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.stability&colorB=blue)
 
-## :new: IoT Agent for Sigfox (Incubated)
+## :seedling: IoT Agent for Sigfox (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/sigfox-iotagent.svg)
