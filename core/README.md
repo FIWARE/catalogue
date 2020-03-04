@@ -233,6 +233,7 @@ The **Draco** project is part of [FIWARE](https://fiware.org/) and has been rate
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/draco.json&query=$.stability&colorB=blue)
 
 ---
+<a name="quantumleap"/>
 
 ## :seedling: QuantumLeap (Incubated)
 
@@ -266,6 +267,8 @@ time-series-based databases to be able to support complex queries such as cross-
 averages)
 
 The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+
+<a name="scorpio"/>
 
 ## :new: Scorpio (Incubated)
 
@@ -326,6 +329,8 @@ implements the optional temporal NGSI-LD interface, so any updated context infor
 available as history information through the temporal interface.
 
 The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+
+<a name="orion-ld"/>
 
 ## :new: Orion-LD (Incubated)
 
