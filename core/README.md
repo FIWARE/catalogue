@@ -234,6 +234,8 @@ The **Draco** project is part of [FIWARE](https://fiware.org/) and has been rate
 
 ---
 
+<a name="quantumleap"/>
+
 ## :seedling: QuantumLeap (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
@@ -266,6 +268,8 @@ time-series-based databases to be able to support complex queries such as cross-
 averages)
 
 The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+
+<a name="scorpio"/>
 
 ## :new: Scorpio (Incubated)
 
@@ -327,6 +331,8 @@ available as history information through the temporal interface.
 
 The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
 
+<a name="orion-ld"/>
+
 ## :new: Orion-LD (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
@@ -338,7 +344,7 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
 
-### What is Orion?
+### What is Orion-LD?
 
 Orion-LD is an alternative NGSI-LD Context Broker written in C/C++. It is a standalone executable and therefore small,
 fast, lightweight and easy to handle. Context brokers allow for the management and requesting context of information in

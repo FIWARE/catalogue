@@ -203,15 +203,15 @@ follows:
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
 
-## :seedling: IoT Agent for OPC UA (Incubated)
+## IoT Agent for OPC UA
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
-| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 
 
 IoT Agent accepting data from OPC UA devices.
@@ -239,7 +239,7 @@ The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) an
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.stability&colorB=blue)
 
-## :new: IoT Agent for Sigfox (Incubated)
+## :seedling: IoT Agent for Sigfox (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/sigfox-iotagent.svg)

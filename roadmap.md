@@ -4,18 +4,11 @@ The FIWARE Catalogue consists of a series of Generic Enablers. If you would like
 developments proposed for an individual Generic Enabler please check the "Roadmap" for the actual Generic Enabler
 itself.
 
-<<<<<<< HEAD
-
 > The following release windows have been defined for the development period prior to the next FIWARE Global Summit
 >
-> -   February 2019 - **7.6** - Release for onboarding new Generic Enablers
-> -   April 2019 - **7.7** - Release for the FIWARE Global Summit in Genoa
-> -   _May 2019_ - **7.7.1** - Patch release of any outstanding items after Genoa Summit (if necessary) ======= The
->     following release windows have been defined for the development period prior to the next FIWARE Global Summit
->
 > -   January 2020 - **7.8.1** - Release for onboarding new Generic Enablers
+> -   April 2020 - **7.8.2** - Security Patch
 > -   June 2020 - **7.9** - Release prior to the FIWARE Summit.
->     > > > > > > master
 
 ## Introduction
 
@@ -28,23 +21,23 @@ guidelines only, and this section may be revised to provide newer information at
 ## Short term
 
 The following list of features are planned to be addressed in the short term, and incorporated in the releases of the
-catalogue over the next six months up to **May 2019** (FIWARE Global Summit in Genoa):
+catalogue over the next six months up to **September 2020** (FIWARE Global Summit in Málaga):
 
--   Raise issues regarding current gaps according to the [Contributor Requirements](https://fiware-requirements.rtfd.io)
--   Onboard additional NGSI-LD brokers (e.g. Scorpio)
--   Onboard additional Generic Enablers within the Robotics Domain
+-   Require compliance of all **MUST** requirements within the
+    [Contributor Requirements](https://fiware-requirements.rtfd.io)
+-   Introduce experimental NGSI-LD interfaces for all Generic Enablers
+-   Continue onboarding additional Generic Enablers within the Robotics Domain
 
 ## Medium term
 
 The following list of features are planned to be addressed in the medium term, typically within the subsequent
 release(s) generated in the next **9 months** after next planned release:
 
--   Require compliance of all **MUST** requirements within the
-    [Contributor Requirements](https://fiware-requirements.rtfd.io)
+-   Standardize and harden NGSI-LD interfaces for all Generic Enablers according to the definitions within the updated
+    ETSI specification
 -   Standardize location and naming convention of FIWARE Docker Images
 -   Improve integration testing to ensure all Generic Enablers integrate smoothly with the latest stable release of the
     Context Broker
--   Reduce overhead for standard release procedure
 
 ## Long term
 
@@ -53,4 +46,4 @@ of these features has not yet been scheduled for a release in the near future. P
 wish to get involved in the implementation or influence the roadmap
 
 -   Add further quality-based metrics to each Generic Enabler
--   Ensure full NGSI-LD compliance
+-   Ensure full NGSI-LD compliance for all Generic Enablers
