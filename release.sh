@@ -30,6 +30,7 @@ displayTag () {
 	echo $1
 	cd $1
 	#curl --silent "https://api.github.com/repos/$2/releases/latest?client_id=xxxxx&client_secret=yyyyy" | grep tag_name
+	#curl --silent -u my_client_id:my_client_secret "https://api.github.com/repos/$2/releases/latest" | grep tag_name
 	curl --silent "https://api.github.com/repos/$2/releases/latest" | grep tag_name
 	cd $rootDir
 	echo ""
