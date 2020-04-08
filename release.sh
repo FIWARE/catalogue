@@ -76,13 +76,13 @@ findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckan
 findRelease data-publication/idra opsilab/idra v2.1.0
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.3
-findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.13.0
-findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.3.0
-findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.11.0
+findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.14.0
+findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.4.0
+findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.12.0
 findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.5
-findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.12.0
+findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.13.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
-findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.3.0
+findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
 findRelease processing/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
 findRelease processing/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
@@ -90,7 +90,7 @@ findRelease processing/cosmos/examples-flink ging/fiware-cosmos-orion-flink-conn
 findRelease processing/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.5
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.6
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker v7.0.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
