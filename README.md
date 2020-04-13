@@ -3,9 +3,7 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
-This is an umbrella repository holding all of the source code for all Generic Enablers which make up the
-[FIWARE catalogue](https://www.fiware.org/developers/catalogue/). The purpose of the catalogue is to briefly introduce
-each Generic Enabler and allow users and developers to easily navigate to the relevant source code repositories,
+This is an umbrella repository which briefly introduces each of the Generic Enablers which are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the relevant source code repositories,
 documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
