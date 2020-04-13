@@ -33,9 +33,11 @@ only mandatory component of any _“Powered by FIWARE”_ platform or solution i
 Enabler, bringing a cornerstone function in any smart solution: the need to manage context information, enabling to
 perform updates and bring access to context.
 
-FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API specifications have evolved over time, currently matching [NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in evolution of the ETSI specifications which were based on NGSIv2 and commits to deliver compatible open source implementations of the specs.
+FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API specifications have evolved over time, currently matching [NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution of ETSI NGSI-LD specifications which were based on NGSIv2 and commits to deliver compatible open source implementations of the specs.
+
 
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
+
 
 Building around the FIWARE Context Broker, a rich suite of complementary FIWARE Generic Enablers are available, dealing with
 the following:
@@ -83,9 +85,9 @@ It enables to manage context information in a highly decentralized and large-sca
     perform updates, queries or subscribe to changes on context information.
 
 The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
--   The [Orion-LD](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which supports NGSI-LD as well as
-    NGSIv2. Currently in alpha version, plan is to merge it with the main branch of Orion.
--   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD Broker
+-   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which 
+    supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of Orion.
+-   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD Broker
 
 
 Accompanying a Context Broker component as part of Core Context Management:
@@ -103,7 +105,7 @@ Accompanying a Context Broker component as part of Core Context Management:
 
 The following is a list of additional Generic Enablers under incubation within the core context management chapter:
 
--   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of NGSI
+-   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
 
 
@@ -120,7 +122,7 @@ Third-party systems for the purpose of gathering valuable context information or
 context updates:
 
 -   The **IDAS** Generic Enabler offers you a wide range of IoT Agents making it easier to interface with devices using
-    the most widely used IoT protocols (LWM2M over CoaP, JSON or UltraLight over HTTP/MQTT or OPC-UA)
+    the most widely used IoT protocols (LWM2M over CoaP, JSON or UltraLight over HTTP/MQTT, OPC-UA, Sigfox or LoRaWAN)
 
     -   [IoT Agent for JSON](https://github.com/telefonicaid/iotagent-json) - a bridge between HTTP/MQTT messaging (with
         a JSON payload) and NGSI
@@ -140,16 +142,16 @@ context updates:
 
 The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and thiry-party systems:
 
--   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
-    middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with robotics systems.
--   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is an IoT-oriented
-    middleware based on a publish-subscribe messaging pattern.
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
     the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
+-   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
+    middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with ROS2-based robotics systems.
+-   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the DDS
+    middleware, adapted to run in extremely constrained resource devices (e.g., micro-controllers).
+-   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
+    domain and the cloud, transforming ROS messages into NGSI v2 and vice versa.
 -   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
     users to exchange electronic data and documents with one another in a reliable and trusted way.
--   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
-    doman and the cloud, transforming ROS messages into NGSI v2 and vice versa.
 
 Further information can be found on dedicated pages linked to [IoT Agents](./iot-agents/README.md) and
 [Robotics](./robotics/README.md) and [Third-Party Systems](./third-party/README.md)
@@ -166,23 +168,22 @@ purpose of implementing the “smart behaviour” expected in any application:
 -   The [Wirecloud](https://github.com/Wirecloud/) Generic Enabler brings a powerful web mashup platform making it
     easier to develop operational dashboards which are highly customizable by end users.
 -   The [Knowage](https://github.com/KnowageLabs/) Generic Enabler brings a powerful Business Intelligence platform
-    enabling to perform business analytics over traditional sources and big data systems.
+    enabling to perform business analytics over traditional sources and big data systems build on context history.
 -   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
     the transformation of video cameras into sensors as well as the incorporation of advanced application functions
     (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
 -   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
-    integrated with popular Big Data platforms.
+    integrated with popular Big Data platforms (Spark and Flink).
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a distributed execution framework to support
     dynamic processing flows over cloud and edges.
 
-The following is a list of Generic Enablers under incubation within processing:
+The following is a list of Generic Enablers under incubation within the chapter:
 
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler introduces Complex Event Processing (CEP)
     defined using a rules-based system, enabling you to fire events which send HTTP requests, emails, tweets, SMS
     messages etc.
--   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento. Kurento
-    runs media processing that allows to generate events from media streams, those events provide can provide IoT-like
-    data that can be fed to Orion.
+-   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento, making
+    media processing easier to program.
 
 Further information can be found on dedicated pages linked to
 [Context Processing, Analysis and Visualization](./processing/README.md)
