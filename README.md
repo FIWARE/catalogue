@@ -3,7 +3,7 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
-This is an umbrella repository which briefly introduces each of the Generic Enablers which are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the relevant source code repositories,
+This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the relevant source code repositories,
 documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
@@ -29,13 +29,15 @@ Academy** and the **Step-by-Step Tutorials**.
 
 [FIWARE](https://www.fiware.org) is a curated framework of open source platform components which can be assembled
 together and with other third-party platform components to accelerate the development of Smart Solutions. The main and
-only mandatory component of any _“Powered by FIWARE”_ platform or solution is the FIWARE Orion Context Broker Generic
-Enabler, which brings a cornerstone function in any smart solution: the need to manage context information, enabling to
+only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic
+Enabler, bringing a cornerstone function in any smart solution: the need to manage context information, enabling to
 perform updates and bring access to context.
+
+FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API specifications have evolved over time, currently matching [NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in evolution of the ETSI specifications which were based on NGSIv2 and commits to deliver compatible open source implementations of the specs.
 
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
 
-Building around the FIWARE Context Broker, a rich suite of complementary FIWARE components are available, dealing with
+Building around the FIWARE Context Broker, a rich suite of complementary FIWARE Generic Enablers are available, dealing with
 the following:
 
 -   **[Core Context Management](./core/README.md)** manipulates and stores context data so it can be used for further
@@ -67,21 +69,26 @@ git submodule update --recursive --remote
 ## Generic Enablers
 
 The following sections describes the current list of Generic Enablers of the FIWARE platform structured into five
-architectural areas
+architectural chapters
 
 ### Core Context Management
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
-The Orion Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or
-solution. It enables to manage context information in a highly decentralized and large-scale manner. It provides the
-FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to
-changes on context information.
+A Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution. 
+It enables to manage context information in a highly decentralized and large-scale manner.  
 
--   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler holds information about
-    the current context. However, context information evolves over time, creating a context history.
+-   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the 
+    FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to 
+    perform updates, queries or subscribe to changes on context information.
 
-Accompanying the Orion Context Broker component as part of Core Context Management:
+The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
+-   The [Orion-LD](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which supports NGSI-LD as well as
+    NGSIv2. Currently in alpha version, plan is to merge it with the main branch of Orion.
+-   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD Broker
+
+
+Accompanying a Context Broker component as part of Core Context Management:
 
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
     short-term history of context data (typically months) on MongoDB
@@ -94,14 +101,11 @@ Accompanying the Orion Context Broker component as part of Core Context Manageme
     flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and
     system mediation logic and also offers an intuitive graphical interface
 
-The following is a list of Generic Enablers under incubation within the area of core context management:
+The following is a list of additional Generic Enablers under incubation within the core context management chapter:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of NGSI
     data into a time series database (CrateDB and Timescale)
--   The [Scorpio](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an NGSI-LD Broker, i.e. supports
-    the new NGSI-LD linked data standard, which is an evolution of NGSI v2.
--   The [Orion-LD](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is an alternative NGSI-LD Broker, the
-    central component for everything related with Linked Data.
+
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
