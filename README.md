@@ -57,7 +57,7 @@ other third platform components to design the hybrid platform of your choice. As
 Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
 build on top as well.
 
-To be adopted as FIWARE Generic Enablers, open source components must fulfil a number of [contribution requirements](https://github.com/FIWARE/contribution-requirements).  Technical direction of FIWARE is governed by the [FIWARE Technical Steering Committee (TSC)](https://www.fiware.org/foundation/technical-steering-committee/). You can join the FIWARE TSC as observer or follow progress of their discussions through the [minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) of their regular meetings.
+To be adopted as FIWARE Generic Enablers, open source components must fulfil a number of [contribution requirements](https://github.com/FIWARE/contribution-requirements).  Technical direction of FIWARE is governed by the [FIWARE Technical Steering Committee (TSC)](https://www.fiware.org/foundation/technical-steering-committee/). You can subscribe to the [FIWARE TSC mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee), join the FIWARE TSC regular confcalls as observer and/or follow progress of their discussions through the [FIWARE TSC meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing).
 
 
 ## Installation
