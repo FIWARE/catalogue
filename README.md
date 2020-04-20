@@ -57,7 +57,14 @@ other third platform components to design the hybrid platform of your choice. As
 Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
 build on top as well.
 
-To be adopted as FIWARE Generic Enablers, open source components must fulfil a number of [contribution requirements](https://github.com/FIWARE/contribution-requirements).  Technical direction of FIWARE is governed by the [FIWARE Technical Steering Committee (TSC)](https://www.fiware.org/foundation/technical-steering-committee/). You can subscribe to the [FIWARE TSC mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee), join the FIWARE TSC regular confcalls as observer and/or follow progress of their discussions through the [FIWARE TSC meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing).
+To be adopted as a Generic Enabler within FIWARE, each open source component must fulfil a number of **contribution
+requirements**.  The technical direction of FIWARE is governed by the **FIWARE Technical Steering Committee (TSC)**.
+Developers can also subscribe to the **FIWARE TSC mailing list**, join the FIWARE TSC regular confcalls as observer and 
+follow the progress of the discussions through the **FIWARE TSC meeting minutes**.
+
+
+| :clipboard:  [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee)  |:open_file_folder: [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
+ | --- | --- | --- | ---|
 
 
 ## Installation
