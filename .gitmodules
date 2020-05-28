@@ -8,7 +8,7 @@
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
-	path = processing/cosmos/cosmos-flink
+	path = third-party/cosmos/cosmos-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
 [submodule "security/keyrock"]
 	path = security/keyrock
@@ -83,7 +83,7 @@
 	path = core/quantum-leap
 	url = https://github.com/smartsdk/ngsi-timeseries-api.git
 [submodule "processing/cosmos/examples"]
-	path = processing/cosmos/examples-flink
+	path = third-party/cosmos/examples-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
 [submodule "data-publication/business-api/product-catalog"]
 	path = data-publication/business-api/product-catalog
@@ -146,10 +146,10 @@
 	path = data-publication/idra
 	url = https://github.com/OPSILab/Idra.git
 [submodule "data-publication/apinf/apinf"]
-	path = data-publication/apinf/apinf
+	path = security/apinf/apinf
 	url = https://github.com/apinf/platform
 [submodule "data-publication/apinf/api-umbrella"]
-	path = data-publication/apinf/api-umbrella
+	path = security/apinf/api-umbrella
 	url = https://github.com/apinf/api-umbrella
 [submodule "core/cygnus"]
 	path = core/cygnus
@@ -173,10 +173,10 @@
 	path = robotics/firos
 	url = https://github.com/iml130/firos.git
 [submodule "processing/cosmos-spark"]
-	path = processing/cosmos/cosmos-spark
+	path = third-party/cosmos/cosmos-spark
 	url = https://github.com/ging/fiware-cosmos-orion-spark-connector
 [submodule "processing/cosmos/examples-spark"]
-	path = processing/cosmos/examples-spark
+	path = third-party/cosmos/examples-spark
 	url = https://github.com/ging/fiware-cosmos-orion-spark-connector-examples
 [submodule "processing/open-vidu"]
 	path = processing/open-vidu
