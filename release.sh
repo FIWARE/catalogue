@@ -45,13 +45,13 @@ displayUpdatedTags (){
 }
 
 
-findRelease core/cygnus telefonicaid/fiware-cygnus 1.18.3
+findRelease core/cygnus telefonicaid/fiware-cygnus 2.1.0
 findRelease core/draco ging/fiware-draco 1.3.1
 findRelease core/orion telefonicaid/fiware-orion 2.4.0
-findRelease core/orion-ld FIWARE/context.Orion-LD v0.2.0-alpha
+findRelease core/orion-ld FIWARE/context.Orion-LD v0.4-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
-findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.7.0
+findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
 findRelease data-publication/apinf/apinf apinf/platform 0.60.0
 findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
@@ -90,15 +90,15 @@ findRelease processing/cosmos/examples-flink ging/fiware-cosmos-orion-flink-conn
 findRelease processing/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.6
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.7
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker v7.0.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
 findRelease processing/kurento/media-server Kurento/kurento-media-server 6.13.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker "latest"
-findRelease processing/open-vidu OpenVidu/openvidu v2.12.0
-findRelease processing/perseo/back-end telefonicaid/perseo-core 1.5.0
-findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.12.1
+findRelease processing/open-vidu OpenVidu/openvidu v2.14.0
+findRelease processing/perseo/back-end telefonicaid/perseo-core 1.6.0
+findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.13.0
 findRelease processing/wirecloud/ngsijs conwetlab/ngsijs 1.3.0
 findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.3.1
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
