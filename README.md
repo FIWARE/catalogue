@@ -3,8 +3,9 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
-This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the relevant source code repositories,
-documentation and Docker images.
+This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
+are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
+relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**.
@@ -29,18 +30,22 @@ Academy** and the **Step-by-Step Tutorials**.
 
 [FIWARE](https://www.fiware.org) is a curated framework of open source platform components which can be assembled
 together and with other third-party platform components to accelerate the development of Smart Solutions. The main and
-only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic
-Enabler, bringing a cornerstone function in any smart solution: the need to manage context information, enabling to
-perform updates and bring access to context.
+only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic Enabler,
+bringing a cornerstone function in any smart solution: the need to manage context information, enabling to perform
+updates and bring access to context.
 
-FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API specifications have evolved over time, currently matching [NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution of ETSI NGSI-LD specifications which were based on NGSIv2 and commits to deliver compatible open source implementations of the specs.
-
+FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
+_"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
+specifications have evolved over time, currently matching
+[NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the
+[ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
+of ETSI NGSI-LD specifications which were based on NGSIv2 and commits to deliver compatible open source implementations
+of the specs.
 
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
 
-
-Building around the FIWARE Context Broker, a rich suite of complementary FIWARE Generic Enablers are available, dealing with
-the following:
+Building around the FIWARE Context Broker, a rich suite of complementary FIWARE Generic Enablers are available, dealing
+with the following:
 
 -   **[Core Context Management](./core/README.md)** manipulates and stores context data so it can be used for further
     processesing
@@ -58,13 +63,12 @@ Broker technology to manage context information, your platform can be labeled as
 build on top as well.
 
 To be adopted as a Generic Enabler within FIWARE, each open source component must fulfil a number of **contribution
-requirements**.  The technical direction of FIWARE is governed by the **FIWARE Technical Steering Committee (TSC)**.
-Developers can also subscribe to the **FIWARE TSC mailing list**, join the FIWARE TSC regular confcalls as observer and 
+requirements**. The technical direction of FIWARE is governed by the **FIWARE Technical Steering Committee (TSC)**.
+Developers can also subscribe to the **FIWARE TSC mailing list**, join the FIWARE TSC regular confcalls as observer and
 follow the progress of the discussions through the **FIWARE TSC meeting minutes**.
 
-
-| :clipboard:  [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee)  |:open_file_folder: [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
- | --- | --- | --- | ---|
+| :clipboard: [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
 ## Installation
@@ -87,18 +91,20 @@ architectural chapters.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
-A Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution. 
-It enables to manage context information in a highly decentralized and large-scale manner.  
+A Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
+It enables to manage context information in a highly decentralized and large-scale manner.
 
--   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the 
-    FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to 
-    perform updates, queries or subscribe to changes on context information.
+-   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the
+    FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to
+    changes on context information.
 
 The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
--   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which 
-    supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of Orion.
--   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD Broker
 
+-   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
+    supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of
+    Orion.
+-   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
+    Broker
 
 Accompanying a Context Broker component as part of Core Context Management:
 
@@ -112,12 +118,13 @@ Accompanying a Context Broker component as part of Core Context Management:
     managing the history of context. It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and
     system mediation logic and also offers an intuitive graphical interface
+-   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
+    integrated with popular Big Data platforms (Spark and Flink).
 
 The following is a list of additional Generic Enablers under incubation within the core context management chapter:
 
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
-
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
@@ -155,9 +162,10 @@ The following is a list of Generic Enablers under incubation within the area of 
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
     the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
 -   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
-    middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with ROS2-based robotics systems.
--   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the DDS
-    middleware, adapted to run in extremely constrained resource devices (e.g., micro-controllers).
+    middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with ROS2-based
+    robotics systems.
+-   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
+    DDS middleware, adapted to run in extremely constrained resource devices (e.g., micro-controllers).
 -   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
     domain and the cloud, transforming ROS messages into NGSI v2 and vice versa.
 -   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
@@ -182,8 +190,6 @@ purpose of implementing the “smart behaviour” expected in any application:
 -   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
     the transformation of video cameras into sensors as well as the incorporation of advanced application functions
     (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
--   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
-    integrated with popular Big Data platforms (Spark and Flink).
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a distributed execution framework to support
     dynamic processing flows over cloud and edges.
 
