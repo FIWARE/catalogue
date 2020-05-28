@@ -232,6 +232,57 @@ The **Draco** project is part of [FIWARE](https://fiware.org/) and has been rate
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/draco.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/draco.json&query=$.stability&colorB=blue)
 
+## Cosmos
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/ging/fiware-cosmos-orion-flink-connector.svg)
+![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
+![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub : **none** | :books: [Flink](https://fiware-cosmos-flink.readthedocs.io) | :books: [Spark](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
+| ----------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+
+
+### What is Cosmos?
+
+The Cosmos Big Data Analysis GE is a set of tools that help achieving the tasks of Streaming and Batch processing over
+context data. These tools are:
+
+#### Flink
+
+-   [Orion-Flink Connector](https://github.com/ging/fiware-cosmos-orion-flink-connector)
+-   [Apache Flink Processing Engine](https://flink.apache.org/)
+
+#### Spark
+
+-   [Orion-Spark Connector](https://github.com/ging/fiware-cosmos-orion-spark-connector)
+-   [Apache Spark Processing Engine](https://spark.apache.org/)
+
+### Why use Cosmos?
+
+As the state of the real world changes, the entities representing your IoT devices are constantly changing. Big data
+analysis allows for the study of datasets coming from your context data which are too large for traditional
+data-processing software. You can apply predictive analysis or user behaviour analytics to extract meaningful
+conclusions as to the state of your smart solution and bring value to your solution.
+
+### Quality Assurance
+
+The **Cosmos** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
+
+-   **Version Tested:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.version&colorB=blue)
+-   **Documentation:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.docCompleteness&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.docSoundness&colorB=blue)
+-   **Responsiveness:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.timeToCharge&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.timeToFix&colorB=blue)
+-   **FIWARE Testing:**
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.failureRate&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.scalability&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.performance&colorB=blue)
+    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/cosmos.json&query=$.stability&colorB=blue)
+
 ---
 
 <a name="quantumleap"/>

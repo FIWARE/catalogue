@@ -44,7 +44,10 @@ displayUpdatedTags (){
 	git diff --compact-summary --submodule=short  FIWARE_7.8.1..releases
 }
 
-
+findRelease core/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
+findRelease core/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
+findRelease core/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
+findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease core/cygnus telefonicaid/fiware-cygnus 2.1.0
 findRelease core/draco ging/fiware-draco 1.3.1
 findRelease core/orion telefonicaid/fiware-orion 2.4.0
@@ -109,9 +112,5 @@ findRelease security/authzforce authzforce/server release-8.1.0
 findRelease security/keyrock ging/fiware-idm 7.8.1
 findRelease security/wilma ging/fiware-pep-proxy 7.8.1
 
-findRelease third-party/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
-findRelease third-party/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
-findRelease third-party/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
-findRelease third-party/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease third-party/domibus edelivery/domibus 4.1.3
 
