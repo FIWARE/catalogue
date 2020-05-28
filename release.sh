@@ -53,8 +53,6 @@ findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
-findRelease data-publication/apinf/apinf apinf/platform 0.60.0
-findRelease data-publication/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.6.0
 findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.6.0
 findRelease data-publication/business-api/customer-management FIWARE-TMForum/DSCUSTOMER v7.6.0
@@ -84,10 +82,6 @@ findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.13.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
-findRelease processing/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
-findRelease processing/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
-findRelease processing/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
-findRelease processing/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
 findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.7
@@ -109,9 +103,15 @@ findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.1.0
 findRelease robotics/firos iml130/firos v0.3.0
 
 
+findRelease security/apinf/apinf apinf/platform 0.60.0
+findRelease security/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease security/authzforce authzforce/server release-8.1.0
 findRelease security/keyrock ging/fiware-idm 7.8.1
 findRelease security/wilma ging/fiware-pep-proxy 7.8.1
 
+findRelease third-party/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
+findRelease third-party/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
+findRelease third-party/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
+findRelease third-party/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
 findRelease third-party/domibus edelivery/domibus 4.1.3
 
