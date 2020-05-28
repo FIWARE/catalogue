@@ -175,3 +175,6 @@
 [submodule "core/orion-ld"]
 	path = core/orion-ld
 	url = https://github.com/FIWARE/context.Orion-LD.git
+[submodule "core/stellio"]
+	path = core/stellio
+	url = https://github.com/stellio-hub/stellio-context-broker

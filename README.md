@@ -104,7 +104,10 @@ The following Context Broker implementations, supporting the ETSI NGSI-LD API sp
     supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of
     Orion.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
-    Broker
+    <<<<<<< HEAD Broker ======= Broker which can also be used in federated environments
+-   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
+    alternative NGSI-LD Broker
+    > > > > > > > master
 
 Accompanying a Context Broker component as part of Core Context Management:
 
@@ -118,6 +121,8 @@ Accompanying a Context Broker component as part of Core Context Management:
     managing the history of context. It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and
     system mediation logic and also offers an intuitive graphical interface
+-   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
+    integrated with popular Big Data platforms (Spark and Flink).
 
 The following is a list of additional Generic Enablers under incubation within the core context management chapter:
 
@@ -188,8 +193,6 @@ purpose of implementing the “smart behaviour” expected in any application:
 -   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
     the transformation of video cameras into sensors as well as the incorporation of advanced application functions
     (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
--   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
-    integrated with popular Big Data platforms (Spark and Flink).
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a distributed execution framework to support
     dynamic processing flows over cloud and edges.
 

@@ -54,7 +54,9 @@ findRelease core/orion telefonicaid/fiware-orion 2.4.0
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.4-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
+findRelease core/stellio stellio-hub/stellio-context-broker v0.5.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
+
 
 findRelease data-publication/business-api/billing-management FIWARE-TMForum/DSBILLINGMANAGEMENT v7.6.0
 findRelease data-publication/business-api/business-api FIWARE-TMForum/Business-API-Ecosystem v7.6.0
