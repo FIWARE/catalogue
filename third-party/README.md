@@ -1,5 +1,8 @@
 # Interface to Third Party Systems
 
+Third-party system components are targeted to deal with transference of produced data for its further processing
+externally.
+
 ## :seedling: Domibus (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./README.md)
