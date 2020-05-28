@@ -111,8 +111,8 @@ findRelease robotics/firos iml130/firos v0.3.0
 findRelease security/apinf/apinf apinf/platform 0.60.0
 findRelease security/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease security/authzforce authzforce/server release-8.1.0
-findRelease security/keyrock ging/fiware-idm 7.8.1
-findRelease security/wilma ging/fiware-pep-proxy 7.8.1
+findRelease security/keyrock ging/fiware-idm 7.8.2
+findRelease security/wilma ging/fiware-pep-proxy 7.8.2
 
 findRelease third-party/domibus edelivery/domibus 4.1.3
 
