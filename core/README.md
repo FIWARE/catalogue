@@ -424,8 +424,8 @@ semantic tools and combined with other information.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
-![](https://img.shields.io/github/release-date/stellio-hub/stellio-context-broker.svg)
-![](https://img.shields.io/github/commits-since/stellio-hub/stellio-context-broker/latest.svg)
+![](https://img.shields.io/github/last-commit/stellio-hub/stellio-context-broker.svg)
+![](https://img.shields.io/github/tag/stellio-hub/stellio-context-broker.svg)
 
 | :octocat: [Git Repository](https://github.com/stellio-hub/stellio-context-broker/) | :whale: [Docker Hub](https://hub.docker.com/orgs/stellio/repositories/) | :books: [Documentation](https://stellio.rtfd.io/) |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
