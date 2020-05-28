@@ -104,7 +104,9 @@ The following Context Broker implementations, supporting the ETSI NGSI-LD API sp
     supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of
     Orion.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
-    Broker
+    Broker which can also be used in federated environments
+-   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
+    alternative NGSI-LD Broker
 
 Accompanying a Context Broker component as part of Core Context Management:
 

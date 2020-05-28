@@ -322,7 +322,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 <a name="scorpio"/>
 
-## :new: Scorpio (Incubated)
+## :seedling: Scorpio (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
@@ -384,7 +384,7 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 
 <a name="orion-ld"/>
 
-## :new: Orion-LD (Incubated)
+## :seedling: Orion-LD (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/context.Orion-LD.svg)
@@ -417,3 +417,16 @@ entity types, relationships and properties defined as unique URIs. The represent
 shortname strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be
 referenced as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with
 semantic tools and combined with other information.
+
+<a name="stellio"/>
+
+## :new: Stellio (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
+![](https://img.shields.io/github/release-date/stellio-hub/stellio-context-broker.svg)
+![](https://img.shields.io/github/commits-since/stellio-hub/stellio-context-broker/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/stellio-hub/stellio-context-broker/) | :whale: [Docker Hub](https://hub.docker.com/orgs/stellio/repositories/) | :books: [Documentation](https://stellio.rtfd.io/) |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
+
