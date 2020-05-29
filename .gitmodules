@@ -35,7 +35,7 @@
 	path = iot-agents/OpenMTC
 	url = https://github.com/OpenMTC/OpenMTC
 [submodule "robotics/Fast-RTPS"]
-	path = robotics/Fast-RTPS
+	path = robotics/Fast-DDS
 	url = https://github.com/eProsima/Fast-RTPS
 [submodule "processing/knowage/server"]
 	path = processing/knowage/server

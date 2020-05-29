@@ -51,7 +51,7 @@ findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-
 findRelease core/cygnus telefonicaid/fiware-cygnus 2.1.0
 findRelease core/draco ging/fiware-draco 1.3.1
 findRelease core/orion telefonicaid/fiware-orion 2.4.0
-findRelease core/orion-ld FIWARE/context.Orion-LD v0.4-alpha
+findRelease core/orion-ld FIWARE/context.Orion-LD v0.4.0-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
 findRelease core/stellio stellio-hub/stellio-context-broker v0.5.0
@@ -103,7 +103,7 @@ findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.3.1
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 
 
-findRelease robotics/Fast-RTPS eProsima/Fast-RTPS v1.10.0
+findRelease robotics/Fast-DDS eProsima/Fast-RTPS v2.0.0
 findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.1.0
 findRelease robotics/firos iml130/firos v0.3.0
 

@@ -164,7 +164,7 @@ The following is a list of Generic Enablers under incubation within the area of 
 
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
     the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
--   The [Fast RTPS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
+-   The [Fast DDS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
     middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with ROS2-based
     robotics systems.
 -   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
