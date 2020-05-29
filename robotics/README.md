@@ -1,6 +1,6 @@
 # Robotics
 
-## :seedling: Fast RTPS (Incubated)
+## :seedling: Fast DDS (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)
@@ -11,11 +11,13 @@
 | ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 
-eProsima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
+eProsima Fast DDS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
 publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object
-Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution
-Service (DDS) standard, again by the OMG. eProsima Fast RTPS holds the benefit of being standalone and up-to-date, as
-most vendor solutions either implement RTPS as a tool to implement DDS or use past versions of the specification.
+Management Group (OMG) consortium. Fast DDS provides both the [OMG DDS 1.4](https://www.omg.org/spec/DDS/1.4) and the
+[OMG RTPS 2.2](https://www.omg.org/spec/DDSI-RTPS/2.2/) interoperable wire-protocol standards.
+
+eProsima Fast DDS holds the benefit of being standalone and up-to-date, as most vendor solutions either implement RTPS
+as a tool to implement DDS or use past versions of the specification.
 
 ### Quality Assurance
 
