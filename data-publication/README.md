@@ -40,7 +40,7 @@ In particular, the following extensions are being provided:
 
 ### Why use Extensions to CKAN?
 
-CKAN is one of the most extended Open Data publication platforms and is becoming the de-fact standard for data
+CKAN is one of the most extended Open Data publication platforms and is becoming the de-facto standard for data
 publication in Europe. Moreover, CKAN is an open source platform which means it can be easily adapted and expanded.
 
 In this regard, the provided extensions integrate CKAN with the FIWARE platform, enabling the right-time context
