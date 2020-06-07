@@ -50,8 +50,8 @@ consumed.
 In addition, the integration of the FIWARE Security and Business Frameworks provide an enriched access control and
 enable explicit acceptance of data terms and conditions, usage accounting, or data monetization
 
-Finally, the integration with WireCloud let the data providers to create and customize rich visualizations for their
-data, without the need of installing new extensions of restarting the platform.
+Finally, the integration with WireCloud lets the data providers create and customize rich visualizations for their
+data, without the need of installing new extensions or restarting the platform.
 
 ### Quality Assurance
 
