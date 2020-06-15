@@ -190,3 +190,6 @@
 [submodule "core/stellio"]
 	path = core/stellio
 	url = https://github.com/stellio-hub/stellio-context-broker
+[submodule "third-party/oliot"]
+	path = third-party/oliot
+	url = https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.git
