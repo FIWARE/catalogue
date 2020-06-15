@@ -162,16 +162,18 @@ context updates:
 The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and thiry-party systems:
 
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
-    the OneM2M standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
+    the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
 -   The [Fast DDS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
-    middleware in ROS2, the widely known Robot Operating System, therefore it helps to interface with ROS2-based
+    middleware in [ROS2](https://index.ros.org/doc/ros2/), the widely known Robot Operating System, therefore it helps to interface with ROS2-based
     robotics systems.
 -   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
-    DDS middleware, adapted to run in extremely constrained resource devices (e.g., micro-controllers).
+    [DDS](https://www.omg.org/spec/DDS) middleware, adapted to run in extremely constrained resource devices (e.g. micro-controllers).
 -   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
-    domain and the cloud, transforming ROS messages into NGSI v2 and vice versa.
+    domain and the cloud, transforming [ROS](https://www.ros.org/) messages into NGSI v2 and vice versa.
 -   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
     users to exchange electronic data and documents with one another in a reliable and trusted way.
+-   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation 
+    gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1) IoT platforms.
 
 Further information can be found on dedicated pages linked to [IoT Agents](./iot-agents/README.md) and
 [Robotics](./robotics/README.md) and [Third-Party Systems](./third-party/README.md)
