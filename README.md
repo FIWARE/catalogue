@@ -10,8 +10,19 @@ relevant source code repositories, documentation and Docker images.
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**.
 
-| :books: [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: [Docker Hub](https://hub.docker.com/u/fiware) | :dart: [Roadmap](./roadmap.md) |
+| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :dart: &nbsp; [Roadmap](./roadmap.md) |
 | ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+
+
+### Willing to contribute your technology to FIWARE?
+
+The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE, 
+each open source component must fulfill a number of contribution requirements. The technical direction of FIWARE is governed by the FIWARE 
+Technical Steering Committee (TSC).
+
+ |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1)
+| ---| --- | --- | --- |
+
 
 
 ## Contents
