@@ -20,6 +20,9 @@ The application process for joining the FIWARE Initiative is described in the li
 each open source component must fulfill a number of contribution requirements. The technical direction of FIWARE is governed by the FIWARE 
 Technical Steering Committee (TSC).
 
+You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training 
+material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
+
  |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1)
 | ---| --- | --- | --- |
 
