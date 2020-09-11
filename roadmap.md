@@ -7,8 +7,9 @@ itself.
 > The following release windows have been defined for the development period prior to the next FIWARE Global Summit
 >
 > -   January 2020 - **7.8.1** - Release for onboarding new Generic Enablers
-> -   April 2020 - **7.8.2** - Security Patch
-> -   June 2020 - **7.9** - Release prior to the FIWARE Summit.
+> -   September 2020 - **7.9** - Release prior to the FIWARE Summit
+> -   January 2021 - **7.9.1** - End-of-year clean-up
+> -   May 2021 - **7.10** - Release prior to the FIWARE Summit
 
 ## Introduction
 

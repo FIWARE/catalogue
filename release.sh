@@ -48,13 +48,13 @@ findRelease core/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.
 findRelease core/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
 findRelease core/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
 findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
-findRelease core/cygnus telefonicaid/fiware-cygnus 2.1.0
-findRelease core/draco ging/fiware-draco 1.3.1
+findRelease core/cygnus telefonicaid/fiware-cygnus 2.4.0
+findRelease core/draco ging/fiware-draco 1.3.2
 findRelease core/orion telefonicaid/fiware-orion 2.4.0
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.4.0-alpha
-findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.5
+findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.6
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
-findRelease core/stellio stellio-hub/stellio-context-broker v0.5.0
+findRelease core/stellio stellio-hub/stellio-context-broker v0.10.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
 
@@ -82,20 +82,20 @@ findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-Lo
 findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.14.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.4.0
 findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.12.0
-findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.5
+findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.7
 findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.13.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
 findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.1.7
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.1
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker v7.0.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
-findRelease processing/kurento/media-server Kurento/kurento-media-server 6.13.0
+findRelease processing/kurento/media-server Kurento/kurento-media-server 6.14.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker "latest"
-findRelease processing/open-vidu OpenVidu/openvidu v2.14.0
+findRelease processing/open-vidu OpenVidu/openvidu v2.15.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.6.0
 findRelease processing/perseo/front-end telefonicaid/perseo-fe 1.13.0
 findRelease processing/wirecloud/ngsijs conwetlab/ngsijs 1.3.0
@@ -103,16 +103,17 @@ findRelease processing/wirecloud/wirecloud Wirecloud/wirecloud 1.3.1
 findRelease processing/wirecloud/wirecloud-docker Wirecloud/docker-wirecloud "latest"
 
 
-findRelease robotics/Fast-DDS eProsima/Fast-RTPS v2.0.0
-findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.1.0
+findRelease robotics/Fast-DDS eProsima/Fast-DDS v2.0.1
+findRelease robotics/Micro-XRCE-DDS eProsima/Micro-XRCE-DDS v1.3.0
 findRelease robotics/firos iml130/firos v0.3.0
 
 
 findRelease security/apinf/apinf apinf/platform 0.60.0
 findRelease security/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
-findRelease security/authzforce authzforce/server release-8.1.0
+findRelease security/authzforce authzforce/server release-9.0.1
 findRelease security/keyrock ging/fiware-idm 7.8.2
 findRelease security/wilma ging/fiware-pep-proxy 7.8.2
 
-findRelease third-party/domibus edelivery/domibus 4.1.3
+findRelease third-party/domibus edelivery/domibus 4.1.5
+findRelease third-party/oliot yalewkidane/FIWARE_EPCIS_Mediation_Gateway 1.0.0
 

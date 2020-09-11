@@ -40,7 +40,7 @@ In particular, the following extensions are being provided:
 
 ### Why use Extensions to CKAN?
 
-CKAN is one of the most extended Open Data publication platforms and is becoming the de-fact standard for data
+CKAN is one of the most extended Open Data publication platforms and is becoming the de-facto standard for data
 publication in Europe. Moreover, CKAN is an open source platform which means it can be easily adapted and expanded.
 
 In this regard, the provided extensions integrate CKAN with the FIWARE platform, enabling the right-time context
@@ -50,8 +50,8 @@ consumed.
 In addition, the integration of the FIWARE Security and Business Frameworks provide an enriched access control and
 enable explicit acceptance of data terms and conditions, usage accounting, or data monetization
 
-Finally, the integration with WireCloud let the data providers to create and customize rich visualizations for their
-data, without the need of installing new extensions of restarting the platform.
+Finally, the integration with WireCloud lets the data providers create and customize rich visualizations for their data,
+without the need of installing new extensions or restarting the platform.
 
 ### Quality Assurance
 
