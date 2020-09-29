@@ -40,9 +40,9 @@
 [submodule "iot-agents/OpenMTC"]
 	path = iot-agents/OpenMTC
 	url = https://github.com/OpenMTC/OpenMTC
-[submodule "robotics/Fast-RTPS"]
+[submodule "robotics/Fast-DDS"]
 	path = robotics/Fast-DDS
-	url = https://github.com/eProsima/Fast-RTPS
+	url = https://github.com/eProsima/Fast-DDS
 [submodule "processing/knowage/server"]
 	path = processing/knowage/server
 	url = https://github.com/KnowageLabs/Knowage-Server.git
