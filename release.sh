@@ -44,17 +44,17 @@ displayUpdatedTags (){
 	git diff --compact-summary --submodule=short  FIWARE_7.8.1..releases
 }
 
-findRelease core/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector 1.2.3
-findRelease core/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector 1.2.1
-findRelease core/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples 1.2.3
-findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples 1.2.0
+findRelease core/cosmos/cosmos-flink ging/fiware-cosmos-orion-flink-connector FIWARE_7.9
+findRelease core/cosmos/cosmos-spark ging/fiware-cosmos-orion-spark-connector FIWARE_7.9
+findRelease core/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-examples FIWARE_7.9
+findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples FIWARE_7.9
 findRelease core/cygnus telefonicaid/fiware-cygnus 2.4.0
-findRelease core/draco ging/fiware-draco 1.3.2
-findRelease core/orion telefonicaid/fiware-orion 2.4.0
+findRelease core/draco ging/fiware-draco 1.3.3
+findRelease core/orion telefonicaid/fiware-orion 2.4.1
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.4.0-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.6
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
-findRelease core/stellio stellio-hub/stellio-context-broker v0.10.0
+findRelease core/stellio stellio-hub/stellio-context-broker v0.11.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
 
@@ -76,20 +76,20 @@ findRelease data-publication/ckan-extensions/oauth2 conwetlab/ckanext-oauth2 v0.
 findRelease data-publication/ckan-extensions/private-datasets conwetlab/ckanext-privatedatasets v0.4.1
 findRelease data-publication/ckan-extensions/right-time-context conwetlab/ckanext-right_time_context v0.9
 findRelease data-publication/ckan-extensions/wirecloud-dashboards conwetlab/ckanext-wirecloud_view v1.1.0
-findRelease data-publication/idra opsilab/idra v2.1.0
+findRelease data-publication/idra opsilab/idra v2.1.1
 
 findRelease iot-agents/iotagent-LoRaWAN Atos-Research-and-Innovation/IoTagent-LoRaWAN v1.2.3
-findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.14.0
+findRelease iot-agents/iotagent-json telefonicaid/iotagent-json 1.15.0
 findRelease iot-agents/iotagent-lightweightM2M telefonicaid/lightweightm2m-iotagent 1.4.0
-findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.12.0
-findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.7
-findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.13.0
+findRelease iot-agents/iotagent-node-lib telefonicaid/iotagent-node-lib 2.13.0
+findRelease iot-agents/iotagent-opcua Engineering-Research-and-Development/iotagent-opcua v1.3.8
+findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.14.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
 findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.1
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.2
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker v7.0.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
