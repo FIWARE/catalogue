@@ -36,7 +36,7 @@
 	url = https://github.com/OpenMTC/OpenMTC
 [submodule "robotics/Fast-DDS"]
 	path = robotics/Fast-DDS
-	url = https://github.com/eProsima/Fast-DDS
+	url = https://github.com/eProsima/Fast-DDS.git
 [submodule "processing/knowage/server"]
 	path = processing/knowage/server
 	url = https://github.com/KnowageLabs/Knowage-Server.git

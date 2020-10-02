@@ -50,10 +50,10 @@ findRelease core/cosmos/examples-flink ging/fiware-cosmos-orion-flink-connector-
 findRelease core/cosmos/examples-spark ging/fiware-cosmos-orion-spark-connector-examples FIWARE_7.9
 findRelease core/cygnus telefonicaid/fiware-cygnus 2.4.0
 findRelease core/draco ging/fiware-draco 1.3.3
-findRelease core/orion telefonicaid/fiware-orion 2.4.1
-findRelease core/orion-ld FIWARE/context.Orion-LD v0.4.0-alpha
+findRelease core/orion telefonicaid/fiware-orion 2.4.2
+findRelease core/orion-ld FIWARE/context.Orion-LD v0.5.0-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.6
-findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.8.2
+findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.9
 findRelease core/stellio stellio-hub/stellio-context-broker v0.11.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
