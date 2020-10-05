@@ -87,7 +87,7 @@ findRelease iot-agents/iotagent-ultralight telefonicaid/iotagent-ul 1.14.0
 findRelease iot-agents/OpenMTC OpenMTC/OpenMTC v1.3.0
 findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
-findRelease processing/fogflow/fogflow smartfog/fogflow V3.0.0
+findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.9
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
 findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.2
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
