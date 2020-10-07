@@ -54,7 +54,7 @@ findRelease core/orion telefonicaid/fiware-orion 2.4.2
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.5.0-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.6
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.9
-findRelease core/stellio stellio-hub/stellio-context-broker v0.11.0
+findRelease core/stellio stellio-hub/stellio-context-broker v0.12.1
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
 
@@ -89,7 +89,7 @@ findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.9
 findRelease processing/knowage/documentation KnowageLabs/Knowage-Documentation "latest"
-findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.2
+findRelease processing/knowage/server KnowageLabs/Knowage-Server v7.2.3
 findRelease processing/knowage/server-chef KnowageLabs/Knowage-Server-Chef 6.1.1
 findRelease processing/knowage/server-docker KnowageLabs/Knowage-Server-Docker v7.0.0
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
@@ -111,8 +111,8 @@ findRelease robotics/firos iml130/firos v0.3.0
 findRelease security/apinf/apinf apinf/platform 0.60.0
 findRelease security/apinf/api-umbrella apinf/api-umbrella v0.15.0-apinf2.1
 findRelease security/authzforce authzforce/server release-9.0.1
-findRelease security/keyrock ging/fiware-idm 7.8.2
-findRelease security/wilma ging/fiware-pep-proxy 7.8.2
+findRelease security/keyrock ging/fiware-idm 7.9.0
+findRelease security/wilma ging/fiware-pep-proxy 7.9.0
 
 findRelease third-party/domibus edelivery/domibus 4.1.5
 findRelease third-party/oliot yalewkidane/FIWARE_EPCIS_Mediation_Gateway 1.0.0
