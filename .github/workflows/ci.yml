@@ -1,0 +1,27 @@
+name: CI
+'on':
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  lint-markdown:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Run Remark Markdown Linter
+        run: |
+          npm install
+          npm run lint:md
+      - name: Run Textlint Markdown Linter
+        run: npm run lint:text
