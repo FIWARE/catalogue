@@ -4,9 +4,6 @@
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/cefdigital/code/scm/edelivery/domibus.git
-[submodule "processing/fogflow"]
-	path = processing/fogflow
-	url = https://github.com/smartfog/fogflow.git
 [submodule "core/cosmos"]
 	path = core/cosmos/cosmos-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
@@ -43,9 +40,6 @@
 [submodule "robotics/Fast-DDS"]
 	path = robotics/Fast-DDS
 	url = https://github.com/eProsima/Fast-DDS.git
-[submodule "processing/fogflow/fogflow"]
-	path = processing/fogflow/fogflow
-	url = https://github.com/smartfog/fogflow.git
 [submodule "processing/kurento/media-server"]
 	path = processing/kurento/media-server
 	url = https://github.com/Kurento/kurento-media-server.git
@@ -181,3 +175,6 @@
 [submodule "third-party/oliot"]
 	path = third-party/oliot
 	url = https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.git
+[submodule "processing/fogflow.git"]
+	path = processing/fogflow.git
+	url = https://github.com/smartfog/fogflow
