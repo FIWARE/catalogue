@@ -5,61 +5,6 @@ To learn more about context processing, analysis and visualization, check out th
 [Visualization](https://fiwaretourguide.readthedocs.io/en/latest/visualization/introduction/) and
 [Media Streams](https://fiwaretourguide.readthedocs.io/en/latest/processing/kurento/introduction//)
 
-## Knowage
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)
-![License](https://img.shields.io/github/license/KnowageLabs/Knowage-Documentation.svg)
-![](https://img.shields.io/github/release-date/KnowageLabs/Knowage-Server.svg)
-![](https://img.shields.io/github/commits-since/KnowageLabs/Knowage-Server/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/KnowageLabs/Knowage-Server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/knowage-server-docker/) | :books: [Documentation](http://knowage.rtfd.io/) | :page_facing_up: [Site](https://www.knowage-suite.com/site/home/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/knowage) | :dart: [Roadmap](https://github.com/KnowageLabs/Knowage-Server/blob/master/ROADMAP.md) |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-
-
-### What is Knowage?
-
-Knowage is a professional open source suite for modern business analytics over traditional sources and big data systems.
-
-Knowage is composed of several modules, each one conceived for a specific analytical domain. They can be used
-individually or combined with one another to ensure full coverage of user's requirements:
-
--   Big Data - to analyse data stored on big data clusters or NoSQL databases
--   Smart Intelligence - the usual business intelligence on structured data, but more oriented to self-service
-    capabilities and agile prototyping
--   Enterprise Reporting - to produce and distribute static reports
--   Location Intelligence - to relate business data with spatial or geographical information
--   Performance Management - to manage KPIs and organize scorecards
--   Predictive Analysis - for more advanced analyses
--   Embedded Intelligence - to link Knowage with external solutions provided by the customer or third parties.
-
-### Why use Knowage?
-
-Knowage suite provides full capabilities to get insights on your context data and turn it into actionable knowledge for
-effective decision-making processes. In addition to the usual reporting and charting tools, Knowage includes also
-innovative solutions for emerging domains, such as location intelligence, KPIs, real-time, mobile, big data, data
-mining, what-if, interactive cockpits and self-service capabilities.
-
-Knowage has a modular approach, scalable architecture and is based on open standards such as NGSI. This ensures that the
-solution is easily customizable and can be tailored the needs of any Smart Solution powered by FIWARE.
-
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/knowage.json&query=$.stability&colorB=blue)
-
 ## Wirecloud
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)

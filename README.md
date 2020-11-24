@@ -16,13 +16,13 @@ Academy** and the **Step-by-Step Tutorials**.
 
 ### Willing to contribute your technology to FIWARE?
 
-The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE, 
+The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE,
 each open source component must fulfill a number of [contribution requirements](https://fiware-requirements.readthedocs.io), follow common
-[Open Source Best Practice](https://bestpractices.coreinfrastructure.org/en/signup) and sign-up to the harmonized FIWARE 
-[Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf). The technical 
+[Open Source Best Practice](https://bestpractices.coreinfrastructure.org/en/signup) and sign-up to the harmonized FIWARE
+[Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf). The technical
 direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC).
 
-You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training 
+You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
 material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
 
  |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
@@ -188,7 +188,7 @@ The following is a list of Generic Enablers under incubation within the area of 
     domain and the cloud, transforming [ROS](https://www.ros.org/) messages into NGSI v2 and vice versa.
 -   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
     users to exchange electronic data and documents with one another in a reliable and trusted way.
--   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation 
+-   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation
     gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1) IoT platforms.
 
 Further information can be found on dedicated pages linked to [IoT Agents](./iot-agents/README.md) and
@@ -205,8 +205,6 @@ purpose of implementing the “smart behaviour” expected in any application:
 
 -   The [Wirecloud](https://github.com/Wirecloud/) Generic Enabler brings a powerful web mashup platform making it
     easier to develop operational dashboards which are highly customizable by end users.
--   The [Knowage](https://github.com/KnowageLabs/) Generic Enabler brings a powerful Business Intelligence platform
-    enabling to perform business analytics over traditional sources and big data systems build on context history.
 -   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
     the transformation of video cameras into sensors as well as the incorporation of advanced application functions
     (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
