@@ -175,6 +175,6 @@
 [submodule "third-party/oliot"]
 	path = third-party/oliot
 	url = https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.git
-[submodule "processing/fogflow.git"]
-	path = processing/fogflow.git
-	url = https://github.com/smartfog/fogflow
+[submodule "processing/fogflow"]
+	path = processing/fogflow
+	url = https://github.com/smartfog/fogflow.git
