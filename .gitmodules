@@ -43,18 +43,6 @@
 [submodule "robotics/Fast-DDS"]
 	path = robotics/Fast-DDS
 	url = https://github.com/eProsima/Fast-DDS.git
-[submodule "processing/knowage/server"]
-	path = processing/knowage/server
-	url = https://github.com/KnowageLabs/Knowage-Server.git
-[submodule "processing/knowage/documentation"]
-	path = processing/knowage/documentation
-	url = https://github.com/KnowageLabs/Knowage-Documentation.git
-[submodule "processing/knowage/server-docker"]
-	path = processing/knowage/server-docker
-	url = https://github.com/KnowageLabs/Knowage-Server-Docker.git
-[submodule "processing/knowage/server-chef"]
-	path = processing/knowage/server-chef
-	url = https://github.com/KnowageLabs/Knowage-Server-Chef.git
 [submodule "processing/fogflow/fogflow"]
 	path = processing/fogflow/fogflow
 	url = https://github.com/smartfog/fogflow.git
