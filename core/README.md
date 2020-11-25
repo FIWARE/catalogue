@@ -366,8 +366,8 @@ interfaces. This standardized version is based on the NGSI-LD specification publ
 Group on Context Information Management.
 
 NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
-only having attributes. While properties have values, relationships explicitly refer to other entities. As a result
-there is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
+only having attributes. While properties have values, relationships explicitly refer to other entities. The result
+is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
 related entities. NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses
 entity types, relationships and properties defined as unique URIs. The representation of the data is still concise as
 shortname strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be
@@ -410,8 +410,8 @@ back to the OMA NGSI context interfaces. This standardized version is based on t
 the ETSI Industry Specification Group on Context Information Management.
 
 NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
-only having attributes. While properties have values, relationships explicitly refer to other entities. As a result
-there is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
+only having attributes. While properties have values, relationships explicitly refer to other entities. The result
+is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
 related entities. NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses
 entity types, relationships and properties defined as unique URIs. The representation of the data is still concise as
 shortname strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be
