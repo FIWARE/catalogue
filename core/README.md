@@ -322,7 +322,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 <a name="scorpio"/>
 
-## corpio 
+## Scorpio 
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
@@ -420,7 +420,7 @@ semantic tools and combined with other information.
 
 <a name="stellio"/>
 
-## :new: Stellio (Incubated)
+## :seedling: Stellio (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
