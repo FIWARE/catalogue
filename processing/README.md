@@ -120,7 +120,7 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
 ## FogFlow
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
-![License](https://img.shields.io/badge/License-BSD%204%20Clause-blue.svg)
+![License](https://img.shields.io/badge/license-BSD--4--clause-green)
 ![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
 ![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
 
