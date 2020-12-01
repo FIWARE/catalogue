@@ -8,7 +8,7 @@ To learn more about context processing, analysis and visualization, check out th
 ## Wirecloud
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)
-![License](https://img.shields.io/badge/License-AGPLv3+%20with%20classpath--like%20exception-blue.svg)
+![License](https://img.shields.io/badge/License-AGPLv3+%20with%20classpath--like%20exception-orange.svg)
 ![](https://img.shields.io/github/release-date/Wirecloud/wirecloud.svg)
 ![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
 
