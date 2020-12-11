@@ -53,7 +53,7 @@ findRelease core/cygnus telefonicaid/fiware-cygnus 2.6.0
 findRelease core/draco ging/fiware-draco 1.3.3
 findRelease core/orion telefonicaid/fiware-orion 2.5.0
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.5.0-alpha
-findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.7.6
+findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.8-alpha
 findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.9
 findRelease core/stellio stellio-hub/stellio-context-broker v0.16.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
@@ -90,7 +90,7 @@ findRelease iot-agents/iotagent-sigfox telefonicaid/sigfox-iotagent 1.4.0
 
 findRelease processing/fogflow/fogflow smartfog/fogflow FIWARE_7.9
 findRelease processing/kurento/documentation Kurento/doc-fiware-readthedocs "latest"
-findRelease processing/kurento/media-server Kurento/kurento-media-server 6.14.0
+findRelease processing/kurento/media-server Kurento/kurento-media-server 6.15.0
 findRelease processing/kurento/media-server-docker Kurento/kurento-docker "latest"
 findRelease processing/open-vidu OpenVidu/openvidu v2.16.0
 findRelease processing/perseo/back-end telefonicaid/perseo-core 1.6.0
@@ -111,6 +111,6 @@ findRelease security/authzforce authzforce/server release-9.0.1
 findRelease security/keyrock ging/fiware-idm 7.9.0
 findRelease security/wilma ging/fiware-pep-proxy 7.9.0
 
-findRelease third-party/domibus edelivery/domibus 4.1.5
+findRelease third-party/domibus edelivery/domibus 4.1.6
 findRelease third-party/oliot yalewkidane/FIWARE_EPCIS_Mediation_Gateway 1.0.0
 
