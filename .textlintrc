@@ -183,13 +183,6 @@
       "tooWordy": false,
       "weasel": false,
       "so": false
-    },
-    "no-dead-link": {
-       "ignoreRedirects": true,
-       "ignore": [
-          "mailto:*",
-          "https://oauth.net"
-      ]
     }
   }
 }

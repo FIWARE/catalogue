@@ -4,9 +4,9 @@
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/cefdigital/code/scm/edelivery/domibus.git
-[submodule "processing/fogflow"]
-	path = processing/fogflow
-	url = https://github.com/smartfog/fogflow.git
+[submodule "core/cosmos"]
+	path = core/cosmos/cosmos-flink
+	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
 [submodule "security/keyrock"]
 	path = security/keyrock
 	url = https://github.com/ging/fiware-idm.git
@@ -28,6 +28,9 @@
 [submodule "security/wilma"]
 	path = security/wilma
 	url = https://github.com/ging/fiware-pep-proxy.git
+[submodule "data-management/business-api"]
+	path = data-publication/business-api/business-api
+	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem
 [submodule "iotagents/iotagent-json"]
 	path = iot-agents/iotagent-json
 	url = https://github.com/telefonicaid/iotagent-json
@@ -37,21 +40,6 @@
 [submodule "robotics/Fast-DDS"]
 	path = robotics/Fast-DDS
 	url = https://github.com/eProsima/Fast-DDS.git
-[submodule "processing/knowage/server"]
-	path = processing/knowage/server
-	url = https://github.com/KnowageLabs/Knowage-Server.git
-[submodule "processing/knowage/documentation"]
-	path = processing/knowage/documentation
-	url = https://github.com/KnowageLabs/Knowage-Documentation.git
-[submodule "processing/knowage/server-docker"]
-	path = processing/knowage/server-docker
-	url = https://github.com/KnowageLabs/Knowage-Server-Docker.git
-[submodule "processing/knowage/server-chef"]
-	path = processing/knowage/server-chef
-	url = https://github.com/KnowageLabs/Knowage-Server-Chef.git
-[submodule "processing/fogflow/fogflow"]
-	path = processing/fogflow/fogflow
-	url = https://github.com/smartfog/fogflow.git
 [submodule "processing/kurento/media-server"]
 	path = processing/kurento/media-server
 	url = https://github.com/Kurento/kurento-media-server.git
@@ -76,6 +64,9 @@
 [submodule "core/quantum-leap"]
 	path = core/quantum-leap
 	url = https://github.com/smartsdk/ngsi-timeseries-api.git
+[submodule "processing/cosmos/examples"]
+	path = core/cosmos/examples-flink
+	url = https://github.com/ging/fiware-cosmos-orion-flink-connector-examples.git
 [submodule "data-publication/business-api/product-catalog"]
 	path = data-publication/business-api/product-catalog
 	url = https://github.com/FIWARE-TMForum/DSPRODUCTCATALOG2.git
@@ -109,9 +100,6 @@
 [submodule "data-publication/business-api/logic-proxy"]
 	path = data-publication/business-api/logic-proxy
 	url = https://github.com/FIWARE-TMForum/business-ecosystem-logic-proxy.git
-[submodule "data-publication/business-api/business-api"]
-	path = data-publication/business-api/business-api
-	url = https://github.com/FIWARE-TMForum/Business-API-Ecosystem.git
 [submodule "data-publication/ckan-extensions/ckan-extensions"]
 	path = data-publication/ckan-extensions/ckan-extensions
 	url = https://github.com/conwetlab/FIWARE-CKAN-Extensions.git
@@ -166,6 +154,12 @@
 [submodule "robotics/firos"]
 	path = robotics/firos
 	url = https://github.com/iml130/firos.git
+[submodule "processing/cosmos-spark"]
+	path = core/cosmos/cosmos-spark
+	url = https://github.com/ging/fiware-cosmos-orion-spark-connector
+[submodule "processing/cosmos/examples-spark"]
+	path = core/cosmos/examples-spark
+	url = https://github.com/ging/fiware-cosmos-orion-spark-connector-examples
 [submodule "processing/open-vidu"]
 	path = processing/open-vidu
 	url = https://github.com/OpenVidu/openvidu
@@ -181,3 +175,6 @@
 [submodule "third-party/oliot"]
 	path = third-party/oliot
 	url = https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.git
+[submodule "processing/fogflow"]
+	path = processing/fogflow
+	url = https://github.com/smartfog/fogflow.git
