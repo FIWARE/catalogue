@@ -39,3 +39,4 @@ jspm_packages/
 push.sh
 package-lock.json
 .idea
+findTags.sh
