@@ -3,7 +3,11 @@ on:
   schedule:
   - cron: "0 8 * * 1"
 
-steps:
+jobs:
+  lint-markdown:
+    name: Refresh Submodules
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@master
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
