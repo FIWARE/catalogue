@@ -54,7 +54,7 @@ findRelease core/draco ging/fiware-draco 1.3.3
 findRelease core/orion telefonicaid/fiware-orion 2.5.2
 findRelease core/orion-ld FIWARE/context.Orion-LD v0.5.0-alpha
 findRelease core/quantum-leap smartsdk/ngsi-timeseries-api 0.8-alpha
-findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.9
+findRelease core/scorpio ScorpioBroker/ScorpioBroker FIWARE_7.9.1
 findRelease core/stellio stellio-hub/stellio-context-broker v0.16.0
 findRelease core/sth-comet telefonicaid/fiware-sth-comet 2.8.0
 
