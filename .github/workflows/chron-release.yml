@@ -1,0 +1,29 @@
+name: "Update Tagged Releases"
+on:
+  schedule:
+  - cron: "30 8 1 * *"
+
+jobs:
+  refresh-modules:
+    name: Refresh Submodules
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false 
+        fetch-depth: 0 
+        ref: releases
+    - name: Merge changes to releases
+      run: |
+        git merge origin/master --strategy-option theirs
+        git submodule foreach 'git reset HEAD $path'   
+        git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A .
+        git commit -m "Merge master into releases" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: releases
