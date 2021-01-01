@@ -15,11 +15,11 @@ jobs:
         ref: releases
     - name: Merge changes to releases
       run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git merge origin/master --strategy-option theirs
         git submodule foreach 'git reset HEAD $path'   
         git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git add -A .
         git commit -m "Merge master into releases" -a
     - name: Push changes
