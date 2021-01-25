@@ -72,7 +72,7 @@ with the following:
     behaviour of applications and/or assisting end users in making smart decisions.
 -   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
     to usage control and the opportunity to publish and monetize part of managed context data.
--   **Deployment Tools** such as Docker images and helm-chart recipes for the deployment of production-ready instances of FIWARE on Kubernetes
+-   **Deployment Tools** such as Docker images and Helm-chart recipes are available for each Generic Enabler
 
 FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
 other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context
