@@ -10,8 +10,8 @@ relevant source code repositories, documentation and Docker images.
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**.
 
-| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :dart: &nbsp; [Roadmap](./roadmap.md) |
-| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) |
+| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ | ---- |
 
 
 ### Willing to contribute your technology to FIWARE?
@@ -72,6 +72,7 @@ with the following:
     behaviour of applications and/or assisting end users in making smart decisions.
 -   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
     to usage control and the opportunity to publish and monetize part of managed context data.
+-   **Deployment Tools** such as Docker images and helm-chart recipes for the deployment of production-ready instances of FIWARE on Kubernetes
 
 FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
 other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context
@@ -268,6 +269,16 @@ monetization:
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
 [Security](./security/README.md)
+
+### Deployment Tools
+
+![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
+
+Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the 
+descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub repository, but these should
+only be used in development environments. For fully scalable production-ready instances please refer to the FIWARE
+[Helm Chart recipes](https://github.com/FIWARE/helm-charts/).
+
 
 ## Testing
 
