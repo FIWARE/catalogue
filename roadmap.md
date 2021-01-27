@@ -6,8 +6,6 @@ itself.
 
 > The following release windows have been defined for the development period prior to the next FIWARE Global Summit
 >
-> -   January 2020 - **7.8.1** - Release for onboarding new Generic Enablers
-> -   September 2020 - **7.9** - Release prior to the FIWARE Summit
 > -   January 2021 - **7.9.1** - End-of-year clean-up
 > -   May 2021 - **7.10** - Release prior to the FIWARE Summit
 
@@ -22,11 +20,11 @@ guidelines only, and this section may be revised to provide newer information at
 ## Short term
 
 The following list of features are planned to be addressed in the short term, and incorporated in the releases of the
-catalogue over the next six months up to **September 2020** (FIWARE Global Summit in Málaga):
+catalogue over the next six months up to **June 2021** (next FIWARE Global Summit):
 
 -   Require compliance of all **MUST** requirements within the
-    [Contributor Requirements](https://fiware-requirements.rtfd.io)
--   Introduce experimental NGSI-LD interfaces for all Generic Enablers
+    [Contributor Requirements](https://fiware-requirements.rtfd.io) and display of CII Best Practice Badges
+-   Harden the experimental NGSI-LD interfaces for all Generic Enablers
 -   Continue onboarding additional Generic Enablers within the Robotics Domain
 
 ## Medium term
