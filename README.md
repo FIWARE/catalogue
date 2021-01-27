@@ -312,7 +312,7 @@ and will undergo testing in the forthcoming release.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2020 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2021 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General
