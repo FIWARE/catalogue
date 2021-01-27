@@ -9,7 +9,7 @@ are part of [FIWARE](https://www.fiware.org/developers/) and allow users and dev
 relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
-Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **StackOverflow** using the FIWARE tag. 
+Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag. 
 
 | :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 |--- | --- | --- | ---  | --- |
