@@ -3,15 +3,21 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
+
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
 are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
 relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
-Academy** and the **Step-by-Step Tutorials**.
+Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **StackOverflow** using the FIWARE tag. 
 
-| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) |
-| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ | ---- |
+| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
+|--- | --- | --- | ---  | --- |
+ 
+As well as source-code repositories and binaries, components are available as Docker images and Helm-chart recipes for Kubernetes
+
+| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) |
+| ---| --- | --- |
 
 
 ### Willing to contribute your technology to FIWARE?
