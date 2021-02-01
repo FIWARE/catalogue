@@ -2,6 +2,7 @@ name: "Update Tagged Releases"
 on:
   schedule:
   - cron: "30 8 1 * *"
+  workflow_dispatch:
 
 jobs:
   refresh-modules:
