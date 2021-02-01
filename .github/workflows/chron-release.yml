@@ -21,7 +21,7 @@ jobs:
         git config --global user.name "GitHub Action"
         git merge origin/master --strategy-option theirs || true
         git submodule foreach 'git reset HEAD $path'   
-        git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'
+        git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'  || true
         
         cd processing/wirecloud/wirecloud
         git checkout 1.3.1
