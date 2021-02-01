@@ -14,6 +14,7 @@ jobs:
         persist-credentials: false 
         fetch-depth: 0 
         ref: releases
+        submodules: recursive
     - name: Merge changes to releases
       run: |
         git config --local user.email "action@github.com"
