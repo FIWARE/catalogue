@@ -17,8 +17,8 @@ jobs:
         submodules: recursive
     - name: Merge changes to releases
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
         git merge origin/master --strategy-option theirs || true
         git submodule foreach 'git reset HEAD $path'   
         git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'
