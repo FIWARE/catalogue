@@ -3,15 +3,21 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
+
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
 are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
 relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
-Academy** and the **Step-by-Step Tutorials**.
+Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag. 
 
-| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :dart: &nbsp; [Roadmap](./roadmap.md) |
-| ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
+|--- | --- | --- | ---  | --- |
+ 
+As well as source-code repositories and binaries, components are available as Docker images and Helm-chart recipes for Kubernetes
+
+| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) |
+| ---| --- | --- |
 
 
 ### Willing to contribute your technology to FIWARE?
@@ -72,6 +78,7 @@ with the following:
     behaviour of applications and/or assisting end users in making smart decisions.
 -   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
     to usage control and the opportunity to publish and monetize part of managed context data.
+-   **Deployment Tools** such as Docker images and Helm-chart recipes are available for each Generic Enabler
 
 FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
 other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context
@@ -269,6 +276,16 @@ Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
 [Security](./security/README.md)
 
+### Deployment Tools
+
+![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
+
+Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the 
+descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub repository, but these should
+only be used in development environments. For fully scalable production-ready instances please refer to the FIWARE
+[Helm Chart recipes](https://github.com/FIWARE/helm-charts/).
+
+
 ## Testing
 
 FIWARE is ready to work in industrial environments. A continuous quality assurance process is running to warranty the
@@ -295,7 +312,7 @@ and will undergo testing in the forthcoming release.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2020 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2021 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General

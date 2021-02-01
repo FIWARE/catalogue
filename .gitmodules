@@ -4,6 +4,7 @@
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/cefdigital/code/scm/edelivery/domibus.git
+	branch = development
 [submodule "core/cosmos"]
 	path = core/cosmos/cosmos-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
@@ -52,6 +53,7 @@
 [submodule "processing/wirecloud/wirecloud"]
 	path = processing/wirecloud/wirecloud
 	url = https://github.com/Wirecloud/wirecloud
+	branch = develop
 [submodule "processing/wirecloud/wirecloud-docker"]
 	path = processing/wirecloud/wirecloud-docker
 	url = https://github.com/Wirecloud/docker-wirecloud

@@ -2,6 +2,7 @@ name: "Update Tagged Releases"
 on:
   schedule:
   - cron: "30 8 1 * *"
+  workflow_dispatch:
 
 jobs:
   refresh-modules:
@@ -13,16 +14,22 @@ jobs:
         persist-credentials: false 
         fetch-depth: 0 
         ref: releases
+        submodules: recursive
     - name: Merge changes to releases
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git merge origin/master --strategy-option theirs
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git merge origin/master --strategy-option theirs || true
         git submodule foreach 'git reset HEAD $path'   
-        git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'
+        git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'  || true
         
         cd processing/wirecloud/wirecloud
         git checkout 1.3.1
+        cd ../../..
+        
+        cd third-party/domibus
+        git checkout 4.2
+        cd ../..
 
         git add -A .
         git commit -m "Merge master into releases" -a
