@@ -65,7 +65,7 @@ dealing with the following:
 FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
 other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context
 Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
-build on top as well. Listings of many FIWARE Ready devices and commercial “Powered by FIWARE” solutions can be found on the 
+build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_ solutions can be found on the 
 [FIWARE Marketplace](http://marketplace.fiware.org/). 
 
 To be adopted as a Generic Enabler within FIWARE, each open source component must fulfil a number of **contribution
