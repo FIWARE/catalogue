@@ -73,7 +73,7 @@ requirements**. The technical direction of FIWARE is governed by the **FIWARE Te
 Developers can also subscribe to the **FIWARE TSC mailing list**, join the FIWARE TSC regular confcalls as observer and
 follow the progress of the discussions through the **FIWARE TSC meeting minutes**.
 
-| :clipboard: [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
+| :clipboard: <br> [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: <br> [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: <br> [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: <br> [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
 | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
@@ -316,7 +316,7 @@ direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC)
 You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
 material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
 
- :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
+ :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: <br>  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> :handshake: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br>  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> :handshake: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
  --- | --- | --- | --- | ---|
 
 ## License
