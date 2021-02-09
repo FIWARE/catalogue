@@ -62,8 +62,8 @@ dealing with the following:
     to usage control and the opportunity to publish and monetize part of managed context data.
 -   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each Generic Enabler
 
-FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
-other third platform components to design the hybrid platform of your choice. As long as it uses the FIWARE Context
+FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but are free to
+use other third platform components as well to design the hybrid platform of your choice. As long as it uses the FIWARE Context
 Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
 build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_ solutions can be found on the 
 [FIWARE Marketplace](http://marketplace.fiware.org/). 
