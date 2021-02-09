@@ -11,7 +11,7 @@ relevant source code repositories, documentation and Docker images.
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag. 
 
- |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**developer.fiware.org**](https://www.fiware.org/developers/) | :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
+ |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/><br/> [**developer.fiware.org**](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 |--- | --- | --- | ---  | --- | --- |
 
 
