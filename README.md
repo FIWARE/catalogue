@@ -14,32 +14,6 @@ Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can
 | :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 |--- | --- | --- | ---  | --- |
 
-The individual components within the FIWARE catalogue are free to make semantic versioned releases at any time. Additionally, a labelling of the whole FIWARE 
-catalogue takes place at regular intervals where all components are collected together and a FIWARE label added according to a set of 
-[well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The FIWARE catalogue release schedule
-follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the same FIWARE 
-release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant
-components are available as Docker images and Helm-chart recipes for Kubernetes.
-
-| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
-| ---| --- | --- | --- |
-
-
-### Willing to contribute your technology to FIWARE?
-
-The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE,
-each open source component must fulfill a number of [contribution requirements](https://fiware-requirements.readthedocs.io), follow common
-[Open Source Best Practice](https://bestpractices.coreinfrastructure.org/en/signup) and sign-up to the harmonized FIWARE
-[Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf). The technical
-direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC).
-
-You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
-material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
-
- |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
-| ---| --- | --- | --- | --- | ---|
-
-
 
 ## Contents
 
@@ -50,7 +24,10 @@ material which are made freely available to developers, supporting QA activities
     -   [Interface with IoT, Robots and Third-Party Systems](#interface-with-iot-robots-and-third-party-systems)
     -   [Context Processing, Analysis and Visualization](#context-processing-analysis-and-visualization)
     -   [Context Data/API Management, Publication and Monetization](#context-dataapi-management-publication-and-monetization)
+    -   [Deployment Tools](#deployment-tools)
+-   [Releases](#management-of-fiware-releases)
 -   [Testing](#testing)
+-   [Contributing](#willing-to-contribute-your-technology-to-fiware)
 -   [License](#license)
 
 ## Background
@@ -291,6 +268,18 @@ only be used in development environments. For fully scalable production-ready in
 [Helm Chart recipes](https://github.com/FIWARE/helm-charts/).
 
 
+## Management of FIWARE Releases
+
+The individual components within the FIWARE catalogue are free to make semantic versioned releases at any time. Additionally, a labelling of the whole FIWARE 
+catalogue takes place at regular intervals where all components are collected together and a FIWARE label added according to a set of 
+[well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The FIWARE catalogue release schedule
+follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the same FIWARE 
+release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant
+components are available as Docker images and Helm-chart recipes for Kubernetes.
+
+| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
+| ---| --- | --- | --- |
+
 ## Testing
 
 FIWARE is ready to work in industrial environments. A continuous quality assurance process is running to warranty the
@@ -314,6 +303,21 @@ Mature Generic Enablers have been thoroughly tested and have already demonstrate
 framework. Incubated Generic enablers (annotated with :seedling:) have also been tested, but are still in the process of
 maturing to full acceptance with the FIWARE system. Recent applicants to FIWARE (annotated with :new:) are new to FIWARE
 and will undergo testing in the forthcoming release.
+
+
+## Willing to contribute your technology to FIWARE?
+
+The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE,
+each open source component must fulfill a number of [contribution requirements](https://fiware-requirements.readthedocs.io), follow common
+[Open Source Best Practice](https://bestpractices.coreinfrastructure.org/en/signup) and sign-up to the harmonized FIWARE
+[Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf). The technical
+direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC).
+
+You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
+material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
+
+ |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
+| ---| --- | --- | --- | --- | ---|
 
 ## License
 
