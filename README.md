@@ -25,7 +25,7 @@ Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can
     -   [Context Processing, Analysis and Visualization](#context-processing-analysis-and-visualization)
     -   [Context Data/API Management, Publication and Monetization](#context-dataapi-management-publication-and-monetization)
     -   [Deployment Tools](#deployment-tools)
--   [Releases](#management-of-fiware-releases)
+-   [Management of FIWARE Releases](#management-of-fiware-releases)
 -   [Testing](#testing)
 -   [Contributing](#willing-to-contribute-your-technology-to-fiware)
 -   [License](#license)
