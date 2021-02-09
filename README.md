@@ -14,8 +14,8 @@ Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can
 | :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 |--- | --- | --- | ---  | --- |
 
-The individual components within the FIWARE catalogue are free to make releases at any time, but a labelling of the whole FIWARE catalogue 
-takes place at regular intervals where all commponents are collected together and according to a set of 
+The individual components within the FIWARE catalogue are free to make semantic versioned releases at any time. Additionally, a labelling of the whole FIWARE 
+catalogue takes place at regular intervals where all components are collected together and a FIWARE label added according to a set of 
 [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The FIWARE catalogue release schedule
 follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the same FIWARE 
 release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant
