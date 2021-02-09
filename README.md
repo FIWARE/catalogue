@@ -11,8 +11,8 @@ relevant source code repositories, documentation and Docker images.
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag. 
 
-| :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
-|--- | --- | --- | ---  | --- |
+ |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**developer.fiware.org**](https://www.fiware.org/developers/) | :books: &nbsp; [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: &nbsp; [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: &nbsp; [Tutorials](https://fiware-tutorials.rtfd.io) | :question: [Ask.FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
+|--- | --- | --- | ---  | --- | --- |
 
 
 ## Contents
@@ -316,8 +316,8 @@ direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC)
 You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
 material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
 
- |  <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [**FIWARE Catalogue**](https://www.fiware.org/developers/catalogue/) | :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
-| ---| --- | --- | --- | --- | ---|
+ :inbox_tray: &nbsp; [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: &nbsp;  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | :handshake:  &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: &nbsp;  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | :handshake:  &nbsp;[Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
+ --- | --- | --- | --- | ---|
 
 ## License
 
