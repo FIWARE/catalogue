@@ -270,12 +270,11 @@ only be used in development environments. For fully scalable production-ready in
 
 ## Management of FIWARE Releases
 
-The individual components within the FIWARE catalogue are free to make semantic versioned releases at any time. Additionally, a labelling of the whole FIWARE 
-catalogue takes place at regular intervals where all components are collected together and a FIWARE label added according to a set of 
-[well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The FIWARE catalogue release schedule
-follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the same FIWARE 
-release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant
-components are available as Docker images and Helm-chart recipes for Kubernetes.
+The individual components within the FIWARE catalogue are free to make [semantic versioned](https://semver.org/spec/v2.0.0.html) releases at any 
+time. Additionally, a labelling of the whole FIWARE catalogue takes place at regular intervals where all components are collected together and a 
+FIWARE label added according to a set of [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). 
+The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions 
+of components with the same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
 
 | :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
 | ---| --- | --- | --- |
