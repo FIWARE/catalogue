@@ -265,8 +265,9 @@ Further information can be found on dedicated pages linked to
 
 Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the 
 descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub repository, but these should
-only be used in development environments. For fully scalable production-ready instances please refer to the FIWARE
-[Helm Chart recipes](https://github.com/FIWARE/helm-charts/).
+only be used in development environments. For fully scalable production-ready instances of FIWARE Generic Enablers please refer to 
+the repository holding the FIWARE [Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes 
+directly on [ArtifactoryHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware)
 
 
 ## Management of FIWARE Releases
@@ -277,8 +278,8 @@ FIWARE label added according to a set of [well-defined rules](https://fiware-req
 The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions 
 of components with the same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
 
-| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
-| ---| --- | --- | --- |
+| :whale: &nbsp;  [Docker Hub](https://hub.docker.com/u/fiware) | :globe_with_meridians: &nbsp; [ArtifactHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware) | :octocat: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
+| ---| --- | --- | --- | --- |
 
 ## Testing
 
