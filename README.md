@@ -278,7 +278,7 @@ FIWARE label added according to a set of [well-defined rules](https://fiware-req
 The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions 
 of components with the same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
 
-| [![Docker Hub](https://img.shields.io/badge/docker_hub-fiware-blue)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
+| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
 | ---| --- | --- | --- | --- |
 
 ## Testing
