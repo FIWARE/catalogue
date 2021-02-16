@@ -1,4 +1,4 @@
-[![FIWARE Catalogue](https://fiware.github.io/catalogue/img/fiware.png)](https://www.fiware.org/developers/catalogue/)
+# Catalogue<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left"> 
 
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
