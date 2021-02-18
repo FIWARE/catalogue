@@ -2,10 +2,6 @@
 
 set -e
 
-UXNAME=<username>
-UXPASS=<password>
-
-
 # aquire token
 TOKEN=$(curl -s -H "Content-Type: application/json" -X POST -d '{"username": "'${UXNAME}'", "password": "'${UXPASS}'"}' https://hub.docker.com/v2/users/login/ | jq -r .token)
 
