@@ -5,6 +5,7 @@ set -e
 UXNAME=<username>
 UXPASS=<password>
 
+
 # aquire token
 TOKEN=$(curl -s -H "Content-Type: application/json" -X POST -d '{"username": "'${UXNAME}'", "password": "'${UXPASS}'"}' https://hub.docker.com/v2/users/login/ | jq -r .token)
 
@@ -35,28 +36,45 @@ pushImageLatest () {
 findRelease () {
 	X=$(curl -s -H "Authorization: JWT ${TOKEN}"  -H "Content-Type: application/json" https://hub.docker.com/v2/repositories/$1/tags/$3 | jq ".images[0].digest")
 	Y=$(curl -s -H "Authorization: JWT ${TOKEN}"  -H "Content-Type: application/json" https://hub.docker.com/v2/repositories/$2/tags/$3 | jq ".images[0].digest")
-	if [ "$X" = "$Y" ]; then
-	    echo "Hashes are equal. $1 $3"
-	else
-	   pushImage $1 $2 $3
-	fi
-}
 
-findReleaseLatest () {
-	X=$(curl -s -H "Authorization: JWT ${TOKEN}"  -H "Content-Type: application/json" https://hub.docker.com/v2/repositories/$1/tags/$3 | jq ".images[0].digest")
-	Y=$(curl -s -H "Authorization: JWT ${TOKEN}"  -H "Content-Type: application/json" https://hub.docker.com/v2/repositories/$2/tags/$3 | jq ".images[0].digest")
+
 	if [ "$X" = "$Y" ]; then
 	    echo "Hashes are equal. $1 $3"
 	else
-	   pushImageLatest $1 $2 $3
+		#echo push $1 $3
+		pushImage $1 $2 $3
 	fi
 }
 
 
-#findReleaseLatest telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.4.0
 
-# findReleaseLatest telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.4.0
-findRelease telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.3.0
-findRelease telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.2.0
-findRelease telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.1.0
-findRelease telefonicaiot/sigfox-iotagent fiware/sigfox-iotagent 1.0.0
+pushAll () {
+	SOURCE=${1}
+	NAME=${2}
+	TAGS=$(curl -s https://hub.docker.com/v2/repositories/${SOURCE}/tags/)
+	for row in $( echo $TAGS | jq -c '.results[]'); do
+	    _jq() {
+	     echo ${row} | jq -r ${1}
+	    }
+	    TAG=$(_jq '.name')
+	    if [ $(_jq '.tag_status') == 'active' ]; then
+		    case $TAG in [1-9]*)
+		    	findRelease ${SOURCE} fiware/${NAME} $TAG
+			esac 
+		fi
+	done
+}
+
+pushAll ging/fiware-draco draco
+pushAll ging/fiware-idm idm
+pushAll ging/fiware-pep-proxy pep-proxy
+pushAll telefonicaiot/fiware-sth-comet sth-comet
+pushAll telefonicaiot/fiware-cygnus cygnus-ngsi
+#pushAll telefonicaiot/fiware-cygnus-ld cygnus-ld
+pushAll telefonicaiot/perseo-fe perseo
+pushAll telefonicaiot/perseo-core perseo-core
+pushAll telefonicaiot/fiware-orion orion
+pushAll telefonicaiot/sigfox-iotagent sigfox-iotagent
+pushAll telefonicaiot/iotagent-json iotagent-json
+pushAll telefonicaiot/iotagent-ul iotagent-ul
+pushAll telefonicaiot/lightweightm2m-iotagent lightweightm2m-iotagent
