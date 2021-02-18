@@ -43,5 +43,5 @@ jobs:
       run: |
         ./push-releases.sh
       env:
-          UXNAME: ${{ secret.DOCKER_USERNAME }}
-          UXPASS: ${{ secret.DOCKER_PASSWORD }}
+          UXNAME: ${{ secrets.DOCKER_USERNAME }}
+          UXPASS: ${{ secrets.DOCKER_PASSWORD }}
