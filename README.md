@@ -32,7 +32,7 @@ Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can
 
 ## Background
 
-[FIWARE](https://www.fiware.org) is a curated framework of open-source platform components which can be assembled
+[FIWARE](https://www.fiware.org) includes a curated framework of open-source platform components using NGSI which can be assembled
 together and with other third-party platform components to accelerate the development of Smart Solutions. The main and
 only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic Enabler,
 bringing a cornerstone function in any smart solution: the need to manage context information, enabling to perform
