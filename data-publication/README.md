@@ -217,8 +217,8 @@ The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated 
 ![](https://img.shields.io/github/last-commit/coatrack/coatrack.svg)
 ![](https://img.shields.io/github/tag/coatrack/coatrack.svg)
 
-| :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://coatrack.eu/) |
-| ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://github.com/coatrack/coatrack/wiki) | :dart: [Roadmap](https://github.com/coatrack/coatrack/wiki/roadmap.md) |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
 
 
 ### What is CoatRack?
