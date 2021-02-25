@@ -35,8 +35,8 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 [FIWARE](https://www.fiware.org) brings a curated framework of open source software platform components which can be
 assembled together and with other third-party components to build platforms that support the development of Smart
 Solutions faster, easier and cheaper. The main and only mandatory component of any _“Powered by FIWARE”_ platform or
-solution is a FIWARE Context Broker Generic Enabler, bringing a cornerstone function in any smart solution: the need to
-manage context information, enabling to perform updates and bring access to context.
+solution is a FIWARE Context Broker Generic Enabler, supplying a cornerstone function required in any smart solution:
+the need to manage context information, enabling to perform updates and bring access to context.
 
 FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
