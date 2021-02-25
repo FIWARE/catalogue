@@ -1,4 +1,4 @@
-# Catalogue<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left"> 
+# Catalogue<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left">
 
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
@@ -9,7 +9,7 @@ are part of [FIWARE](https://www.fiware.org/developers/) and allow users and dev
 relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
-Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag. 
+Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
 
  |  <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 |--- | --- | --- | ---  | --- | --- |
@@ -65,8 +65,8 @@ dealing with the following:
 FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but are free to
 use other third platform components as well to design the hybrid platform of your choice. As long as it uses the FIWARE Context
 Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
-build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_ solutions can be found on the 
-[FIWARE Marketplace](http://marketplace.fiware.org/). 
+build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_ solutions can be found on the
+[FIWARE Marketplace](http://marketplace.fiware.org/).
 
 To be adopted as a Generic Enabler within FIWARE, each open source component must fulfil a number of **contribution
 requirements**. The technical direction of FIWARE is governed by the **FIWARE Technical Steering Committee (TSC)**.
@@ -128,9 +128,6 @@ Accompanying a Context Broker component as part of Core Context Management:
     system mediation logic and also offers an intuitive graphical interface
 -   The [Cosmos](https://github.com/ging/fiware-cosmos) Generic Enabler enables simpler Big Data analysis over context
     integrated with popular Big Data platforms (Spark and Flink).
-
-The following is a list of additional Generic Enablers under incubation within the core context management chapter:
-
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
 
@@ -254,6 +251,7 @@ monetization:
 -   [APInf](https://github.com/apinf/platform) API Management Framework is a tool for API owners to manage their APIs.
     It provides all the necessary features to run business with APIs and makes it easy for API consumers to find and
     start using the standard APIs.
+-   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework facilitating API access, monitoring and monetization.
 
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
@@ -263,19 +261,19 @@ Further information can be found on dedicated pages linked to
 
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
 
-Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the 
+Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the
 descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub repository, but these should
-only be used in development environments. For fully scalable production-ready instances of FIWARE Generic Enablers please refer to 
-the repository holding the FIWARE [Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes 
+only be used in development environments. For fully scalable production-ready instances of FIWARE Generic Enablers please refer to
+the repository holding the FIWARE [Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes
 directly on [ArtifactoryHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware)
 
 
 ## Management of FIWARE Releases
 
-The individual components within the FIWARE catalogue are free to make [semantic versioned](https://semver.org/spec/v2.0.0.html) releases at any 
-time. Additionally, a labelling of the whole FIWARE catalogue takes place at regular intervals where all components are collected together and a 
-FIWARE label added according to a set of [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). 
-The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions 
+The individual components within the FIWARE catalogue are free to make [semantic versioned](https://semver.org/spec/v2.0.0.html) releases at any
+time. Additionally, a labelling of the whole FIWARE catalogue takes place at regular intervals where all components are collected together and a
+FIWARE label added according to a set of [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases).
+The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions
 of components with the same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
 
 | [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |

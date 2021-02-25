@@ -287,7 +287,7 @@ The **Cosmos** project is part of [FIWARE](https://fiware.org/) and has been rat
 
 <a name="quantumleap"/>
 
-## :seedling: QuantumLeap (Incubated)
+## QuantumLeap
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
@@ -322,7 +322,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 <a name="scorpio"/>
 
-## Scorpio 
+## Scorpio
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
