@@ -41,9 +41,9 @@ perform updates and bring access to context.
 FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
 specifications have evolved over time, currently matching
-[NGSIv2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the
+[NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the
 [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
-of ETSI NGSI-LD specifications which were based on NGSIv2 and commits to deliver compatible open source implementations
+of ETSI NGSI-LD specifications which were based on NGSI-v2 and commits to deliver compatible open source implementations
 of the specs.
 
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
@@ -108,8 +108,8 @@ It enables to manage context information in a highly decentralized and large-sca
 The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
 
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
-    supports the NGSI-LD and the NGSIv2 APIs. Currently in alpha version, plan is to merge it with the main branch of
-    Orion.
+    supports the NGSI-LD and the NGSI-v2 APIs. The current beta release is nearly feature complete, and plan is to merge
+    it with the main branch of Orion.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
     Broker which can also be used in federated environments
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another

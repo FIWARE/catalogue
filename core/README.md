@@ -43,7 +43,7 @@ The Orion Context Broker fulfils this functionality in your architecture.
 Orion is an implementation of the FIWARE Publish/Subscribe Context Broker Generic Enabler. More specifically, Orion
 implements the following API and Open Specification:
 
--   [NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+-   [NGSI-v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 
 For context data management, NGSI and the Orion context broker have been accepted as standards or recommendations by a
 variety of independent standards bodies, for example, GSMA recommends NSGI as a standard for relevant parts of their
@@ -361,11 +361,11 @@ of entity type building within a geographic area”, instead of “I have inform
 
 ### Why Use Scorpio?
 
-Scorpio implements NGSI-LD, which is the evolution of NGSI v2 and previous versions going back to the OMA NGSI context
+Scorpio implements NGSI-LD, which is the evolution of NGSI-v2 and previous versions going back to the OMA NGSI context
 interfaces. This standardized version is based on the NGSI-LD specification published by the ETSI Industry Specification
 Group on Context Information Management.
 
-NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
+NGSI-LD has a number of new features compared to NGSI-v2. NGSI-LD distinguishes properties and relationships instead of
 only having attributes. While properties have values, relationships explicitly refer to other entities. The result is an
 explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant related entities.
 NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses entity types,
@@ -405,11 +405,11 @@ endpoints.
 
 ### Why Use Orion-LD?
 
-Orion-LD implements the NGSI-LD linked data interface, which is the evolution of NGSI v2 and previous versions going
+Orion-LD implements the NGSI-LD linked data interface, which is the evolution of NGSI-v2 and previous versions going
 back to the OMA NGSI context interfaces. This standardized version is based on the NGSI-LD specification published by
 the ETSI Industry Specification Group on Context Information Management.
 
-NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
+NGSI-LD has a number of new features compared to NGSI-v2. NGSI-LD distinguishes properties and relationships instead of
 only having attributes. While properties have values, relationships explicitly refer to other entities. The result is an
 explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant related entities.
 NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses entity types,
