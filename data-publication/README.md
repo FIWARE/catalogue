@@ -50,8 +50,8 @@ consumed.
 In addition, the integration of the FIWARE Security and Business Frameworks provide an enriched access control and
 enable explicit acceptance of data terms and conditions, usage accounting, or data monetization
 
-Finally, the integration with WireCloud lets the data providers create and customize rich visualizations for their
-data, without the need of installing new extensions or restarting the platform.
+Finally, the integration with WireCloud lets the data providers create and customize rich visualizations for their data,
+without the need of installing new extensions or restarting the platform.
 
 ### Quality Assurance
 
@@ -218,31 +218,34 @@ The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated 
 ![](https://img.shields.io/github/tag/coatrack/coatrack.svg)
 
 | :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://coatrack.eu/) |
-| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------- |
+
 
 ### What is CoatRack?
 
-CoatRack is a framework of managed backend-to-backend communication via REST services, consisting of distributed, lightweight API gateways and a centralized web application to generate and administer those API gateways.
+CoatRack is a framework of managed backend-to-backend communication via REST services, consisting of distributed,
+lightweight API gateways and a centralized web application to generate and administer those API gateways.
 
 CoatRack can facilitate your work if you have existing REST APIs and you want to do one (or more) of the following:
 
-- monitoring the access to your APIs,
-- authentication/authorization of calls to your APIs via API keys,
-- monetization of API calls, based on pay-per-call rules or flat rate monetization.
-
+-   monitoring the access to your APIs,
+-   authentication/authorization of calls to your APIs via API keys,
+-   monetization of API calls, based on pay-per-call rules or flat rate monetization.
 
 ### Why use CoatRack?
 
-If your use case includes management of  backend-to-backend communication via REST APIs, for example when offering backend services to third parties, some common boilerplate work is required in addition to developing the actual service API.
+If your use case includes management of backend-to-backend communication via REST APIs, for example when offering
+backend services to third parties, some common boilerplate work is required in addition to developing the actual service
+API.
 
-Coatrack reduces the overhead in  implementing common tasks such as:
+Coatrack reduces the overhead in implementing common tasks such as:
 
-- mechanisms for authentication/authorisation,
-- providing access credentials to the users,
-- monitoring calls to the API,
-- generating statistics.
+-   mechanisms for authentication/authorisation,
+-   providing access credentials to the users,
+-   monitoring calls to the API,
+-   generating statistics.
 
-This allows development teams to concentrate on building and maintaining the features of their own API as a product, without spending time on ancillary features.
+This allows development teams to concentrate on building and maintaining the features of their own API as a product,
+without spending time on ancillary features.
 
 The **CoatRack** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
-

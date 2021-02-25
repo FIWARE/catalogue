@@ -3,16 +3,16 @@
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
-
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
 are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
 relevant source code repositories, documentation and Docker images.
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
-Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
+Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and
+developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
 
- |  <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
-|--- | --- | --- | ---  | --- | --- |
+| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 ## Contents
@@ -32,11 +32,11 @@ Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can
 
 ## Background
 
-[FIWARE](https://www.fiware.org) includes a curated framework of open-source platform components using NGSI which can be assembled
-together and with other third-party platform components to accelerate the development of Smart Solutions. The main and
-only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic Enabler,
-bringing a cornerstone function in any smart solution: the need to manage context information, enabling to perform
-updates and bring access to context.
+[FIWARE](https://www.fiware.org) includes a curated framework of open-source platform components using NGSI which can be
+assembled together and with other third-party platform components to accelerate the development of Smart Solutions. The
+main and only mandatory component of any _“Powered by FIWARE”_ platform or solution is a FIWARE Context Broker Generic
+Enabler, bringing a cornerstone function in any smart solution: the need to manage context information, enabling to
+perform updates and bring access to context.
 
 FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
@@ -48,8 +48,8 @@ of the specs.
 
 ![](https://fiware.github.io/catalogue/img/catalogue.png)
 
-Building around the FIWARE Context Broker, a rich suite of complementary open-source FIWARE Generic Enablers are available,
-dealing with the following:
+Building around the FIWARE Context Broker, a rich suite of complementary open-source FIWARE Generic Enablers are
+available, dealing with the following:
 
 -   **[Core Context Management](./core/README.md)** manipulates and stores context data so it can be used for further
     processesing
@@ -60,13 +60,14 @@ dealing with the following:
     behaviour of applications and/or assisting end users in making smart decisions.
 -   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
     to usage control and the opportunity to publish and monetize part of managed context data.
--   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each Generic Enabler
+-   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each
+    Generic Enabler
 
-FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but are free to
-use other third platform components as well to design the hybrid platform of your choice. As long as it uses the FIWARE Context
-Broker technology to manage context information, your platform can be labeled as _“Powered by FIWARE”_ and solutions
-build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_ solutions can be found on the
-[FIWARE Marketplace](http://marketplace.fiware.org/).
+FIWARE is not about take it all or nothing. You are not forced to use these complementary FIWARE Generic Enablers but
+are free to use other third platform components as well to design the hybrid platform of your choice. As long as it uses
+the FIWARE Context Broker technology to manage context information, your platform can be labeled as _“Powered by
+FIWARE”_ and solutions build on top as well. Listings of many FIWARE Ready devices and commercial _“Powered by FIWARE”_
+solutions can be found on the [FIWARE Marketplace](http://marketplace.fiware.org/).
 
 To be adopted as a Generic Enabler within FIWARE, each open source component must fulfil a number of **contribution
 requirements**. The technical direction of FIWARE is governed by the **FIWARE Technical Steering Committee (TSC)**.
@@ -74,7 +75,7 @@ Developers can also subscribe to the **FIWARE TSC mailing list**, join the FIWAR
 follow the progress of the discussions through the **FIWARE TSC meeting minutes**.
 
 | :clipboard: <br> [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: <br> [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: <br> [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: <br> [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
-| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 ## Installation
@@ -165,18 +166,21 @@ context updates:
 The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and thiry-party systems:
 
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
-    the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented as part of the product.
+    the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented
+    as part of the product.
 -   The [Fast DDS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
-    middleware in [ROS2](https://index.ros.org/doc/ros2/), the widely known Robot Operating System, therefore it helps to interface with ROS2-based
-    robotics systems.
+    middleware in [ROS2](https://index.ros.org/doc/ros2/), the widely known Robot Operating System, therefore it helps
+    to interface with ROS2-based robotics systems.
 -   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
-    [DDS](https://www.omg.org/spec/DDS) middleware, adapted to run in extremely constrained resource devices (e.g. micro-controllers).
+    [DDS](https://www.omg.org/spec/DDS) middleware, adapted to run in extremely constrained resource devices (e.g.
+    micro-controllers).
 -   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
     domain and the cloud, transforming [ROS](https://www.ros.org/) messages into NGSI v2 and vice versa.
 -   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
     users to exchange electronic data and documents with one another in a reliable and trusted way.
 -   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation
-    gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1) IoT platforms.
+    gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1)
+    IoT platforms.
 
 Further information can be found on dedicated pages linked to [IoT Agents](./iot-agents/README.md) and
 [Robotics](./robotics/README.md) and [Third-Party Systems](./third-party/README.md)
@@ -251,7 +255,8 @@ monetization:
 -   [APInf](https://github.com/apinf/platform) API Management Framework is a tool for API owners to manage their APIs.
     It provides all the necessary features to run business with APIs and makes it easy for API consumers to find and
     start using the standard APIs.
--   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework facilitating API access, monitoring and monetization.
+-   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
+    facilitating API access, monitoring and monetization.
 
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
@@ -261,23 +266,28 @@ Further information can be found on dedicated pages linked to
 
 ![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
 
-Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found within the
-descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub repository, but these should
-only be used in development environments. For fully scalable production-ready instances of FIWARE Generic Enablers please refer to
-the repository holding the FIWARE [Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes
-directly on [ArtifactoryHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware)
-
+Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found
+within the descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub
+repository, but these should only be used in development environments. For fully scalable production-ready instances of
+FIWARE Generic Enablers please refer to the repository holding the FIWARE
+[Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes directly on
+[ArtifactoryHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware)
 
 ## Management of FIWARE Releases
 
-The individual components within the FIWARE catalogue are free to make [semantic versioned](https://semver.org/spec/v2.0.0.html) releases at any
-time. Additionally, a labelling of the whole FIWARE catalogue takes place at regular intervals where all components are collected together and a
-FIWARE label added according to a set of [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases).
-The FIWARE catalogue release schedule follows a strict [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions
-of components with the same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
+The individual components within the FIWARE catalogue are free to make
+[semantic versioned](https://semver.org/spec/v2.0.0.html) releases at any time. Additionally, a labelling of the whole
+FIWARE catalogue takes place at regular intervals where all components are collected together and a FIWARE label added
+according to a set of
+[well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The
+FIWARE catalogue release schedule follows a strict
+[timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the
+same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code
+repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
 
-| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp;  [Release Notes](https://github.com/FIWARE/catalogue/releases) |
-| ---| --- | --- | --- | --- |
+| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------- |
+
 
 ## Testing
 
@@ -303,20 +313,22 @@ framework. Incubated Generic enablers (annotated with :seedling:) have also been
 maturing to full acceptance with the FIWARE system. Recent applicants to FIWARE (annotated with :new:) are new to FIWARE
 and will undergo testing in the forthcoming release.
 
-
 ## Willing to contribute your technology to FIWARE?
 
-The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic Enabler within FIWARE,
-each open source component must fulfill a number of [contribution requirements](https://fiware-requirements.readthedocs.io), follow common
+The application process for joining the FIWARE Initiative is described in the links below. To be adopted as a Generic
+Enabler within FIWARE, each open source component must fulfill a number of
+[contribution requirements](https://fiware-requirements.readthedocs.io), follow common
 [Open Source Best Practice](https://bestpractices.coreinfrastructure.org/en/signup) and sign-up to the harmonized FIWARE
 [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf). The technical
 direction of FIWARE is governed by the FIWARE Technical Steering Committee (TSC).
 
-You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to develop tutorials/training
-material which are made freely available to developers, supporting QA activities or supporting the operations of the FIWARE Lab.
+You can contribute to FIWARE technically by different means: contributing code for a given FIWARE component, helping to
+develop tutorials/training material which are made freely available to developers, supporting QA activities or
+supporting the operations of the FIWARE Lab.
 
- :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)  |  :clipboard: <br>  [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :handshake: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br>  [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :handshake: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
- --- | --- | --- | --- | ---|
+| :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | :clipboard: <br> [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :handshake: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br> [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :handshake: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 
 ## License
 
