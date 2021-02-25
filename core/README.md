@@ -400,8 +400,8 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 Orion-LD is an alternative NGSI-LD Context Broker written in C/C++. It is a standalone executable and therefore small,
 fast, lightweight and easy to handle. Context brokers allow for the management and requesting context of information in
 a structured manner based on linked data standards following the NGSI-LD specification. Orion-LD is more suitable for
-smaller installations or possibly in embedded environments - it currentlys supports only a subset of the standard
-NGSI-LD endpoints.
+smaller installations or possibly in embedded environments - it currently supports only a subset of the standard NGSI-LD
+endpoints.
 
 ### Why Use Orion-LD?
 
