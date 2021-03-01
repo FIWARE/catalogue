@@ -37,6 +37,10 @@ displayTag () {
 	echo ""
 }
 
+displayReleases () {
+	git submodule foreach 'git describe --tags $(git rev-list --tags --max-count=1) || true '  || true
+}
+
 displayReleaseDiff (){
 	git diff --compact-summary --submodule=short  FIWARE_7.8.1..master
 }
