@@ -180,3 +180,6 @@
 [submodule "processing/fogflow"]
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
+[submodule "data-publication/coat-rack"]
+	path = data-publication/coat-rack
+	url = https://github.com/coatrack/coatrack

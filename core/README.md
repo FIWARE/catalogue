@@ -43,7 +43,7 @@ The Orion Context Broker fulfils this functionality in your architecture.
 Orion is an implementation of the FIWARE Publish/Subscribe Context Broker Generic Enabler. More specifically, Orion
 implements the following API and Open Specification:
 
--   [NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+-   [NGSI-v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 
 For context data management, NGSI and the Orion context broker have been accepted as standards or recommendations by a
 variety of independent standards bodies, for example, GSMA recommends NSGI as a standard for relevant parts of their
@@ -104,8 +104,8 @@ Persisting historical context data is useful for big data analysis - it can be u
 sampled and aggregated to remove the influence of outlying data measurements. However within each Smart Solution, the
 significance of each entity type will differ and entities and attributes may need to be sampled at different rates.
 
-Since the business requirements for using context data differ from application to application, no single standard
-use case for historical data persistence exists. Therefore rather than overloading the context broker with the job of
+Since the business requirements for using context data differ from application to application, no single standard use
+case for historical data persistence exists. Therefore rather than overloading the context broker with the job of
 historical context data persistence, this role has been separated out into a separate, highly configurable component -
 Cygnus.
 
@@ -208,8 +208,8 @@ Persisting historical context data is useful for big data analysis - it can be u
 sampled and aggregated to remove the influence of outlying data measurements. However within each Smart Solution, the
 significance of each entity type will differ and entities and attributes may need to be sampled at different rates.
 
-Since the business requirements for using context data differ from application to application, no single standard
-use case for historical data persistence exists. Therefore rather than overloading the context broker with the job of
+Since the business requirements for using context data differ from application to application, no single standard use
+case for historical data persistence exists. Therefore rather than overloading the context broker with the job of
 historical context data persistence, this role has been separated out into another enabler. Amongst the advantages of
 the component, Draco offers a flexible graphical interface so it is possible to amend your data flows according to your
 current business needs.
@@ -287,7 +287,7 @@ The **Cosmos** project is part of [FIWARE](https://fiware.org/) and has been rat
 
 <a name="quantumleap"/>
 
-## :seedling: QuantumLeap (Incubated)
+## QuantumLeap
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/smartsdk/ngsi-timeseries-api.svg)
@@ -322,7 +322,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 <a name="scorpio"/>
 
-## Scorpio 
+## Scorpio
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
@@ -361,18 +361,18 @@ of entity type building within a geographic area”, instead of “I have inform
 
 ### Why Use Scorpio?
 
-Scorpio implements NGSI-LD, which is the evolution of NGSI v2 and previous versions going back to the OMA NGSI context
+Scorpio implements NGSI-LD, which is the evolution of NGSI-v2 and previous versions going back to the OMA NGSI context
 interfaces. This standardized version is based on the NGSI-LD specification published by the ETSI Industry Specification
 Group on Context Information Management.
 
-NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
-only having attributes. While properties have values, relationships explicitly refer to other entities. The result
-is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
-related entities. NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses
-entity types, relationships and properties defined as unique URIs. The representation of the data is still concise as
-shortname strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be
-referenced as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with
-semantic tools and combined with other information.
+NGSI-LD has a number of new features compared to NGSI-v2. NGSI-LD distinguishes properties and relationships instead of
+only having attributes. While properties have values, relationships explicitly refer to other entities. The result is an
+explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant related entities.
+NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses entity types,
+relationships and properties defined as unique URIs. The representation of the data is still concise as shortname
+strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be referenced
+as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with semantic
+tools and combined with other information.
 
 Scorpio supports different deployment configurations, which support scalability and extension of scenarios in an
 evolutionary way. For example two separate deployments can be combined or for scalability reasons different brokers can
@@ -400,23 +400,23 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 Orion-LD is an alternative NGSI-LD Context Broker written in C/C++. It is a standalone executable and therefore small,
 fast, lightweight and easy to handle. Context brokers allow for the management and requesting context of information in
 a structured manner based on linked data standards following the NGSI-LD specification. Orion-LD is more suitable for
-smaller installations or possibly in embedded environments - it currentlys supports only a subset of the standard
-NGSI-LD endpoints.
+smaller installations or possibly in embedded environments - it currently supports only a subset of the standard NGSI-LD
+endpoints.
 
 ### Why Use Orion-LD?
 
-Orion-LD implements the NGSI-LD linked data interface, which is the evolution of NGSI v2 and previous versions going
+Orion-LD implements the NGSI-LD linked data interface, which is the evolution of NGSI-v2 and previous versions going
 back to the OMA NGSI context interfaces. This standardized version is based on the NGSI-LD specification published by
 the ETSI Industry Specification Group on Context Information Management.
 
-NGSI-LD has a number of new features compared to NGSI v2. NGSI-LD distinguishes properties and relationships instead of
-only having attributes. While properties have values, relationships explicitly refer to other entities. The result
-is an explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant
-related entities. NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses
-entity types, relationships and properties defined as unique URIs. The representation of the data is still concise as
-shortname strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be
-referenced as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with
-semantic tools and combined with other information.
+NGSI-LD has a number of new features compared to NGSI-v2. NGSI-LD distinguishes properties and relationships instead of
+only having attributes. While properties have values, relationships explicitly refer to other entities. The result is an
+explicit entity graph, as specialized knowledge graph. Relationships can be followed to find relevant related entities.
+NGSI-LD is based on JSON-LD, where LD stands for linked data. As required in JSON-LD, NGSI-LD uses entity types,
+relationships and properties defined as unique URIs. The representation of the data is still concise as shortname
+strings can be used, the mapping to URIs is done in an `@context` element that can be part of the JSON or be referenced
+as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with semantic
+tools and combined with other information.
 
 <a name="stellio"/>
 
@@ -430,18 +430,31 @@ semantic tools and combined with other information.
 | :octocat: [Git Repository](https://github.com/stellio-hub/stellio-context-broker/) | :whale: [Docker Hub](https://hub.docker.com/orgs/stellio/repositories/) | :books: [Documentation](https://stellio.rtfd.io/) |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
 
+
 ### What is Stellio?
 
-Stellio is a NGSI-LD context broker implementing the API specification published by the ETSI Industry Specification Group for Context Information Management (ISG CIM). Context information means any piece of data which is contextualized in time, space and in relation to other data through linked data principles.
+Stellio is a NGSI-LD context broker implementing the API specification published by the ETSI Industry Specification
+Group for Context Information Management (ISG CIM). Context information means any piece of data which is contextualized
+in time, space and in relation to other data through linked data principles.
 
-Stellio is built around a Kafka message broker for improved extensibility, scalability and decoupling of services. These services embed a graph database (Neo4J) for context management as well as a timeseries (TimescaleDB) and geospatial (PostGIS) database to manage temporal and geospatial properties.
+Stellio is built around a Kafka message broker for improved extensibility, scalability and decoupling of services. These
+services embed a graph database (Neo4J) for context management as well as a timeseries (TimescaleDB) and geospatial
+(PostGIS) database to manage temporal and geospatial properties.
 
-Stellio is developed in Kotlin and lays on the Spring Boot and Spring Cloud frameworks. It is based on a micro-services architecture and follows the reactive and functional paradigms.
+Stellio is developed in Kotlin and lays on the Spring Boot and Spring Cloud frameworks. It is based on a micro-services
+architecture and follows the reactive and functional paradigms.
 
-Stellio acts as a central broker. It currently supports major operations on context information, subscriptions and temporal queries and targets full compliance with the NGSI-LD specification by the end of 2020. It does not aim to support NGSIv1 and NGSIv2 specifications.
+Stellio acts as a central broker. It currently supports major operations on context information, subscriptions and
+temporal queries and targets full compliance with the NGSI-LD specification by the end of 2020. It does not aim to
+support NGSIv1 and NGSIv2 specifications.
 
 ### Why use Stellio?
 
-In order to take the full benefit of the linked data nature of the NGSI-LD data model, Stellio uses the Neo4J labelled property graph database for the storage of the context information. Beside benefiting from Neo4J capabilities to efficiently handle graph data, this provides the underlying structure to perform syntactic and semantic validation of data, and opens up the door to exploit and analyze the graph with graph driven data science algorithms.
+In order to take the full benefit of the linked data nature of the NGSI-LD data model, Stellio uses the Neo4J labelled
+property graph database for the storage of the context information. Beside benefiting from Neo4J capabilities to
+efficiently handle graph data, this provides the underlying structure to perform syntactic and semantic validation of
+data, and opens up the door to exploit and analyze the graph with graph driven data science algorithms.
 
-In addition, Stellio includes the support of the NGSI-LD API for querying the temporal evolution of entities, as long as the interface for performing geospatial queries. The included TimescaleDB and PostGIS extensions of the well-known PostgreSQL database allow efficient queries while allowing off-the-shelves storing of large volumes of historical data.
+In addition, Stellio includes the support of the NGSI-LD API for querying the temporal evolution of entities, as long as
+the interface for performing geospatial queries. The included TimescaleDB and PostGIS extensions of the well-known
+PostgreSQL database allow efficient queries while allowing off-the-shelves storing of large volumes of historical data.

@@ -144,7 +144,9 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/biz_framework.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/biz_framework.json&query=$.stability&colorB=blue)
 
-## :new: Idra (Incubated)
+<a name="idra"/>
+
+## :seedling: Idra (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./README.md)
 ![License](https://img.shields.io/github/license/OPSILab/Idra.svg)
@@ -205,3 +207,45 @@ The adoption and usage of Idra can have direct benefits for different stakeholde
     innovative and added-value application) )
 
 The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+
+<a name="coatrack"/>
+
+## :new: CoatRack (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+![License](https://img.shields.io/github/license/coatrack/coatrack.svg)
+![](https://img.shields.io/github/last-commit/coatrack/coatrack.svg)
+![](https://img.shields.io/github/tag/coatrack/coatrack.svg)
+
+| :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://github.com/coatrack/coatrack/wiki) | :dart: [Roadmap](https://github.com/coatrack/coatrack/wiki/roadmap.md) |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+
+
+### What is CoatRack?
+
+CoatRack is a framework of managed backend-to-backend communication via REST services, consisting of distributed,
+lightweight API gateways and a centralized web application to generate and administer those API gateways.
+
+CoatRack can facilitate your work if you have existing REST APIs and you want to do one (or more) of the following:
+
+-   monitoring the access to your APIs,
+-   authentication/authorization of calls to your APIs via API keys,
+-   monetization of API calls, based on pay-per-call rules or flat rate monetization.
+
+### Why use CoatRack?
+
+If your use case includes management of backend-to-backend communication via REST APIs, for example when offering
+backend services to third parties, some common boilerplate work is required in addition to developing the actual service
+API.
+
+Coatrack reduces the overhead in implementing common tasks such as:
+
+-   mechanisms for authentication/authorisation,
+-   providing access credentials to the users,
+-   monitoring calls to the API,
+-   generating statistics.
+
+This allows development teams to concentrate on building and maintaining the features of their own API as a product,
+without spending time on ancillary features.
+
+The **CoatRack** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
