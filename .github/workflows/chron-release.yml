@@ -42,9 +42,3 @@ jobs:
       run: |
         SUMMARY=$(git submodule -q foreach '  echo $(basename `git rev-parse --show-toplevel`) `git describe --tags $(git rev-list --tags --max-count=1)`'  || true)
         echo $SUMMARY 
-    - name: Push Docker changes to FIWARE Docker Hub
-      run: |
-        ./push-releases.sh
-      env:
-          UXNAME: ${{ secrets.DOCKER_USERNAME }}
-          UXPASS: ${{ secrets.DOCKER_PASSWORD }}
