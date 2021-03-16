@@ -183,3 +183,6 @@
 [submodule "data-publication/coat-rack"]
 	path = data-publication/coat-rack
 	url = https://github.com/coatrack/coatrack
+[submodule "iot-agents/iotagent-isoxml"]
+	path = iot-agents/iotagent-isoxml
+	url = https://github.com/FIWARE/iotagent-isoxml
