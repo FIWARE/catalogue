@@ -262,6 +262,29 @@ interface. It follows the standard interaction model defined in the
 The **IoT Agent for Sigfox** project is a new component within [FIWARE](https://fiware.org/) and will be rated in the
 current release
 
+## :new: IoT Agent for ADAPT/ISOXML (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/iotagent-isoxml.svg)
+![](https://img.shields.io/github/release-date/FIWARE/iotagent-isoxml.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/iotagent-isoxmllatest.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/iotagent-isoxml) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-isoxml) | :books: [Documentation](https://fiware-iotagent-isoxml.readthedocs.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/FIWARE/iotagent-isoxml/blob/master/docs/roadmap.md) |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------- |
+
+
+IoT Agent for the ISOXML/ADAPT protocol.
+
+An Internet of Things Agent for the ISO 11783 protocol (with [HTTP](https://www.w3.org/Protocols/)). This IoT Agent is
+designed to be a bridge between ISOXML/ADAPT and the
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/FIWARE/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+interface of a context broker.
+
+### Quality Assurance
+
+The **IoT Agent for ISOXML** project is a new component within [FIWARE](https://fiware.org/) and will be rated in the
+current release
+
 ---
 
 ## :seedling: Open MTC (Incubated)

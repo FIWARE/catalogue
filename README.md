@@ -160,6 +160,8 @@ context updates:
         between the [OPC Unified Architecture](http://www.opcua.us/) protocol and NGSI
     -   [IoT Agent for Sigfox](https://github.com/telefonicaid/sigfox-iotagent) - a bridge between the
         [Sigfox](https://www.sigfox.com/en) protocol and NGSI
+    -   [IoT Agent for ISOXML](https://github.com/FIWARE/iotagent-isoxml) - a bridge between the ISOXML/ADAPT protocol
+        for agricultural machinery protocol and NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT
         Agent.
 
