@@ -267,7 +267,7 @@ current release
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/iotagent-isoxml.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/iotagent-isoxml.svg)
-![](https://img.shields.io/github/commits-since/FIWARE/iotagent-isoxmllatest.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/iotagent-isoxml/latest.svg)
 
 | :octocat: [Git Repository](https://github.com/FIWARE/iotagent-isoxml) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-isoxml) | :books: [Documentation](https://fiware-iotagent-isoxml.readthedocs.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/FIWARE/iotagent-isoxml/blob/master/docs/roadmap.md) |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------- |
