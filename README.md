@@ -284,11 +284,17 @@ according to a set of
 [well-defined rules](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#software-releases). The
 FIWARE catalogue release schedule follows a strict
 [timetable](https://fiware-requirements.readthedocs.io/en/latest/release/index.html). Versions of components with the
-same FIWARE release label should be completely interoperable and work nicely with each other. As well as source-code
-repositories and binaries, relevant components are available as Docker images and Helm-chart recipes for Kubernetes.
+same FIWARE release label should be completely interoperable and work nicely with each other.
 
-| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware) | [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
-| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------- |
+| :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
+| ------------------------------------- | ----------------------------------------------------------------------------- |
+
+As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes
+for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and semantics 
+that will be used by applications both to consume and to publish data.
+
+| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware)<br>[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> [Smart Data Models](https://smartdatamodels.org) |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
 
 ## Testing
