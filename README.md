@@ -98,7 +98,9 @@ architectural chapters.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
-A Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
+#### Context Broker
+
+A Context Broker component is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
 It enables to manage context information in a highly decentralized and large-scale manner.
 
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the
@@ -115,7 +117,9 @@ The following Context Broker implementations, supporting the ETSI NGSI-LD API sp
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
     alternative NGSI-LD Broker
 
-Accompanying a Context Broker component as part of Core Context Management:
+#### Data Connectors
+
+Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
     short-term history of context data (typically months) on MongoDB
