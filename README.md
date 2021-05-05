@@ -144,7 +144,7 @@ Further information can be found on dedicated pages linked to [Core Context Mana
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
 
-A number of Generic Enablers are available making it easier to interface with the internet of Things, Robots and
+A number of Generic Enablers are available making it easier to interface with the Internet of Things (IoT), Robots and
 Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to
 context updates:
 
