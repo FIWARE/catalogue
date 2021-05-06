@@ -366,5 +366,11 @@ AGPL license are required to make a public statement that states:
 > incorporate enhancements is considered a derivative work of the product. Software that merely uses or aggregates (i.e.
 > links to) an otherwise unmodified version of existing software is not considered a derivative work.
 
+The public statement above is aimed at giving users confidence they can use FIWARE components even if they have
+been licensed under a copyleft license without this requiring that their applications have to be released as open source.
+The FIWARE Foundation has sought legal advice regarding this statement and has been told that incorporation of this paragraph
+is valid for this purpose as per the report produced by Across Legal/ID law partners (see 
+[summary report](https://fiware.github.io/contribution-requirements/opinion-summary.pdf)).
+
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
 FIWARE Generic Enablers under a GPL, AGPL or any other open source license.
