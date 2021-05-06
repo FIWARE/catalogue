@@ -7,26 +7,9 @@
 ![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)
 
-<<<<<<< HEAD | :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books:
-[Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board:
-[Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | |
------------------------------------------------------------------ | ------------------------ |
------------------------------------------------------------- |
+| :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart: [Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md) |
+| ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
----
-
-| ======= | :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books:
-[Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board:
-[Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart:
-[Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md) | |
------------------------------------------------------------------ | ------------------------ |
------------------------------------------------------------- |
-
----
-
-| ------------------------------------------------------------------------------ |
-
-> > > > > > > master
 
 eProsima Fast DDS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
 publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object
