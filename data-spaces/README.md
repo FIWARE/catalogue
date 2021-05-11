@@ -139,13 +139,13 @@ Access and usage control guarantees enforcement of data access and usage policie
 resources or services are published  or negotiated between providers and consumers. An API proxy plays the role of the Policy Enforcement Point (PEP) 
 and requires an additional Policy Decision Point (PDP). Below listed are the FIWARE GEs implementing the PEP and PDP functionalities.
 
-**PEP:**
+*PEP*:
 
 * [Wilma](https://github.com/ging/fiware-pep-proxy)
 * [API Umbrella](https://github.com/FIWARE/api-umbrella)
 * [CoatRack](https://github.com/coatrack/coatrack/)
 
-**PDP:**
+*PDP*:
 
 * [AuthZForce](https://github.com/authzforce/server)
 * [Keyrock](https://github.com/ging/fiware-idm)
