@@ -40,8 +40,8 @@ the need to manage context information, enabling to perform updates and bring ac
 
 FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
-specifications have evolved over time, currently matching
-[NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the
+specifications have evolved over time, initially matching
+[NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/), now aligning with the
 [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
 of ETSI NGSI-LD specifications which were based on NGSI-v2 and commits to deliver compatible open source implementations
 of the specs.
