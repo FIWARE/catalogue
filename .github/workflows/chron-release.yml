@@ -28,7 +28,7 @@ jobs:
         cd ../../..
         
         cd third-party/domibus
-        git checkout 4.2
+        git checkout 4.2.2
         cd ../..
 
         git add -A .
