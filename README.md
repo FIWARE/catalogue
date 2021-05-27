@@ -40,8 +40,8 @@ the need to manage context information, enabling to perform updates and bring ac
 
 FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integration of platform components within a
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
-specifications have evolved over time, currently matching
-[NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/) but evolving to align with the
+specifications have evolved over time, initially matching
+[NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/), now aligning with the
 [ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
 of ETSI NGSI-LD specifications which were based on NGSI-v2 and commits to deliver compatible open source implementations
 of the specs.
@@ -98,7 +98,9 @@ architectural chapters.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
 
-A Context Broker Generic Enabler is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
+#### Core Context Broker components
+
+A Context Broker component is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
 It enables to manage context information in a highly decentralized and large-scale manner.
 
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the
@@ -115,7 +117,9 @@ The following Context Broker implementations, supporting the ETSI NGSI-LD API sp
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
     alternative NGSI-LD Broker
 
-Accompanying a Context Broker component as part of Core Context Management:
+#### Core Data Connectors
+
+Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
 -   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
     short-term history of context data (typically months) on MongoDB
@@ -140,7 +144,7 @@ Further information can be found on dedicated pages linked to [Core Context Mana
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
 
-A number of Generic Enablers are available making it easier to interface with the internet of Things, Robots and
+A number of Generic Enablers are available making it easier to interface with the Internet of Things (IoT), Robots and
 Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to
 context updates:
 
@@ -361,6 +365,12 @@ AGPL license are required to make a public statement that states:
 > Please note that software derived as a result of modifying the source code of this software in order to fix a bug or
 > incorporate enhancements is considered a derivative work of the product. Software that merely uses or aggregates (i.e.
 > links to) an otherwise unmodified version of existing software is not considered a derivative work.
+
+The public statement above is aimed at giving users confidence they can use FIWARE components even if they have
+been licensed under a copyleft license without this requiring that their applications have to be released as open source.
+The FIWARE Foundation has sought legal advice regarding this statement and has been told that incorporation of this paragraph
+is valid for this purpose as per the report produced by Across Legal/ID law partners (see 
+[summary report](https://fiware.github.io/contribution-requirements/opinion-summary.pdf)).
 
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
 FIWARE Generic Enablers under a GPL, AGPL or any other open source license.
