@@ -134,7 +134,7 @@
 	url = https://github.com/apinf/platform
 [submodule "data-publication/apinf/api-umbrella"]
 	path = security/apinf/api-umbrella
-	url = https://github.com/apinf/api-umbrella
+	url = https://github.com/FIWARE/api-umbrella
 [submodule "core/cygnus"]
 	path = core/cygnus
 	url = https://github.com/telefonicaid/fiware-cygnus
