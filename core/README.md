@@ -458,3 +458,27 @@ data, and opens up the door to exploit and analyze the graph with graph driven d
 In addition, Stellio includes the support of the NGSI-LD API for querying the temporal evolution of entities, as long as
 the interface for performing geospatial queries. The included TimescaleDB and PostGIS extensions of the well-known
 PostgreSQL database allow efficient queries while allowing off-the-shelves storing of large volumes of historical data.
+
+<a name="canis-major"/>
+
+## :seedling: Canis Major (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/CanisMajor.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/CanisMajor.svg)
+![](https://img.shields.io/github/tag/FIWARE/CanisMajor.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/CanisMajor/) | :whale: [Docker Hub](https://hub.docker.com/r/singhhp10691/canismajor) | :books: [Documentation](https://fiware.github.io/CanisMajor/) |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------- |
+
+
+### What is Canis Major?
+
+Canis Major is a blockchain adaptor that supports various DLT, the adaptor aims to submit the data to DLT in Powered By
+FIWARE Architecture. The adaptor will not be recommended to work for public-permissionless blockchains (specially
+tokens, cryptocurrencies)..
+
+### Why use Canis Major?
+
+For some elements of context, it is important to maintain a log of transactions which is verifiable and unchangeable.
+Use of distributed legers help with this and provide a mechanism of persisting context events.
