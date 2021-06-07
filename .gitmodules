@@ -189,3 +189,6 @@
 [submodule "core/canis-major"]
 	path = core/canis-major
 	url = https://github.com/FIWARE/CanisMajor.git
+[submodule "security/true-connector"]
+	path = security/true-connector
+	url = https://github.com/Engineering-Research-and-Development/fiware-true-connector
