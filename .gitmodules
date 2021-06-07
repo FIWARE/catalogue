@@ -186,3 +186,6 @@
 [submodule "iot-agents/iotagent-isoxml"]
 	path = iot-agents/iotagent-isoxml
 	url = https://github.com/FIWARE/iotagent-isoxml
+[submodule "core/canis-major"]
+	path = core/canis-major
+	url = https://github.com/FIWARE/CanisMajor.git

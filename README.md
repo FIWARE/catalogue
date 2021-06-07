@@ -100,8 +100,8 @@ architectural chapters.
 
 #### Core Context Broker components
 
-A Context Broker component is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution.
-It enables to manage context information in a highly decentralized and large-scale manner.
+A Context Broker component is the core and mandatory component of any _“Powered by FIWARE”_ platform or solution. It
+enables to manage context information in a highly decentralized and large-scale manner.
 
 -   The [Orion Context Broker](https://github.com/telefonicaid/fiware-orion/) Generic Enabler currently provides the
     FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to
@@ -136,6 +136,11 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
 
+The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
+
+-   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
+    various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
+
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
 ### Interface with IoT, Robots and Third-Party Systems
@@ -169,7 +174,7 @@ context updates:
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT
         Agent.
 
-The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and thiry-party systems:
+The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and third-party systems:
 
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
     the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented
@@ -293,12 +298,13 @@ same FIWARE release label should be completely interoperable and work nicely wit
 | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
 | ------------------------------------- | ----------------------------------------------------------------------------- |
 
-As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart recipes
-for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and semantics 
-that will be used by applications both to consume and to publish data.
+
+As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart
+recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
+semantics that will be used by applications both to consume and to publish data.
 
 | [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware)<br>[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> [Smart Data Models](https://smartdatamodels.org) |
-| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 
 
 ## Testing
@@ -339,7 +345,7 @@ develop tutorials/training material which are made freely available to developer
 supporting the operations of the FIWARE Lab.
 
 | :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | :clipboard: <br> [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br> [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 ## License
@@ -366,10 +372,10 @@ AGPL license are required to make a public statement that states:
 > incorporate enhancements is considered a derivative work of the product. Software that merely uses or aggregates (i.e.
 > links to) an otherwise unmodified version of existing software is not considered a derivative work.
 
-The public statement above is aimed at giving users confidence they can use FIWARE components even if they have
-been licensed under a copyleft license without this requiring that their applications have to be released as open source.
-The FIWARE Foundation has sought legal advice regarding this statement and has been told that incorporation of this paragraph
-is valid for this purpose as per the report produced by Across Legal/ID law partners (see 
+The public statement above is aimed at giving users confidence they can use FIWARE components even if they have been
+licensed under a copyleft license without this requiring that their applications have to be released as open source. The
+FIWARE Foundation has sought legal advice regarding this statement and has been told that incorporation of this
+paragraph is valid for this purpose as per the report produced by Across Legal/ID law partners (see
 [summary report](https://fiware.github.io/contribution-requirements/opinion-summary.pdf)).
 
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
