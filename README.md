@@ -269,6 +269,9 @@ monetization:
     start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
+-   [TRUE Connector](https://github.com/Engineering-Research-and-Development/fiware-true-connector) enables trusted data
+    exchange in order for context brokers to be able to become an active part of an
+    [International Data Spaces](https://internationaldataspaces.org/) (IDS) Ecosystem
 
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and

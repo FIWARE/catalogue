@@ -175,7 +175,8 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)
 
-    ## :new: APInf (Incubated)
+<a name="true-connector"/>
+## :seedling: APInf (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/apinf/platform.svg)
@@ -225,3 +226,35 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.scalability&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.performance&colorB=blue)
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.stability&colorB=blue)
+
+<a name="true-connector"/>
+## :seedling: TRUE Connector (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-true-connector.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-true-connector.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-true-connector/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-true-connector) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://github.com/Engineering-Research-and-Development/fiware-true-connector/blob/master/docs/index.md) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+
+
+### What is TRUE Connector?
+
+TRUE Connector is a connector for the [International Data Spaces](https://internationaldataspaces.org/) (IDS) ecosystem.
+TRUE Connector enables trusted data exchange in order to be active part of an IDS Ecosystem, a virtual data space
+leveraging existing standards and technologies, as well as governance models well-accepted in the data economy, to
+facilitate secure and standardized data exchange and data linkage in a trusted business ecosystem. The connector is
+compliant with the latest IDS specifications and can be easily customized to fit a wide spread of scenarios thanks to
+the internal separation of Execution Core Container and Data App.
+
+It is integrable with a lot of existing IDS services and totally configurable in terms of internal/external data format
+(multipart/mixed, multipart/form, http-header) and protocols (HTTP, HTTPS, Web Socket over HTTPS, IDSCPv2).
+
+### Why use TRUE Connector?
+
+Trusted data exchange underpins data sovereignity, and allows users to pass context data between systems whilst limiting
+the degree to which third-parties are able to use and receive the data.
+
+IDSA envisage trusted data exchange taking place through federated, international data spaces that are globally
+certified by IDSA. The use of the connector will allow data owners to join with such systems.

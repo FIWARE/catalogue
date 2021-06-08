@@ -85,8 +85,6 @@
         "McConnell",
 
         // Words and phrases
-        "ID", // http://stackoverflow.com/questions/1151338/id-or-id-on-user-interface
-        ["id['’]?s", "IDs"],
         ["backwards compatible", "backward compatible"],
         ["build system(s?)", "build tool$1"],
         ["CLI tool(s?)", "command-line tool$1"],
