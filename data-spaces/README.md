@@ -10,9 +10,9 @@ data shared by other applications. FIWARE Data Publication components like Idra 
 data resources in a standard manner. Relying on Marketplace services created using FIWARE
 Business-API-Ecosystem/Marketplace components, on the other hand, participants of created Data Spaces can publish
 offerings around access to data resources or data processing services under concrete terms and conditions which
-establish data usage/access policies to be enforced and may include pricing. Last but not least, FIWARE components
-implementing Identity and Access Management (IAM) functions enable to secure that data is accessed by the right parties
-and that defined access policies are enforced.
+establish data usage/access policies to be enforced and may include pricing. Finally, FIWARE components implementing
+Identity and Access Management (IAM) functions enable to secure that data is accessed by the right parties and that
+defined access policies are enforced.
 
 ## Contents
 
@@ -55,7 +55,7 @@ supporting contracts established through the data space. Operational agreements,
 that have to be enforced during data space operation like, for example, compliance with GDPR (General Data Protection
 Regulation) or the 2nd Payment Services Directive (PSD2) in the finance sector. They may also comprise the definition of
 tools that operators of cloud infrastructures or global services supporting data spaces must implement, enabling
-auditing of certain processes or the adoption of cyber-security practices. Last but not least, organizational agreements
+auditing of certain processes or the adoption of cyber-security practices. In addition, organizational agreements
 establish the governance bodies (very much like ICANN for the Internet). They deal with the identification of concrete
 specifications that products implementing technology building blocks in a data space should comply with, as well as the
 business and operational agreements to be adopted. The complete taxonomy of building blocks required for creating data
