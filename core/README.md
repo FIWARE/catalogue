@@ -475,10 +475,18 @@ PostgreSQL database allow efficient queries while allowing off-the-shelves stori
 ### What is Canis Major?
 
 Canis Major is a blockchain adaptor that supports various DLT, the adaptor aims to submit the data to DLT in Powered By
-FIWARE Architecture. The adaptor will not be recommended to work for public-permissionless blockchains (specially
-tokens, cryptocurrencies)..
+FIWARE Architecture. The adaptor will not be recommended to work for public-permissionless blockchains (especially
+tokens, cryptocurrencies).
+
+Canis Major is developed using NodeJS and supports the transaction to IOTA or ethereum clients such as hyplerledger
+besu, quorum either using own smart contract or using [AEI Contract](https://github.com/FIWARE-Blockchain/AEIContract)
+which is based on ERC721 Non-fungible tokens (recommended).
 
 ### Why use Canis Major?
 
-For some elements of context, it is important to maintain a log of transactions which is verifiable and unchangeable.
-Use of distributed legers help with this and provide a mechanism of persisting context events.
+For some elements of context, it is important to maintain a log of transactions that is verifiable and unchangeable. The
+use of distributed ledgers helps with this and provides a mechanism for persisting context events. Canis Major can act
+as a pluggable micro-service that will create, sign and submit the transactions and also keeps the logs of transaction
+receipts which can be queried using restful APIs.
+
+Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" architectures.

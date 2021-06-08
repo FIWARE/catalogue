@@ -25,6 +25,7 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
     -   [Context Processing, Analysis and Visualization](#context-processing-analysis-and-visualization)
     -   [Context Data/API Management, Publication and Monetization](#context-dataapi-management-publication-and-monetization)
     -   [Deployment Tools](#deployment-tools)
+-   [Data Spaces](#data-spaces)
 -   [Management of FIWARE Releases](#management-of-fiware-releases)
 -   [Testing](#testing)
 -   [Contributing](#willing-to-contribute-your-technology-to-fiware)
@@ -268,6 +269,9 @@ monetization:
     start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
+-   [FIWARE TRUE Connector](https://github.com/Engineering-Research-and-Development/fiware-true-connector) enables
+    trusted data exchange in order for context brokers to be able to become an active part of an
+    [International Data Spaces](https://internationaldataspaces.org/) (IDS) Ecosystem
 
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
@@ -283,6 +287,17 @@ repository, but these should only be used in development environments. For fully
 FIWARE Generic Enablers please refer to the repository holding the FIWARE
 [Helm Chart recipes](https://github.com/FIWARE/helm-charts/) or find FIWARE Helm Chart receipes directly on
 [ArtifactoryHub](https://artifacthub.io/packages/search?page=1&ts_query_web=fiware)
+
+## Data Spaces
+
+FIWARE brings the essential building blocks helping to create Data Spaces enabling access and share of data in an
+effective and trustworthy manner. The open source nature of FIWARE technologies foster creation of these data spaces as
+federated infrastructures where multiple providers can be involved and not just a few players. FIWARE is bringing today
+mature technologies, compatible with IDS and CEF Building Blocks, that may accelerate the delivery of data spaces to the
+market and the materialization of initiatives like GAIA-X in Europe.
+
+The concrete selection of FIWARE components proposed as building blocks for the creation of Data Spaces can be found on
+dedicated pages linked to [FIWARE for Data Spaces](./data-spaces).
 
 ## Management of FIWARE Releases
 
