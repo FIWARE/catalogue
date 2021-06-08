@@ -285,12 +285,13 @@ FIWARE Generic Enablers please refer to the repository holding the FIWARE
 
 FIWARE brings the essential building blocks helping to create Data Spaces enabling access and share of data in an effective 
 and trustworthy manner. The open source nature of FIWARE technologies foster creation of these data spaces as federated 
-infrastructures where multiple providers can be involved and not just a few players. FIWARE is bringing today mature 
-technologies, compatible with IDS and CEF Building Blocks, that may accelerate the delivery of data spaces to the market 
-and the materialization of initiatives like GAIA-X in Europe. 
+infrastructures where multiple providers can be involved and not just a few players. FIWARE is bringing today mature technologies, 
+compatible with IDS and CEF Building Blocks, that may accelerate the delivery of data spaces to the market and the 
+materialization of initiatives like GAIA-X in Europe.
 
-Further information can be found on dedicated pages linked to 
-[FIWARE for Data Spaces](./data-spaces).
+The concrete selection of FIWARE components proposed as building blocks for the creation of Data Spaces can be found on 
+dedicated pages linked to [FIWARE for Data Spaces](./data-spaces).
+
 
 
 ## Management of FIWARE Releases
