@@ -195,3 +195,15 @@
 [submodule "data-spaces/fiware-on-k8s"]
 	path = data-spaces/fiware-on-k8s
 	url = https://github.com/FIWARE/production-on-k8s
+[submodule "security/pep-steelskin"]
+	path = security/pep-steelskin
+	url = https://github.com/telefonicaid/fiware-pep-steelskin
+[submodule "security/keypass"]
+	path = security/keypass
+	url = https://github.com/telefonicaid/fiware-keypass
+[submodule "security/keystone-scim"]
+	path = security/keystone-scim
+	url = https://github.com/telefonicaid/fiware-keystone-scim
+[submodule "security/keystone-spassword"]
+	path = security/keystone-spassword
+	url = https://github.com/telefonicaid/fiware-keystone-spassword
