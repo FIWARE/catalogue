@@ -272,6 +272,16 @@ monetization:
 -   [FIWARE TRUE Connector](https://github.com/Engineering-Research-and-Development/fiware-true-connector) enables
     trusted data exchange in order for context brokers to be able to become an active part of an
     [International Data Spaces](https://internationaldataspaces.org/) (IDS) Ecosystem
+-   [Steelskin PEP](https://github.com/telefonicaid/fiware-pep-steelskin) is a PEP proxy meant to secure independent
+    FIWARE components, by intercepting every request sent to the component, validating it against an Access Control
+    component such as Keypass
+-   [Keypass](https://github.com/telefonicaid/fiware-keypass) is multi-tenant XACML server with PAP and PDP
+    capabilities.
+-   [Keystone SCIM](https://github.com/telefonicaid/fiware-keystone-scim) is an OpenStack Keystone extension that
+    enables the management of User, Groups and Roles using the
+    [SCIM v1.1](https://developer.okta.com/docs/reference/scim/scim-11/) standard
+-   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
+    that enables extra security checks over user passwords
 
 Further information can be found on dedicated pages linked to
 [Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
