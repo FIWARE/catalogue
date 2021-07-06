@@ -17,6 +17,9 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 
 ## Contents
 
+<details>
+<summary><strong>Details</strong></summary>
+
 -   [Background](#background)
 -   [Installation](#installation)
 -   [Generic Enablers](#generic-enablers)
@@ -30,6 +33,8 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 -   [Testing](#testing)
 -   [Contributing](#willing-to-contribute-your-technology-to-fiware)
 -   [License](#license)
+    
+</details>
 
 ## Background
 
