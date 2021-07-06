@@ -259,3 +259,60 @@ the degree to which third-parties are able to use and receive the data.
 IDSA envisages trusted data exchange taking place through federated entities, that are globally compliant with the
 certification requirements defined by IDSA itself. The use of the connector allows data providers and consumers to join
 these federated networks, or data spaces.
+
+
+## :seedling: FIWARE TRUE Connector (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-true-connector.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-true-connector.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-true-connector/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-true-connector) | :whale: [Docker Hub](https://github.com/Engineering-Research-and-Development/fiware-true-connector/blob/master/docs/docker_readme.md) | :books: [Documentation](https://fiware-true-connector.readthedocs.io/) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+    
+    
+## :seedling: Steelskin PEP (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-pep-steelskin.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-pep-steelskin.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-pep-steelskin/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
+    
+## :seedling: Keypass (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
+    
+## :seedling: Keystone SCIM (Incubated)
+
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-scim.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-keystone-scim.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keystone-scim/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+
+    
+## :seedling: Keystone SPASSWORD (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-spassword.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-keystone-spassword.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keystone-spassword/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
