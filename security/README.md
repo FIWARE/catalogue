@@ -176,6 +176,7 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)
 
 <a name="true-connector"/>
+
 ## :seedling: APInf (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -228,6 +229,7 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
     ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.stability&colorB=blue)
 
 <a name="fiware-true-connector"/>
+
 ## :seedling: FIWARE TRUE Connector (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -259,19 +261,9 @@ the degree to which third-parties are able to use and receive the data.
 IDSA envisages trusted data exchange taking place through federated entities, that are globally compliant with the
 certification requirements defined by IDSA itself. The use of the connector allows data providers and consumers to join
 these federated networks, or data spaces.
+   
+<a name="steeskin-pep"/>
 
-
-## :seedling: FIWARE TRUE Connector (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
-![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-true-connector.svg)
-![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-true-connector.svg)
-![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-true-connector/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-true-connector) | :whale: [Docker Hub](https://github.com/Engineering-Research-and-Development/fiware-true-connector/blob/master/docs/docker_readme.md) | :books: [Documentation](https://fiware-true-connector.readthedocs.io/) |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-    
-    
 ## :seedling: Steelskin PEP (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -282,6 +274,23 @@ these federated networks, or data spaces.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 
+### What is Steelskin PEP?
+
+Steelskin is is a proxy meant to secure independent microservices such as FIWARE components, by intercepting every request sent
+to the componen and validating it against an Access Control component. This validation is based in several pieces of data:
+
+-  `User token`: comes from the OAuth authorization server and is taken from the x-auth-token header.
+-  `ServiceId`: is read from the fiware-service header and identifies the protected component.
+-  `SubserviceId`: is read from the fiware-servicepath header and identifies further divisions of the service.
+-  `Action`: the PEP guess the action for a particular request by checking the path or inspecting the body. 
+   The logic for performing such actions depends on the     component that is being secured, so the PEP will need a plugin for each of this components.
+
+### Why use Steelskin PEP?
+
+Trusted data exchange underpins data sovereignty, and allows users to pass context data between systems whilst limiting
+the degree to which third-parties are able to use and receive the data.
+
+<a name="keypass"/>
     
 ## :seedling: Keypass (Incubated)
 
@@ -293,7 +302,18 @@ these federated networks, or data spaces.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 
-    
+### What is Keypass?
+
+Keypass is multi-tenant XACML server with PAP (Policy Administration Point) and PDP (Policy Decision Point) capabilities.
+
+### Why use Keypass?
+
+Trusted data exchange underpins data sovereignty, and allows users to pass context data between systems whilst limiting
+the degree to which third-parties are able to use and receive the data.
+
+
+<a name="keystone-scim"/>
+
 ## :seedling: Keystone SCIM (Incubated)
 
 
@@ -305,6 +325,18 @@ these federated networks, or data spaces.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 
+### What is Keystone SCIM?
+
+Keystone SCIM is an OpenStack Keystone extension that enables the management of User, Groups and Roles using SCIM v1.1 standard.
+As any Keystone extension, it's designed to be installed on top of an existing Keystone installation, following Keystone
+recommendations for extensions.
+
+### Why use Keystone SCIM?
+
+Trusted data exchange underpins data sovereignty, and allows users to pass context data between systems whilst limiting
+the degree to which third-parties are able to use and receive the data.
+
+<a name="keystone-spassword"/>
     
 ## :seedling: Keystone SPASSWORD (Incubated)
 
@@ -316,3 +348,13 @@ these federated networks, or data spaces.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 
+### What is Keystone SPASSWORD?
+
+Keystone SPASSWORD is an OpenStack Keystone extension that enables some extra security checks over user passwords, such
+as ensuring the usage of strong passwords, expiration time for a password, number of bad login attempts before user account 
+became temporarily blocked, a recover procedure password, a second factor authentication (2FA) and so on.
+
+### Why use Keystone SPASSWORD?
+
+Trusted data exchange underpins data sovereignty, and allows users to pass context data between systems whilst limiting
+the degree to which third-parties are able to use and receive the data.
