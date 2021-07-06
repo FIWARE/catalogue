@@ -299,8 +299,8 @@ these federated networks, or data spaces.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-scim.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/fiware-keystone-scim.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keystone-scim/latest.svg)
+![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-scim)
+![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-scim.svg)
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -310,8 +310,8 @@ these federated networks, or data spaces.
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-spassword.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/fiware-keystone-spassword.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keystone-spassword/latest.svg)
+![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-spassword)
+![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-spassword.svg)
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
