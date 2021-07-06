@@ -19,24 +19,6 @@ Management Group (OMG) consortium. Fast DDS provides both the [OMG DDS 1.4](http
 eProsima Fast DDS holds the benefit of being standalone and up-to-date, as most vendor solutions either implement RTPS
 as a tool to implement DDS or use past versions of the specification.
 
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/fastRTPS.json&query=$.stability&colorB=blue)
-
 ## :seedling: Micro XRCE-DDS (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)

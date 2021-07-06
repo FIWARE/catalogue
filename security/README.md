@@ -59,24 +59,6 @@ can be found at Github: KeyRock source code It can be integrated with any develo
 The installation guide can be found at the Github's wiki page: KeyRock installation guide and KeyRock User and
 Programmers guide
 
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.stability&colorB=blue)
-
 ## Wilma
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -101,24 +83,6 @@ Wilma is the reference implementation of this Generic Enabler because it is comp
 ecosystem and specifically with FIWARE account. It is thought to work with OAuth2 and XACML protocols, the standards for
 authentication and authorization chosen in FIWARE. Furthermore, this is the component that every GEis are including on
 top of their REST APIs so it is tested and used in many different scenarios.
-
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.stability&colorB=blue)
 
 ## Authzforce
 
@@ -157,24 +121,6 @@ The Authorization PDP specification defines a RESTful API of an Authorization Po
 the OASIS XACML standard. More specifically, it defines RESTful interfaces for: Managing XACML-compliant authorization
 policies; Requesting authorization decisions based on those policies, in a XACML-compliant request-response format.
 
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)
-
 <a name="apinf"/>
 
 ## :seedling: APInf (Incubated)
@@ -209,24 +155,6 @@ offering a dashboard for all application developers. The business tools of the f
 API business. This helps cities to distribute digital technology in small pieces in order to let local small software
 companies to attend in building the services to their home city. The support is close and this approach creates jobs for
 local people, which in turn generate move tax money for the city to develop better digital services to the citizens.
-
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.stability&colorB=blue)
 
 <a name="fiware-true-connector"/>
 
