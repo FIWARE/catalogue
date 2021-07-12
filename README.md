@@ -33,6 +33,8 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 -   [Testing](#testing)
 -   [Contributing](#willing-to-contribute-your-technology-to-fiware)
 -   [License](#license)
+    
+</details>
 
 </details>
 
