@@ -36,6 +36,8 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 
 </details>
 
+</details>
+
 ## Background
 
 [FIWARE](https://www.fiware.org) brings a curated framework of open source software platform components which can be
