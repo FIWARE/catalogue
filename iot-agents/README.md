@@ -73,24 +73,6 @@ This IoT Agent is designed to be a bridge between [JSON](https://json.org/) and 
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-### Quality Assurance
-
-The **IoT Agent for JSON** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_json.json&query=$.stability&colorB=blue)
-
 ## IoT Agent for Ultralight
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
@@ -109,24 +91,6 @@ This IoT Agent is designed to be a bridge between Ultralight and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
-### Quality Assurance
-
-The **IoT Agent for the Ultralight** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_ul.json&query=$.stability&colorB=blue)
 
 ## IoT Agent for LoRaWaN
 
@@ -147,24 +111,6 @@ the
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-### Quality Assurance
-
-The **IoT Agent for LoRaWAN** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_LoRa.json&query=$.stability&colorB=blue)
-
 ## IoT Agent for LightWeight Machine2Machine
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
@@ -184,25 +130,6 @@ This IoT Agent is designed to be a bridge between the [OMA](https://www.omaspecw
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-### Quality Assurance
-
-The **IoT Agent for LightWeight Machine2Machine** project is part of [FIWARE](https://fiware.org/) and has been rated as
-follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_LWM2M.json&query=$.stability&colorB=blue)
-
 ## IoT Agent for OPC UA
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
@@ -220,24 +147,6 @@ This IoT Agent is designed to be a bridge between the [OPC Unified Architecture]
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
-### Quality Assurance
-
-The **IoT Agent for OPC-UA** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/iotagent_OPC-UA.json&query=$.stability&colorB=blue)
 
 ## :seedling: IoT Agent for Sigfox (Incubated)
 
@@ -257,11 +166,6 @@ This IoT Agent is designed to be a bridge between the [Sigfox](https://www.sigfo
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-### Quality Assurance
-
-The **IoT Agent for Sigfox** project is a new component within [FIWARE](https://fiware.org/) and will be rated in the
-current release
-
 ## :new: IoT Agent for ADAPT/ISOXML (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
@@ -280,11 +184,6 @@ designed to be a bridge between ISOXML/ADAPT and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/FIWARE/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface of a context broker.
 
-### Quality Assurance
-
-The **IoT Agent for ISOXML** project is a new component within [FIWARE](https://fiware.org/) and will be rated in the
-current release
-
 ---
 
 ## :seedling: Open MTC (Incubated)
@@ -302,21 +201,3 @@ A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for
 developing innovative M2M and IoT applications. It offers an
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface for connection to the Orion Context Broker
-
-### Quality Assurance
-
-The **Open MTC** project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/open_mtc.json&query=$.stability&colorB=blue)

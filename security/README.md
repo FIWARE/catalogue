@@ -59,24 +59,6 @@ can be found at Github: KeyRock source code It can be integrated with any develo
 The installation guide can be found at the Github's wiki page: KeyRock installation guide and KeyRock User and
 Programmers guide
 
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/keyrock.json&query=$.stability&colorB=blue)
-
 ## Wilma
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -101,24 +83,6 @@ Wilma is the reference implementation of this Generic Enabler because it is comp
 ecosystem and specifically with FIWARE account. It is thought to work with OAuth2 and XACML protocols, the standards for
 authentication and authorization chosen in FIWARE. Furthermore, this is the component that every GEis are including on
 top of their REST APIs so it is tested and used in many different scenarios.
-
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/wilma.json&query=$.stability&colorB=blue)
 
 ## Authzforce
 
@@ -157,25 +121,8 @@ The Authorization PDP specification defines a RESTful API of an Authorization Po
 the OASIS XACML standard. More specifically, it defines RESTful interfaces for: Managing XACML-compliant authorization
 policies; Requesting authorization decisions based on those policies, in a XACML-compliant request-response format.
 
-### Quality Assurance
+<a name="apinf"/>
 
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/authzforce.json&query=$.stability&colorB=blue)
-
-<a name="true-connector"/>
 ## :seedling: APInf (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -209,25 +156,8 @@ API business. This helps cities to distribute digital technology in small pieces
 companies to attend in building the services to their home city. The support is close and this approach creates jobs for
 local people, which in turn generate move tax money for the city to develop better digital services to the citizens.
 
-### Quality Assurance
-
-This project is part of [FIWARE](https://fiware.org/) and has been rated as follows:
-
--   **Version Tested:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.version&colorB=blue)
--   **Documentation:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.docCompleteness&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.docSoundness&colorB=blue)
--   **Responsiveness:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.timeToCharge&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.timeToFix&colorB=blue)
--   **FIWARE Testing:**
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.failureRate&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.scalability&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.performance&colorB=blue)
-    ![](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/catalogue/json/ApInf_Umbrella.json&query=$.stability&colorB=blue)
-
 <a name="fiware-true-connector"/>
+
 ## :seedling: FIWARE TRUE Connector (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
@@ -259,3 +189,110 @@ the degree to which third-parties are able to use and receive the data.
 IDSA envisages trusted data exchange taking place through federated entities, that are globally compliant with the
 certification requirements defined by IDSA itself. The use of the connector allows data providers and consumers to join
 these federated networks, or data spaces.
+
+<a name="steeskin-pep"/>
+
+## :seedling: Steelskin PEP (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-pep-steelskin.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-pep-steelskin.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-pep-steelskin/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+
+
+### What is Steelskin PEP?
+
+Steelskin is a proxy meant to secure independent microservices such as FIWARE components, by intercepting every request
+sent to the componen and validating it against an Access Control component. This validation is based in several pieces
+of data:
+
+-   `User token`: comes from the OAuth authorization server and is taken from the x-auth-token header.
+-   `ServiceId`: is read from the fiware-service header and identifies the protected component.
+-   `SubserviceId`: is read from the fiware-servicepath header and identifies further divisions of the service.
+-   `Action`: the PEP guess the action for a particular request by checking the path or inspecting the body. The logic
+    for performing such actions depends on the component that is being secured, so the PEP will need a plugin for each
+    of this components.
+
+### Why use Steelskin PEP?
+
+A PEP Proxy lies in front of a secured resource and is an endpoint found at "well-known" public location. It serves as a
+gatekeeper for resource access. Users or other actors must supply sufficient information to the PEP Proxy to allow their
+request to succeed and pass through the PEP proxy. The PEP proxy then passes the request on to the real location of the
+secured resource itself.
+
+<a name="keypass"/>
+    
+## :seedling: Keypass (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
+
+
+### What is Keypass?
+
+Keypass is multi-tenant XACML server with PAP (Policy Administration Point) and PDP (Policy Decision Point)
+capabilities.
+
+### Why use Keypass?
+
+The PDP is an adjudicator which checks whether the headers and other information found within the request permit the
+user access to a resource or resources. XACML is a common standard for defining the rules of access and allowing
+modification on the fly. The PAP allows users to set up roles, permissions etc. which underpin the ruleset of the PDP
+creating a flexible security framework which can be applied to any microservice.
+
+<a name="keystone-scim"/>
+
+## :seedling: Keystone SCIM (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-scim.svg)
+![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-scim)
+![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-scim.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+
+
+### What is Keystone SCIM?
+
+Keystone SCIM is an OpenStack Keystone extension that enables the management of User, Groups and Roles using SCIM v1.1
+standard. As any Keystone extension, it's designed to be installed on top of an existing Keystone installation,
+following Keystone recommendations for extensions.
+
+### Why use Keystone SCIM?
+
+The SCIM standard is a standard for automating the exchange of user identity information between identity domains, or IT
+systems. The extension enables the usage of this standard to define users, goups and roles. It can be installed onto a
+running Keystone installation and enhance the functionality of it.
+
+<a name="keystone-spassword"/>
+    
+## :seedling: Keystone SPASSWORD (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-spassword.svg)
+![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-spassword)
+![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-spassword.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
+
+### What is Keystone SPASSWORD?
+
+Keystone SPASSWORD is an OpenStack Keystone extension that enables some extra security checks over user passwords, such
+as ensuring the usage of strong passwords, expiration time for a password, number of bad login attempts before user
+account became temporarily blocked, a recover procedure password, a second factor authentication (2FA) and so on.
+
+### Why use Keystone SPASSWORD?
+
+Additional security checks and features improve the security and usability of a system, SPASSWORD helps to reduce
+development time by avoiding the need to implement and test bespoke secure system functions.

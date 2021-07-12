@@ -10,7 +10,6 @@ itself.
 > -   February 2021 - **7.10** - Further NGSI-LD components
 > -   May 2021 - **8.0** - Release prior to the FIWARE Summit
 
-
 ## Introduction
 
 This section elaborates on proposed new features or tasks which are expected to be added to the product in the
@@ -25,12 +24,14 @@ The following list of features are planned to be addressed in the short term, an
 catalogue over the next six months up to **June 2021** (next FIWARE Global Summit):
 
 -   Require compliance of all **MUST** requirements within the
-    [Contributor Requirements](https://fiware-requirements.rtfd.io) and display of [CII Best Practice Badges](https://bestpractices.coreinfrastructure.org/en)
--   Harden the experimental NGSI-LD interfaces for all Generic Enablers. The FIWARE Release major Version number will be 
+    [Contributor Requirements](https://fiware-requirements.rtfd.io) and display of
+    [CII Best Practice Badges](https://bestpractices.coreinfrastructure.org/en)
+-   Harden the experimental NGSI-LD interfaces for all Generic Enablers. The FIWARE Release major Version number will be
     updated once sufficient numbers of Generic Enablers are fully NGSI-LD compliant
 -   Continue onboarding additional Generic Enablers within the Robotics Domain
 -   Create templates for scalable production-ready FIWARE deployment using Helm Charts
--   Integration with selected Distributed Ledger Technologies enabling distributed trusted upserts of selected NGSI transactions
+-   Integration with selected Distributed Ledger Technologies enabling distributed trusted upserts of selected NGSI
+    transactions
 
 ## Medium term
 
