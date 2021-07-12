@@ -150,9 +150,6 @@
 [submodule "robotics/Micro-XRCE-DDS"]
 	path = robotics/Micro-XRCE-DDS
 	url = https://github.com/eProsima/Micro-XRCE-DDS.git
-[submodule "processing/wirecloud/ngsijs"]
-	path = processing/wirecloud/ngsijs
-	url = https://github.com/conwetlab/ngsijs
 [submodule "robotics/firos"]
 	path = robotics/firos
 	url = https://github.com/iml130/firos.git
@@ -207,3 +204,6 @@
 [submodule "security/keystone-spassword"]
 	path = security/keystone-spassword
 	url = https://github.com/telefonicaid/fiware-keystone-spassword
+[submodule "processing/ngsijs"]
+	path = processing/ngsijs
+	url = https://github.com/Ficodes/ngsijs.git
