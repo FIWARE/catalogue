@@ -184,7 +184,63 @@ designed to be a bridge between ISOXML/ADAPT and the
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/FIWARE/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface of a context broker.
 
+## Kurento
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./README.md)
+![License](https://img.shields.io/github/license/Kurento/kurento-media-server.svg)
+![](https://img.shields.io/badge/tag-6.9.0-blue.svg)
+
+| :octocat: [Git Repository](https://github.com/Kurento/kurento-media-server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/) | :books:[Documentation](https://kurento.rtfd.io/) | :page_facing_up: [Site](https://www.kurento.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/kurento) | :dart: [Roadmap](https://github.com/Kurento/kurento-media-server/blob/master/ROADMAP.md) |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+
+
+### What is Kurento?
+
+The Stream Oriented GE is a development framework that provides an abstraction layer for multimedia capabilities,
+allowing non-expert developers to include interactive media components to their applications. The Open API is at the
+heart of this enabler - A REST-like API, based on JSON RPC 2.0, exposing a toolbox of Media Elements that can be chained
+to create complex media processing pipelines. The Stream Oriented GE provides several client implementations of the Open
+API. The Java client allows developers to include media capabilities to Java or JEE applications. A JavaScript client is
+also ready to be used with Node.js or directly in browser applications. Thanks to these, the Stream Oriented GE provides
+developers with a set of robust end-to-end interoperable multimedia communication capabilities to deal with the
+complexity of transport, encoding/decoding, processing and rendering tasks in an easy and efficient way.
+
+### Why use Kurento?
+
+The development of interactive multimedia applications is a complex task, which usually requires specific expertise and
+huge investments. Stream Oriented GE brings a number of abstractions and enablers democratizing multimedia technologies
+and making possible to any WWW developer to create powerful applications involving advanced features such as:
+interoperable audiovisual communications, computer vision, augmented reality, flexible media playing, recording, etc.
+The Stream Oriented GE will be particularly useful and intuitive for developers familiar with Java EE and JavaScript
+technologies, although its capabilities are also exposed through agnostic interoperable network interfaces that can be
+consumed from any other language of system. In summary, it makes possible the development of complex interactive
+multimedia communications in a fast, simple and easy way.
+
 ---
+
+## :seedling: OpenVidu (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
+![License](https://img.shields.io/github/license/OpenVidu/openvidu.svg)
+![](https://img.shields.io/github/release-date/OpenVidu/openvidu.svg)
+![](https://img.shields.io/github/commits-since/OpenVidu/openvidu/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/OpenVidu/openvidu) | :whale: T.B.D. | :books: [Site](https://openvidu.io/docs/home/) |
+| ---------------------------------------------------------------- | -------------- | ---------------------------------------------- |
+
+
+### What is OpenVidu?
+
+The Openvidu Generic Enabler simplifies real-time processing of media streams managed or provided by Kurento, providing
+a simple HTTP REST API that manages the streams and provides an extra security layer simplifying the transformation of
+video cameras into sensors as well as the incorporation of advanced application functions (integrated audiovisual
+communications, augmented reality, flexible media playing and recording, etc
+
+### Why Use OpenVidu?
+
+Openvidu is a simple (easy to deploy/ easy to use) way to have advanced media streams processing and communications. It
+is opensource, compatible with multiple frontend and backend technologies. It provides support for many media
+transmission protocols. It hides the specifics and allows you to focus in your use case and business logic.
 
 ## :seedling: Open MTC (Incubated)
 
