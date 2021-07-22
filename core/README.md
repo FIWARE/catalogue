@@ -400,3 +400,30 @@ as a pluggable micro-service that will create, sign and submit the transactions 
 receipts which can be queried using restful APIs.
 
 Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" architectures.
+
+<a name="ngsijs"/>
+
+## :new: NGSI-JS (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/ficodes/ngsijs.svg)
+![](https://img.shields.io/github/release-date/ficodes/ngsijs.svg)
+![](https://img.shields.io/github/commits-since/ficodes/ngsijs/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/ficodes/ngsijs) | :whale: N/A | :books: [Site](http://ficodes.github.io/ngsijs/stable/NGSI.html) |
+| ------------------------------------------------------------- | ----------- | ---------------------------------------------------------------- |
+
+
+### What is NGSI.js?
+
+NGSI.js is the JavaScript library used by WireCloud for adding FIWARE NGSI capabilities to widgets and operators.
+However, this library has also been designed to be used in other environments as normal web pages and clients/servers
+running on Node.js.
+
+This library has been developed following the FIWARE NGSI v1, NGSI v2 and the NGSI-LD specifications and has been tested
+to work against multiple Context Brokers.
+
+### Why Use NGSI.js?
+
+NGSI.js provides a series of boilerplate library functions allowing developers to connect and push context data to any
+NGSI compliant context broker, the removes the need to write custom JavaScript code and speeds up development time.

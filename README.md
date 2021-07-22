@@ -33,7 +33,7 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 -   [Testing](#testing)
 -   [Contributing](#willing-to-contribute-your-technology-to-fiware)
 -   [License](#license)
-    
+
 </details>
 
 ## Background
@@ -146,6 +146,8 @@ The following is a list of Generic Enablers under incubation within the area of 
 
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
+-   The [NGSI.js](https://github.com/ficodes/ngsijs) library provides a series of JavaScript functions allowing
+    developers to connect and push context data to any NGSI compliant context broker
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 

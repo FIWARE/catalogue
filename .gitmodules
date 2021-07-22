@@ -205,5 +205,5 @@
 	path = security/keystone-spassword
 	url = https://github.com/telefonicaid/fiware-keystone-spassword
 [submodule "processing/ngsijs"]
-	path = processing/ngsijs
+	path = core/ngsijs
 	url = https://github.com/Ficodes/ngsijs.git
