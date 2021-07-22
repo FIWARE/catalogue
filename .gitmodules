@@ -42,13 +42,13 @@
 	path = robotics/Fast-DDS
 	url = https://github.com/eProsima/Fast-DDS.git
 [submodule "processing/kurento/media-server"]
-	path = processing/kurento/media-server
+	path = iot-agents/kurento/media-server
 	url = https://github.com/Kurento/kurento-media-server.git
 [submodule "processing/kurento/media-server-docker"]
-	path = processing/kurento/media-server-docker
+	path = iot-agents/kurento/media-server-docker
 	url = https://github.com/Kurento/kurento-docker.git
 [submodule "processing/kurento/documentation"]
-	path = processing/kurento/documentation
+	path = iot-agents/kurento/documentation
 	url = https://github.com/Kurento/doc-fiware-readthedocs.git
 [submodule "processing/wirecloud/wirecloud"]
 	path = processing/wirecloud/wirecloud
@@ -160,7 +160,7 @@
 	path = core/cosmos/examples-spark
 	url = https://github.com/ging/fiware-cosmos-orion-spark-connector-examples
 [submodule "processing/open-vidu"]
-	path = processing/open-vidu
+	path = iot-agents/open-vidu
 	url = https://github.com/OpenVidu/openvidu
 [submodule "core/scorpio"]
 	path = core/scorpio

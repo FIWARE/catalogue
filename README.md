@@ -182,8 +182,14 @@ context updates:
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT
         Agent.
 
+-   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
+    the transformation of video cameras into sensors as well as the incorporation of advanced application functions
+    (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
+
 The following is a list of Generic Enablers under incubation within the area of IoT, Robotics and third-party systems:
 
+-   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento, making
+    media processing easier to program.
 -   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
     the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented
     as part of the product.
@@ -215,9 +221,6 @@ purpose of implementing the “smart behaviour” expected in any application:
 
 -   The [Wirecloud](https://github.com/Wirecloud/) Generic Enabler brings a powerful web mashup platform making it
     easier to develop operational dashboards which are highly customizable by end users.
--   The [Kurento](https://github.com/kurento/) Generic Enabler enables real-time processing of media streams supporting
-    the transformation of video cameras into sensors as well as the incorporation of advanced application functions
-    (integrated audiovisual communications, augmented reality, flexible media playing and recording, etc)
 -   The [FogFlow](https://github.com/smartfog/fogflow) Generic Enabler is a distributed execution framework to support
     dynamic processing flows over cloud and edges.
 
@@ -226,8 +229,6 @@ The following is a list of Generic Enablers under incubation within the chapter:
 -   The [Perseo](https://github.com/telefonicaid/perseo-core/) Generic Enabler introduces Complex Event Processing (CEP)
     defined using a rules-based system, enabling you to fire events which send HTTP requests, emails, tweets, SMS
     messages etc.
--   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento, making
-    media processing easier to program.
 
 Further information can be found on dedicated pages linked to
 [Context Processing, Analysis and Visualization](./processing/README.md)
