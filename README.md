@@ -116,7 +116,7 @@ enables to manage context information in a highly decentralized and large-scale 
 The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
 
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
-    supports the NGSI-LD and the NGSI-v2 APIs. The current beta release is nearly feature complete, and plan is to merge
+    supports the NGSI-LD and the NGSI-v2 APIs. The current release is nearly feature complete, and plan is to merge
     it with the main branch of Orion.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
     Broker which can also be used in federated environments
