@@ -113,11 +113,10 @@ enables to manage context information in a highly decentralized and large-scale 
     FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to
     changes on context information.
 
-The following Context Broker implementations, supporting the ETSI NGSI-LD API specifications are under incubation:
+The following Context Broker implementations, supporting the ETSI [NGSI-LD 1.3.1. API specification or higher](https://www.etsi.org/standards#page=1&search=Context%20Information&title=1&etsiNumber=1&content=1&version=1&onApproval=1&published=1&historical=1&startDate=2020-01-01&endDate=2021-11-23&harmonized=0&keyword=&TB=854&stdType=&frequency=&mandate=&collection=&sort=1) are under incubation:
 
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
-    supports the NGSI-LD and the NGSI-v2 APIs. The current release is nearly feature complete, and plan is to merge
-    it with the main branch of Orion.
+    supports both NGSI-LD and the NGSI-v2 APIs.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
     Broker which can also be used in federated environments
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
