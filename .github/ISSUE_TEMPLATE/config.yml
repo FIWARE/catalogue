@@ -1,6 +1,6 @@
 blank_issues_enabled: true
 contact_links:
-  - name: NGSI-LD Tutorials Documentation
+  - name: FIWARE Catalogue
     url: https://www.fiware.org/developers/catalogue/
     about: |
       Check the documentation before asking for help or reporting a bug.
