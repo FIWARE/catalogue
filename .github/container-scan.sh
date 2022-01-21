@@ -59,6 +59,9 @@ trap "scanner_docker_compose down > /dev/null 2>&1" int exit
 
 image="${1:?}"
 arrIN=(${image//:/})
+echo  arrIN
+echo ${arrIN[0]}
+echo ${arrIN[0]}
 reports=$(pwd)/reports/${arrIN[0]}/${arrIN[1]}
 
 function scan() {
