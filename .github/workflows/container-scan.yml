@@ -36,3 +36,8 @@ jobs:
         continue-on-error: true
         run: |
           .github/container-scan.sh ${{ matrix.containers }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.containers }}
+          path: ./reports/
