@@ -41,3 +41,22 @@ jobs:
         with:
           name: reports
           path: ./reports
+
+  update-reports:
+    needs: ["scan-container"]
+    name: Report
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: container-scan-results
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: reports
+          path: ./reports
+
+      - name: Extract reports
+        run: |
+          ls ./reports
