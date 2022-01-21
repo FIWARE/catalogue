@@ -53,11 +53,13 @@ if ! scanner_docker_compose up -d >/dev/null 2>&1; then
   scanner_docker_compose up -d
 fi
 
-report_file=$(echo "${image:?}.json" | sed  's/\W/;/g' | sed  's/:/;/g' )
+report_file=$(echo "${image:?}.json" | sed  's/\W/-/g')
 
 trap "scanner_docker_compose down > /dev/null 2>&1" int exit
 
-reports=$(pwd)/reports/
+image="${1:?}"
+arrIN=(${contractAddressLine//:/})
+reports=$(pwd)/reports/$arrIN[0]/$arrIN[1]
 
 function scan() {
   local image="${1:?}"
