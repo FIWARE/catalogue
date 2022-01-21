@@ -40,8 +40,8 @@ jobs:
       - name: Extract artifact name
         id: ean
         run: |
-          imageName=(${${{ matrix.containers }}//:/})[0]
-          imageVersion=(${${{ matrix.containers }}//:/})[1]
+          imageName=$(${${{ matrix.containers }}//:/}))[0]
+          imageVersion=$(${${{ matrix.containers }}//:/}))[1]
           echo "::set-output name=name::${imageName}"
           echo "::set-output name=version::${imageVersion}"
       
