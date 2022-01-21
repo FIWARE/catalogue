@@ -57,7 +57,7 @@ report_file=$(echo "${image:?}.json" | sed  's/\W/-/g')
 
 trap "scanner_docker_compose down > /dev/null 2>&1" int exit
 
-reports=./
+reports=$(pwd)
 
 function scan() {
   local image="${1:?}"
