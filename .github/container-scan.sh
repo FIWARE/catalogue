@@ -59,7 +59,7 @@ trap "scanner_docker_compose down > /dev/null 2>&1" int exit
 
 image="${1:?}"
 arrIN=(${image//:/})
-reports=$(pwd)/reports/$arrIN[0]/$arrIN[1]
+reports=$(pwd)/reports/${arrIN[0]}/${arrIN[1]}
 
 function scan() {
   local image="${1:?}"
@@ -75,7 +75,7 @@ function scan() {
      while ! curl -q http://clair:6060 > /dev/null 2>&1; do
        sleep 1
      done
-      ./clair-scanner --ip \${HOSTNAME:?} -r /reports/${report_file:?} --clair http://clair:6060 \"${image:?}\"
+      ./clair-scanner --ip \${HOSTNAME:?}--clair http://clair:6060 \"${image:?}\" >  /reports/${report_file:?}
     """
 }
 
