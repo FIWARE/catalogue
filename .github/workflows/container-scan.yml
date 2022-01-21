@@ -35,18 +35,9 @@ jobs:
       - name: Execute container scan
         continue-on-error: true
         run: |
-          .github/container-scan.sh ${{ matrix.containers }}
-
-      - name: Extract artifact name
-        id: ean
-        run: |
-          imageName=$(${${{ matrix.containers }}//:/}))[0]
-          imageVersion=$(${${{ matrix.containers }}//:/}))[1]
-          echo "::set-output name=name::${imageName}"
-          echo "::set-output name=version::${imageVersion}"
-      
+          .github/container-scan.sh ${{ matrix.containers }}      
 
       - uses: actions/upload-artifact@v2
         with:
-          name: ${{ steps.ean.outputs.name }}-${{ steps.ean.outputs.version }}
+          name: reports
           path: ./reports/
