@@ -62,7 +62,9 @@ arrIN=(${image//:/})
 echo $image
 echo $arrIN
 echo ${arrIN[0]}
-echo ${arrIN[0]}
+echo ${arrIN[1]}
+echo ${arrIN[2]}
+echo ${arrIN[3]}
 reports=$(pwd)/reports/${arrIN[0]}/${arrIN[1]}
 
 function scan() {
