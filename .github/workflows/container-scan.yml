@@ -37,7 +37,16 @@ jobs:
         run: |
           .github/container-scan.sh ${{ matrix.containers }}
 
+      - name: Extract artifact name
+        id: ean
+        run: |
+          imageName=(${${{ matrix.containers }}//:/})[0]
+          imageVersion=(${${{ matrix.containers }}//:/})[1]
+          echo "::set-output name=name::${imageName}"
+          echo "::set-output name=version::${imageVersion}"
+      
+
       - uses: actions/upload-artifact@v2
         with:
-          name: ${{ matrix.containers }}
+          name: ${{ steps.ean.outputs.name }}-${{ steps.ean.outputs.version }}
           path: ./reports/
