@@ -1,9 +1,10 @@
 name: "Scan containers"
 on:
-  schedule:
-    # every night at one
-    - cron:  '0 1 * * *'
-  workflow_dispatch:
+  push:
+#  schedule:
+#    # every night at one
+#    - cron:  '0 1 * * *'
+#  workflow_dispatch:
 
 jobs:
   get-containers:
