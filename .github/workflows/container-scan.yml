@@ -46,10 +46,10 @@ jobs:
           echo "::set-output name=name::${name}"
 
       - name: Clair to markdown
-        uses: FIWARE-Ops/clair-to-markdown@0.0.2
+        uses: FIWARE-Ops/clair-to-markdown@master
         with:
-          reportFile: "/github/workspace/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
-          markdownFile: "/github/workspace/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
+          reportFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
+          markdownFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
 
       - uses: actions/upload-artifact@v2
         with:
