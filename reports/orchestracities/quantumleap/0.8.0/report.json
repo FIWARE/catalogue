@@ -11,6 +11,7 @@
         "CVE-2022-22825",
         "CVE-2021-30139",
         "CVE-2021-36159",
+        "CVE-2020-28928",
         "CVE-2021-42381",
         "CVE-2021-42385",
         "CVE-2021-42382",
@@ -28,8 +29,7 @@
         "CVE-2021-22922",
         "CVE-2021-22923",
         "CVE-2021-22946",
-        "CVE-2021-22924",
-        "CVE-2020-28928"
+        "CVE-2021-22924"
     ],
     "vulnerabilities": [
         {
@@ -133,6 +133,16 @@
             "fixedby": "2.10.7-r0"
         },
         {
+            "featurename": "curl",
+            "featureversion": "7.77.0-r0",
+            "vulnerability": "CVE-2021-22946",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22946",
+            "severity": "Medium",
+            "fixedby": "7.79.0-r0"
+        },
+        {
             "featurename": "busybox",
             "featureversion": "1.31.1-r16",
             "vulnerability": "CVE-2021-42381",
@@ -225,10 +235,10 @@
         {
             "featurename": "curl",
             "featureversion": "7.77.0-r0",
-            "vulnerability": "CVE-2021-22924",
+            "vulnerability": "CVE-2021-22922",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22924",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22922",
             "severity": "Medium",
             "fixedby": "7.78.0-r0"
         },
@@ -275,31 +285,11 @@
         {
             "featurename": "curl",
             "featureversion": "7.77.0-r0",
-            "vulnerability": "CVE-2021-22922",
+            "vulnerability": "CVE-2021-22924",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22922",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22924",
             "severity": "Medium",
-            "fixedby": "7.78.0-r0"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.77.0-r0",
-            "vulnerability": "CVE-2021-22946",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22946",
-            "severity": "Medium",
-            "fixedby": "7.79.0-r0"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.77.0-r0",
-            "vulnerability": "CVE-2021-22923",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22923",
-            "severity": "Low",
             "fixedby": "7.78.0-r0"
         },
         {
@@ -311,6 +301,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42374",
             "severity": "Low",
             "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.77.0-r0",
+            "vulnerability": "CVE-2021-22923",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22923",
+            "severity": "Low",
+            "fixedby": "7.78.0-r0"
         },
         {
             "featurename": "musl",
