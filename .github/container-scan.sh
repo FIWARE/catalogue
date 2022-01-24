@@ -76,7 +76,7 @@ function scan() {
      while ! curl -q http://clair:6060 > /dev/null 2>&1; do
        sleep 1
      done
-      ./clair-scanner --ip \${HOSTNAME:?} --report --clair http://clair:6060 \"${image:?}\" >  /reports/report.json
+      ./clair-scanner --ip \${HOSTNAME:?}  --report=/reports/report.json --clair http://clair:6060 \"${image:?}\"
     """
 }
 
