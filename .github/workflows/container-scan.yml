@@ -37,6 +37,20 @@ jobs:
         run: |
           .github/container-scan.sh ${{ matrix.containers }}      
 
+      - name: Get report path
+        id: image-info
+        run: |
+          name=$(cut -d':' -f1 <<<  ${{ matrix.containers }})
+          version=$(cut -d':' -f2 <<<  ${{ matrix.containers }})
+          echo "::set-output name=version::${version})"
+          echo "::set-output name=name::${name})"
+
+      - name: Clair to markdown
+        uses: FIWARE-Ops/clair-to-markdown@0.0.2
+        with:
+          reportFile: "/github/workspace/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
+          markdownFile: "/github/workspace/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
+
       - uses: actions/upload-artifact@v2
         with:
           name: reports
