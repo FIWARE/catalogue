@@ -46,12 +46,16 @@ jobs:
           echo "::set-output name=name::${name}"
 
       - name: Clair to markdown
+        # dont fail on not output
+        continue-on-error: true
         uses: FIWARE-Ops/clair-to-markdown@master
         with:
           reportFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
           markdownFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
 
       - uses: actions/upload-artifact@v2
+        # dont fail on not output
+        continue-on-error: true
         with:
           name: reports
           path: ./reports
