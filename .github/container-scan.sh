@@ -58,8 +58,8 @@ report_file=$(echo "${image:?}.json" | sed  's/\W/-/g')
 trap "scanner_docker_compose down > /dev/null 2>&1" int exit
 
 image="${1:?}"
-name=$(cut -d'_' -f1 <<< ${image})
-version=$(cut -d'_' -f2 <<< ${image})
+name=$(cut -d':' -f1 <<< ${image})
+version=$(cut -d':' -f2 <<< ${image})
 reports=$(pwd)/reports/${name}/${version}
 
 function scan() {
