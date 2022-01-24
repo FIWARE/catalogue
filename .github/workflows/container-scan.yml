@@ -42,8 +42,8 @@ jobs:
         run: |
           name=$(cut -d':' -f1 <<<  ${{ matrix.containers }})
           version=$(cut -d':' -f2 <<<  ${{ matrix.containers }})
-          echo "::set-output name=version::${version})"
-          echo "::set-output name=name::${name})"
+          echo "::set-output name=version::${version}"
+          echo "::set-output name=name::${name}"
 
       - name: Clair to markdown
         uses: FIWARE-Ops/clair-to-markdown@0.0.2
