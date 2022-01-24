@@ -52,11 +52,20 @@ jobs:
         with:
           ref: container-scan-results
 
+      - name: Configure Git
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
       - uses: actions/download-artifact@v2
         with:
           name: reports
           path: ./reports
 
-      - name: Extract reports
+      - name: Git commit
+        # dont fail if nothing is to be commited
+        continue-on-error: true
         run: |
-          ls ./reports
+          git add .
+          git commit -m "Update scan reports"
+          git push
