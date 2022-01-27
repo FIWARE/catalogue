@@ -1,53 +1,42 @@
 {
     "image": "stellio/stellio-search-service:v1.0.0",
     "unapproved": [
-        "CVE-2013-4235",
-        "CVE-2018-5709",
+        "CVE-2018-1000654",
         "CVE-2021-36222",
+        "CVE-2018-5709",
         "CVE-2022-23852",
-        "CVE-2020-9794",
-        "CVE-2020-9991",
-        "CVE-2020-9849",
-        "CVE-2021-43618",
+        "CVE-2013-4235",
         "CVE-2021-22946",
         "CVE-2021-22947",
         "CVE-2021-3997",
-        "CVE-2020-16156",
-        "CVE-2021-3671",
-        "CVE-2019-18276",
-        "CVE-2021-27645",
-        "CVE-2021-33574",
-        "CVE-2020-6096",
-        "CVE-2020-27618",
-        "CVE-2020-29562",
-        "CVE-2021-3326",
-        "CVE-2016-10228",
-        "CVE-2021-3998",
+        "CVE-2021-3999",
         "CVE-2022-23219",
         "CVE-2021-38604",
-        "CVE-2021-35942",
+        "CVE-2020-29562",
+        "CVE-2021-27645",
         "CVE-2022-23218",
+        "CVE-2016-10228",
+        "CVE-2020-27618",
+        "CVE-2021-3326",
+        "CVE-2021-35942",
         "CVE-2019-25013",
-        "CVE-2021-3999",
+        "CVE-2021-33574",
+        "CVE-2020-6096",
         "CVE-2016-2781",
-        "CVE-2018-1000654",
-        "CVE-2021-40528",
-        "CVE-2021-33560",
-        "CVE-2020-14155",
+        "CVE-2021-3671",
+        "CVE-2020-9849",
+        "CVE-2020-9991",
+        "CVE-2020-9794",
         "CVE-2019-20838",
-        "CVE-2017-11164"
+        "CVE-2017-11164",
+        "CVE-2020-14155",
+        "CVE-2021-43618",
+        "CVE-2021-33560",
+        "CVE-2021-40528",
+        "CVE-2020-16156",
+        "CVE-2019-18276"
     ],
     "vulnerabilities": [
-        {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-3999",
-            "namespace": "ubuntu:20.04",
-            "description": "Off-by-one buffer overflow/underflow in glibc's getcwd()",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3999",
-            "severity": "Medium",
-            "fixedby": ""
-        },
         {
             "featurename": "glibc",
             "featureversion": "2.31-0ubuntu9.2",
@@ -69,6 +58,16 @@
             "fixedby": ""
         },
         {
+            "featurename": "perl",
+            "featureversion": "5.30.0-9ubuntu0.2",
+            "vulnerability": "CVE-2020-16156",
+            "namespace": "ubuntu:20.04",
+            "description": "CPAN 2.28 allows Signature Verification Bypass.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
             "featurename": "expat",
             "featureversion": "2.2.9-1build1",
             "vulnerability": "CVE-2022-23852",
@@ -85,36 +84,6 @@
             "namespace": "ubuntu:20.04",
             "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 13.5 and iPadOS 13.5, macOS Catalina 10.15.5, tvOS 13.4.5, watchOS 6.2.5, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. A malicious application may cause a denial of service or potentially disclose memory contents.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794",
-            "severity": "Medium",
-            "fixedby": ""
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-38604",
-            "namespace": "ubuntu:20.04",
-            "description": "In librt in the GNU C Library (aka glibc) through 2.34, sysdeps/unix/sysv/linux/mq_notify.c mishandles certain NOTIFY_REMOVED data, leading to a NULL pointer dereference. NOTE: this vulnerability was introduced as a side effect of the CVE-2021-33574 fix.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-38604",
-            "severity": "Medium",
-            "fixedby": ""
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2022-23219",
-            "namespace": "ubuntu:20.04",
-            "description": "The deprecated compatibility function clnt_create in the sunrpc module of the GNU C Library (aka glibc) through 2.34 copies its hostname argument on the stack without validating its length, which may result in a buffer overflow, potentially resulting in a denial of service or (if an application is not built with a stack protector enabled) arbitrary code execution.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-23219",
-            "severity": "Medium",
-            "fixedby": ""
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-3998",
-            "namespace": "ubuntu:20.04",
-            "description": "Unexpected return value from glibc's realpath()",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3998",
             "severity": "Medium",
             "fixedby": ""
         },
@@ -149,12 +118,32 @@
             "fixedby": "245.4-4ubuntu3.15"
         },
         {
-            "featurename": "perl",
-            "featureversion": "5.30.0-9ubuntu0.2",
-            "vulnerability": "CVE-2020-16156",
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2021-3999",
             "namespace": "ubuntu:20.04",
-            "description": "CPAN 2.28 allows Signature Verification Bypass.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "description": "Off-by-one buffer overflow/underflow in glibc's getcwd()",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3999",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2022-23219",
+            "namespace": "ubuntu:20.04",
+            "description": "The deprecated compatibility function clnt_create in the sunrpc module of the GNU C Library (aka glibc) through 2.34 copies its hostname argument on the stack without validating its length, which may result in a buffer overflow, potentially resulting in a denial of service or (if an application is not built with a stack protector enabled) arbitrary code execution.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-23219",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2021-38604",
+            "namespace": "ubuntu:20.04",
+            "description": "In librt in the GNU C Library (aka glibc) through 2.34, sysdeps/unix/sysv/linux/mq_notify.c mishandles certain NOTIFY_REMOVED data, leading to a NULL pointer dereference. NOTE: this vulnerability was introduced as a side effect of the CVE-2021-33574 fix.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-38604",
             "severity": "Medium",
             "fixedby": ""
         },
@@ -169,16 +158,6 @@
             "fixedby": "1.8.5-5ubuntu1.1"
         },
         {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-27645",
-            "namespace": "ubuntu:20.04",
-            "description": "The nameserver caching daemon (nscd) in the GNU C Library (aka glibc or libc6) 2.29 through 2.33, when processing a request for netgroup lookup, may crash due to a double-free, potentially resulting in degraded service or Denial of Service on the local system. This is related to netgroupcache.c.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-27645",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
             "featurename": "bash",
             "featureversion": "5.0-6ubuntu1.1",
             "vulnerability": "CVE-2019-18276",
@@ -191,30 +170,10 @@
         {
             "featurename": "glibc",
             "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-33574",
+            "vulnerability": "CVE-2021-27645",
             "namespace": "ubuntu:20.04",
-            "description": "The mq_notify function in the GNU C Library (aka glibc) versions 2.32 and 2.33 has a use-after-free. It may use the notification thread attributes object (passed through its struct sigevent parameter) after it has been freed by the caller, leading to a denial of service (application crash) or possibly unspecified other impact.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33574",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2020-6096",
-            "namespace": "ubuntu:20.04",
-            "description": "An exploitable signed comparison vulnerability exists in the ARMv7 memcpy() implementation of GNU glibc 2.30.9000. Calling memcpy() (on ARMv7 targets that utilize the GNU glibc implementation) with a negative value for the 'num' parameter results in a signed comparison vulnerability. If an attacker underflows the 'num' parameter to memcpy(), this vulnerability could lead to undefined behavior such as writing to out-of-bounds memory and potentially remote code execution. Furthermore, this memcpy() implementation allows for program execution to continue in scenarios where a segmentation fault or crash should have occurred. The dangers occur in that subsequent execution and iterations of this code will be executed with this corrupted data.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-6096",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "heimdal",
-            "featureversion": "7.7.0+dfsg-1ubuntu1",
-            "vulnerability": "CVE-2021-3671",
-            "namespace": "ubuntu:20.04",
-            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
+            "description": "The nameserver caching daemon (nscd) in the GNU C Library (aka glibc or libc6) 2.29 through 2.33, when processing a request for netgroup lookup, may crash due to a double-free, potentially resulting in degraded service or Denial of Service on the local system. This is related to netgroupcache.c.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-27645",
             "severity": "Low",
             "fixedby": ""
         },
@@ -225,6 +184,16 @@
             "namespace": "ubuntu:20.04",
             "description": "The iconv function in the GNU C Library (aka glibc or libc6) 2.30 to 2.32, when converting UCS4 text containing an irreversible character, fails an assertion in the code path and aborts the program, potentially resulting in a denial of service.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2020-27618",
+            "namespace": "ubuntu:20.04",
+            "description": "The iconv function in the GNU C Library (aka glibc or libc6) 2.32 and earlier, when processing invalid multi-byte input sequences in IBM1364, IBM1371, IBM1388, IBM1390, and IBM1399 encodings, fails to advance the input state, which could lead to an infinite loop in applications, resulting in a denial of service, a different vulnerability from CVE-2016-10228.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618",
             "severity": "Low",
             "fixedby": ""
         },
@@ -249,12 +218,52 @@
             "fixedby": "1.8.5-5ubuntu1.1"
         },
         {
-            "featurename": "gmp",
-            "featureversion": "2:6.2.0+dfsg-4",
-            "vulnerability": "CVE-2021-43618",
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2019-25013",
             "namespace": "ubuntu:20.04",
-            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
+            "description": "The iconv feature in the GNU C Library (aka glibc or libc6) through 2.32, when processing invalid multi-byte input sequences in the EUC-KR encoding, may have a buffer over-read.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2021-33574",
+            "namespace": "ubuntu:20.04",
+            "description": "The mq_notify function in the GNU C Library (aka glibc) versions 2.32 and 2.33 has a use-after-free. It may use the notification thread attributes object (passed through its struct sigevent parameter) after it has been freed by the caller, leading to a denial of service (application crash) or possibly unspecified other impact.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33574",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.31-0ubuntu9.2",
+            "vulnerability": "CVE-2020-6096",
+            "namespace": "ubuntu:20.04",
+            "description": "An exploitable signed comparison vulnerability exists in the ARMv7 memcpy() implementation of GNU glibc 2.30.9000. Calling memcpy() (on ARMv7 targets that utilize the GNU glibc implementation) with a negative value for the 'num' parameter results in a signed comparison vulnerability. If an attacker underflows the 'num' parameter to memcpy(), this vulnerability could lead to undefined behavior such as writing to out-of-bounds memory and potentially remote code execution. Furthermore, this memcpy() implementation allows for program execution to continue in scenarios where a segmentation fault or crash should have occurred. The dangers occur in that subsequent execution and iterations of this code will be executed with this corrupted data.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-6096",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "coreutils",
+            "featureversion": "8.30-3ubuntu2",
+            "vulnerability": "CVE-2016-2781",
+            "namespace": "ubuntu:20.04",
+            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "heimdal",
+            "featureversion": "7.7.0+dfsg-1ubuntu1",
+            "vulnerability": "CVE-2021-3671",
+            "namespace": "ubuntu:20.04",
+            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
             "severity": "Low",
             "fixedby": ""
         },
@@ -279,12 +288,12 @@
             "fixedby": ""
         },
         {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2021-35942",
+            "featurename": "shadow",
+            "featureversion": "1:4.8.1-1ubuntu5.20.04.1",
+            "vulnerability": "CVE-2013-4235",
             "namespace": "ubuntu:20.04",
-            "description": "The wordexp function in the GNU C Library (aka glibc) through 2.33 may crash or read arbitrary memory in parse_param (in posix/wordexp.c) when called with an untrusted, crafted pattern, potentially resulting in a denial of service or disclosure of information. This occurs because atoi was used but strtoul should have been used to ensure correct calculations.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-35942",
+            "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
             "severity": "Low",
             "fixedby": ""
         },
@@ -301,50 +310,40 @@
         {
             "featurename": "glibc",
             "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2019-25013",
+            "vulnerability": "CVE-2021-35942",
             "namespace": "ubuntu:20.04",
-            "description": "The iconv feature in the GNU C Library (aka glibc or libc6) through 2.32, when processing invalid multi-byte input sequences in the EUC-KR encoding, may have a buffer over-read.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013",
+            "description": "The wordexp function in the GNU C Library (aka glibc) through 2.33 may crash or read arbitrary memory in parse_param (in posix/wordexp.c) when called with an untrusted, crafted pattern, potentially resulting in a denial of service or disclosure of information. This occurs because atoi was used but strtoul should have been used to ensure correct calculations.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-35942",
             "severity": "Low",
             "fixedby": ""
         },
         {
-            "featurename": "coreutils",
-            "featureversion": "8.30-3ubuntu2",
-            "vulnerability": "CVE-2016-2781",
+            "featurename": "gmp",
+            "featureversion": "2:6.2.0+dfsg-4",
+            "vulnerability": "CVE-2021-43618",
             "namespace": "ubuntu:20.04",
-            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
             "severity": "Low",
             "fixedby": ""
         },
         {
-            "featurename": "shadow",
-            "featureversion": "1:4.8.1-1ubuntu5.20.04.1",
-            "vulnerability": "CVE-2013-4235",
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2020-14155",
             "namespace": "ubuntu:20.04",
-            "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
-            "severity": "Low",
+            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
+            "severity": "Negligible",
             "fixedby": ""
         },
         {
-            "featurename": "glibc",
-            "featureversion": "2.31-0ubuntu9.2",
-            "vulnerability": "CVE-2020-27618",
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2017-11164",
             "namespace": "ubuntu:20.04",
-            "description": "The iconv function in the GNU C Library (aka glibc or libc6) 2.32 and earlier, when processing invalid multi-byte input sequences in IBM1364, IBM1371, IBM1388, IBM1390, and IBM1399 encodings, fails to advance the input state, which could lead to an infinite loop in applications, resulting in a denial of service, a different vulnerability from CVE-2016-10228.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "libtasn1-6",
-            "featureversion": "4.16.0-2",
-            "vulnerability": "CVE-2018-1000654",
-            "namespace": "ubuntu:20.04",
-            "description": "GNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654",
+            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
             "severity": "Negligible",
             "fixedby": ""
         },
@@ -359,16 +358,6 @@
             "fixedby": ""
         },
         {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2020-14155",
-            "namespace": "ubuntu:20.04",
-            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
             "featurename": "krb5",
             "featureversion": "1.17-6ubuntu4.1",
             "vulnerability": "CVE-2018-5709",
@@ -379,12 +368,12 @@
             "fixedby": ""
         },
         {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2017-11164",
+            "featurename": "libtasn1-6",
+            "featureversion": "4.16.0-2",
+            "vulnerability": "CVE-2018-1000654",
             "namespace": "ubuntu:20.04",
-            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+            "description": "GNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654",
             "severity": "Negligible",
             "fixedby": ""
         }
