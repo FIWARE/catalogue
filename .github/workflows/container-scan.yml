@@ -1,0 +1,88 @@
+name: "Scan containers"
+on:
+  schedule:
+    # every night at one
+    - cron:  '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  get-containers:
+    name: Get containers from submodules
+    runs-on: ubuntu-latest
+    outputs:
+      container-matrix: ${{ steps.submodules.outputs.containers }}
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Get docker images for submodules
+        id: submodules
+        uses: FIWARE-Ops/get-images-from-submodules@master
+
+  scan-container:
+    name: Scan
+    runs-on: ubuntu-latest
+    needs: ["get-containers"]
+
+    strategy:
+      fail-fast: false
+      matrix:
+        containers: ${{fromJson(needs.get-containers.outputs.container-matrix)}}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Execute container scan
+        continue-on-error: true
+        run: |
+          .github/container-scan.sh ${{ matrix.containers }}      
+
+      - name: Get report path
+        id: image-info
+        run: |
+          name=$(cut -d':' -f1 <<<  ${{ matrix.containers }})
+          version=$(cut -d':' -f2 <<<  ${{ matrix.containers }})
+          echo "::set-output name=version::${version}"
+          echo "::set-output name=name::${name}"
+
+      - name: Clair to markdown
+        # dont fail on not output
+        continue-on-error: true
+        uses: FIWARE-Ops/clair-to-markdown@master
+        with:
+          reportFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
+          markdownFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
+
+      - uses: actions/upload-artifact@v2
+        # dont fail on not output
+        continue-on-error: true
+        with:
+          name: reports
+          path: ./reports
+
+  update-reports:
+    needs: ["scan-container"]
+    name: Report
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: container-scan-results
+
+      - name: Configure Git
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: reports
+          path: ./reports
+
+      - name: Git commit
+        # dont fail if nothing is to be commited
+        continue-on-error: true
+        run: |
+          git add .
+          git commit -m "Update scan reports"
+          git push
