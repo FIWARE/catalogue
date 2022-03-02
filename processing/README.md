@@ -87,13 +87,13 @@ lack of interoperability and openness to share and reuse data and dervied result
 
 **Core**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://perseo.rtfd.io/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 
 
 **Frontend**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://perseo.rtfd.io) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 
 
