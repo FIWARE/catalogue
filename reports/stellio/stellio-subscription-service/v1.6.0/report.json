@@ -1,35 +1,35 @@
 {
     "image": "stellio/stellio-subscription-service:v1.6.0",
     "unapproved": [
-        "CVE-2021-36084",
-        "CVE-2021-36086",
-        "CVE-2021-36087",
-        "CVE-2021-36085",
+        "CVE-2020-16156",
+        "CVE-2019-1010204",
+        "CVE-2017-13716",
+        "CVE-2018-20657",
+        "CVE-2021-45078",
         "CVE-2021-20193",
-        "CVE-2021-3671",
-        "CVE-2020-14155",
         "CVE-2017-11164",
         "CVE-2019-20838",
-        "CVE-2020-9991",
+        "CVE-2020-14155",
         "CVE-2020-9794",
         "CVE-2020-9849",
         "CVE-2021-36690",
+        "CVE-2020-9991",
         "CVE-2018-1000654",
         "CVE-2019-18276",
-        "CVE-2022-0778",
-        "CVE-2013-4235",
-        "CVE-2020-16156",
         "CVE-2021-36222",
         "CVE-2018-5709",
-        "CVE-2016-2781",
+        "CVE-2013-4235",
+        "CVE-2022-0778",
+        "CVE-2021-36086",
+        "CVE-2021-36085",
+        "CVE-2021-36084",
+        "CVE-2021-36087",
         "CVE-2021-43618",
-        "CVE-2017-13716",
-        "CVE-2019-1010204",
-        "CVE-2021-45078",
-        "CVE-2018-20657",
+        "CVE-2022-25315",
         "CVE-2022-25314",
         "CVE-2022-25313",
-        "CVE-2022-25315"
+        "CVE-2021-3671",
+        "CVE-2016-2781"
     ],
     "vulnerabilities": [
         {
@@ -45,10 +45,10 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-1ubuntu0.2",
-            "vulnerability": "CVE-2022-25314",
+            "vulnerability": "CVE-2022-25315",
             "namespace": "ubuntu:20.04",
-            "description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25314",
+            "description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25315",
             "severity": "Medium",
             "fixedby": "2.2.9-1ubuntu0.4"
         },
@@ -75,10 +75,10 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-1ubuntu0.2",
-            "vulnerability": "CVE-2022-25315",
+            "vulnerability": "CVE-2022-25313",
             "namespace": "ubuntu:20.04",
-            "description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25315",
+            "description": "In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth in the DTD element.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25313",
             "severity": "Medium",
             "fixedby": "2.2.9-1ubuntu0.4"
         },
@@ -95,20 +95,20 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-1ubuntu0.2",
-            "vulnerability": "CVE-2022-25313",
+            "vulnerability": "CVE-2022-25314",
             "namespace": "ubuntu:20.04",
-            "description": "In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth in the DTD element.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25313",
+            "description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-25314",
             "severity": "Medium",
             "fixedby": "2.2.9-1ubuntu0.4"
         },
         {
-            "featurename": "coreutils",
-            "featureversion": "8.30-3ubuntu2",
-            "vulnerability": "CVE-2016-2781",
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36085",
             "namespace": "ubuntu:20.04",
-            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
             "severity": "Low",
             "fixedby": ""
         },
@@ -123,56 +123,6 @@
             "fixedby": ""
         },
         {
-            "featurename": "sqlite3",
-            "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9991",
-            "namespace": "ubuntu:20.04",
-            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "heimdal",
-            "featureversion": "7.7.0+dfsg-1ubuntu1",
-            "vulnerability": "CVE-2021-3671",
-            "namespace": "ubuntu:20.04",
-            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "sqlite3",
-            "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9849",
-            "namespace": "ubuntu:20.04",
-            "description": "An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iTunes for Windows 12.10.9, iCloud for Windows 11.5, tvOS 14.0. A remote attacker may be able to leak memory.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9849",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "binutils",
-            "featureversion": "2.34-6ubuntu1.3",
-            "vulnerability": "CVE-2019-1010204",
-            "namespace": "ubuntu:20.04",
-            "description": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-1010204",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "binutils",
-            "featureversion": "2.34-6ubuntu1.3",
-            "vulnerability": "CVE-2017-13716",
-            "namespace": "ubuntu:20.04",
-            "description": "The C++ symbol demangler routine in cplus-dem.c in libiberty, as distributed in GNU Binutils 2.29, allows remote attackers to cause a denial of service (excessive memory allocation and application crash) via a crafted file, as demonstrated by a call from the Binary File Descriptor (BFD) library (aka libbfd).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13716",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
             "featurename": "tar",
             "featureversion": "1.30+dfsg-7ubuntu0.20.04.1",
             "vulnerability": "CVE-2021-20193",
@@ -183,42 +133,12 @@
             "fixedby": "1.30+dfsg-7ubuntu0.20.04.2"
         },
         {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36085",
+            "featurename": "sqlite3",
+            "featureversion": "3.31.1-4ubuntu0.2",
+            "vulnerability": "CVE-2020-9849",
             "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "shadow",
-            "featureversion": "1:4.8.1-1ubuntu5.20.04.1",
-            "vulnerability": "CVE-2013-4235",
-            "namespace": "ubuntu:20.04",
-            "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36087",
-            "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36087",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36086",
-            "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36086",
+            "description": "An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iTunes for Windows 12.10.9, iCloud for Windows 11.5, tvOS 14.0. A remote attacker may be able to leak memory.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9849",
             "severity": "Low",
             "fixedby": ""
         },
@@ -233,12 +153,42 @@
             "fixedby": ""
         },
         {
-            "featurename": "bash",
-            "featureversion": "5.0-6ubuntu1.1",
-            "vulnerability": "CVE-2019-18276",
+            "featurename": "sqlite3",
+            "featureversion": "3.31.1-4ubuntu0.2",
+            "vulnerability": "CVE-2020-9991",
             "namespace": "ubuntu:20.04",
-            "description": "An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support \"saved UID\" functionality, the saved UID is not dropped. An attacker with command execution in the shell can use \"enable -f\" for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-18276",
+            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36087",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36087",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "heimdal",
+            "featureversion": "7.7.0+dfsg-1ubuntu1",
+            "vulnerability": "CVE-2021-3671",
+            "namespace": "ubuntu:20.04",
+            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "binutils",
+            "featureversion": "2.34-6ubuntu1.3",
+            "vulnerability": "CVE-2017-13716",
+            "namespace": "ubuntu:20.04",
+            "description": "The C++ symbol demangler routine in cplus-dem.c in libiberty, as distributed in GNU Binutils 2.29, allows remote attackers to cause a denial of service (excessive memory allocation and application crash) via a crafted file, as demonstrated by a call from the Binary File Descriptor (BFD) library (aka libbfd).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13716",
             "severity": "Low",
             "fixedby": ""
         },
@@ -249,6 +199,56 @@
             "namespace": "ubuntu:20.04",
             "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36084",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "shadow",
+            "featureversion": "1:4.8.1-1ubuntu5.20.04.1",
+            "vulnerability": "CVE-2013-4235",
+            "namespace": "ubuntu:20.04",
+            "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "binutils",
+            "featureversion": "2.34-6ubuntu1.3",
+            "vulnerability": "CVE-2019-1010204",
+            "namespace": "ubuntu:20.04",
+            "description": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-1010204",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36086",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36086",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "bash",
+            "featureversion": "5.0-6ubuntu1.1",
+            "vulnerability": "CVE-2019-18276",
+            "namespace": "ubuntu:20.04",
+            "description": "An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support \"saved UID\" functionality, the saved UID is not dropped. An attacker with command execution in the shell can use \"enable -f\" for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-18276",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "coreutils",
+            "featureversion": "8.30-3ubuntu2",
+            "vulnerability": "CVE-2016-2781",
+            "namespace": "ubuntu:20.04",
+            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
             "severity": "Low",
             "fixedby": ""
         },
@@ -273,6 +273,26 @@
             "fixedby": ""
         },
         {
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2020-14155",
+            "namespace": "ubuntu:20.04",
+            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2017-11164",
+            "namespace": "ubuntu:20.04",
+            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
             "featurename": "binutils",
             "featureversion": "2.34-6ubuntu1.3",
             "vulnerability": "CVE-2021-45078",
@@ -289,26 +309,6 @@
             "namespace": "ubuntu:20.04",
             "description": "The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, has a memory leak via a crafted string, leading to a denial of service (memory consumption), as demonstrated by cxxfilt, a related issue to CVE-2018-12698.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20657",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2017-11164",
-            "namespace": "ubuntu:20.04",
-            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2020-14155",
-            "namespace": "ubuntu:20.04",
-            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
             "severity": "Negligible",
             "fixedby": ""
         },
