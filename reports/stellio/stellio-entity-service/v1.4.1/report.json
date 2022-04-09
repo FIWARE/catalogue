@@ -2,10 +2,10 @@
     "image": "stellio/stellio-entity-service:v1.4.1",
     "unapproved": [
         "CVE-2018-25032",
-        "CVE-2020-28928",
         "CVE-2022-28391",
         "ALPINE-13661",
-        "CVE-2022-0778"
+        "CVE-2022-0778",
+        "CVE-2020-28928"
     ],
     "vulnerabilities": [
         {
