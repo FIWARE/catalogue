@@ -1,50 +1,50 @@
 {
     "image": "orchestracities/quantumleap:0.8.1",
     "unapproved": [
-        "CVE-2022-25315",
-        "CVE-2022-22824",
-        "CVE-2022-22827",
-        "CVE-2022-23852",
-        "CVE-2022-22825",
-        "CVE-2022-25235",
-        "CVE-2022-22823",
-        "CVE-2022-22826",
-        "CVE-2022-23990",
-        "CVE-2022-25313",
-        "CVE-2021-45960",
-        "CVE-2022-25314",
-        "CVE-2021-46143",
-        "CVE-2022-25236",
-        "CVE-2022-22822",
+        "CVE-2020-28928",
         "CVE-2021-30139",
         "CVE-2021-36159",
-        "CVE-2021-42379",
-        "CVE-2021-28831",
-        "CVE-2021-42385",
-        "ALPINE-13661",
-        "CVE-2021-42382",
-        "CVE-2021-42386",
-        "CVE-2021-42381",
-        "CVE-2021-42383",
-        "CVE-2021-42384",
-        "CVE-2022-28391",
-        "CVE-2021-42380",
-        "CVE-2021-42374",
-        "CVE-2021-42378",
-        "CVE-2020-28928",
         "CVE-2018-25032",
+        "CVE-2022-22825",
+        "CVE-2022-22826",
+        "CVE-2022-25315",
+        "CVE-2022-23990",
+        "CVE-2022-22823",
+        "CVE-2022-25235",
+        "CVE-2021-46143",
+        "CVE-2022-25236",
+        "CVE-2022-25314",
+        "CVE-2022-23852",
+        "CVE-2022-22824",
+        "CVE-2022-22822",
+        "CVE-2021-45960",
+        "CVE-2022-22827",
+        "CVE-2022-25313",
         "CVE-2021-22925",
+        "CVE-2021-22945",
+        "CVE-2021-22901",
+        "CVE-2021-22898",
+        "CVE-2021-22923",
+        "CVE-2021-22947",
+        "CVE-2021-22922",
         "CVE-2021-22890",
         "CVE-2021-22876",
-        "CVE-2021-22898",
-        "CVE-2021-22901",
-        "CVE-2021-22945",
-        "CVE-2021-22922",
-        "CVE-2021-22923",
-        "CVE-2021-22946",
-        "CVE-2021-22947",
         "CVE-2021-22924",
-        "CVE-2020-8284"
+        "CVE-2021-22946",
+        "CVE-2020-8284",
+        "CVE-2021-42386",
+        "CVE-2021-42383",
+        "CVE-2021-42384",
+        "CVE-2021-42385",
+        "CVE-2021-42374",
+        "CVE-2021-42379",
+        "CVE-2021-28831",
+        "CVE-2022-28391",
+        "CVE-2021-42381",
+        "CVE-2021-42378",
+        "ALPINE-13661",
+        "CVE-2021-42382",
+        "CVE-2021-42380"
     ],
     "vulnerabilities": [
         {
@@ -60,42 +60,12 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-25315",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25315",
-            "severity": "High",
-            "fixedby": "2.2.10-r2"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-22824",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824",
-            "severity": "High",
-            "fixedby": "2.2.10-r0"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
             "vulnerability": "CVE-2022-25235",
             "namespace": "alpine:v3.12",
             "description": "",
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25235",
             "severity": "High",
             "fixedby": "2.2.10-r2"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-23852",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23852",
-            "severity": "High",
-            "fixedby": "2.2.10-r1"
         },
         {
             "featurename": "expat",
@@ -110,12 +80,22 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-22823",
+            "vulnerability": "CVE-2022-22824",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824",
             "severity": "High",
             "fixedby": "2.2.10-r0"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-23852",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23852",
+            "severity": "High",
+            "fixedby": "2.2.10-r1"
         },
         {
             "featurename": "expat",
@@ -130,6 +110,16 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-25315",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25315",
+            "severity": "High",
+            "fixedby": "2.2.10-r2"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
             "vulnerability": "CVE-2022-23990",
             "namespace": "alpine:v3.12",
             "description": "",
@@ -138,34 +128,14 @@
             "fixedby": "2.2.10-r1"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42386",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42386",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
             "featurename": "expat",
             "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-25313",
+            "vulnerability": "CVE-2022-22823",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25313",
-            "severity": "Medium",
-            "fixedby": "2.2.10-r2"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-25314",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25314",
-            "severity": "Medium",
-            "fixedby": "2.2.10-r2"
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823",
+            "severity": "High",
+            "fixedby": "2.2.10-r0"
         },
         {
             "featurename": "expat",
@@ -176,86 +146,6 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143",
             "severity": "Medium",
             "fixedby": "2.2.10-r0"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-22826",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826",
-            "severity": "Medium",
-            "fixedby": "2.2.10-r0"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-22825",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825",
-            "severity": "Medium",
-            "fixedby": "2.2.10-r0"
-        },
-        {
-            "featurename": "apk-tools",
-            "featureversion": "2.10.5-r1",
-            "vulnerability": "CVE-2021-30139",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30139",
-            "severity": "Medium",
-            "fixedby": "2.10.6-r0"
-        },
-        {
-            "featurename": "apk-tools",
-            "featureversion": "2.10.5-r1",
-            "vulnerability": "CVE-2021-36159",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36159",
-            "severity": "Medium",
-            "fixedby": "2.10.7-r0"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42379",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42379",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-28831",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28831",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r20"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42385",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42385",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22924",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22924",
-            "severity": "Medium",
-            "fixedby": "7.78.0-r0"
         },
         {
             "featurename": "busybox",
@@ -270,92 +160,32 @@
         {
             "featurename": "expat",
             "featureversion": "2.2.9-r1",
-            "vulnerability": "CVE-2022-22827",
+            "vulnerability": "CVE-2022-22826",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826",
             "severity": "Medium",
             "fixedby": "2.2.10-r0"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42381",
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-25314",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42381",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25314",
             "severity": "Medium",
-            "fixedby": "1.31.1-r21"
+            "fixedby": "2.2.10-r2"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42383",
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-22825",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42383",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825",
             "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42384",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42384",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22947",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22947",
-            "severity": "Medium",
-            "fixedby": "7.79.0-r0"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42380",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42380",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22946",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22946",
-            "severity": "Medium",
-            "fixedby": "7.79.0-r0"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r16",
-            "vulnerability": "CVE-2021-42378",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22922",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22922",
-            "severity": "Medium",
-            "fixedby": "7.78.0-r0"
+            "fixedby": "2.2.10-r0"
         },
         {
             "featurename": "zlib",
@@ -368,6 +198,46 @@
             "fixedby": "1.2.12-r0"
         },
         {
+            "featurename": "apk-tools",
+            "featureversion": "2.10.5-r1",
+            "vulnerability": "CVE-2021-36159",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36159",
+            "severity": "Medium",
+            "fixedby": "2.10.7-r0"
+        },
+        {
+            "featurename": "apk-tools",
+            "featureversion": "2.10.5-r1",
+            "vulnerability": "CVE-2021-30139",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30139",
+            "severity": "Medium",
+            "fixedby": "2.10.6-r0"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-22827",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827",
+            "severity": "Medium",
+            "fixedby": "2.2.10-r0"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.9-r1",
+            "vulnerability": "CVE-2022-25313",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25313",
+            "severity": "Medium",
+            "fixedby": "2.2.10-r2"
+        },
+        {
             "featurename": "curl",
             "featureversion": "7.69.1-r3",
             "vulnerability": "CVE-2021-22925",
@@ -376,26 +246,6 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22925",
             "severity": "Medium",
             "fixedby": "7.78.0-r0"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22890",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22890",
-            "severity": "Medium",
-            "fixedby": "7.76.0-r0"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22876",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22876",
-            "severity": "Medium",
-            "fixedby": "7.76.0-r0"
         },
         {
             "featurename": "curl",
@@ -418,6 +268,86 @@
             "fixedby": "7.77.0-r0"
         },
         {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-28831",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28831",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r20"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42378",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22947",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22947",
+            "severity": "Medium",
+            "fixedby": "7.79.0-r0"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22922",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22922",
+            "severity": "Medium",
+            "fixedby": "7.78.0-r0"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22890",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22890",
+            "severity": "Medium",
+            "fixedby": "7.76.0-r0"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42381",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42381",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22924",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22924",
+            "severity": "Medium",
+            "fixedby": "7.78.0-r0"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22946",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22946",
+            "severity": "Medium",
+            "fixedby": "7.79.0-r0"
+        },
+        {
             "featurename": "curl",
             "featureversion": "7.69.1-r3",
             "vulnerability": "CVE-2020-8284",
@@ -428,14 +358,84 @@
             "fixedby": "7.74.0-r0"
         },
         {
-            "featurename": "musl",
-            "featureversion": "1.1.24-r9",
-            "vulnerability": "CVE-2020-28928",
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42386",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28928",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42386",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42383",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42383",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42380",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42380",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42385",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42385",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22876",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22876",
+            "severity": "Medium",
+            "fixedby": "7.76.0-r0"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42379",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42379",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r16",
+            "vulnerability": "CVE-2021-42384",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42384",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.69.1-r3",
+            "vulnerability": "CVE-2021-22898",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22898",
             "severity": "Low",
-            "fixedby": "1.1.24-r10"
+            "fixedby": "7.77.0-r0"
         },
         {
             "featurename": "curl",
@@ -448,6 +448,16 @@
             "fixedby": "7.78.0-r0"
         },
         {
+            "featurename": "musl",
+            "featureversion": "1.1.24-r9",
+            "vulnerability": "CVE-2020-28928",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28928",
+            "severity": "Low",
+            "fixedby": "1.1.24-r10"
+        },
+        {
             "featurename": "busybox",
             "featureversion": "1.31.1-r16",
             "vulnerability": "CVE-2021-42374",
@@ -456,16 +466,6 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42374",
             "severity": "Low",
             "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.69.1-r3",
-            "vulnerability": "CVE-2021-22898",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22898",
-            "severity": "Low",
-            "fixedby": "7.77.0-r0"
         },
         {
             "featurename": "busybox",
