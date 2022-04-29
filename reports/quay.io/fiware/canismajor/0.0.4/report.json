@@ -1,89 +1,61 @@
 {
     "image": "quay.io/fiware/canismajor:0.0.4",
     "unapproved": [
-        "RHSA-2022:0350",
-        "RHSA-2021:5171",
-        "RHSA-2022:0350",
-        "RHSA-2021:5171",
         "RHSA-2022:0896",
-        "RHSA-2022:1552",
-        "RHSA-2022:0366",
-        "RHSA-2022:0894",
         "RHSA-2022:0899",
         "RHSA-2022:0896",
-        "RHSA-2022:0370",
-        "RHSA-2022:0951",
-        "RHSA-2022:0350",
+        "RHSA-2022:0896",
+        "RHSA-2022:1537",
+        "RHSA-2022:1065",
+        "RHSA-2022:1642",
+        "RHSA-2022:0892",
+        "RHSA-2022:0896",
+        "RHSA-2022:1065",
+        "RHSA-2022:0899",
+        "RHSA-2022:0368",
+        "RHSA-2022:0368",
         "RHSA-2021:5171",
         "RHSA-2022:0350",
-        "RHSA-2021:5171",
-        "RHSA-2021:0734",
-        "RHSA-2022:0350",
-        "RHSA-2021:0549",
-        "RHSA-2021:5171",
+        "RHSA-2022:0368",
+        "RHSA-2022:0892",
         "RHSA-2021:3623",
         "RHSA-2021:3073",
-        "RHSA-2022:1065",
-        "RHSA-2022:0896",
-        "RHSA-2022:0368",
-        "RHSA-2022:0896",
-        "RHSA-2022:0896",
-        "RHSA-2022:0892",
-        "RHSA-2022:0896",
-        "RHSA-2022:0892",
-        "RHSA-2022:1065",
-        "RHSA-2022:0368",
-        "RHSA-2022:0899",
-        "RHSA-2022:0368",
+        "RHSA-2021:5171",
+        "RHSA-2021:0549",
+        "RHSA-2021:0734",
+        "RHSA-2022:0350",
         "RHSA-2022:0658",
-        "RHSA-2022:0896",
-        "RHSA-2022:0368",
-        "RHSA-2022:1065",
-        "RHSA-2022:1552",
-        "RHSA-2022:0366",
         "RHSA-2022:0894",
-        "RHSA-2022:1537"
+        "RHSA-2022:0366",
+        "RHSA-2022:1552",
+        "RHSA-2022:0896",
+        "RHSA-2021:5171",
+        "RHSA-2022:0350",
+        "RHSA-2022:0951",
+        "RHSA-2022:1642",
+        "RHSA-2022:0896",
+        "RHSA-2021:5171",
+        "RHSA-2022:0350",
+        "RHSA-2022:1065",
+        "RHSA-2021:5171",
+        "RHSA-2022:0350",
+        "RHSA-2022:0896",
+        "RHSA-2022:0894",
+        "RHSA-2022:0366",
+        "RHSA-2022:1552",
+        "RHSA-2022:0370",
+        "RHSA-2022:0368"
     ],
     "vulnerabilities": [
         {
-            "featurename": "expat",
-            "featureversion": "2.2.5-4.el8",
-            "vulnerability": "RHSA-2022:0951",
+            "featurename": "nodejs-nodemon",
+            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
+            "vulnerability": "RHSA-2021:3623",
             "namespace": "centos:8",
-            "description": "Expat is a C library for parsing XML documents. Security Fix(es): * expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235) * expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236) * expat: Integer overflow in storeRawNames() (CVE-2022-25315) * expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960) * expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143) * expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822) * expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823) * expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824) * expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825) * expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826) * expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827) * expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0951",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  Security Fix(es): * nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930) * nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940) * c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672) * nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931) * nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803) * nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804) * nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939) * nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Bug Fix(es): * nodejs:12/nodejs: Make FIPS options always available (BZ#1993927)",
+            "link": "https://access.redhat.com/errata/RHSA-2021:3623",
             "severity": "High",
-            "fixedby": "0:2.2.5-4.el8_5.3"
-        },
-        {
-            "featurename": "openssl",
-            "featureversion": "1:1.1.1k-5.el8_5",
-            "vulnerability": "RHSA-2022:1065",
-            "namespace": "centos:8",
-            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates (CVE-2022-0778) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1065",
-            "severity": "High",
-            "fixedby": "1:1.1.1k-6.el8_5"
-        },
-        {
-            "featurename": "gzip",
-            "featureversion": "1.9-12.el8",
-            "vulnerability": "RHSA-2022:1537",
-            "namespace": "centos:8",
-            "description": "The gzip packages contain the gzip (GNU zip) data compression utility. gzip is used to compress regular files. It replaces them with files containing the .gz extension, while retaining ownership modes, access, and modification times. Security Fix(es): * gzip: arbitrary-file-write vulnerability (CVE-2022-1271) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1537",
-            "severity": "High",
-            "fixedby": "0:1.9-13.el8_5"
-        },
-        {
-            "featurename": "cyrus-sasl-lib",
-            "featureversion": "2.1.27-5.el8",
-            "vulnerability": "RHSA-2022:0658",
-            "namespace": "centos:8",
-            "description": "The cyrus-sasl packages contain the Cyrus implementation of Simple Authentication and Security Layer (SASL). SASL is a method for adding authentication support to connection-based protocols. Security Fix(es): * cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands (CVE-2022-24407) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0658",
-            "severity": "High",
-            "fixedby": "0:2.1.27-6.el8_5"
+            "fixedby": "0:2.0.3-1.module+el8.4.0+11732+c668cc9f"
         },
         {
             "featurename": "openssl-devel",
@@ -96,7 +68,37 @@
             "fixedby": "1:1.1.1k-6.el8_5"
         },
         {
-            "featurename": "openssl-libs",
+            "featurename": "zlib",
+            "featureversion": "1.2.11-17.el8",
+            "vulnerability": "RHSA-2022:1642",
+            "namespace": "centos:8",
+            "description": "The zlib packages provide a general-purpose lossless data compression library that is used by many different programs. Security Fix(es): * zlib: A flaw found in zlib when compressing (not decompressing) certain inputs (CVE-2018-25032) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1642",
+            "severity": "High",
+            "fixedby": "0:1.2.11-18.el8_5"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.5-4.el8",
+            "vulnerability": "RHSA-2022:0951",
+            "namespace": "centos:8",
+            "description": "Expat is a C library for parsing XML documents. Security Fix(es): * expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235) * expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236) * expat: Integer overflow in storeRawNames() (CVE-2022-25315) * expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960) * expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143) * expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822) * expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823) * expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824) * expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825) * expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826) * expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827) * expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0951",
+            "severity": "High",
+            "fixedby": "0:2.2.5-4.el8_5.3"
+        },
+        {
+            "featurename": "gzip",
+            "featureversion": "1.9-12.el8",
+            "vulnerability": "RHSA-2022:1537",
+            "namespace": "centos:8",
+            "description": "The gzip packages contain the gzip (GNU zip) data compression utility. gzip is used to compress regular files. It replaces them with files containing the .gz extension, while retaining ownership modes, access, and modification times. Security Fix(es): * gzip: arbitrary-file-write vulnerability (CVE-2022-1271) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1537",
+            "severity": "High",
+            "fixedby": "0:1.9-13.el8_5"
+        },
+        {
+            "featurename": "openssl",
             "featureversion": "1:1.1.1k-5.el8_5",
             "vulnerability": "RHSA-2022:1065",
             "namespace": "centos:8",
@@ -106,14 +108,24 @@
             "fixedby": "1:1.1.1k-6.el8_5"
         },
         {
-            "featurename": "nodejs-nodemon",
-            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
-            "vulnerability": "RHSA-2021:3623",
+            "featurename": "zlib-devel",
+            "featureversion": "1.2.11-17.el8",
+            "vulnerability": "RHSA-2022:1642",
             "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  Security Fix(es): * nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930) * nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940) * c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672) * nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931) * nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803) * nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804) * nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939) * nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Bug Fix(es): * nodejs:12/nodejs: Make FIPS options always available (BZ#1993927)",
-            "link": "https://access.redhat.com/errata/RHSA-2021:3623",
+            "description": "The zlib packages provide a general-purpose lossless data compression library that is used by many different programs. Security Fix(es): * zlib: A flaw found in zlib when compressing (not decompressing) certain inputs (CVE-2018-25032) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1642",
             "severity": "High",
-            "fixedby": "0:2.0.3-1.module+el8.4.0+11732+c668cc9f"
+            "fixedby": "0:1.2.11-18.el8_5"
+        },
+        {
+            "featurename": "cyrus-sasl-lib",
+            "featureversion": "2.1.27-5.el8",
+            "vulnerability": "RHSA-2022:0658",
+            "namespace": "centos:8",
+            "description": "The cyrus-sasl packages contain the Cyrus implementation of Simple Authentication and Security Layer (SASL). SASL is a method for adding authentication support to connection-based protocols. Security Fix(es): * cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands (CVE-2022-24407) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0658",
+            "severity": "High",
+            "fixedby": "0:2.1.27-6.el8_5"
         },
         {
             "featurename": "nodejs-nodemon",
@@ -126,157 +138,17 @@
             "fixedby": "0:2.0.3-1.module+el8.3.0+9715+1718613f"
         },
         {
-            "featurename": "nodejs-docs",
-            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
-            "vulnerability": "RHSA-2022:0350",
+            "featurename": "openssl-libs",
+            "featureversion": "1:1.1.1k-5.el8_5",
+            "vulnerability": "RHSA-2022:1065",
             "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
-            "severity": "Medium",
-            "fixedby": "1:14.18.2-2.module+el8.5.0+13644+8d46dafd"
+            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates (CVE-2022-0778) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1065",
+            "severity": "High",
+            "fixedby": "1:1.1.1k-6.el8_5"
         },
         {
-            "featurename": "glibc-common",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "cryptsetup-libs",
-            "featureversion": "2.3.3-4.el8",
-            "vulnerability": "RHSA-2022:0370",
-            "namespace": "centos:8",
-            "description": "The cryptsetup packages provide a utility for setting up disk encryption using the dm-crypt kernel module. Security Fix(es): * cryptsetup: disable encryption via header rewrite (CVE-2021-4122) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0370",
-            "severity": "Medium",
-            "fixedby": "0:2.3.3-4.el8_5.1"
-        },
-        {
-            "featurename": "python3-libxml2",
-            "featureversion": "2.9.7-9.el8_4.2",
-            "vulnerability": "RHSA-2022:0899",
-            "namespace": "centos:8",
-            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
-            "severity": "Medium",
-            "fixedby": "0:2.9.7-12.el8_5"
-        },
-        {
-            "featurename": "npm",
-            "featureversion": "1:6.14.14-1.14.17.5.1.module+el8.4.0+12247+e2879e58",
-            "vulnerability": "RHSA-2022:0350",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
-            "severity": "Medium",
-            "fixedby": "1:6.14.15-1.14.18.2.2.module+el8.5.0+13644+8d46dafd"
-        },
-        {
-            "featurename": "npm",
-            "featureversion": "1:6.14.14-1.14.17.5.1.module+el8.4.0+12247+e2879e58",
-            "vulnerability": "RHSA-2021:5171",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
-            "severity": "Medium",
-            "fixedby": "1:8.1.2-1.16.13.1.3.module+el8.5.0+13548+45d748af"
-        },
-        {
-            "featurename": "nodejs",
-            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
-            "vulnerability": "RHSA-2022:0350",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
-            "severity": "Medium",
-            "fixedby": "1:14.18.2-2.module+el8.5.0+13644+8d46dafd"
-        },
-        {
-            "featurename": "nodejs",
-            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
-            "vulnerability": "RHSA-2021:5171",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
-            "severity": "Medium",
-            "fixedby": "1:16.13.1-3.module+el8.5.0+13548+45d748af"
-        },
-        {
-            "featurename": "vim-filesystem",
-            "featureversion": "2:8.0.1763-16.el8",
-            "vulnerability": "RHSA-2022:0894",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: Heap-based buffer overflow in block_insert() in src/ops.c (CVE-2022-0261) * vim: Heap-based buffer overflow in utf_head_off() in mbyte.c (CVE-2022-0318) * vim: Heap-based buffer overflow in init_ccline() in ex_getln.c (CVE-2022-0359) * vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow (CVE-2022-0361) * vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c (CVE-2022-0392) * vim: Use after free in src/ex_cmds.c (CVE-2022-0413) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0894",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.12"
-        },
-        {
-            "featurename": "nodejs-nodemon",
-            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
-            "vulnerability": "RHSA-2022:0350",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
-            "severity": "Medium",
-            "fixedby": "0:2.0.15-1.module+el8.5.0+13504+a2e74d91"
-        },
-        {
-            "featurename": "nodejs-nodemon",
-            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
-            "vulnerability": "RHSA-2021:0549",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3). Security Fix(es): * nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746) * nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747) * nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754) * nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788) * nodejs: use-after-free in the TLS implementation (CVE-2020-8265) * nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:0549",
-            "severity": "Medium",
-            "fixedby": "0:2.0.3-1.module+el8.3.0+9715+1718613f"
-        },
-        {
-            "featurename": "nodejs-nodemon",
-            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
-            "vulnerability": "RHSA-2021:5171",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
-            "severity": "Medium",
-            "fixedby": "0:2.0.15-1.module+el8.5.0+13548+45d748af"
-        },
-        {
-            "featurename": "vim-filesystem",
-            "featureversion": "2:8.0.1763-16.el8",
-            "vulnerability": "RHSA-2022:0366",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in win_redr_status() in drawscreen.c (CVE-2021-3872) * vim: illegal memory access in find_start_brace() in cindent.c when C-indenting (CVE-2021-3984) * vim: heap-based buffer overflow in find_help_tags() in help.c (CVE-2021-4019) * vim: use-after-free in win_linetabsize() (CVE-2021-4192) * vim: out-of-bound read in getvcol() (CVE-2021-4193) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0366",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.4"
-        },
-        {
-            "featurename": "nodejs-nodemon",
-            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
-            "vulnerability": "RHSA-2021:3073",
-            "namespace": "centos:8",
-            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (12.22.3). (BZ#1978201) Security Fix(es): * nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl() (CVE-2021-23362) * nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode (CVE-2021-27290) * libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:3073",
-            "severity": "Medium",
-            "fixedby": "0:2.0.3-1.module+el8.4.0+11732+c668cc9f"
-        },
-        {
-            "featurename": "vim-filesystem",
-            "featureversion": "2:8.0.1763-16.el8",
-            "vulnerability": "RHSA-2022:1552",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.13"
-        },
-        {
-            "featurename": "glibc-headers",
+            "featurename": "glibc-minimal-langpack",
             "featureversion": "2.28-164.el8",
             "vulnerability": "RHSA-2022:0896",
             "namespace": "centos:8",
@@ -294,86 +166,6 @@
             "link": "https://access.redhat.com/errata/RHSA-2022:0368",
             "severity": "Medium",
             "fixedby": "0:4.14.3-19.el8_5.2"
-        },
-        {
-            "featurename": "glibc-minimal-langpack",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "glibc-locale-source",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "libarchive",
-            "featureversion": "3.3.3-1.el8",
-            "vulnerability": "RHSA-2022:0892",
-            "namespace": "centos:8",
-            "description": "The libarchive programming library can create and read several different streaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images. Libarchive is used notably in the bsdtar utility, scripting language bindings such as python-libarchive, and several popular desktop file managers. Security Fix(es): * libarchive: extracting a symlink with ACLs modifies ACLs of target (CVE-2021-23177) * libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive (CVE-2021-31566) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0892",
-            "severity": "Medium",
-            "fixedby": "0:3.3.3-3.el8_5"
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "bsdtar",
-            "featureversion": "3.3.3-1.el8",
-            "vulnerability": "RHSA-2022:0892",
-            "namespace": "centos:8",
-            "description": "The libarchive programming library can create and read several different streaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images. Libarchive is used notably in the bsdtar utility, scripting language bindings such as python-libarchive, and several popular desktop file managers. Security Fix(es): * libarchive: extracting a symlink with ACLs modifies ACLs of target (CVE-2021-23177) * libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive (CVE-2021-31566) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0892",
-            "severity": "Medium",
-            "fixedby": "0:3.3.3-3.el8_5"
-        },
-        {
-            "featurename": "glibc-devel",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "rpm",
-            "featureversion": "4.14.3-19.el8",
-            "vulnerability": "RHSA-2022:0368",
-            "namespace": "centos:8",
-            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
-            "severity": "Medium",
-            "fixedby": "0:4.14.3-19.el8_5.2"
-        },
-        {
-            "featurename": "libxml2",
-            "featureversion": "2.9.7-9.el8_4.2",
-            "vulnerability": "RHSA-2022:0899",
-            "namespace": "centos:8",
-            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
-            "severity": "Medium",
-            "fixedby": "0:2.9.7-12.el8_5"
         },
         {
             "featurename": "rpm-build-libs",
@@ -396,16 +188,6 @@
             "fixedby": "1:16.13.1-3.module+el8.5.0+13548+45d748af"
         },
         {
-            "featurename": "glibc-langpack-en",
-            "featureversion": "2.28-164.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
             "featurename": "nodejs-full-i18n",
             "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
             "vulnerability": "RHSA-2022:0350",
@@ -416,24 +198,104 @@
             "fixedby": "1:14.18.2-2.module+el8.5.0+13644+8d46dafd"
         },
         {
-            "featurename": "nodejs-docs",
-            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
+            "featurename": "rpm",
+            "featureversion": "4.14.3-19.el8",
+            "vulnerability": "RHSA-2022:0368",
+            "namespace": "centos:8",
+            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
+            "severity": "Medium",
+            "fixedby": "0:4.14.3-19.el8_5.2"
+        },
+        {
+            "featurename": "bsdtar",
+            "featureversion": "3.3.3-1.el8",
+            "vulnerability": "RHSA-2022:0892",
+            "namespace": "centos:8",
+            "description": "The libarchive programming library can create and read several different streaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images. Libarchive is used notably in the bsdtar utility, scripting language bindings such as python-libarchive, and several popular desktop file managers. Security Fix(es): * libarchive: extracting a symlink with ACLs modifies ACLs of target (CVE-2021-23177) * libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive (CVE-2021-31566) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0892",
+            "severity": "Medium",
+            "fixedby": "0:3.3.3-3.el8_5"
+        },
+        {
+            "featurename": "python3-libxml2",
+            "featureversion": "2.9.7-9.el8_4.2",
+            "vulnerability": "RHSA-2022:0899",
+            "namespace": "centos:8",
+            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
+            "severity": "Medium",
+            "fixedby": "0:2.9.7-12.el8_5"
+        },
+        {
+            "featurename": "nodejs-nodemon",
+            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
+            "vulnerability": "RHSA-2021:3073",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (12.22.3). (BZ#1978201) Security Fix(es): * nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl() (CVE-2021-23362) * nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode (CVE-2021-27290) * libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:3073",
+            "severity": "Medium",
+            "fixedby": "0:2.0.3-1.module+el8.4.0+11732+c668cc9f"
+        },
+        {
+            "featurename": "nodejs-nodemon",
+            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
             "vulnerability": "RHSA-2021:5171",
             "namespace": "centos:8",
             "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
             "link": "https://access.redhat.com/errata/RHSA-2021:5171",
             "severity": "Medium",
-            "fixedby": "1:16.13.1-3.module+el8.5.0+13548+45d748af"
+            "fixedby": "0:2.0.15-1.module+el8.5.0+13548+45d748af"
+        },
+        {
+            "featurename": "nodejs-nodemon",
+            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
+            "vulnerability": "RHSA-2021:0549",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3). Security Fix(es): * nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746) * nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747) * nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754) * nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788) * nodejs: use-after-free in the TLS implementation (CVE-2020-8265) * nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:0549",
+            "severity": "Medium",
+            "fixedby": "0:2.0.3-1.module+el8.3.0+9715+1718613f"
+        },
+        {
+            "featurename": "glibc-headers",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "nodejs-nodemon",
+            "featureversion": "2.0.3-1.module+el8.3.0+6519+9f98ed83",
+            "vulnerability": "RHSA-2022:0350",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
+            "severity": "Medium",
+            "fixedby": "0:2.0.15-1.module+el8.5.0+13504+a2e74d91"
+        },
+        {
+            "featurename": "libarchive",
+            "featureversion": "3.3.3-1.el8",
+            "vulnerability": "RHSA-2022:0892",
+            "namespace": "centos:8",
+            "description": "The libarchive programming library can create and read several different streaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images. Libarchive is used notably in the bsdtar utility, scripting language bindings such as python-libarchive, and several popular desktop file managers. Security Fix(es): * libarchive: extracting a symlink with ACLs modifies ACLs of target (CVE-2021-23177) * libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive (CVE-2021-31566) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0892",
+            "severity": "Medium",
+            "fixedby": "0:3.3.3-3.el8_5"
         },
         {
             "featurename": "vim-minimal",
             "featureversion": "2:8.0.1763-16.el8",
-            "vulnerability": "RHSA-2022:1552",
+            "vulnerability": "RHSA-2022:0894",
             "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: Heap-based buffer overflow in block_insert() in src/ops.c (CVE-2022-0261) * vim: Heap-based buffer overflow in utf_head_off() in mbyte.c (CVE-2022-0318) * vim: Heap-based buffer overflow in init_ccline() in ex_getln.c (CVE-2022-0359) * vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow (CVE-2022-0361) * vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c (CVE-2022-0392) * vim: Use after free in src/ex_cmds.c (CVE-2022-0413) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0894",
             "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.13"
+            "fixedby": "2:8.0.1763-16.el8_5.12"
         },
         {
             "featurename": "vim-minimal",
@@ -448,12 +310,172 @@
         {
             "featurename": "vim-minimal",
             "featureversion": "2:8.0.1763-16.el8",
+            "vulnerability": "RHSA-2022:1552",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8_5.13"
+        },
+        {
+            "featurename": "glibc-locale-source",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "nodejs",
+            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2021:5171",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
+            "severity": "Medium",
+            "fixedby": "1:16.13.1-3.module+el8.5.0+13548+45d748af"
+        },
+        {
+            "featurename": "nodejs",
+            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2022:0350",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
+            "severity": "Medium",
+            "fixedby": "1:14.18.2-2.module+el8.5.0+13644+8d46dafd"
+        },
+        {
+            "featurename": "glibc-common",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "glibc-devel",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "npm",
+            "featureversion": "1:6.14.14-1.14.17.5.1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2021:5171",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
+            "severity": "Medium",
+            "fixedby": "1:8.1.2-1.16.13.1.3.module+el8.5.0+13548+45d748af"
+        },
+        {
+            "featurename": "npm",
+            "featureversion": "1:6.14.14-1.14.17.5.1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2022:0350",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
+            "severity": "Medium",
+            "fixedby": "1:6.14.15-1.14.18.2.2.module+el8.5.0+13644+8d46dafd"
+        },
+        {
+            "featurename": "libxml2",
+            "featureversion": "2.9.7-9.el8_4.2",
+            "vulnerability": "RHSA-2022:0899",
+            "namespace": "centos:8",
+            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
+            "severity": "Medium",
+            "fixedby": "0:2.9.7-12.el8_5"
+        },
+        {
+            "featurename": "nodejs-docs",
+            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2021:5171",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (16.13.1), nodejs-nodemon (2.0.15). (BZ#2027610) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:5171",
+            "severity": "Medium",
+            "fixedby": "1:16.13.1-3.module+el8.5.0+13548+45d748af"
+        },
+        {
+            "featurename": "nodejs-docs",
+            "featureversion": "1:14.17.5-1.module+el8.4.0+12247+e2879e58",
+            "vulnerability": "RHSA-2022:0350",
+            "namespace": "centos:8",
+            "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.  The following packages have been upgraded to a later upstream version: nodejs (14.18.2), nodejs-nodemon (2.0.15). (BZ#2027609) Security Fix(es): * nodejs-json-schema: Prototype pollution vulnerability (CVE-2021-3918) * nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788) * nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469) * nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807) * normalize-url: ReDoS for data URLs (CVE-2021-33502) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37701) * nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite (CVE-2021-37712) * llhttp: HTTP Request Smuggling due to spaces in headers (CVE-2021-22959) * llhttp: HTTP Request Smuggling when parsing the body of chunked requests (CVE-2021-22960) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0350",
+            "severity": "Medium",
+            "fixedby": "1:14.18.2-2.module+el8.5.0+13644+8d46dafd"
+        },
+        {
+            "featurename": "glibc-langpack-en",
+            "featureversion": "2.28-164.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "vim-filesystem",
+            "featureversion": "2:8.0.1763-16.el8",
             "vulnerability": "RHSA-2022:0894",
             "namespace": "centos:8",
             "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: Heap-based buffer overflow in block_insert() in src/ops.c (CVE-2022-0261) * vim: Heap-based buffer overflow in utf_head_off() in mbyte.c (CVE-2022-0318) * vim: Heap-based buffer overflow in init_ccline() in ex_getln.c (CVE-2022-0359) * vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow (CVE-2022-0361) * vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c (CVE-2022-0392) * vim: Use after free in src/ex_cmds.c (CVE-2022-0413) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
             "link": "https://access.redhat.com/errata/RHSA-2022:0894",
             "severity": "Medium",
             "fixedby": "2:8.0.1763-16.el8_5.12"
+        },
+        {
+            "featurename": "vim-filesystem",
+            "featureversion": "2:8.0.1763-16.el8",
+            "vulnerability": "RHSA-2022:0366",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in win_redr_status() in drawscreen.c (CVE-2021-3872) * vim: illegal memory access in find_start_brace() in cindent.c when C-indenting (CVE-2021-3984) * vim: heap-based buffer overflow in find_help_tags() in help.c (CVE-2021-4019) * vim: use-after-free in win_linetabsize() (CVE-2021-4192) * vim: out-of-bound read in getvcol() (CVE-2021-4193) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0366",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8_5.4"
+        },
+        {
+            "featurename": "vim-filesystem",
+            "featureversion": "2:8.0.1763-16.el8",
+            "vulnerability": "RHSA-2022:1552",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8_5.13"
+        },
+        {
+            "featurename": "cryptsetup-libs",
+            "featureversion": "2.3.3-4.el8",
+            "vulnerability": "RHSA-2022:0370",
+            "namespace": "centos:8",
+            "description": "The cryptsetup packages provide a utility for setting up disk encryption using the dm-crypt kernel module. Security Fix(es): * cryptsetup: disable encryption via header rewrite (CVE-2021-4122) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0370",
+            "severity": "Medium",
+            "fixedby": "0:2.3.3-4.el8_5.1"
         },
         {
             "featurename": "python3-rpm",
