@@ -1,10 +1,6 @@
 [submodule "core/orion"]
 	path = core/orion
 	url = https://github.com/telefonicaid/fiware-orion.git
-[submodule "third-party/domibus"]
-	path = third-party/domibus
-	url = https://ec.europa.eu/cefdigital/code/scm/edelivery/domibus.git
-	branch = development
 [submodule "core/cosmos"]
 	path = core/cosmos/cosmos-flink
 	url = https://github.com/ging/fiware-cosmos-orion-flink-connector.git
@@ -207,3 +203,6 @@
 [submodule "processing/ngsijs"]
 	path = core/ngsijs
 	url = https://github.com/Ficodes/ngsijs.git
+[submodule "third-party/domibus"]
+	path = third-party/domibus
+	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
