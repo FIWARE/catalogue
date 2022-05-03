@@ -1,88 +1,78 @@
 {
     "image": "fiware/orion-ld:1.0.1",
     "unapproved": [
+        "RHSA-2021:4399",
+        "RHSA-2022:0370",
+        "RHSA-2022:1642",
+        "RHSA-2021:4464",
+        "RHSA-2021:4464",
+        "RHSA-2021:4451",
+        "RHSA-2022:0896",
+        "RHSA-2021:4358",
+        "RHSA-2021:4510",
+        "RHSA-2021:4489",
+        "RHSA-2022:0368",
+        "RHSA-2021:4464",
+        "RHSA-2021:4455",
+        "RHSA-2022:0899",
+        "RHSA-2021:4426",
+        "RHSA-2021:4374",
+        "RHSA-2021:4409",
+        "RHSA-2021:4489",
+        "RHSA-2022:0368",
+        "RHSA-2022:0899",
+        "RHSA-2021:4513",
+        "RHSA-2021:4399",
+        "RHSA-2021:4464",
+        "RHSA-2021:4426",
+        "RHSA-2021:4511",
+        "RHSA-2021:4451",
+        "RHSA-2021:4464",
+        "RHSA-2021:4489",
+        "RHSA-2022:0368",
+        "RHSA-2021:4511",
+        "RHSA-2021:4464",
+        "RHSA-2022:1065",
+        "RHSA-2021:5226",
+        "RHSA-2021:4424",
+        "RHSA-2021:4587",
+        "RHSA-2021:4386",
+        "RHSA-2021:4373",
+        "RHSA-2021:4385",
+        "RHSA-2021:4387",
+        "RHSA-2021:4408",
+        "RHSA-2021:4587",
+        "RHSA-2021:4386",
+        "RHSA-2022:1537",
+        "RHSA-2021:4464",
+        "RHSA-2022:0658",
+        "RHSA-2022:0896",
+        "RHSA-2021:4358",
+        "RHSA-2021:4387",
+        "RHSA-2022:0892",
         "RHSA-2021:4382",
         "RHSA-2022:0951",
-        "RHSA-2022:0658",
-        "RHSA-2021:4451",
-        "RHSA-2022:0368",
-        "RHSA-2021:4489",
-        "RHSA-2021:4455",
-        "RHSA-2021:4385",
-        "RHSA-2021:4464",
-        "RHSA-2021:4513",
-        "RHSA-2022:0368",
-        "RHSA-2021:4489",
-        "RHSA-2021:4464",
-        "RHSA-2022:0368",
-        "RHSA-2021:4489",
-        "RHSA-2021:4451",
         "RHSA-2021:4396",
-        "RHSA-2022:0899",
-        "RHSA-2021:4464",
-        "RHSA-2021:4464",
-        "RHSA-2021:4408",
-        "RHSA-2021:4426",
-        "RHSA-2021:4424",
-        "RHSA-2021:5226",
-        "RHSA-2022:1065",
-        "RHSA-2021:4464",
-        "RHSA-2021:4386",
-        "RHSA-2021:4587",
-        "RHSA-2021:4387",
-        "RHSA-2022:0899",
-        "RHSA-2022:0892",
-        "RHSA-2022:0366",
-        "RHSA-2021:4517",
-        "RHSA-2022:0894",
-        "RHSA-2022:1552",
-        "RHSA-2021:4511",
-        "RHSA-2021:4399",
-        "RHSA-2021:4399",
-        "RHSA-2021:4386",
-        "RHSA-2021:4587",
-        "RHSA-2021:4426",
-        "RHSA-2021:4464",
-        "RHSA-2021:4510",
-        "RHSA-2021:4373",
-        "RHSA-2021:4409",
-        "RHSA-2021:4464",
-        "RHSA-2022:0370",
-        "RHSA-2021:4358",
-        "RHSA-2022:0896",
-        "RHSA-2021:4374",
-        "RHSA-2022:1642",
-        "RHSA-2021:4358",
-        "RHSA-2022:0896",
-        "RHSA-2021:4464",
-        "RHSA-2021:4387",
-        "RHSA-2022:0368",
         "RHSA-2021:4489",
-        "RHSA-2021:4511",
-        "RHSA-2021:4358",
+        "RHSA-2022:0368",
+        "RHSA-2021:4464",
         "RHSA-2022:0896",
-        "RHSA-2022:1537"
+        "RHSA-2021:4358",
+        "RHSA-2022:0366",
+        "RHSA-2022:1552",
+        "RHSA-2021:4517",
+        "RHSA-2022:0894"
     ],
     "vulnerabilities": [
         {
-            "featurename": "gzip",
-            "featureversion": "1.9-12.el8",
-            "vulnerability": "RHSA-2022:1537",
+            "featurename": "openssl-libs",
+            "featureversion": "1:1.1.1g-15.el8_3",
+            "vulnerability": "RHSA-2022:1065",
             "namespace": "centos:8",
-            "description": "The gzip packages contain the gzip (GNU zip) data compression utility. gzip is used to compress regular files. It replaces them with files containing the .gz extension, while retaining ownership modes, access, and modification times. Security Fix(es): * gzip: arbitrary-file-write vulnerability (CVE-2022-1271) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1537",
+            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates (CVE-2022-0778) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1065",
             "severity": "High",
-            "fixedby": "0:1.9-13.el8_5"
-        },
-        {
-            "featurename": "expat",
-            "featureversion": "2.2.5-4.el8",
-            "vulnerability": "RHSA-2022:0951",
-            "namespace": "centos:8",
-            "description": "Expat is a C library for parsing XML documents. Security Fix(es): * expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235) * expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236) * expat: Integer overflow in storeRawNames() (CVE-2022-25315) * expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960) * expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143) * expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822) * expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823) * expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824) * expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825) * expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826) * expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827) * expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0951",
-            "severity": "High",
-            "fixedby": "0:2.2.5-4.el8_5.3"
+            "fixedby": "1:1.1.1k-6.el8_5"
         },
         {
             "featurename": "cyrus-sasl-lib",
@@ -105,24 +95,144 @@
             "fixedby": "0:1.2.11-18.el8_5"
         },
         {
-            "featurename": "openssl-libs",
-            "featureversion": "1:1.1.1g-15.el8_3",
-            "vulnerability": "RHSA-2022:1065",
+            "featurename": "gzip",
+            "featureversion": "1.9-12.el8",
+            "vulnerability": "RHSA-2022:1537",
             "namespace": "centos:8",
-            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates (CVE-2022-0778) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1065",
+            "description": "The gzip packages contain the gzip (GNU zip) data compression utility. gzip is used to compress regular files. It replaces them with files containing the .gz extension, while retaining ownership modes, access, and modification times. Security Fix(es): * gzip: arbitrary-file-write vulnerability (CVE-2022-1271) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1537",
             "severity": "High",
-            "fixedby": "1:1.1.1k-6.el8_5"
+            "fixedby": "0:1.9-13.el8_5"
         },
         {
-            "featurename": "json-c",
-            "featureversion": "0.13.1-0.4.el8",
-            "vulnerability": "RHSA-2021:4382",
+            "featurename": "expat",
+            "featureversion": "2.2.5-4.el8",
+            "vulnerability": "RHSA-2022:0951",
             "namespace": "centos:8",
-            "description": "JSON-C implements a reference counting object model that allows users to easily construct JavaScript Object Notation (JSON) objects in C, output them as JSON formatted strings, and parse JSON formatted strings back into the C representation of JSON objects. Security Fix(es): * json-c: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4382",
+            "description": "Expat is a C library for parsing XML documents. Security Fix(es): * expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235) * expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236) * expat: Integer overflow in storeRawNames() (CVE-2022-25315) * expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960) * expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143) * expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822) * expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823) * expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824) * expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825) * expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826) * expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827) * expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0951",
+            "severity": "High",
+            "fixedby": "0:2.2.5-4.el8_5.3"
+        },
+        {
+            "featurename": "platform-python",
+            "featureversion": "3.6.8-39.el8_4",
+            "vulnerability": "RHSA-2021:4399",
+            "namespace": "centos:8",
+            "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  Security Fix(es): * python: Information disclosure via pydoc (CVE-2021-3426) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4399",
             "severity": "Medium",
-            "fixedby": "0:0.13.1-2.el8"
+            "fixedby": "0:3.6.8-41.el8"
+        },
+        {
+            "featurename": "glibc-common",
+            "featureversion": "2.28-151.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "glibc-common",
+            "featureversion": "2.28-151.el8",
+            "vulnerability": "RHSA-2021:4358",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Arbitrary read in wordexp() (CVE-2021-35942) * glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c (CVE-2021-27645) * glibc: mq_notify does not handle separately allocated thread attributes (CVE-2021-33574) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4358",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8"
+        },
+        {
+            "featurename": "vim-minimal",
+            "featureversion": "2:8.0.1763-15.el8",
+            "vulnerability": "RHSA-2021:4517",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in utf_ptr2char() in mbyte.c (CVE-2021-3778) * vim: use-after-free in nv_replace() in normal.c (CVE-2021-3796) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4517",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8"
+        },
+        {
+            "featurename": "vim-minimal",
+            "featureversion": "2:8.0.1763-15.el8",
+            "vulnerability": "RHSA-2022:1552",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
+            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8_5.13"
+        },
+        {
+            "featurename": "rpm-build-libs",
+            "featureversion": "4.14.3-14.el8_4",
+            "vulnerability": "RHSA-2022:0368",
+            "namespace": "centos:8",
+            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
+            "severity": "Medium",
+            "fixedby": "0:4.14.3-19.el8_5.2"
+        },
+        {
+            "featurename": "dnf-data",
+            "featureversion": "4.4.2-11.el8",
+            "vulnerability": "RHSA-2021:4464",
+            "namespace": "centos:8",
+            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
+            "severity": "Medium",
+            "fixedby": "0:4.7.0-4.el8"
+        },
+        {
+            "featurename": "vim-minimal",
+            "featureversion": "2:8.0.1763-15.el8",
+            "vulnerability": "RHSA-2022:0366",
+            "namespace": "centos:8",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in win_redr_status() in drawscreen.c (CVE-2021-3872) * vim: illegal memory access in find_start_brace() in cindent.c when C-indenting (CVE-2021-3984) * vim: heap-based buffer overflow in find_help_tags() in help.c (CVE-2021-4019) * vim: use-after-free in win_linetabsize() (CVE-2021-4192) * vim: out-of-bound read in getvcol() (CVE-2021-4193) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0366",
+            "severity": "Medium",
+            "fixedby": "2:8.0.1763-16.el8_5.4"
+        },
+        {
+            "featurename": "python3-libxml2",
+            "featureversion": "2.9.7-9.el8_4.2",
+            "vulnerability": "RHSA-2022:0899",
+            "namespace": "centos:8",
+            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
+            "severity": "Medium",
+            "fixedby": "0:2.9.7-12.el8_5"
+        },
+        {
+            "featurename": "ncurses-base",
+            "featureversion": "6.1-7.20180224.el8",
+            "vulnerability": "RHSA-2021:4426",
+            "namespace": "centos:8",
+            "description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo. Security Fix(es): * ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594) * ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4426",
+            "severity": "Medium",
+            "fixedby": "0:6.1-9.20180224.el8"
+        },
+        {
+            "featurename": "file-libs",
+            "featureversion": "5.33-16.el8_3.1",
+            "vulnerability": "RHSA-2021:4374",
+            "namespace": "centos:8",
+            "description": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats. Security Fix(es): * file: heap-based buffer overflow in cdf_read_property_info in cdf.c (CVE-2019-18218) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4374",
+            "severity": "Medium",
+            "fixedby": "0:5.33-20.el8"
+        },
+        {
+            "featurename": "libgcrypt",
+            "featureversion": "1.8.5-4.el8",
+            "vulnerability": "RHSA-2021:4409",
+            "namespace": "centos:8",
+            "description": "The libgcrypt library provides general-purpose implementations of various cryptographic algorithms. Security Fix(es): * libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm (CVE-2021-33560) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4409",
+            "severity": "Medium",
+            "fixedby": "0:1.8.5-6.el8"
         },
         {
             "featurename": "glibc",
@@ -135,24 +245,24 @@
             "fixedby": "0:2.28-164.el8"
         },
         {
-            "featurename": "glib2",
-            "featureversion": "2.56.4-10.el8_4.1",
-            "vulnerability": "RHSA-2021:4385",
+            "featurename": "rpm-libs",
+            "featureversion": "4.14.3-14.el8_4",
+            "vulnerability": "RHSA-2022:0368",
             "namespace": "centos:8",
-            "description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures. Security Fix(es): * glib2: Possible privilege escalation thourgh pkexec and aliases (CVE-2021-3800) * glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink (CVE-2021-28153) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4385",
+            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
             "severity": "Medium",
-            "fixedby": "0:2.56.4-156.el8"
+            "fixedby": "0:4.14.3-19.el8_5.2"
         },
         {
-            "featurename": "python3-dnf-plugins-core",
-            "featureversion": "4.0.18-4.el8",
-            "vulnerability": "RHSA-2021:4464",
+            "featurename": "libxml2",
+            "featureversion": "2.9.7-9.el8_4.2",
+            "vulnerability": "RHSA-2022:0899",
             "namespace": "centos:8",
-            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
+            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
             "severity": "Medium",
-            "fixedby": "0:4.0.21-3.el8"
+            "fixedby": "0:2.9.7-12.el8_5"
         },
         {
             "featurename": "libsepol",
@@ -165,14 +275,34 @@
             "fixedby": "0:2.9-3.el8"
         },
         {
-            "featurename": "rpm-libs",
-            "featureversion": "4.14.3-14.el8_4",
-            "vulnerability": "RHSA-2022:0368",
+            "featurename": "python3-libs",
+            "featureversion": "3.6.8-39.el8_4",
+            "vulnerability": "RHSA-2021:4399",
             "namespace": "centos:8",
-            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
+            "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  Security Fix(es): * python: Information disclosure via pydoc (CVE-2021-3426) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4399",
             "severity": "Medium",
-            "fixedby": "0:4.14.3-19.el8_5.2"
+            "fixedby": "0:3.6.8-41.el8"
+        },
+        {
+            "featurename": "yum",
+            "featureversion": "4.4.2-11.el8",
+            "vulnerability": "RHSA-2021:4464",
+            "namespace": "centos:8",
+            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
+            "severity": "Medium",
+            "fixedby": "0:4.7.0-4.el8"
+        },
+        {
+            "featurename": "ncurses-libs",
+            "featureversion": "6.1-7.20180224.el8",
+            "vulnerability": "RHSA-2021:4426",
+            "namespace": "centos:8",
+            "description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo. Security Fix(es): * ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594) * ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4426",
+            "severity": "Medium",
+            "fixedby": "0:6.1-9.20180224.el8"
         },
         {
             "featurename": "curl",
@@ -185,7 +315,107 @@
             "fixedby": "0:7.61.1-22.el8"
         },
         {
-            "featurename": "python3-hawkey",
+            "featurename": "gnutls",
+            "featureversion": "3.6.14-8.el8_3",
+            "vulnerability": "RHSA-2021:4451",
+            "namespace": "centos:8",
+            "description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS. Nettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space. The following packages have been upgraded to a later upstream version: gnutls (3.6.16). (BZ#1956783) Security Fix(es): * nettle: Remote crash in RSA decryption via manipulated ciphertext (CVE-2021-3580) * gnutls: Use after free in client key_share extension (CVE-2021-20231) * gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c (CVE-2021-20232) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4451",
+            "severity": "Medium",
+            "fixedby": "0:3.6.16-4.el8"
+        },
+        {
+            "featurename": "dnf",
+            "featureversion": "4.4.2-11.el8",
+            "vulnerability": "RHSA-2021:4464",
+            "namespace": "centos:8",
+            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
+            "severity": "Medium",
+            "fixedby": "0:4.7.0-4.el8"
+        },
+        {
+            "featurename": "glibc",
+            "featureversion": "2.28-151.el8",
+            "vulnerability": "RHSA-2022:0896",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8_5.3"
+        },
+        {
+            "featurename": "python3-rpm",
+            "featureversion": "4.14.3-14.el8_4",
+            "vulnerability": "RHSA-2022:0368",
+            "namespace": "centos:8",
+            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
+            "severity": "Medium",
+            "fixedby": "0:4.14.3-19.el8_5.2"
+        },
+        {
+            "featurename": "libcurl",
+            "featureversion": "7.61.1-18.el8_4.2",
+            "vulnerability": "RHSA-2021:4511",
+            "namespace": "centos:8",
+            "description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP. Security Fix(es): * curl: Leak of authentication credentials in URL via automatic Referer (CVE-2021-22876) * curl: TELNET stack contents disclosure (CVE-2021-22898) * curl: Incorrect fix for CVE-2021-22898 TELNET stack contents disclosure (CVE-2021-22925) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4511",
+            "severity": "Medium",
+            "fixedby": "0:7.61.1-22.el8"
+        },
+        {
+            "featurename": "glibc-minimal-langpack",
+            "featureversion": "2.28-151.el8",
+            "vulnerability": "RHSA-2021:4358",
+            "namespace": "centos:8",
+            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Arbitrary read in wordexp() (CVE-2021-35942) * glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c (CVE-2021-27645) * glibc: mq_notify does not handle separately allocated thread attributes (CVE-2021-33574) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4358",
+            "severity": "Medium",
+            "fixedby": "0:2.28-164.el8"
+        },
+        {
+            "featurename": "nettle",
+            "featureversion": "3.4.1-4.el8_3",
+            "vulnerability": "RHSA-2021:4451",
+            "namespace": "centos:8",
+            "description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS. Nettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space. The following packages have been upgraded to a later upstream version: gnutls (3.6.16). (BZ#1956783) Security Fix(es): * nettle: Remote crash in RSA decryption via manipulated ciphertext (CVE-2021-3580) * gnutls: Use after free in client key_share extension (CVE-2021-20231) * gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c (CVE-2021-20232) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4451",
+            "severity": "Medium",
+            "fixedby": "0:3.4.1-7.el8"
+        },
+        {
+            "featurename": "openssl-libs",
+            "featureversion": "1:1.1.1g-15.el8_3",
+            "vulnerability": "RHSA-2021:5226",
+            "namespace": "centos:8",
+            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Read buffer overruns processing ASN.1 strings (CVE-2021-3712) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:5226",
+            "severity": "Medium",
+            "fixedby": "1:1.1.1k-5.el8_5"
+        },
+        {
+            "featurename": "openssl-libs",
+            "featureversion": "1:1.1.1g-15.el8_3",
+            "vulnerability": "RHSA-2021:4424",
+            "namespace": "centos:8",
+            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: integer overflow in CipherUpdate (CVE-2021-23840) * openssl: NULL pointer dereference in X509_issuer_and_serial_hash() (CVE-2021-23841) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4424",
+            "severity": "Medium",
+            "fixedby": "1:1.1.1k-4.el8"
+        },
+        {
+            "featurename": "libgcc",
+            "featureversion": "8.4.1-1.el8",
+            "vulnerability": "RHSA-2021:4587",
+            "namespace": "centos:8",
+            "description": "The gcc packages provide compilers for C, C++, Java, Fortran, Objective C, and Ada 95 GNU, as well as related support libraries. Security Fix(es): * Developer environment: Unicode's bidirectional (BiDi) override characters can cause trojan source attacks (CVE-2021-42574) The following changes were introduced in gcc in order to facilitate detection of BiDi Unicode characters: This update implements a new warning option -Wbidirectional to warn about possibly dangerous bidirectional characters. There are three levels of warning supported by gcc: \"-Wbidirectional=unpaired\", which warns about improperly terminated BiDi contexts. (This is the default.) \"-Wbidirectional=none\", which turns the warning off. \"-Wbidirectional=any\", which warns about any use of bidirectional characters. For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4587",
+            "severity": "Medium",
+            "fixedby": "0:8.5.0-4.el8_5"
+        },
+        {
+            "featurename": "python3-libdnf",
             "featureversion": "0.55.0-7.el8",
             "vulnerability": "RHSA-2021:4464",
             "namespace": "centos:8",
@@ -205,24 +435,14 @@
             "fixedby": "0:4.14.3-19.el8_5.2"
         },
         {
-            "featurename": "rpm-build-libs",
-            "featureversion": "4.14.3-14.el8_4",
-            "vulnerability": "RHSA-2022:0368",
+            "featurename": "glib2",
+            "featureversion": "2.56.4-10.el8_4.1",
+            "vulnerability": "RHSA-2021:4385",
             "namespace": "centos:8",
-            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
+            "description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures. Security Fix(es): * glib2: Possible privilege escalation thourgh pkexec and aliases (CVE-2021-3800) * glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink (CVE-2021-28153) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4385",
             "severity": "Medium",
-            "fixedby": "0:4.14.3-19.el8_5.2"
-        },
-        {
-            "featurename": "gnutls",
-            "featureversion": "3.6.14-8.el8_3",
-            "vulnerability": "RHSA-2021:4451",
-            "namespace": "centos:8",
-            "description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS. Nettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space. The following packages have been upgraded to a later upstream version: gnutls (3.6.16). (BZ#1956783) Security Fix(es): * nettle: Remote crash in RSA decryption via manipulated ciphertext (CVE-2021-3580) * gnutls: Use after free in client key_share extension (CVE-2021-20231) * gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c (CVE-2021-20232) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4451",
-            "severity": "Medium",
-            "fixedby": "0:3.6.16-4.el8"
+            "fixedby": "0:2.56.4-156.el8"
         },
         {
             "featurename": "sqlite-libs",
@@ -235,86 +455,6 @@
             "fixedby": "0:3.26.0-15.el8"
         },
         {
-            "featurename": "python3-libxml2",
-            "featureversion": "2.9.7-9.el8_4.2",
-            "vulnerability": "RHSA-2022:0899",
-            "namespace": "centos:8",
-            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
-            "severity": "Medium",
-            "fixedby": "0:2.9.7-12.el8_5"
-        },
-        {
-            "featurename": "python3-dnf",
-            "featureversion": "4.4.2-11.el8",
-            "vulnerability": "RHSA-2021:4464",
-            "namespace": "centos:8",
-            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
-            "severity": "Medium",
-            "fixedby": "0:4.7.0-4.el8"
-        },
-        {
-            "featurename": "python3-libdnf",
-            "featureversion": "0.55.0-7.el8",
-            "vulnerability": "RHSA-2021:4464",
-            "namespace": "centos:8",
-            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
-            "severity": "Medium",
-            "fixedby": "0:0.63.0-3.el8"
-        },
-        {
-            "featurename": "glibc",
-            "featureversion": "2.28-151.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
-        },
-        {
-            "featurename": "ncurses-base",
-            "featureversion": "6.1-7.20180224.el8",
-            "vulnerability": "RHSA-2021:4426",
-            "namespace": "centos:8",
-            "description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo. Security Fix(es): * ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594) * ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4426",
-            "severity": "Medium",
-            "fixedby": "0:6.1-9.20180224.el8"
-        },
-        {
-            "featurename": "openssl-libs",
-            "featureversion": "1:1.1.1g-15.el8_3",
-            "vulnerability": "RHSA-2021:4424",
-            "namespace": "centos:8",
-            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: integer overflow in CipherUpdate (CVE-2021-23840) * openssl: NULL pointer dereference in X509_issuer_and_serial_hash() (CVE-2021-23841) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4424",
-            "severity": "Medium",
-            "fixedby": "1:1.1.1k-4.el8"
-        },
-        {
-            "featurename": "openssl-libs",
-            "featureversion": "1:1.1.1g-15.el8_3",
-            "vulnerability": "RHSA-2021:5226",
-            "namespace": "centos:8",
-            "description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library. Security Fix(es): * openssl: Read buffer overruns processing ASN.1 strings (CVE-2021-3712) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:5226",
-            "severity": "Medium",
-            "fixedby": "1:1.1.1k-5.el8_5"
-        },
-        {
-            "featurename": "python3-rpm",
-            "featureversion": "4.14.3-14.el8_4",
-            "vulnerability": "RHSA-2022:0368",
-            "namespace": "centos:8",
-            "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Security Fix(es): * rpm: RPM does not require subkeys to have a valid binding signature (CVE-2021-3521) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0368",
-            "severity": "Medium",
-            "fixedby": "0:4.14.3-19.el8_5.2"
-        },
-        {
             "featurename": "libdnf",
             "featureversion": "0.55.0-7.el8",
             "vulnerability": "RHSA-2021:4464",
@@ -323,16 +463,6 @@
             "link": "https://access.redhat.com/errata/RHSA-2021:4464",
             "severity": "Medium",
             "fixedby": "0:0.63.0-3.el8"
-        },
-        {
-            "featurename": "glibc-minimal-langpack",
-            "featureversion": "2.28-151.el8",
-            "vulnerability": "RHSA-2022:0896",
-            "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Off-by-one buffer overflow/underflow in getcwd() (CVE-2021-3999) * glibc: Stack-based buffer overflow in svcunix_create via long pathnames (CVE-2022-23218) * glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname (CVE-2022-23219) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0896",
-            "severity": "Medium",
-            "fixedby": "0:2.28-164.el8_5.3"
         },
         {
             "featurename": "libstdc++",
@@ -345,24 +475,34 @@
             "fixedby": "0:8.5.0-4.el8_5"
         },
         {
-            "featurename": "glibc-minimal-langpack",
-            "featureversion": "2.28-151.el8",
-            "vulnerability": "RHSA-2021:4358",
+            "featurename": "json-c",
+            "featureversion": "0.13.1-0.4.el8",
+            "vulnerability": "RHSA-2021:4382",
             "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Arbitrary read in wordexp() (CVE-2021-35942) * glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c (CVE-2021-27645) * glibc: mq_notify does not handle separately allocated thread attributes (CVE-2021-33574) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4358",
+            "description": "JSON-C implements a reference counting object model that allows users to easily construct JavaScript Object Notation (JSON) objects in C, output them as JSON formatted strings, and parse JSON formatted strings back into the C representation of JSON objects. Security Fix(es): * json-c: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4382",
             "severity": "Medium",
-            "fixedby": "0:2.28-164.el8"
+            "fixedby": "0:0.13.1-2.el8"
         },
         {
-            "featurename": "libxml2",
-            "featureversion": "2.9.7-9.el8_4.2",
-            "vulnerability": "RHSA-2022:0899",
+            "featurename": "python3-dnf-plugins-core",
+            "featureversion": "4.0.18-4.el8",
+            "vulnerability": "RHSA-2021:4464",
             "namespace": "centos:8",
-            "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards. Security Fix(es): * libxml2: Use-after-free of ID and IDREF attributes (CVE-2022-23308) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0899",
+            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
             "severity": "Medium",
-            "fixedby": "0:2.9.7-12.el8_5"
+            "fixedby": "0:4.0.21-3.el8"
+        },
+        {
+            "featurename": "python3-dnf",
+            "featureversion": "4.4.2-11.el8",
+            "vulnerability": "RHSA-2021:4464",
+            "namespace": "centos:8",
+            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
+            "severity": "Medium",
+            "fixedby": "0:4.7.0-4.el8"
         },
         {
             "featurename": "cryptsetup-libs",
@@ -375,127 +515,7 @@
             "fixedby": "0:2.3.3-4.el8_5.1"
         },
         {
-            "featurename": "vim-minimal",
-            "featureversion": "2:8.0.1763-15.el8",
-            "vulnerability": "RHSA-2022:0366",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in win_redr_status() in drawscreen.c (CVE-2021-3872) * vim: illegal memory access in find_start_brace() in cindent.c when C-indenting (CVE-2021-3984) * vim: heap-based buffer overflow in find_help_tags() in help.c (CVE-2021-4019) * vim: use-after-free in win_linetabsize() (CVE-2021-4192) * vim: out-of-bound read in getvcol() (CVE-2021-4193) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0366",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.4"
-        },
-        {
-            "featurename": "vim-minimal",
-            "featureversion": "2:8.0.1763-15.el8",
-            "vulnerability": "RHSA-2021:4517",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: heap-based buffer overflow in utf_ptr2char() in mbyte.c (CVE-2021-3778) * vim: use-after-free in nv_replace() in normal.c (CVE-2021-3796) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4517",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8"
-        },
-        {
-            "featurename": "vim-minimal",
-            "featureversion": "2:8.0.1763-15.el8",
-            "vulnerability": "RHSA-2022:0894",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: Heap-based buffer overflow in block_insert() in src/ops.c (CVE-2022-0261) * vim: Heap-based buffer overflow in utf_head_off() in mbyte.c (CVE-2022-0318) * vim: Heap-based buffer overflow in init_ccline() in ex_getln.c (CVE-2022-0359) * vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow (CVE-2022-0361) * vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c (CVE-2022-0392) * vim: Use after free in src/ex_cmds.c (CVE-2022-0413) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2022:0894",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.12"
-        },
-        {
-            "featurename": "vim-minimal",
-            "featureversion": "2:8.0.1763-15.el8",
-            "vulnerability": "RHSA-2022:1552",
-            "namespace": "centos:8",
-            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: use after free in utf_ptr2char (CVE-2022-1154)",
-            "link": "https://access.redhat.com/errata/RHSA-2022:1552",
-            "severity": "Medium",
-            "fixedby": "2:8.0.1763-16.el8_5.13"
-        },
-        {
-            "featurename": "libcurl",
-            "featureversion": "7.61.1-18.el8_4.2",
-            "vulnerability": "RHSA-2021:4511",
-            "namespace": "centos:8",
-            "description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP. Security Fix(es): * curl: Leak of authentication credentials in URL via automatic Referer (CVE-2021-22876) * curl: TELNET stack contents disclosure (CVE-2021-22898) * curl: Incorrect fix for CVE-2021-22898 TELNET stack contents disclosure (CVE-2021-22925) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4511",
-            "severity": "Medium",
-            "fixedby": "0:7.61.1-22.el8"
-        },
-        {
-            "featurename": "python3-libs",
-            "featureversion": "3.6.8-39.el8_4",
-            "vulnerability": "RHSA-2021:4399",
-            "namespace": "centos:8",
-            "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  Security Fix(es): * python: Information disclosure via pydoc (CVE-2021-3426) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4399",
-            "severity": "Medium",
-            "fixedby": "0:3.6.8-41.el8"
-        },
-        {
-            "featurename": "platform-python",
-            "featureversion": "3.6.8-39.el8_4",
-            "vulnerability": "RHSA-2021:4399",
-            "namespace": "centos:8",
-            "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  Security Fix(es): * python: Information disclosure via pydoc (CVE-2021-3426) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4399",
-            "severity": "Medium",
-            "fixedby": "0:3.6.8-41.el8"
-        },
-        {
-            "featurename": "nettle",
-            "featureversion": "3.4.1-4.el8_3",
-            "vulnerability": "RHSA-2021:4451",
-            "namespace": "centos:8",
-            "description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS. Nettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space. The following packages have been upgraded to a later upstream version: gnutls (3.6.16). (BZ#1956783) Security Fix(es): * nettle: Remote crash in RSA decryption via manipulated ciphertext (CVE-2021-3580) * gnutls: Use after free in client key_share extension (CVE-2021-20231) * gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c (CVE-2021-20232) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4451",
-            "severity": "Medium",
-            "fixedby": "0:3.4.1-7.el8"
-        },
-        {
-            "featurename": "libgcc",
-            "featureversion": "8.4.1-1.el8",
-            "vulnerability": "RHSA-2021:4587",
-            "namespace": "centos:8",
-            "description": "The gcc packages provide compilers for C, C++, Java, Fortran, Objective C, and Ada 95 GNU, as well as related support libraries. Security Fix(es): * Developer environment: Unicode's bidirectional (BiDi) override characters can cause trojan source attacks (CVE-2021-42574) The following changes were introduced in gcc in order to facilitate detection of BiDi Unicode characters: This update implements a new warning option -Wbidirectional to warn about possibly dangerous bidirectional characters. There are three levels of warning supported by gcc: \"-Wbidirectional=unpaired\", which warns about improperly terminated BiDi contexts. (This is the default.) \"-Wbidirectional=none\", which turns the warning off. \"-Wbidirectional=any\", which warns about any use of bidirectional characters. For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4587",
-            "severity": "Medium",
-            "fixedby": "0:8.5.0-4.el8_5"
-        },
-        {
-            "featurename": "ncurses-libs",
-            "featureversion": "6.1-7.20180224.el8",
-            "vulnerability": "RHSA-2021:4426",
-            "namespace": "centos:8",
-            "description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo. Security Fix(es): * ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594) * ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4426",
-            "severity": "Medium",
-            "fixedby": "0:6.1-9.20180224.el8"
-        },
-        {
-            "featurename": "dnf",
-            "featureversion": "4.4.2-11.el8",
-            "vulnerability": "RHSA-2021:4464",
-            "namespace": "centos:8",
-            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
-            "severity": "Medium",
-            "fixedby": "0:4.7.0-4.el8"
-        },
-        {
-            "featurename": "file-libs",
-            "featureversion": "5.33-16.el8_3.1",
-            "vulnerability": "RHSA-2021:4374",
-            "namespace": "centos:8",
-            "description": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats. Security Fix(es): * file: heap-based buffer overflow in cdf_read_property_info in cdf.c (CVE-2019-18218) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4374",
-            "severity": "Medium",
-            "fixedby": "0:5.33-20.el8"
-        },
-        {
-            "featurename": "glibc-common",
+            "featurename": "glibc-minimal-langpack",
             "featureversion": "2.28-151.el8",
             "vulnerability": "RHSA-2022:0896",
             "namespace": "centos:8",
@@ -505,24 +525,14 @@
             "fixedby": "0:2.28-164.el8_5.3"
         },
         {
-            "featurename": "libgcrypt",
-            "featureversion": "1.8.5-4.el8",
-            "vulnerability": "RHSA-2021:4409",
-            "namespace": "centos:8",
-            "description": "The libgcrypt library provides general-purpose implementations of various cryptographic algorithms. Security Fix(es): * libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm (CVE-2021-33560) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4409",
-            "severity": "Medium",
-            "fixedby": "0:1.8.5-6.el8"
-        },
-        {
-            "featurename": "yum",
-            "featureversion": "4.4.2-11.el8",
+            "featurename": "python3-hawkey",
+            "featureversion": "0.55.0-7.el8",
             "vulnerability": "RHSA-2021:4464",
             "namespace": "centos:8",
             "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
             "link": "https://access.redhat.com/errata/RHSA-2021:4464",
             "severity": "Medium",
-            "fixedby": "0:4.7.0-4.el8"
+            "fixedby": "0:0.63.0-3.el8"
         },
         {
             "featurename": "libarchive",
@@ -535,54 +545,14 @@
             "fixedby": "0:3.3.3-3.el8_5"
         },
         {
-            "featurename": "glibc-common",
-            "featureversion": "2.28-151.el8",
-            "vulnerability": "RHSA-2021:4358",
+            "featurename": "vim-minimal",
+            "featureversion": "2:8.0.1763-15.el8",
+            "vulnerability": "RHSA-2022:0894",
             "namespace": "centos:8",
-            "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly. Security Fix(es): * glibc: Arbitrary read in wordexp() (CVE-2021-35942) * glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c (CVE-2021-27645) * glibc: mq_notify does not handle separately allocated thread attributes (CVE-2021-33574) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4358",
+            "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor. Security Fix(es): * vim: Heap-based buffer overflow in block_insert() in src/ops.c (CVE-2022-0261) * vim: Heap-based buffer overflow in utf_head_off() in mbyte.c (CVE-2022-0318) * vim: Heap-based buffer overflow in init_ccline() in ex_getln.c (CVE-2022-0359) * vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow (CVE-2022-0361) * vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c (CVE-2022-0392) * vim: Use after free in src/ex_cmds.c (CVE-2022-0413) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2022:0894",
             "severity": "Medium",
-            "fixedby": "0:2.28-164.el8"
-        },
-        {
-            "featurename": "dnf-data",
-            "featureversion": "4.4.2-11.el8",
-            "vulnerability": "RHSA-2021:4464",
-            "namespace": "centos:8",
-            "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups \u0026 environments. Security Fix(es): * libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4464",
-            "severity": "Medium",
-            "fixedby": "0:4.7.0-4.el8"
-        },
-        {
-            "featurename": "lua-libs",
-            "featureversion": "5.3.4-11.el8",
-            "vulnerability": "RHSA-2021:4510",
-            "namespace": "centos:8",
-            "description": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language. Security Fix(es): * lua: segmentation fault in getlocal and setlocal functions in ldebug.c (CVE-2020-24370) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4510",
-            "severity": "Low",
-            "fixedby": "0:5.3.4-12.el8"
-        },
-        {
-            "featurename": "libgcc",
-            "featureversion": "8.4.1-1.el8",
-            "vulnerability": "RHSA-2021:4386",
-            "namespace": "centos:8",
-            "description": "The gcc packages provide compilers for C, C++, Java, Fortran, Objective C, and Ada 95 GNU, as well as related support libraries. Security Fix(es): * libiberty: Integer overflow in demangle_template() function (CVE-2018-20673) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4386",
-            "severity": "Low",
-            "fixedby": "0:8.5.0-3.el8"
-        },
-        {
-            "featurename": "libssh",
-            "featureversion": "0.9.4-2.el8",
-            "vulnerability": "RHSA-2021:4387",
-            "namespace": "centos:8",
-            "description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications. Security Fix(es): * libssh: NULL pointer dereference in sftpserver.c if ssh_buffer_new returns NULL (CVE-2020-16135) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4387",
-            "severity": "Low",
-            "fixedby": "0:0.9.4-3.el8"
+            "fixedby": "2:8.0.1763-16.el8_5.12"
         },
         {
             "featurename": "libstdc++",
@@ -605,7 +575,7 @@
             "fixedby": "0:0.7.19-1.el8"
         },
         {
-            "featurename": "libssh-config",
+            "featurename": "libssh",
             "featureversion": "0.9.4-2.el8",
             "vulnerability": "RHSA-2021:4387",
             "namespace": "centos:8",
@@ -625,7 +595,27 @@
             "fixedby": "0:4.14.3-19.el8"
         },
         {
-            "featurename": "rpm-build-libs",
+            "featurename": "pcre",
+            "featureversion": "8.42-4.el8",
+            "vulnerability": "RHSA-2021:4373",
+            "namespace": "centos:8",
+            "description": "PCRE is a Perl-compatible regular expression library.  Security Fix(es): * pcre: Buffer over-read in JIT when UTF is disabled and \\X or \\R has fixed quantifier greater than 1 (CVE-2019-20838) * pcre: Integer overflow when parsing callout numeric arguments (CVE-2020-14155) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4373",
+            "severity": "Low",
+            "fixedby": "0:8.42-6.el8"
+        },
+        {
+            "featurename": "libgcc",
+            "featureversion": "8.4.1-1.el8",
+            "vulnerability": "RHSA-2021:4386",
+            "namespace": "centos:8",
+            "description": "The gcc packages provide compilers for C, C++, Java, Fortran, Objective C, and Ada 95 GNU, as well as related support libraries. Security Fix(es): * libiberty: Integer overflow in demangle_template() function (CVE-2018-20673) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4386",
+            "severity": "Low",
+            "fixedby": "0:8.5.0-3.el8"
+        },
+        {
+            "featurename": "python3-rpm",
             "featureversion": "4.14.3-14.el8_4",
             "vulnerability": "RHSA-2021:4489",
             "namespace": "centos:8",
@@ -655,7 +645,7 @@
             "fixedby": "0:9.0.3-20.el8"
         },
         {
-            "featurename": "python3-rpm",
+            "featurename": "rpm-build-libs",
             "featureversion": "4.14.3-14.el8_4",
             "vulnerability": "RHSA-2021:4489",
             "namespace": "centos:8",
@@ -665,14 +655,24 @@
             "fixedby": "0:4.14.3-19.el8"
         },
         {
-            "featurename": "pcre",
-            "featureversion": "8.42-4.el8",
-            "vulnerability": "RHSA-2021:4373",
+            "featurename": "lua-libs",
+            "featureversion": "5.3.4-11.el8",
+            "vulnerability": "RHSA-2021:4510",
             "namespace": "centos:8",
-            "description": "PCRE is a Perl-compatible regular expression library.  Security Fix(es): * pcre: Buffer over-read in JIT when UTF is disabled and \\X or \\R has fixed quantifier greater than 1 (CVE-2019-20838) * pcre: Integer overflow when parsing callout numeric arguments (CVE-2020-14155) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
-            "link": "https://access.redhat.com/errata/RHSA-2021:4373",
+            "description": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language. Security Fix(es): * lua: segmentation fault in getlocal and setlocal functions in ldebug.c (CVE-2020-24370) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4510",
             "severity": "Low",
-            "fixedby": "0:8.42-6.el8"
+            "fixedby": "0:5.3.4-12.el8"
+        },
+        {
+            "featurename": "libssh-config",
+            "featureversion": "0.9.4-2.el8",
+            "vulnerability": "RHSA-2021:4387",
+            "namespace": "centos:8",
+            "description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications. Security Fix(es): * libssh: NULL pointer dereference in sftpserver.c if ssh_buffer_new returns NULL (CVE-2020-16135) For more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section. Additional Changes: For detailed information on changes in this release, see the Red Hat Enterprise Linux 8.5 Release Notes linked from the References section.",
+            "link": "https://access.redhat.com/errata/RHSA-2021:4387",
+            "severity": "Low",
+            "fixedby": "0:0.9.4-3.el8"
         }
     ]
 }
