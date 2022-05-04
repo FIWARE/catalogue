@@ -1,81 +1,52 @@
 {
     "image": "stellio/stellio-search-service:v1.7.0",
     "unapproved": [
-        "CVE-2020-9794",
-        "CVE-2021-36690",
-        "CVE-2020-9991",
-        "CVE-2020-9849",
-        "CVE-2021-36222",
-        "CVE-2018-5709",
-        "CVE-2017-11164",
-        "CVE-2019-20838",
-        "CVE-2020-14155",
-        "CVE-2021-36085",
-        "CVE-2021-36087",
-        "CVE-2021-36084",
-        "CVE-2021-36086",
-        "CVE-2022-1304",
-        "CVE-2022-1271",
-        "CVE-2020-16156",
-        "CVE-2019-1010204",
-        "CVE-2018-20657",
-        "CVE-2017-13716",
-        "CVE-2021-45078",
-        "CVE-2022-27406",
-        "CVE-2022-27404",
-        "CVE-2022-27405",
-        "CVE-2021-3671",
-        "CVE-2016-2781",
-        "CVE-2021-43618",
-        "CVE-2019-18276",
-        "CVE-2013-4235",
-        "CVE-2022-1271",
+        "CVE-2022-27774",
         "CVE-2022-27776",
         "CVE-2022-22576",
         "CVE-2022-27775",
-        "CVE-2022-27774",
-        "CVE-2018-25032"
+        "CVE-2018-25032",
+        "CVE-2013-4235",
+        "CVE-2020-14155",
+        "CVE-2017-11164",
+        "CVE-2019-20838",
+        "CVE-2019-18276",
+        "CVE-2022-1292",
+        "CVE-2022-1271",
+        "CVE-2021-43618",
+        "CVE-2021-36085",
+        "CVE-2021-36087",
+        "CVE-2021-36086",
+        "CVE-2021-36084",
+        "CVE-2022-1271",
+        "CVE-2016-2781",
+        "CVE-2017-13716",
+        "CVE-2021-45078",
+        "CVE-2019-1010204",
+        "CVE-2018-20657",
+        "CVE-2021-3671",
+        "CVE-2020-9849",
+        "CVE-2020-9991",
+        "CVE-2020-9794",
+        "CVE-2021-36690",
+        "CVE-2022-1304",
+        "CVE-2022-27404",
+        "CVE-2022-27406",
+        "CVE-2022-27405",
+        "CVE-2020-16156",
+        "CVE-2021-36222",
+        "CVE-2018-5709"
     ],
     "vulnerabilities": [
         {
-            "featurename": "e2fsprogs",
-            "featureversion": "1.45.5-2ubuntu1",
-            "vulnerability": "CVE-2022-1304",
+            "featurename": "openssl",
+            "featureversion": "1.1.1f-1ubuntu2.12",
+            "vulnerability": "CVE-2022-1292",
             "namespace": "ubuntu:20.04",
-            "description": "An out-of-bounds read/write vulnerability was found in e2fsprogs 1.46.5. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1304",
+            "description": "The c_rehash script allows command injection",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1292",
             "severity": "Medium",
             "fixedby": ""
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.68.0-1ubuntu2.7",
-            "vulnerability": "CVE-2022-27774",
-            "namespace": "ubuntu:20.04",
-            "description": "Credential leak on redirect",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27774",
-            "severity": "Medium",
-            "fixedby": "7.68.0-1ubuntu2.10"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.68.0-1ubuntu2.7",
-            "vulnerability": "CVE-2022-22576",
-            "namespace": "ubuntu:20.04",
-            "description": "OAUTH2 bearer bypass in connection re-use",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-22576",
-            "severity": "Medium",
-            "fixedby": "7.68.0-1ubuntu2.10"
-        },
-        {
-            "featurename": "gzip",
-            "featureversion": "1.10-0ubuntu4",
-            "vulnerability": "CVE-2022-1271",
-            "namespace": "ubuntu:20.04",
-            "description": "arbitrary file overwrite with crafted file names",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
-            "severity": "Medium",
-            "fixedby": "1.10-0ubuntu4.1"
         },
         {
             "featurename": "krb5",
@@ -88,12 +59,52 @@
             "fixedby": ""
         },
         {
+            "featurename": "curl",
+            "featureversion": "7.68.0-1ubuntu2.7",
+            "vulnerability": "CVE-2022-22576",
+            "namespace": "ubuntu:20.04",
+            "description": "OAUTH2 bearer bypass in connection re-use",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-22576",
+            "severity": "Medium",
+            "fixedby": "7.68.0-1ubuntu2.10"
+        },
+        {
+            "featurename": "perl",
+            "featureversion": "5.30.0-9ubuntu0.2",
+            "vulnerability": "CVE-2020-16156",
+            "namespace": "ubuntu:20.04",
+            "description": "CPAN 2.28 allows Signature Verification Bypass.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1:1.2.11.dfsg-2ubuntu1.2",
+            "vulnerability": "CVE-2018-25032",
+            "namespace": "ubuntu:20.04",
+            "description": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-25032",
+            "severity": "Medium",
+            "fixedby": "1:1.2.11.dfsg-2ubuntu1.3"
+        },
+        {
             "featurename": "freetype",
             "featureversion": "2.10.1-2ubuntu0.1",
             "vulnerability": "CVE-2022-27404",
             "namespace": "ubuntu:20.04",
             "description": "FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27404",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
+            "featurename": "e2fsprogs",
+            "featureversion": "1.45.5-2ubuntu1",
+            "vulnerability": "CVE-2022-1304",
+            "namespace": "ubuntu:20.04",
+            "description": "An out-of-bounds read/write vulnerability was found in e2fsprogs 1.46.5. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1304",
             "severity": "Medium",
             "fixedby": ""
         },
@@ -108,14 +119,14 @@
             "fixedby": ""
         },
         {
-            "featurename": "perl",
-            "featureversion": "5.30.0-9ubuntu0.2",
-            "vulnerability": "CVE-2020-16156",
+            "featurename": "gzip",
+            "featureversion": "1.10-0ubuntu4",
+            "vulnerability": "CVE-2022-1271",
             "namespace": "ubuntu:20.04",
-            "description": "CPAN 2.28 allows Signature Verification Bypass.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "description": "arbitrary file overwrite with crafted file names",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
             "severity": "Medium",
-            "fixedby": ""
+            "fixedby": "1.10-0ubuntu4.1"
         },
         {
             "featurename": "xz-utils",
@@ -128,14 +139,14 @@
             "fixedby": "5.2.4-1ubuntu1.1"
         },
         {
-            "featurename": "zlib",
-            "featureversion": "1:1.2.11.dfsg-2ubuntu1.2",
-            "vulnerability": "CVE-2018-25032",
+            "featurename": "curl",
+            "featureversion": "7.68.0-1ubuntu2.7",
+            "vulnerability": "CVE-2022-27774",
             "namespace": "ubuntu:20.04",
-            "description": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-25032",
+            "description": "Credential leak on redirect",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27774",
             "severity": "Medium",
-            "fixedby": "1:1.2.11.dfsg-2ubuntu1.3"
+            "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
             "featurename": "shadow",
@@ -148,12 +159,32 @@
             "fixedby": ""
         },
         {
+            "featurename": "gmp",
+            "featureversion": "2:6.2.0+dfsg-4",
+            "vulnerability": "CVE-2021-43618",
+            "namespace": "ubuntu:20.04",
+            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
             "featurename": "libsepol",
             "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36084",
+            "vulnerability": "CVE-2021-36085",
             "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36084",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
+            "severity": "Low",
+            "fixedby": "3.0-1ubuntu0.1"
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36087",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36087",
             "severity": "Low",
             "fixedby": "3.0-1ubuntu0.1"
         },
@@ -170,22 +201,12 @@
         {
             "featurename": "libsepol",
             "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36085",
+            "vulnerability": "CVE-2021-36084",
             "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36084",
             "severity": "Low",
             "fixedby": "3.0-1ubuntu0.1"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.68.0-1ubuntu2.7",
-            "vulnerability": "CVE-2022-27775",
-            "namespace": "ubuntu:20.04",
-            "description": "Bad local IPv6 connection reuse",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27775",
-            "severity": "Low",
-            "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
             "featurename": "pcre3",
@@ -198,22 +219,12 @@
             "fixedby": ""
         },
         {
-            "featurename": "binutils",
-            "featureversion": "2.34-6ubuntu1.3",
-            "vulnerability": "CVE-2019-1010204",
+            "featurename": "coreutils",
+            "featureversion": "8.30-3ubuntu2",
+            "vulnerability": "CVE-2016-2781",
             "namespace": "ubuntu:20.04",
-            "description": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-1010204",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "sqlite3",
-            "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9991",
-            "namespace": "ubuntu:20.04",
-            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
+            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
             "severity": "Low",
             "fixedby": ""
         },
@@ -238,12 +249,32 @@
             "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
-            "featurename": "freetype",
-            "featureversion": "2.10.1-2ubuntu0.1",
-            "vulnerability": "CVE-2022-27406",
+            "featurename": "binutils",
+            "featureversion": "2.34-6ubuntu1.3",
+            "vulnerability": "CVE-2019-1010204",
             "namespace": "ubuntu:20.04",
-            "description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27406",
+            "description": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-1010204",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.68.0-1ubuntu2.7",
+            "vulnerability": "CVE-2022-27775",
+            "namespace": "ubuntu:20.04",
+            "description": "Bad local IPv6 connection reuse",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27775",
+            "severity": "Low",
+            "fixedby": "7.68.0-1ubuntu2.10"
+        },
+        {
+            "featurename": "heimdal",
+            "featureversion": "7.7.0+dfsg-1ubuntu1",
+            "vulnerability": "CVE-2021-3671",
+            "namespace": "ubuntu:20.04",
+            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
             "severity": "Low",
             "fixedby": ""
         },
@@ -258,6 +289,16 @@
             "fixedby": ""
         },
         {
+            "featurename": "sqlite3",
+            "featureversion": "3.31.1-4ubuntu0.2",
+            "vulnerability": "CVE-2020-9991",
+            "namespace": "ubuntu:20.04",
+            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
             "featurename": "freetype",
             "featureversion": "2.10.1-2ubuntu0.1",
             "vulnerability": "CVE-2022-27405",
@@ -268,32 +309,12 @@
             "fixedby": ""
         },
         {
-            "featurename": "heimdal",
-            "featureversion": "7.7.0+dfsg-1ubuntu1",
-            "vulnerability": "CVE-2021-3671",
+            "featurename": "freetype",
+            "featureversion": "2.10.1-2ubuntu0.1",
+            "vulnerability": "CVE-2022-27406",
             "namespace": "ubuntu:20.04",
-            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "coreutils",
-            "featureversion": "8.30-3ubuntu2",
-            "vulnerability": "CVE-2016-2781",
-            "namespace": "ubuntu:20.04",
-            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "gmp",
-            "featureversion": "2:6.2.0+dfsg-4",
-            "vulnerability": "CVE-2021-43618",
-            "namespace": "ubuntu:20.04",
-            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
+            "description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27406",
             "severity": "Low",
             "fixedby": ""
         },
@@ -306,46 +327,6 @@
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-18276",
             "severity": "Low",
             "fixedby": "5.0-6ubuntu1.2"
-        },
-        {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36087",
-            "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36087",
-            "severity": "Low",
-            "fixedby": "3.0-1ubuntu0.1"
-        },
-        {
-            "featurename": "krb5",
-            "featureversion": "1.17-6ubuntu4.1",
-            "vulnerability": "CVE-2018-5709",
-            "namespace": "ubuntu:20.04",
-            "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry-\u003en_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "binutils",
-            "featureversion": "2.34-6ubuntu1.3",
-            "vulnerability": "CVE-2021-45078",
-            "namespace": "ubuntu:20.04",
-            "description": "stab_xcoff_builtin_type in stabs.c in GNU Binutils through 2.37 allows attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact, as demonstrated by an out-of-bounds write. NOTE: this issue exists because of an incorrect fix for CVE-2018-12699.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-45078",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2017-11164",
-            "namespace": "ubuntu:20.04",
-            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
-            "severity": "Negligible",
-            "fixedby": ""
         },
         {
             "featurename": "pcre3",
@@ -368,12 +349,42 @@
             "fixedby": ""
         },
         {
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2017-11164",
+            "namespace": "ubuntu:20.04",
+            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
             "featurename": "binutils",
             "featureversion": "2.34-6ubuntu1.3",
             "vulnerability": "CVE-2018-20657",
             "namespace": "ubuntu:20.04",
             "description": "The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, has a memory leak via a crafted string, leading to a denial of service (memory consumption), as demonstrated by cxxfilt, a related issue to CVE-2018-12698.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20657",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
+            "featurename": "binutils",
+            "featureversion": "2.34-6ubuntu1.3",
+            "vulnerability": "CVE-2021-45078",
+            "namespace": "ubuntu:20.04",
+            "description": "stab_xcoff_builtin_type in stabs.c in GNU Binutils through 2.37 allows attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact, as demonstrated by an out-of-bounds write. NOTE: this issue exists because of an incorrect fix for CVE-2018-12699.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-45078",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
+            "featurename": "krb5",
+            "featureversion": "1.17-6ubuntu4.1",
+            "vulnerability": "CVE-2018-5709",
+            "namespace": "ubuntu:20.04",
+            "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry-\u003en_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
             "severity": "Negligible",
             "fixedby": ""
         }
