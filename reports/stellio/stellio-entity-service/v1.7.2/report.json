@@ -1,40 +1,40 @@
 {
     "image": "stellio/stellio-entity-service:v1.7.2",
     "unapproved": [
-        "CVE-2020-9991",
-        "CVE-2020-9849",
-        "CVE-2020-9794",
-        "CVE-2021-36690",
-        "CVE-2022-1292",
+        "CVE-2013-4235",
         "CVE-2022-1271",
-        "CVE-2021-36086",
-        "CVE-2021-36084",
-        "CVE-2021-36087",
-        "CVE-2021-36085",
-        "CVE-2016-2781",
-        "CVE-2017-11164",
+        "CVE-2018-5709",
+        "CVE-2021-36222",
+        "CVE-2021-45078",
+        "CVE-2017-13716",
+        "CVE-2019-1010204",
+        "CVE-2018-20657",
         "CVE-2020-14155",
+        "CVE-2017-11164",
         "CVE-2019-20838",
         "CVE-2022-22576",
-        "CVE-2022-27776",
-        "CVE-2022-27775",
         "CVE-2022-27774",
-        "CVE-2021-3671",
-        "CVE-2019-1010204",
-        "CVE-2021-45078",
-        "CVE-2018-20657",
-        "CVE-2017-13716",
-        "CVE-2020-16156",
-        "CVE-2022-1271",
-        "CVE-2022-1304",
+        "CVE-2022-27775",
+        "CVE-2022-27776",
+        "CVE-2021-36086",
+        "CVE-2021-36084",
+        "CVE-2021-36085",
+        "CVE-2021-36087",
         "CVE-2021-43618",
-        "CVE-2019-18276",
-        "CVE-2022-27404",
-        "CVE-2022-27406",
+        "CVE-2022-1292",
+        "CVE-2020-16156",
+        "CVE-2022-1304",
         "CVE-2022-27405",
-        "CVE-2013-4235",
-        "CVE-2018-5709",
-        "CVE-2021-36222"
+        "CVE-2022-27406",
+        "CVE-2022-27404",
+        "CVE-2020-9849",
+        "CVE-2021-36690",
+        "CVE-2020-9794",
+        "CVE-2020-9991",
+        "CVE-2016-2781",
+        "CVE-2019-18276",
+        "CVE-2022-1271",
+        "CVE-2021-3671"
     ],
     "vulnerabilities": [
         {
@@ -48,22 +48,32 @@
             "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
-            "featurename": "freetype",
-            "featureversion": "2.10.1-2ubuntu0.1",
-            "vulnerability": "CVE-2022-27404",
+            "featurename": "gzip",
+            "featureversion": "1.10-0ubuntu4",
+            "vulnerability": "CVE-2022-1271",
             "namespace": "ubuntu:20.04",
-            "description": "FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27404",
+            "description": "arbitrary file overwrite with crafted file names",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
             "severity": "Medium",
-            "fixedby": ""
+            "fixedby": "1.10-0ubuntu4.1"
         },
         {
-            "featurename": "sqlite3",
-            "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9794",
+            "featurename": "xz-utils",
+            "featureversion": "5.2.4-1ubuntu1",
+            "vulnerability": "CVE-2022-1271",
             "namespace": "ubuntu:20.04",
-            "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 13.5 and iPadOS 13.5, macOS Catalina 10.15.5, tvOS 13.4.5, watchOS 6.2.5, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. A malicious application may cause a denial of service or potentially disclose memory contents.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794",
+            "description": "arbitrary file overwrite with crafted file names",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
+            "severity": "Medium",
+            "fixedby": "5.2.4-1ubuntu1.1"
+        },
+        {
+            "featurename": "krb5",
+            "featureversion": "1.17-6ubuntu4.1",
+            "vulnerability": "CVE-2021-36222",
+            "namespace": "ubuntu:20.04",
+            "description": "ec_verify in kdc/kdc_preauth_ec.c in the Key Distribution Center (KDC) in MIT Kerberos 5 (aka krb5) before 1.18.4 and 1.19.x before 1.19.2 allows remote attackers to cause a NULL pointer dereference and daemon crash. This occurs because a return value is not properly managed in a certain situation.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
             "severity": "Medium",
             "fixedby": ""
         },
@@ -78,6 +88,16 @@
             "fixedby": ""
         },
         {
+            "featurename": "perl",
+            "featureversion": "5.30.0-9ubuntu0.2",
+            "vulnerability": "CVE-2020-16156",
+            "namespace": "ubuntu:20.04",
+            "description": "CPAN 2.28 allows Signature Verification Bypass.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "severity": "Medium",
+            "fixedby": ""
+        },
+        {
             "featurename": "openssl",
             "featureversion": "1.1.1f-1ubuntu2.12",
             "vulnerability": "CVE-2022-1292",
@@ -88,32 +108,12 @@
             "fixedby": "1.1.1f-1ubuntu2.13"
         },
         {
-            "featurename": "xz-utils",
-            "featureversion": "5.2.4-1ubuntu1",
-            "vulnerability": "CVE-2022-1271",
+            "featurename": "freetype",
+            "featureversion": "2.10.1-2ubuntu0.1",
+            "vulnerability": "CVE-2022-27404",
             "namespace": "ubuntu:20.04",
-            "description": "arbitrary file overwrite with crafted file names",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
-            "severity": "Medium",
-            "fixedby": "5.2.4-1ubuntu1.1"
-        },
-        {
-            "featurename": "gzip",
-            "featureversion": "1.10-0ubuntu4",
-            "vulnerability": "CVE-2022-1271",
-            "namespace": "ubuntu:20.04",
-            "description": "arbitrary file overwrite with crafted file names",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-1271",
-            "severity": "Medium",
-            "fixedby": "1.10-0ubuntu4.1"
-        },
-        {
-            "featurename": "perl",
-            "featureversion": "5.30.0-9ubuntu0.2",
-            "vulnerability": "CVE-2020-16156",
-            "namespace": "ubuntu:20.04",
-            "description": "CPAN 2.28 allows Signature Verification Bypass.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-16156",
+            "description": "FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27404",
             "severity": "Medium",
             "fixedby": ""
         },
@@ -128,23 +128,13 @@
             "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
-            "featurename": "krb5",
-            "featureversion": "1.17-6ubuntu4.1",
-            "vulnerability": "CVE-2021-36222",
+            "featurename": "sqlite3",
+            "featureversion": "3.31.1-4ubuntu0.2",
+            "vulnerability": "CVE-2020-9794",
             "namespace": "ubuntu:20.04",
-            "description": "ec_verify in kdc/kdc_preauth_ec.c in the Key Distribution Center (KDC) in MIT Kerberos 5 (aka krb5) before 1.18.4 and 1.19.x before 1.19.2 allows remote attackers to cause a NULL pointer dereference and daemon crash. This occurs because a return value is not properly managed in a certain situation.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
+            "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 13.5 and iPadOS 13.5, macOS Catalina 10.15.5, tvOS 13.4.5, watchOS 6.2.5, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. A malicious application may cause a denial of service or potentially disclose memory contents.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794",
             "severity": "Medium",
-            "fixedby": ""
-        },
-        {
-            "featurename": "gmp",
-            "featureversion": "2:6.2.0+dfsg-4",
-            "vulnerability": "CVE-2021-43618",
-            "namespace": "ubuntu:20.04",
-            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
-            "severity": "Low",
             "fixedby": ""
         },
         {
@@ -154,16 +144,6 @@
             "namespace": "ubuntu:20.04",
             "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "freetype",
-            "featureversion": "2.10.1-2ubuntu0.1",
-            "vulnerability": "CVE-2022-27405",
-            "namespace": "ubuntu:20.04",
-            "description": "FreeType commit 53dfdcd8198d2b3201a23c4bad9190519ba918db was discovered to contain a segmentation violation via the function FNT_Size_Request.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27405",
             "severity": "Low",
             "fixedby": ""
         },
@@ -178,24 +158,14 @@
             "fixedby": ""
         },
         {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36085",
+            "featurename": "sqlite3",
+            "featureversion": "3.31.1-4ubuntu0.2",
+            "vulnerability": "CVE-2020-9991",
             "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
+            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
             "severity": "Low",
-            "fixedby": "3.0-1ubuntu0.1"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.68.0-1ubuntu2.7",
-            "vulnerability": "CVE-2022-27776",
-            "namespace": "ubuntu:20.04",
-            "description": "Auth/cookie leak on redirect",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27776",
-            "severity": "Low",
-            "fixedby": "7.68.0-1ubuntu2.10"
+            "fixedby": ""
         },
         {
             "featurename": "curl",
@@ -208,6 +178,46 @@
             "fixedby": "7.68.0-1ubuntu2.10"
         },
         {
+            "featurename": "curl",
+            "featureversion": "7.68.0-1ubuntu2.7",
+            "vulnerability": "CVE-2022-27776",
+            "namespace": "ubuntu:20.04",
+            "description": "Auth/cookie leak on redirect",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27776",
+            "severity": "Low",
+            "fixedby": "7.68.0-1ubuntu2.10"
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36086",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36086",
+            "severity": "Low",
+            "fixedby": "3.0-1ubuntu0.1"
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36084",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36084",
+            "severity": "Low",
+            "fixedby": "3.0-1ubuntu0.1"
+        },
+        {
+            "featurename": "coreutils",
+            "featureversion": "8.30-3ubuntu2",
+            "vulnerability": "CVE-2016-2781",
+            "namespace": "ubuntu:20.04",
+            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
             "featurename": "libsepol",
             "featureversion": "3.0-1",
             "vulnerability": "CVE-2021-36087",
@@ -218,12 +228,12 @@
             "fixedby": "3.0-1ubuntu0.1"
         },
         {
-            "featurename": "heimdal",
-            "featureversion": "7.7.0+dfsg-1ubuntu1",
-            "vulnerability": "CVE-2021-3671",
+            "featurename": "gmp",
+            "featureversion": "2:6.2.0+dfsg-4",
+            "vulnerability": "CVE-2021-43618",
             "namespace": "ubuntu:20.04",
-            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
+            "description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-43618",
             "severity": "Low",
             "fixedby": ""
         },
@@ -238,26 +248,6 @@
             "fixedby": ""
         },
         {
-            "featurename": "freetype",
-            "featureversion": "2.10.1-2ubuntu0.1",
-            "vulnerability": "CVE-2022-27406",
-            "namespace": "ubuntu:20.04",
-            "description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27406",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
-            "featurename": "sqlite3",
-            "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9849",
-            "namespace": "ubuntu:20.04",
-            "description": "An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iTunes for Windows 12.10.9, iCloud for Windows 11.5, tvOS 14.0. A remote attacker may be able to leak memory.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9849",
-            "severity": "Low",
-            "fixedby": ""
-        },
-        {
             "featurename": "binutils",
             "featureversion": "2.34-6ubuntu1.3",
             "vulnerability": "CVE-2017-13716",
@@ -266,26 +256,6 @@
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13716",
             "severity": "Low",
             "fixedby": ""
-        },
-        {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36084",
-            "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36084",
-            "severity": "Low",
-            "fixedby": "3.0-1ubuntu0.1"
-        },
-        {
-            "featurename": "libsepol",
-            "featureversion": "3.0-1",
-            "vulnerability": "CVE-2021-36086",
-            "namespace": "ubuntu:20.04",
-            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36086",
-            "severity": "Low",
-            "fixedby": "3.0-1ubuntu0.1"
         },
         {
             "featurename": "bash",
@@ -298,23 +268,73 @@
             "fixedby": "5.0-6ubuntu1.2"
         },
         {
-            "featurename": "coreutils",
-            "featureversion": "8.30-3ubuntu2",
-            "vulnerability": "CVE-2016-2781",
+            "featurename": "freetype",
+            "featureversion": "2.10.1-2ubuntu0.1",
+            "vulnerability": "CVE-2022-27405",
             "namespace": "ubuntu:20.04",
-            "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "description": "FreeType commit 53dfdcd8198d2b3201a23c4bad9190519ba918db was discovered to contain a segmentation violation via the function FNT_Size_Request.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27405",
             "severity": "Low",
             "fixedby": ""
         },
         {
+            "featurename": "freetype",
+            "featureversion": "2.10.1-2ubuntu0.1",
+            "vulnerability": "CVE-2022-27406",
+            "namespace": "ubuntu:20.04",
+            "description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-27406",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "libsepol",
+            "featureversion": "3.0-1",
+            "vulnerability": "CVE-2021-36085",
+            "namespace": "ubuntu:20.04",
+            "description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36085",
+            "severity": "Low",
+            "fixedby": "3.0-1ubuntu0.1"
+        },
+        {
             "featurename": "sqlite3",
             "featureversion": "3.31.1-4ubuntu0.2",
-            "vulnerability": "CVE-2020-9991",
+            "vulnerability": "CVE-2020-9849",
             "namespace": "ubuntu:20.04",
-            "description": "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iCloud for Windows 7.21, tvOS 14.0. A remote attacker may be able to cause a denial of service.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
+            "description": "An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.0, iOS 14.0 and iPadOS 14.0, iTunes for Windows 12.10.9, iCloud for Windows 11.5, tvOS 14.0. A remote attacker may be able to leak memory.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9849",
             "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "heimdal",
+            "featureversion": "7.7.0+dfsg-1ubuntu1",
+            "vulnerability": "CVE-2021-3671",
+            "namespace": "ubuntu:20.04",
+            "description": "A null pointer de-reference was found in the way samba kerberos server handled missing sname in TGS-REQ (Ticket Granting Server - Request). An authenticated user could use this flaw to crash the samba server.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3671",
+            "severity": "Low",
+            "fixedby": ""
+        },
+        {
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2017-11164",
+            "namespace": "ubuntu:20.04",
+            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+            "severity": "Negligible",
+            "fixedby": ""
+        },
+        {
+            "featurename": "pcre3",
+            "featureversion": "2:8.39-12build1",
+            "vulnerability": "CVE-2020-14155",
+            "namespace": "ubuntu:20.04",
+            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
+            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
+            "severity": "Negligible",
             "fixedby": ""
         },
         {
@@ -334,26 +354,6 @@
             "namespace": "ubuntu:20.04",
             "description": "stab_xcoff_builtin_type in stabs.c in GNU Binutils through 2.37 allows attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact, as demonstrated by an out-of-bounds write. NOTE: this issue exists because of an incorrect fix for CVE-2018-12699.",
             "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-45078",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2020-14155",
-            "namespace": "ubuntu:20.04",
-            "description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a (?C substring.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
-            "severity": "Negligible",
-            "fixedby": ""
-        },
-        {
-            "featurename": "pcre3",
-            "featureversion": "2:8.39-12build1",
-            "vulnerability": "CVE-2017-11164",
-            "namespace": "ubuntu:20.04",
-            "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
-            "link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
             "severity": "Negligible",
             "fixedby": ""
         },
