@@ -17,7 +17,6 @@ To learn more about Data Publication, check out the
 | :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 
-
 ### What is Extensions to CKAN?
 
 A set of CKAN extensions, developed within FIWARE, which integrates this data portal platform with the main FIWARE GEs,
@@ -62,7 +61,6 @@ without the need of installing new extensions or restarting the platform.
 
 | :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) | :books: [Documentation](https://business-api-ecosystem.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-
 
 ### What is the Business API Ecosystem?
 
@@ -119,7 +117,6 @@ the Biz Ecosystem RI implements the following APIs and Open Specifications:
 
 | :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/u/idraopendata/idra) | :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
 | ----------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ |
-
 
 ### What is Idra?
 
@@ -183,7 +180,6 @@ The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated 
 
 | :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://github.com/coatrack/coatrack/wiki) | :dart: [Roadmap](https://github.com/coatrack/coatrack/wiki/roadmap.md) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-
 
 ### What is CoatRack?
 

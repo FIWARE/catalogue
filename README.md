@@ -14,7 +14,6 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 
-
 ## Contents
 
 <details>
@@ -83,7 +82,6 @@ follow the progress of the discussions through the **FIWARE TSC meeting minutes*
 | :clipboard: <br> [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: <br> [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: <br> [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: <br> [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
-
 ## Installation
 
 To obtain the latest codebase of all FIWARE Generic Enablers:
@@ -113,7 +111,9 @@ enables to manage context information in a highly decentralized and large-scale 
     FIWARE NGSI v2 API which is a simple yet powerful Restful API enabling to perform updates, queries or subscribe to
     changes on context information.
 
-The following Context Broker implementations, supporting the ETSI [NGSI-LD 1.3.1. API specification or higher](https://www.etsi.org/standards#page=1&search=Context%20Information&title=1&etsiNumber=1&content=1&version=1&onApproval=1&published=1&historical=1&startDate=2020-01-01&endDate=2021-11-23&harmonized=0&keyword=&TB=854&stdType=&frequency=&mandate=&collection=&sort=1) are available:
+The following Context Broker implementations, supporting the ETSI
+[NGSI-LD 1.3.1. API specification or higher](https://www.etsi.org/standards#page=1&search=Context%20Information&title=1&etsiNumber=1&content=1&version=1&onApproval=1&published=1&historical=1&startDate=2020-01-01&endDate=2021-11-23&harmonized=0&keyword=&TB=854&stdType=&frequency=&mandate=&collection=&sort=1)
+are available:
 
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
     supports both NGSI-LD and the NGSI-v2 APIs.
@@ -147,6 +147,8 @@ The following is a list of Generic Enablers under incubation within the area of 
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
 -   The [NGSI.js](https://github.com/ficodes/ngsijs) library provides a series of JavaScript functions allowing
     developers to connect and push context data to any NGSI compliant context broker
+-   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
+    Generic Enabler creates a data bridge between context brokers and PySpark
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
@@ -330,14 +332,12 @@ same FIWARE release label should be completely interoperable and work nicely wit
 | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
 | ------------------------------------- | ----------------------------------------------------------------------------- |
 
-
 As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart
 recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
 semantics that will be used by applications both to consume and to publish data.
 
 | [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware)<br>[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> [Smart Data Models](https://smartdatamodels.org) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-
 
 ## Testing
 
@@ -378,7 +378,6 @@ supporting the operations of the FIWARE Lab.
 
 | :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | :clipboard: <br> [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br> [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 
 ## License
 
