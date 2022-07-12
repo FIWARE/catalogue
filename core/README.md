@@ -438,7 +438,7 @@ a write-back interface (via REST API) to the context broker
 
 ### Why use the PySpark Connector?
 
-Tje PySpark Connector was created with the idea of expanding the use of compliant context brokers to merge with the
+The PySpark Connector was created with the idea of expanding the use of compliant context brokers to merge with the
 Python environment. Python is currently one of the most used programming languages for data analysis, providing lots of
 scientific libraries for data processing and visualization. This connector is able to open a communication path between
 these two instruments and to combine the advantages they provide at a minimal development cost.
