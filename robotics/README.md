@@ -10,7 +10,6 @@
 | :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart: [Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md) |
 | ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
-
 eProsima Fast DDS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
 publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object
 Management Group (OMG) consortium. Fast DDS provides both the [OMG DDS 1.4](https://www.omg.org/spec/DDS/1.4) and the
@@ -28,7 +27,6 @@ as a tool to implement DDS or use past versions of the specification.
 
 | :octocat: [Git Repository](https://github.com/eProsima/Micro-XRCE-DDS) | :whale: Docker Hub : TBD | :books: [Documentation](https://micro-xrce-dds.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/eProsima/Micro-XRCE-DDS/blob/master/roadmap.md) |
 | ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------- |
-
 
 ### What is Micro XRCE-DDS?
 
@@ -66,7 +64,6 @@ The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
 
 | :octocat: [Git Repository](https://github.com/iml130/firos) | :whale: Docker Hub : TBD | :books: [Documentation](https://firos.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/iml130/firos/blob/master/doc/roadmap.md) |
 | ----------------------------------------------------------- | ------------------------ | ----------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------- |
-
 
 ### What is FIROS?
 

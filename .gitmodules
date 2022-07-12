@@ -206,3 +206,6 @@
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
+[submodule "core/pyspark-connector"]
+	path = core/pyspark-connector
+	url = https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector.git
