@@ -424,8 +424,8 @@ NGSI compliant context broker, the removes the need to write custom JavaScript c
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-orion-pyspark-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-orion-pyspark-connector/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector) | :whale: [Docker Hub](https://hub.docker.com/r/rdlabengpa/fiware-orion-pyspark-connector) | :books: [Documentation](hhttps://fiware-orion-pyspark-connector.readthedocs.io/) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector) | :whale: [Docker Hub](https://hub.docker.com/r/rdlabengpa/fiware-orion-pyspark-connector) | :books: [Documentation](https://fiware-orion-pyspark-connector.readthedocs.io/) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector/blob/main/docs/roadmap.md) |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 
 ### What is the PySpark Connector?
 
