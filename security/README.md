@@ -1,10 +1,10 @@
-# Security Access and API Management
+# Security, Authorization and API Access Control
 
 In FIWARE we offer some services and tools to allow you to manage authentication and authorization in your applications
 and backend services. If you want to manage identity in your application without developing your own mechanisms, you can
-offer your users the possibility to log in to your app using their FIWARE Accounts.
+offer your users the possibility to log in to your app using their own FIWARE Accounts.
 
-This is possible thanks to the OAuth2 protocol and Keyrock, the Identity Manager component of FIWARE. In the same way
+This is possible thanks to the OAuth2 protocol and Identity Manager such as Keyrock or Keycloak. In the same way
 that you usually log in to some services using your Twitter or Facebook account, your users will use their FIWARE
 accounts to access your service. But this is only the first step, because you can also secure your backends using FIWARE
 Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the access
