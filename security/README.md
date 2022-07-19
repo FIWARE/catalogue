@@ -10,7 +10,7 @@ accounts to access your service. But this is only the first step, because you ca
 Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the access
 to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
 
-To learn more about Security Access and API Management, check out the
+To learn more about Security, Authorization and API Access Control, check out the
 [documentation](https://fiwaretourguide.readthedocs.io/en/latest/security/introduction/)
 
 ## Keyrock Identity Manager
