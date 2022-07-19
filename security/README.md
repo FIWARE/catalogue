@@ -13,7 +13,7 @@ to the resources. For instance, you can allow the access only to the users that 
 To learn more about Security Access and API Management, check out the
 [documentation](https://fiwaretourguide.readthedocs.io/en/latest/security/introduction/)
 
-## Keyrock
+## Keyrock Identity Manager
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-idm.svg)
@@ -58,7 +58,7 @@ can be found at Github: KeyRock source code It can be integrated with any develo
 The installation guide can be found at the Github's wiki page: KeyRock installation guide and KeyRock User and
 Programmers guide
 
-## Wilma
+## Wilma PEP Proxy
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-pep-proxy.svg)
@@ -82,7 +82,7 @@ ecosystem and specifically with FIWARE account. It is thought to work with OAuth
 authentication and authorization chosen in FIWARE. Furthermore, this is the component that every GEis are including on
 top of their REST APIs so it is tested and used in many different scenarios.
 
-## Authzforce
+## Authzforce PDP
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/authzforce/server.svg)
@@ -153,7 +153,7 @@ these federated networks, or data spaces.
 
 <a name="steeskin-pep"/>
 
-## :seedling: Steelskin PEP (Incubated)
+## :seedling: Steelskin PEP Proxy (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-pep-steelskin.svg)
