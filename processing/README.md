@@ -15,6 +15,7 @@ To learn more about context processing, analysis and visualization, check out th
 | :octocat: [Git Repository](https://github.com/Wirecloud/wirecloud) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/) | :books: [Documentation](https://wirecloud.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/wirecloud) | :dart: [Roadmap](https://github.com/Wirecloud/wirecloud/blob/develop/roadmap.md) |
 | ------------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 
+
 ### What is Wirecloud
 
 Wirecloud is a web mashup tool designed to ease the development of operational dashboards. This allows end users to
@@ -58,6 +59,7 @@ By using Wirecloud you have access to the following key features:
 | :octocat: [Git Repository](https://github.com/smartfog/fogflow) | :whale: [Docker Hub](https://hub.docker.com/r/fogflow) | :books: [Documentation](https://fogflow.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/fogflow) | :dart: [Roadmap](https://github.com/smartfog/fogflow/blob/master/roadmap.md) |
 | --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 
+
 ### What is FogFlow?
 
 FogFlow is an IoT edge computing framework to orchestrate dynamic processing flows over cloud and edges. It can
@@ -88,10 +90,12 @@ lack of interoperability and openness to share and reuse data and dervied result
 | :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 
+
 **Frontend**
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+
 
 ### What is Perseo?
 

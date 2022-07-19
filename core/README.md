@@ -20,6 +20,7 @@ To learn more about Core Context Management Enablers, check out the
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion/) | :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-orion/blob/master/doc/roadmap.md) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 
+
 ### What is Orion?
 
 The Orion Context Broker is an implementation of the Publish/Subscribe Context Broker GE, providing the NGSI interfaces.
@@ -65,6 +66,7 @@ The use of the Orion context broker is mandatory for any [platform](https://mark
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/) | :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-cygnus/blob/master/doc/roadmap.md) |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 
+
 ### What is Cygnus?
 
 Cygnus is a connector in charge of persisting context data sources into other third-party databases and storage systems,
@@ -105,6 +107,7 @@ you can keep a historical record. Cygnus can also be used the filter and repost 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-sth-comet/blob/master/doc/roadmap.md) |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
+
 ### What is STH Comet?
 
 Short Time Historic (STH) - Comet is a component of the FIWARE ecosystem in charge of managing (storing and retrieving)
@@ -131,6 +134,7 @@ statistics such as maxima, minima and trends can be observed.
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-draco) | :whale: [Docker Hub](https://hub.docker.com/r/ging/fiware-draco) | :books: [Documentation](https://fiware-draco.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/draco) | :dart: [Roadmap](https://github.com/ging/fiware-draco/blob/master/docs/roadmap.md) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+
 
 ### What is Draco?
 
@@ -165,6 +169,7 @@ current business needs.
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-cosmos) | :whale: Docker Hub : **none** | :books: [Flink](https://fiware-cosmos-flink.readthedocs.io) | :books: [Spark](https://fiware-cosmos-spark.readthedocs.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/cosmos) | :dart: [Roadmap](https://github.com/ging/fiware-cosmos/blob/master/ROADMAP.md) |
 | ----------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+
 
 ### What is Cosmos?
 
@@ -202,6 +207,7 @@ conclusions as to the state of your smart solution and bring value to your solut
 | :octocat: [Git Repository](https://github.com/smartsdk/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/smartsdk/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) | :dart: [Roadmap](https://github.com/smartsdk/ngsi-timeseries-api/blob/master/docs/roadmap.md) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
+
 ### What is QuantumLeap?
 
 The QuantumLeap Generic Enabler focuses on persisting historical context data into
@@ -235,6 +241,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 | :octocat: [Git Repository](https://github.com/ScorpioBroker/ScorpioBroker) | :whale: [Docker Hub](https://cloud.docker.com/u/scorpiobroker/) | :books: [Documentation](https://scorpio.rtfd.io/) |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------- |
+
 
 ### What is Scorpio?
 
@@ -297,6 +304,7 @@ The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rat
 | :octocat: [Git Repository](https://github.com/FIWARE/context.Orion-LD/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion-ld/) | :books: [Documentation](https://github.com/FIWARE/context.Orion-LD/tree/develop/doc/manuals-ld) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion-ld) | :dart: [Roadmap](https://github.com/FIWARE/context.Orion-LD/blob/develop/doc/roadmap.md) |
 | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
+
 ### What is Orion-LD?
 
 Orion-LD is an alternative NGSI-LD Context Broker written in C/C++. It is a standalone executable and therefore small,
@@ -331,6 +339,7 @@ tools and combined with other information.
 
 | :octocat: [Git Repository](https://github.com/stellio-hub/stellio-context-broker/) | :whale: [Docker Hub](https://hub.docker.com/orgs/stellio/repositories/) | :books: [Documentation](https://stellio.rtfd.io/) |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
+
 
 ### What is Stellio?
 
@@ -372,6 +381,7 @@ PostgreSQL database allow efficient queries while allowing off-the-shelves stori
 | :octocat: [Git Repository](https://github.com/FIWARE/CanisMajor/) | :whale: [Docker Hub](https://hub.docker.com/r/singhhp10691/canismajor) | :books: [Documentation](https://fiware.github.io/CanisMajor/) |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------- |
 
+
 ### What is Canis Major?
 
 Canis Major is a blockchain adaptor that supports various DLT, the adaptor aims to submit the data to DLT in Powered By
@@ -403,6 +413,7 @@ Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" 
 | :octocat: [Git Repository](https://github.com/ficodes/ngsijs) | :whale: N/A | :books: [Site](http://ficodes.github.io/ngsijs/stable/NGSI.html) |
 | ------------------------------------------------------------- | ----------- | ---------------------------------------------------------------- |
 
+
 ### What is NGSI.js?
 
 NGSI.js is the JavaScript library used by WireCloud for adding FIWARE NGSI capabilities to widgets and operators.
@@ -426,6 +437,7 @@ NGSI compliant context broker, the removes the need to write custom JavaScript c
 
 | :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector) | :whale: [Docker Hub](https://hub.docker.com/r/rdlabengpa/fiware-orion-pyspark-connector) | :books: [Documentation](https://fiware-orion-pyspark-connector.readthedocs.io/) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector/blob/main/docs/roadmap.md) |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
 
 ### What is the PySpark Connector?
 

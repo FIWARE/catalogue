@@ -19,6 +19,7 @@ To learn more about Data Publication, check out the
 | :octocat: [Git Repository](https://github.com/apinf/platform) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://apinf-fiware.readthedocs.io/en/latest/) | :page_facing_up: [Site](https://apinf.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 
+
 ### What is APInf?
 
 The APInf API Management Framework is a Smart City orchestrator to be used together with other FIWARE enablers. APInf
@@ -41,7 +42,6 @@ API business. This helps cities to distribute digital technology in small pieces
 companies to attend in building the services to their home city. The support is close and this approach creates jobs for
 local people, which in turn generate move tax money for the city to develop better digital services to the citizens.
 
-
 <a name="coatrack"/>
 
 ## :new: CoatRack (Incubated)
@@ -53,6 +53,7 @@ local people, which in turn generate move tax money for the city to develop bett
 
 | :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://github.com/coatrack/coatrack/wiki) | :dart: [Roadmap](https://github.com/coatrack/coatrack/wiki/roadmap.md) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+
 
 ### What is CoatRack?
 

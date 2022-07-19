@@ -48,6 +48,7 @@ interface.
 | :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-node-lib) | :whale: Docker Hub : **None** | :books: [Documentation](https://iotagent-node-lib.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/iotagent-node-lib/blob/master/docs/roadmap.md) |
 | ----------------------------------------------------------------------------- | ----------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 
+
 Library for developing your own IoT Agent.
 
 The **IoT Agent Framework Library** project is part of [FIWARE](https://fiware.org/) and but is not rated as a
@@ -62,6 +63,7 @@ standalone component. It is used in the following IoT Agents:
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-json) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-json/) | :books: [Documentation](https://fiware-iotagent-json.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/iotagent-json/blob/master/docs/roadmap.md) |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+
 
 IoT Agent for a JSON based protocol (with [AMQP](https://www.amqp.org/), [HTTP](https://www.w3.org/Protocols/) and
 [MQTT](https://mqtt.org/) transports)
@@ -81,6 +83,7 @@ interface. It follows the standard interaction model defined in the
 | :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-ul) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-ul/) | :books: [Documentation](https://fiware-iotagent-ul.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/iotagent-ul/blob/master/docs/roadmap.md) |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
+
 IoT Agent for the Ultralight 2.0 protocol (with [AMQP](https://www.amqp.org/), [HTTP](https://www.w3.org/Protocols/) and
 [MQTT](https://mqtt.org/) transports)
 
@@ -98,6 +101,7 @@ interface. It follows the standard interaction model defined in the
 
 | :octocat: [Git Repository](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-lorawan/) | :books: [Documentation](https://fiware-lorawan.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN/blob/master/docs/roadmap.md) |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+
 
 IoT Agent for the LoRaWAN protocol (with CayenneLpp and CBOR data models)
 
@@ -117,6 +121,7 @@ interface. It follows the standard interaction model defined in the
 | :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/lightweightm2m-iotagent/) | :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/lightweightm2m-iotagent/blob/master/docs/roadmap.md) |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 
+
 IoT Agent accepting COAP requests.
 
 This IoT Agent is designed to be a bridge between the [OMA](https://www.omaspecworks.org/)
@@ -124,7 +129,6 @@ This IoT Agent is designed to be a bridge between the [OMA](https://www.omaspecw
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
 
 ## :seedling: IoT Agent for Sigfox (Incubated)
 
@@ -135,6 +139,7 @@ interface. It follows the standard interaction model defined in the
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/sigfox-iotagent) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sigfox-iotagent) | :books: [Documentation](https://github.com/telefonicaid/sigfox-iotagent/tree/master/docs) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/telefonicaid/sigfox-iotagent/blob/master/docs/roadmap.md) |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
+
 
 IoT Agent for the Sigfox protocol.
 
@@ -153,6 +158,7 @@ interface. It follows the standard interaction model defined in the
 | :octocat: [Git Repository](https://github.com/FIWARE/iotagent-isoxml) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/iotagent-isoxml) | :books: [Documentation](https://fiware-iotagent-isoxml.readthedocs.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/FIWARE/iotagent-isoxml/blob/master/docs/roadmap.md) |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------- |
 
+
 IoT Agent for the ISOXML/ADAPT protocol.
 
 An Internet of Things Agent for the ISO 11783 protocol (with [HTTP](https://www.w3.org/Protocols/)). This IoT Agent is
@@ -168,6 +174,7 @@ interface of a context broker.
 
 | :octocat: [Git Repository](https://github.com/Kurento/kurento-media-server) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/stream-oriented-kurento/) | :books:[Documentation](https://kurento.rtfd.io/) | :page_facing_up: [Site](https://www.kurento.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/kurento) | :dart: [Roadmap](https://github.com/Kurento/kurento-media-server/blob/master/ROADMAP.md) |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+
 
 ### What is Kurento?
 
@@ -203,6 +210,7 @@ multimedia communications in a fast, simple and easy way.
 | :octocat: [Git Repository](https://github.com/OpenVidu/openvidu) | :whale: T.B.D. | :books: [Site](https://openvidu.io/docs/home/) |
 | ---------------------------------------------------------------- | -------------- | ---------------------------------------------- |
 
+
 ### What is OpenVidu?
 
 The Openvidu Generic Enabler simplifies real-time processing of media streams managed or provided by Kurento, providing
@@ -225,6 +233,7 @@ transmission protocols. It hides the specifics and allows you to focus in your u
 
 | :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/open-mtc) |
 | -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+
 
 A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for conducting applied research and
 developing innovative M2M and IoT applications. It offers an

@@ -4,11 +4,11 @@ In FIWARE we offer some services and tools to allow you to manage authentication
 and backend services. If you want to manage identity in your application without developing your own mechanisms, you can
 offer your users the possibility to log in to your app using their own FIWARE Accounts.
 
-This is possible thanks to the OAuth2 protocol and Identity Management components such as Keyrock or Keycloak. In the same way
-that you usually log in to some services using your Twitter or Facebook account, your users will use their FIWARE
-accounts to access your service. But this is only the first step, because you can also secure your backends using FIWARE
-Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the access
-to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
+This is possible thanks to the OAuth2 protocol and Identity Management components such as Keyrock or Keycloak. In the
+same way that you usually log in to some services using your Twitter or Facebook account, your users will use their
+FIWARE accounts to access your service. But this is only the first step, because you can also secure your backends using
+FIWARE Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the
+access to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
 
 To learn more about Security, Authorization and API Access Control, check out the
 [documentation](https://fiwaretourguide.readthedocs.io/en/latest/security/introduction/)
@@ -22,6 +22,7 @@ To learn more about Security, Authorization and API Access Control, check out th
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/) | :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) | :dart: [Roadmap](https://github.com/ging/fiware-idm/blob/master/roadmap.md) |
 | -------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+
 
 ### What is Keyrock?
 
@@ -68,6 +69,7 @@ Programmers guide
 | :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) | :dart: [Roadmap](https://github.com/ging/fiware-pep-proxy/blob/master/roadmap.md) |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 
+
 ### What is Wilma?
 
 You get the reference implementation of PEP Proxy Generic Enabler. Thanks to this component and together with Identity
@@ -91,6 +93,7 @@ top of their REST APIs so it is tested and used in many different scenarios.
 
 | :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) | :dart: [Roadmap](https://github.com/authzforce/server/blob/develop/ROADMAP.md) |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+
 
 ### What is Authzforce?
 
@@ -130,6 +133,7 @@ policies; Requesting authorization decisions based on those policies, in a XACML
 | :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-true-connector) | :whale: [Docker Hub](https://github.com/Engineering-Research-and-Development/fiware-true-connector/blob/master/docs/docker_readme.md) | :books: [Documentation](https://fiware-true-connector.readthedocs.io/) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 
+
 ### What is the FIWARE TRUE Connector?
 
 FIWARE TRUE Connector is a connector for the [International Data Spaces](https://internationaldataspaces.org/) (IDS)
@@ -163,6 +167,7 @@ these federated networks, or data spaces.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
 | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 
+
 ### What is Steelskin PEP?
 
 Steelskin is a proxy meant to secure independent microservices such as FIWARE components, by intercepting every request
@@ -195,6 +200,7 @@ secured resource itself.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
 
+
 ### What is Keypass?
 
 Keypass is multi-tenant XACML server with PAP (Policy Administration Point) and PDP (Policy Decision Point)
@@ -219,6 +225,7 @@ creating a flexible security framework which can be applied to any microservice.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
 | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 
+
 ### What is Keystone SCIM?
 
 Keystone SCIM is an OpenStack Keystone extension that enables the management of User, Groups and Roles using SCIM v1.1
@@ -242,6 +249,7 @@ running Keystone installation and enhance the functionality of it.
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Keystone SPASSWORD?
 
