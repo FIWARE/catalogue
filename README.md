@@ -63,8 +63,8 @@ available, dealing with the following:
     actuations.
 -   **[Processing, analysis and visualization](./processing)** of context information, implementing the expected smart
     behaviour of applications and/or assisting end users in making smart decisions.
--   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
-    to usage control and the opportunity to publish and monetize part of managed context data.
+-   **[Context Data/API management](./api-manangement), [Security](./security), [publication and monetization](./data-publication)**, 
+    bringing support to usage control and the opportunity to publish and monetize part of managed context data.
 -   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each
     Generic Enabler
 
@@ -149,6 +149,8 @@ The following is a list of Generic Enablers under incubation within the area of 
     developers to connect and push context data to any NGSI compliant context broker
 -   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
     Generic Enabler creates a data bridge between context brokers and PySpark
+-   The [Apollo](https://github.com/FIWARE/apollo)
+    Generic Enabler creates entities based on notifications
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
@@ -278,6 +280,15 @@ monetization:
     start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
+-   [Endpoint-Auth-Service](https://github.com/FIWARE/endpoint-auth-service) transparently adds authentication/authorization 
+    information to outgoing http-requests
+-   [Kong Plugins](https://github.com/FIWARE/kong-plugins-fiware) extends the functionality of the [Kong](https://github.com/kong/kong) 
+    API Gateway to cover additional PEP scenarios applicable to context data sharing
+    
+The following is a list of Generic Enablers under incubation within the area of Security:
+
+-   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
+    that enables extra security checks over user passwords
 -   [FIWARE TRUE Connector](https://github.com/Engineering-Research-and-Development/fiware-true-connector) enables
     trusted data exchange in order for context brokers to be able to become an active part of an
     [International Data Spaces](https://internationaldataspaces.org/) (IDS) Ecosystem
@@ -293,7 +304,7 @@ monetization:
     that enables extra security checks over user passwords
 
 Further information can be found on dedicated pages linked to
-[Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
+[Context Data/API Management](./api-management/README.md), [Publication and Monetization](./data-publication/README.md) and
 [Security](./security/README.md)
 
 ### Deployment Tools
