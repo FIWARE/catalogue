@@ -126,10 +126,10 @@
 	path = data-publication/idra
 	url = https://github.com/OPSILab/Idra.git
 [submodule "data-publication/apinf/apinf"]
-	path = security/apinf/apinf
+	path = api-management/apinf/apinf
 	url = https://github.com/apinf/platform
 [submodule "data-publication/apinf/api-umbrella"]
-	path = security/apinf/api-umbrella
+	path = api-management/apinf/api-umbrella
 	url = https://github.com/FIWARE/api-umbrella
 [submodule "core/cygnus"]
 	path = core/cygnus
@@ -174,7 +174,7 @@
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
 [submodule "data-publication/coat-rack"]
-	path = data-publication/coat-rack
+	path = api-management/coat-rack
 	url = https://github.com/coatrack/coatrack
 [submodule "iot-agents/iotagent-isoxml"]
 	path = iot-agents/iotagent-isoxml
@@ -209,3 +209,15 @@
 [submodule "core/pyspark-connector"]
 	path = core/pyspark-connector
 	url = https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector.git
+[submodule "core/apollo"]
+	path = core/apollo
+	url = https://github.com/FIWARE/apollo.git
+[submodule "api-management/endpoint-auth-service"]
+	path = api-management/endpoint-auth-service
+	url = https://github.com/FIWARE/endpoint-auth-service.git
+[submodule "api-management/kong/plugins"]
+	path = api-management/kong/plugins
+	url = https://github.com/FIWARE/kong-plugins-fiware.git
+[submodule "api-management/kong/lua-fiware-lib"]
+	path = api-management/kong/lua-fiware-lib
+	url = https://github.com/FIWARE/lua-fiware-lib.git

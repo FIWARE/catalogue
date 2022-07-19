@@ -118,40 +118,6 @@ The Authorization PDP specification defines a RESTful API of an Authorization Po
 the OASIS XACML standard. More specifically, it defines RESTful interfaces for: Managing XACML-compliant authorization
 policies; Requesting authorization decisions based on those policies, in a XACML-compliant request-response format.
 
-<a name="apinf"/>
-
-## :seedling: APInf (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
-![License](https://img.shields.io/github/license/apinf/platform.svg)
-![](https://img.shields.io/github/release-date/apinf/platform.svg)
-![](https://img.shields.io/github/commits-since/apinf/platform/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/apinf/platform) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://apinf-fiware.readthedocs.io/en/latest/) | :page_facing_up: [Site](https://apinf.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-
-### What is APInf?
-
-The APInf API Management Framework is a Smart City orchestrator to be used together with other FIWARE enablers. APInf
-integrates with FIWARE core technologies, such as [Identity Management](https://fiware-idm.readthedocs.io/en/latest/),
-[NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-and [Business API Ecosystem](https://business-api-ecosystem.rtfd.io/) along with [API Umbrella](https://apiumbrella.io/)
-to offer a comprehensive toolset to let various API Owners to run business with their APIs. Public market place is one
-of the essential GUI tools to help API Owners to reach their customer with the showcase.
-
-The APInf API Management Framework is a highly extendable and can bring huge benefits to managed APIs - such as NGSI
-based interfaces like FIWARE Context Broker instances. This extends opportunities to setup a complete IoT cloud for
-Smart Cities using FIWARE technologies alone. Both right-time data and historical data will be available for software
-developers to build Smart Applications.
-
-### Why use APInf?
-
-The APInf API Management Framework is a central part of the FIWARE platform combining with other Generic Enablers in an
-offering a dashboard for all application developers. The business tools of the framework help API Owners to run their
-API business. This helps cities to distribute digital technology in small pieces in order to let local small software
-companies to attend in building the services to their home city. The support is close and this approach creates jobs for
-local people, which in turn generate move tax money for the city to develop better digital services to the citizens.
-
 <a name="fiware-true-connector"/>
 
 ## :seedling: FIWARE TRUE Connector (Incubated)
