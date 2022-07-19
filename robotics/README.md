@@ -55,6 +55,24 @@ particularly appealing for IoT communication in resource-constrained devices.
 
 The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
 
+
+## IoT Agent for OPC UA
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+
+IoT Agent accepting data from OPC UA devices.
+
+This IoT Agent is designed to be a bridge between the [OPC Unified Architecture](http://www.opcua.us/) protocol and the
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+interface. It follows the standard interaction model defined in the
+[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
+
 ## :seedling: FIROS (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)

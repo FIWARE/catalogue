@@ -120,7 +120,7 @@
 	path = data-publication/ckan-extensions/data-requests
 	url = https://github.com/conwetlab/ckanext-datarequests.git
 [submodule "iot-agents/iotagent-opcua"]
-	path = iot-agents/iotagent-opcua
+	path = robotics/iotagent-opcua
 	url = https://github.com/Engineering-Research-and-Development/iotagent-opcua.git
 [submodule "data-publication/idra"]
 	path = data-publication/idra
