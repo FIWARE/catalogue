@@ -1,4 +1,4 @@
-# API Management, Data Publication and Monetization
+# Data Publication and Monetization
 
 Publishing and consuming open data is a cornerstone for the development of applications and the creation of an
 innovation ecosystem. In this regard, this section explains how users (both end users and developers) can expose their
