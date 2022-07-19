@@ -106,9 +106,7 @@ the Biz Ecosystem RI implements the following APIs and Open Specifications:
 
 -   [Open API Specification](https://fiware-tmforum.github.io/Business-API-Ecosystem/)
 
-<a name="idra"/>
-
-## :seedling: Idra (Incubated)
+## Idra
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./README.md)
 ![License](https://img.shields.io/github/license/OPSILab/Idra.svg)
@@ -165,6 +163,4 @@ The adoption and usage of Idra can have direct benefits for different stakeholde
 
 -   Access to a large number of open datasets in a unique and standard way together with data visualisation and
     analytics functionalities for different scopes (e.g. Statistics, sector-specific data research, data reuse to build
-    innovative and added-value application) )
-
-The **Idra** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+    innovative and added-value application)
