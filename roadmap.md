@@ -4,11 +4,10 @@ The FIWARE Catalogue consists of a series of Generic Enablers. If you would like
 developments proposed for an individual Generic Enabler please check the "Roadmap" for the actual Generic Enabler
 itself.
 
-> The following release windows have been defined for the development period prior to the next FIWARE Global Summit
+> The following release windows have been defined for the development period to the end of 2022
 >
-> -   January 2021 - **7.9.1** - End-of-year clean-up
-> -   February 2021 - **7.10** - Further NGSI-LD components
-> -   May 2021 - **8.0** - Release prior to the FIWARE Summit
+> -   Sept 2022 - **8.3** - Release prior to the FIWARE Summit
+> -   January 2023 - **8.3.1** - End-of-year clean-up
 
 
 ## Introduction
@@ -22,7 +21,7 @@ guidelines only, and this section may be revised to provide newer information at
 ## Short term
 
 The following list of features are planned to be addressed in the short term, and incorporated in the releases of the
-catalogue over the next six months up to **June 2021** (next FIWARE Global Summit):
+catalogue over the next six months up to **Sept 2022** (next FIWARE Global Summit):
 
 -   Require compliance of all **MUST** requirements within the
     [Contributor Requirements](https://fiware-requirements.rtfd.io) and display of [CII Best Practice Badges](https://bestpractices.coreinfrastructure.org/en)
