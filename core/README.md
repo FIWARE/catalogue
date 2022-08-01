@@ -292,9 +292,7 @@ available as history information through the temporal interface.
 
 The **Scorpio** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
 
-<a name="orion-ld"/>
-
-## :seedling: Orion-LD (Incubated)
+## Orion-LD
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/context.Orion-LD.svg)
@@ -328,9 +326,8 @@ strings can be used, the mapping to URIs is done in an `@context` element that c
 as a header. As JSON-LD is a serialization of RDF, NGSI-LD provides a semantic grounding and can be used with semantic
 tools and combined with other information.
 
-<a name="stellio"/>
 
-## :seedling: Stellio (Incubated)
+## Stellio
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
@@ -339,7 +336,6 @@ tools and combined with other information.
 
 | :octocat: [Git Repository](https://github.com/stellio-hub/stellio-context-broker/) | :whale: [Docker Hub](https://hub.docker.com/orgs/stellio/repositories/) | :books: [Documentation](https://stellio.rtfd.io/) |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
-
 
 ### What is Stellio?
 
