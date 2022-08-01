@@ -1,19 +1,19 @@
-# Security Access and API Management
+# Security, Authorization and API Access Control
 
 In FIWARE we offer some services and tools to allow you to manage authentication and authorization in your applications
 and backend services. If you want to manage identity in your application without developing your own mechanisms, you can
-offer your users the possibility to log in to your app using their FIWARE Accounts.
+offer your users the possibility to log in to your app using their own FIWARE Accounts.
 
-This is possible thanks to the OAuth2 protocol and Keyrock, the Identity Manager component of FIWARE. In the same way
-that you usually log in to some services using your Twitter or Facebook account, your users will use their FIWARE
-accounts to access your service. But this is only the first step, because you can also secure your backends using FIWARE
-Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the access
-to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
+This is possible thanks to the OAuth2 protocol and Identity Management components such as Keyrock or Keycloak. In the
+same way that you usually log in to some services using your Twitter or Facebook account, your users will use their
+FIWARE accounts to access your service. But this is only the first step, because you can also secure your backends using
+FIWARE Account. If your service or GE has a REST API that can be accessed from Internet, probably you want to manage the
+access to the resources. For instance, you can allow the access only to the users that have a FIWARE account.
 
-To learn more about Security Access and API Management, check out the
+To learn more about Security, Authorization and API Access Control, check out the
 [documentation](https://fiwaretourguide.readthedocs.io/en/latest/security/introduction/)
 
-## Keyrock
+## Keyrock Identity Manager
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-idm.svg)
@@ -22,6 +22,7 @@ To learn more about Security Access and API Management, check out the
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-idm) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/idm/) | :books: [Documentation](https://fiware-idm.readthedocs.io/en/latest/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/keyrock) | :dart: [Roadmap](https://github.com/ging/fiware-idm/blob/master/roadmap.md) |
 | -------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+
 
 ### What is Keyrock?
 
@@ -58,7 +59,7 @@ can be found at Github: KeyRock source code It can be integrated with any develo
 The installation guide can be found at the Github's wiki page: KeyRock installation guide and KeyRock User and
 Programmers guide
 
-## Wilma
+## Wilma PEP Proxy
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-pep-proxy.svg)
@@ -67,6 +68,7 @@ Programmers guide
 
 | :octocat: [Git Repository](https://github.com/ging/fiware-pep-proxy) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/pep-proxy/) | :books: [Documentation](https://fiware-pep-proxy.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/wilma) | :dart: [Roadmap](https://github.com/ging/fiware-pep-proxy/blob/master/roadmap.md) |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+
 
 ### What is Wilma?
 
@@ -82,7 +84,7 @@ ecosystem and specifically with FIWARE account. It is thought to work with OAuth
 authentication and authorization chosen in FIWARE. Furthermore, this is the component that every GEis are including on
 top of their REST APIs so it is tested and used in many different scenarios.
 
-## Authzforce
+## Authzforce PDP
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/authzforce/server.svg)
@@ -91,6 +93,7 @@ top of their REST APIs so it is tested and used in many different scenarios.
 
 | :octocat: [Git Repository](https://github.com/authzforce/server) | :whale: [Docker Hub](https://hub.docker.com/r/authzforce/server/) | :books: [Documentation](https://authzforce-ce-fiware.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/security/authzforce) | :dart: [Roadmap](https://github.com/authzforce/server/blob/develop/ROADMAP.md) |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+
 
 ### What is Authzforce?
 
@@ -118,40 +121,6 @@ The Authorization PDP specification defines a RESTful API of an Authorization Po
 the OASIS XACML standard. More specifically, it defines RESTful interfaces for: Managing XACML-compliant authorization
 policies; Requesting authorization decisions based on those policies, in a XACML-compliant request-response format.
 
-<a name="apinf"/>
-
-## :seedling: APInf (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
-![License](https://img.shields.io/github/license/apinf/platform.svg)
-![](https://img.shields.io/github/release-date/apinf/platform.svg)
-![](https://img.shields.io/github/commits-since/apinf/platform/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/apinf/platform) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://apinf-fiware.readthedocs.io/en/latest/) | :page_facing_up: [Site](https://apinf.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-
-### What is APInf?
-
-The APInf API Management Framework is a Smart City orchestrator to be used together with other FIWARE enablers. APInf
-integrates with FIWARE core technologies, such as [Identity Management](https://fiware-idm.readthedocs.io/en/latest/),
-[NGSI v2](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-and [Business API Ecosystem](https://business-api-ecosystem.rtfd.io/) along with [API Umbrella](https://apiumbrella.io/)
-to offer a comprehensive toolset to let various API Owners to run business with their APIs. Public market place is one
-of the essential GUI tools to help API Owners to reach their customer with the showcase.
-
-The APInf API Management Framework is a highly extendable and can bring huge benefits to managed APIs - such as NGSI
-based interfaces like FIWARE Context Broker instances. This extends opportunities to setup a complete IoT cloud for
-Smart Cities using FIWARE technologies alone. Both right-time data and historical data will be available for software
-developers to build Smart Applications.
-
-### Why use APInf?
-
-The APInf API Management Framework is a central part of the FIWARE platform combining with other Generic Enablers in an
-offering a dashboard for all application developers. The business tools of the framework help API Owners to run their
-API business. This helps cities to distribute digital technology in small pieces in order to let local small software
-companies to attend in building the services to their home city. The support is close and this approach creates jobs for
-local people, which in turn generate move tax money for the city to develop better digital services to the citizens.
-
 <a name="fiware-true-connector"/>
 
 ## :seedling: FIWARE TRUE Connector (Incubated)
@@ -163,6 +132,7 @@ local people, which in turn generate move tax money for the city to develop bett
 
 | :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/fiware-true-connector) | :whale: [Docker Hub](https://github.com/Engineering-Research-and-Development/fiware-true-connector/blob/master/docs/docker_readme.md) | :books: [Documentation](https://fiware-true-connector.readthedocs.io/) |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
 
 ### What is the FIWARE TRUE Connector?
 
@@ -187,7 +157,7 @@ these federated networks, or data spaces.
 
 <a name="steeskin-pep"/>
 
-## :seedling: Steelskin PEP (Incubated)
+## :seedling: Steelskin PEP Proxy (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-pep-steelskin.svg)
@@ -196,6 +166,7 @@ these federated networks, or data spaces.
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
 | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+
 
 ### What is Steelskin PEP?
 
@@ -229,6 +200,7 @@ secured resource itself.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
 
+
 ### What is Keypass?
 
 Keypass is multi-tenant XACML server with PAP (Policy Administration Point) and PDP (Policy Decision Point)
@@ -253,6 +225,7 @@ creating a flexible security framework which can be applied to any microservice.
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-scim) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-scim/README.md) |
 | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 
+
 ### What is Keystone SCIM?
 
 Keystone SCIM is an OpenStack Keystone extension that enables the management of User, Groups and Roles using SCIM v1.1
@@ -276,6 +249,7 @@ running Keystone installation and enhance the functionality of it.
 
 | :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+
 
 ### What is Keystone SPASSWORD?
 

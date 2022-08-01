@@ -14,6 +14,7 @@ developer-based questions can be submitted on **Stack Overflow** using the FIWAR
 | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 
+
 ## Contents
 
 <details>
@@ -63,8 +64,9 @@ available, dealing with the following:
     actuations.
 -   **[Processing, analysis and visualization](./processing)** of context information, implementing the expected smart
     behaviour of applications and/or assisting end users in making smart decisions.
--   **[Context Data/API management](./security), [publication and monetization](./data-publication)**, bringing support
-    to usage control and the opportunity to publish and monetize part of managed context data.
+-   **[Context Data/API management](./api-manangement), [Security](./security),
+    [publication and monetization](./data-publication)**, bringing support to usage control and the opportunity to
+    publish and monetize part of managed context data.
 -   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each
     Generic Enabler
 
@@ -81,6 +83,7 @@ follow the progress of the discussions through the **FIWARE TSC meeting minutes*
 
 | :clipboard: <br> [Contribution Requirements](https://github.com/FIWARE/contribution-requirements) | :family: <br> [Technical Steering Committee](https://www.fiware.org/foundation/technical-steering-committee/) | :mega: <br> [Mailing list](https://lists.fiware.org/listinfo/fiware-technical-committee) | :open_file_folder: <br> [Meeting minutes](https://docs.google.com/spreadsheets/d/11zZAv7l3FCr0a0I_UoC39S6dwdjC2x7ydmPeH61-X74/edit?usp=sharing) |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+
 
 ## Installation
 
@@ -149,6 +152,7 @@ The following is a list of Generic Enablers under incubation within the area of 
     developers to connect and push context data to any NGSI compliant context broker
 -   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
     Generic Enabler creates a data bridge between context brokers and PySpark
+-   The [Apollo](https://github.com/FIWARE/apollo) Generic Enabler creates entities based on notifications
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
@@ -278,6 +282,16 @@ monetization:
     start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
+-   [Endpoint-Auth-Service](https://github.com/FIWARE/endpoint-auth-service) transparently adds
+    authentication/authorization information to outgoing http-requests
+-   [Kong Plugins](https://github.com/FIWARE/kong-plugins-fiware) extends the functionality of the
+    [Kong](https://github.com/kong/kong) API Gateway to cover additional PEP scenarios applicable to context data
+    sharing
+
+The following is a list of Generic Enablers under incubation within the area of Security:
+
+-   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
+    that enables extra security checks over user passwords
 -   [FIWARE TRUE Connector](https://github.com/Engineering-Research-and-Development/fiware-true-connector) enables
     trusted data exchange in order for context brokers to be able to become an active part of an
     [International Data Spaces](https://internationaldataspaces.org/) (IDS) Ecosystem
@@ -292,9 +306,8 @@ monetization:
 -   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
     that enables extra security checks over user passwords
 
-Further information can be found on dedicated pages linked to
-[Context Data/API Management, Publication and Monetization](./data-publication/README.md) and
-[Security](./security/README.md)
+Further information can be found on dedicated pages linked to [Context Data/API Management](./api-management/README.md),
+[Publication and Monetization](./data-publication/README.md) and [Security](./security/README.md)
 
 ### Deployment Tools
 
@@ -332,12 +345,14 @@ same FIWARE release label should be completely interoperable and work nicely wit
 | :dart: &nbsp; [Roadmap](./roadmap.md) | :rocket: &nbsp; [Release Notes](https://github.com/FIWARE/catalogue/releases) |
 | ------------------------------------- | ----------------------------------------------------------------------------- |
 
+
 As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart
 recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
 semantics that will be used by applications both to consume and to publish data.
 
 | [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware)<br>[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> [Smart Data Models](https://smartdatamodels.org) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+
 
 ## Testing
 
@@ -378,6 +393,7 @@ supporting the operations of the FIWARE Lab.
 
 | :inbox_tray: <br> [**Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | :clipboard: <br> [Contribution Requirements](https://fiware-requirements.readthedocs.io) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :computer:<br> [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) | :wrench: <br> [Active Contributors](https://docs.google.com/forms/d/e/1FAIpQLSfYfHWqE54jmeUR_xLMyRdQ-QxyZ92CNskUiRT5MQsiRp95XA/viewform?c=0&w=1) | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/> :heavy_plus_sign: :bust_in_silhouette:<br> [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 
 ## License
 

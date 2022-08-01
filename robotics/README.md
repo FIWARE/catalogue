@@ -10,6 +10,7 @@
 | :octocat: [Git Repository](https://github.com/eProsima/Fast-RTPS) | :whale: Docker Hub : TBD | :books: [Documentation](https://eprosima-fast-rtps.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/robotics/fast-rtps) | :dart: [Roadmap](https://github.com/eProsima/Fast-RTPS/blob/master/roadmap.md) |
 | ----------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
+
 eProsima Fast DDS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides
 publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object
 Management Group (OMG) consortium. Fast DDS provides both the [OMG DDS 1.4](https://www.omg.org/spec/DDS/1.4) and the
@@ -27,6 +28,7 @@ as a tool to implement DDS or use past versions of the specification.
 
 | :octocat: [Git Repository](https://github.com/eProsima/Micro-XRCE-DDS) | :whale: Docker Hub : TBD | :books: [Documentation](https://micro-xrce-dds.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/eProsima/Micro-XRCE-DDS/blob/master/roadmap.md) |
 | ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------- |
+
 
 ### What is Micro XRCE-DDS?
 
@@ -55,6 +57,24 @@ particularly appealing for IoT communication in resource-constrained devices.
 
 The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
 
+## IoT Agent for OPC UA
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+
+
+IoT Agent accepting data from OPC UA devices.
+
+This IoT Agent is designed to be a bridge between the [OPC Unified Architecture](http://www.opcua.us/) protocol and the
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+interface. It follows the standard interaction model defined in the
+[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
+
 ## :seedling: FIROS (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
@@ -64,6 +84,7 @@ The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
 
 | :octocat: [Git Repository](https://github.com/iml130/firos) | :whale: Docker Hub : TBD | :books: [Documentation](https://firos.rtfd.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/iml130/firos/blob/master/doc/roadmap.md) |
 | ----------------------------------------------------------- | ------------------------ | ----------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------- |
+
 
 ### What is FIROS?
 
