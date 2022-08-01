@@ -148,7 +148,7 @@ The following is a list of Generic Enablers under incubation within the area of 
 
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
--   The [NGSI.js](https://github.com/ficodes/ngsijs) library provides a series of JavaScript functions allowing
+-   The [NGSI.js Library](https://github.com/ficodes/ngsijs) provides a series of JavaScript functions allowing
     developers to connect and push context data to any NGSI compliant context broker
 -   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
     Generic Enabler creates a data bridge between context brokers and PySpark
