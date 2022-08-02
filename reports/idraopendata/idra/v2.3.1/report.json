@@ -1,32 +1,22 @@
 {
     "image": "idraopendata/idra:v2.3.1",
     "unapproved": [
-        "CVE-2018-6003",
-        "CVE-2018-1000654",
-        "CVE-2018-6942",
-        "CVE-2018-14599",
-        "CVE-2018-14600",
-        "CVE-2018-14598",
-        "CVE-2018-11813",
-        "CVE-2017-15232",
-        "CVE-2018-1152",
-        "CVE-2018-14498",
-        "CVE-2019-7317",
         "CVE-2018-14048",
         "CVE-2018-14550",
-        "CVE-2019-14697"
+        "CVE-2019-7317",
+        "CVE-2019-14697",
+        "CVE-2018-6003",
+        "CVE-2018-1000654",
+        "CVE-2018-14598",
+        "CVE-2018-14599",
+        "CVE-2018-14600",
+        "CVE-2018-1152",
+        "CVE-2018-14498",
+        "CVE-2018-11813",
+        "CVE-2017-15232",
+        "CVE-2018-6942"
     ],
     "vulnerabilities": [
-        {
-            "featurename": "libx11",
-            "featureversion": "1.6.5-r1",
-            "vulnerability": "CVE-2018-14600",
-            "namespace": "alpine:v3.7",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14600",
-            "severity": "High",
-            "fixedby": "1.6.6-r0"
-        },
         {
             "featurename": "libtasn1",
             "featureversion": "4.12-r2",
@@ -38,14 +28,14 @@
             "fixedby": "4.12-r4"
         },
         {
-            "featurename": "musl",
-            "featureversion": "1.1.18-r3",
-            "vulnerability": "CVE-2019-14697",
+            "featurename": "libx11",
+            "featureversion": "1.6.5-r1",
+            "vulnerability": "CVE-2018-14600",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14600",
             "severity": "High",
-            "fixedby": "1.1.18-r4"
+            "fixedby": "1.6.6-r0"
         },
         {
             "featurename": "libx11",
@@ -58,14 +48,34 @@
             "fixedby": "1.6.6-r0"
         },
         {
-            "featurename": "libjpeg-turbo",
-            "featureversion": "1.5.2-r0",
-            "vulnerability": "CVE-2017-15232",
+            "featurename": "musl",
+            "featureversion": "1.1.18-r3",
+            "vulnerability": "CVE-2019-14697",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15232",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697",
+            "severity": "High",
+            "fixedby": "1.1.18-r4"
+        },
+        {
+            "featurename": "libpng",
+            "featureversion": "1.6.34-r1",
+            "vulnerability": "CVE-2018-14048",
+            "namespace": "alpine:v3.7",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14048",
             "severity": "Medium",
-            "fixedby": "1.5.3-r0"
+            "fixedby": "1.6.37-r0"
+        },
+        {
+            "featurename": "libtasn1",
+            "featureversion": "4.12-r2",
+            "vulnerability": "CVE-2018-6003",
+            "namespace": "alpine:v3.7",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6003",
+            "severity": "Medium",
+            "fixedby": "4.12-r3"
         },
         {
             "featurename": "libx11",
@@ -80,22 +90,22 @@
         {
             "featurename": "libjpeg-turbo",
             "featureversion": "1.5.2-r0",
-            "vulnerability": "CVE-2018-11813",
+            "vulnerability": "CVE-2017-15232",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11813",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15232",
             "severity": "Medium",
-            "fixedby": "1.5.3-r2"
+            "fixedby": "1.5.3-r0"
         },
         {
-            "featurename": "freetype",
-            "featureversion": "2.8.1-r2",
-            "vulnerability": "CVE-2018-6942",
+            "featurename": "libpng",
+            "featureversion": "1.6.34-r1",
+            "vulnerability": "CVE-2018-14550",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6942",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14550",
             "severity": "Medium",
-            "fixedby": "2.8.1-r3"
+            "fixedby": "1.6.37-r0"
         },
         {
             "featurename": "libjpeg-turbo",
@@ -118,34 +128,24 @@
             "fixedby": "1.5.3-r3"
         },
         {
-            "featurename": "libpng",
-            "featureversion": "1.6.34-r1",
-            "vulnerability": "CVE-2018-14550",
+            "featurename": "libjpeg-turbo",
+            "featureversion": "1.5.2-r0",
+            "vulnerability": "CVE-2018-11813",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14550",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11813",
             "severity": "Medium",
-            "fixedby": "1.6.37-r0"
+            "fixedby": "1.5.3-r2"
         },
         {
-            "featurename": "libpng",
-            "featureversion": "1.6.34-r1",
-            "vulnerability": "CVE-2018-14048",
+            "featurename": "freetype",
+            "featureversion": "2.8.1-r2",
+            "vulnerability": "CVE-2018-6942",
             "namespace": "alpine:v3.7",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14048",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6942",
             "severity": "Medium",
-            "fixedby": "1.6.37-r0"
-        },
-        {
-            "featurename": "libtasn1",
-            "featureversion": "4.12-r2",
-            "vulnerability": "CVE-2018-6003",
-            "namespace": "alpine:v3.7",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6003",
-            "severity": "Medium",
-            "fixedby": "4.12-r3"
+            "fixedby": "2.8.1-r3"
         },
         {
             "featurename": "libpng",
