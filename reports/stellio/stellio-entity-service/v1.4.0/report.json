@@ -1,11 +1,12 @@
 {
     "image": "stellio/stellio-entity-service:v1.4.0",
     "unapproved": [
+        "CVE-2022-0778",
+        "CVE-2022-37434",
+        "CVE-2018-25032",
         "CVE-2022-28391",
         "ALPINE-13661",
-        "CVE-2020-28928",
-        "CVE-2022-0778",
-        "CVE-2018-25032"
+        "CVE-2020-28928"
     ],
     "vulnerabilities": [
         {
@@ -47,6 +48,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28928",
             "severity": "Low",
             "fixedby": "1.2.2_pre2-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.11-r3",
+            "vulnerability": "CVE-2022-37434",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37434",
+            "severity": "Unknown",
+            "fixedby": "1.2.12-r2"
         },
         {
             "featurename": "busybox",
