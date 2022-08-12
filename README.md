@@ -129,8 +129,6 @@ are available:
 
 Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
--   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
-    short-term history of context data (typically months) on MongoDB
 -   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is enables a means of managing the
     history of context which is created as a stream of data and can be injected into multiple data sinks, including many
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data platforms such as Hadoop, Storm
@@ -143,6 +141,8 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
     integrated with popular Big Data platforms (Spark and Flink).
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
+-   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
+    short-term history of context data (typically months) on MongoDB
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
