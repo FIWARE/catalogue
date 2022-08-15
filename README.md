@@ -57,15 +57,15 @@ of the specs.
 Building around the FIWARE Context Broker, a rich suite of complementary open-source FIWARE Generic Enablers are
 available, dealing with the following:
 
--   **[Core Context Management](./core/README.md)** manipulates and stores context data so it can be used for further
+-   **[Core Context Management](./core/)** manipulates and stores context data so it can be used for further
     processesing
--   **Interfacing with the [Internet of Things](./iot-agents) (IoT), [Robots](./robotics) and
-    [third-party systems](./third-party)**, for capturing updates on context information and translating required
+-   **Interfacing with the [Internet of Things](./iot-agents/) (IoT), [Robots](./robotics) and
+    [third-party systems](./third-party/)**, for capturing updates on context information and translating required
     actuations.
--   **[Processing, analysis and visualization](./processing)** of context information, implementing the expected smart
+-   **[Processing, analysis and visualization](./processing/)** of context information, implementing the expected smart
     behaviour of applications and/or assisting end users in making smart decisions.
--   **[Context Data/API management](./api-manangement), [Security](./security),
-    [publication and monetization](./data-publication)**, bringing support to usage control and the opportunity to
+-   **[Context Data/API management](./api-management/), [Security](./security/),
+    [publication and monetization](./data-publication/)**, bringing support to usage control and the opportunity to
     publish and monetize part of managed context data.
 -   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each
     Generic Enabler
