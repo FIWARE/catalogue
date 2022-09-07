@@ -57,15 +57,15 @@ of the specs.
 Building around the FIWARE Context Broker, a rich suite of complementary open-source FIWARE Generic Enablers are
 available, dealing with the following:
 
--   **[Core Context Management](./core/README.md)** manipulates and stores context data so it can be used for further
+-   **[Core Context Management](./core/)** manipulates and stores context data so it can be used for further
     processesing
--   **Interfacing with the [Internet of Things](./iot-agents) (IoT), [Robots](./robotics) and
-    [third-party systems](./third-party)**, for capturing updates on context information and translating required
+-   **Interfacing with the [Internet of Things](./iot-agents/) (IoT), [Robots](./robotics) and
+    [third-party systems](./third-party/)**, for capturing updates on context information and translating required
     actuations.
--   **[Processing, analysis and visualization](./processing)** of context information, implementing the expected smart
+-   **[Processing, analysis and visualization](./processing/)** of context information, implementing the expected smart
     behaviour of applications and/or assisting end users in making smart decisions.
--   **[Context Data/API management](./api-manangement), [Security](./security),
-    [publication and monetization](./data-publication)**, bringing support to usage control and the opportunity to
+-   **[Context Data/API management](./api-management/), [Security](./security/),
+    [publication and monetization](./data-publication/)**, bringing support to usage control and the opportunity to
     publish and monetize part of managed context data.
 -   **[Deployment Tools](#deployment-tools)** such as Docker images and Helm-chart recipes are available for each
     Generic Enabler
@@ -129,8 +129,6 @@ are available:
 
 Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
--   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
-    short-term history of context data (typically months) on MongoDB
 -   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is enables a means of managing the
     history of context which is created as a stream of data and can be injected into multiple data sinks, including many
     popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data platforms such as Hadoop, Storm
@@ -143,12 +141,14 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
     integrated with popular Big Data platforms (Spark and Flink).
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
+-   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
+    short-term history of context data (typically months) on MongoDB
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
--   The [NGSI.js](https://github.com/ficodes/ngsijs) library provides a series of JavaScript functions allowing
+-   The [NGSI.js Library](https://github.com/ficodes/ngsijs) provides a series of JavaScript functions allowing
     developers to connect and push context data to any NGSI compliant context broker
 -   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
     Generic Enabler creates a data bridge between context brokers and PySpark

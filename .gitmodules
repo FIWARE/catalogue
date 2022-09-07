@@ -119,18 +119,9 @@
 [submodule "data-publication/ckan-extensions/data-requests"]
 	path = data-publication/ckan-extensions/data-requests
 	url = https://github.com/conwetlab/ckanext-datarequests.git
-[submodule "iot-agents/iotagent-opcua"]
-	path = robotics/iotagent-opcua
-	url = https://github.com/Engineering-Research-and-Development/iotagent-opcua.git
 [submodule "data-publication/idra"]
 	path = data-publication/idra
 	url = https://github.com/OPSILab/Idra.git
-[submodule "data-publication/apinf/apinf"]
-	path = api-management/apinf/apinf
-	url = https://github.com/apinf/platform
-[submodule "data-publication/apinf/api-umbrella"]
-	path = api-management/apinf/api-umbrella
-	url = https://github.com/FIWARE/api-umbrella
 [submodule "core/cygnus"]
 	path = core/cygnus
 	url = https://github.com/telefonicaid/fiware-cygnus
@@ -173,9 +164,6 @@
 [submodule "processing/fogflow"]
 	path = processing/fogflow
 	url = https://github.com/smartfog/fogflow.git
-[submodule "api-management/coat-rack"]
-	path = api-management/coat-rack
-	url = https://github.com/coatrack/coatrack
 [submodule "iot-agents/iotagent-isoxml"]
 	path = iot-agents/iotagent-isoxml
 	url = https://github.com/FIWARE/iotagent-isoxml
@@ -221,3 +209,15 @@
 [submodule "api-management/kong/lua-fiware-lib"]
 	path = api-management/kong/lua-fiware-lib
 	url = https://github.com/FIWARE/lua-fiware-lib.git
+[submodule "api-management/coat-rack"]
+	path = api-management/coat-rack
+	url = https://github.com/coatrack/coatrack
+[submodule "robotics/iotagent-opcua"]
+	path = robotics/iotagent-opcua
+	url = https://github.com/Engineering-Research-and-Development/iotagent-opcua.git
+[submodule "api-management/apinf/api-umbrella"]
+	path = api-management/apinf/api-umbrella
+	url = https://github.com/FIWARE/api-umbrella
+[submodule "api-management/apinf/apinf"]
+	path = api-management/apinf/apinf
+	url = https://github.com/apinf/platform
