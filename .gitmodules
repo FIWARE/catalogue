@@ -191,9 +191,6 @@
 [submodule "processing/ngsijs"]
 	path = core/ngsijs
 	url = https://github.com/Ficodes/ngsijs.git
-[submodule "third-party/domibus"]
-	path = third-party/domibus
-	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
 [submodule "core/pyspark-connector"]
 	path = core/pyspark-connector
 	url = https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector.git
@@ -221,3 +218,6 @@
 [submodule "api-management/apinf/apinf"]
 	path = api-management/apinf/apinf
 	url = https://github.com/apinf/platform
+[submodule "third-party/domibus"]
+	path = third-party/domibus
+	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
