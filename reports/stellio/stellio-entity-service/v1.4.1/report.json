@@ -1,12 +1,12 @@
 {
     "image": "stellio/stellio-entity-service:v1.4.1",
     "unapproved": [
-        "CVE-2022-37434",
         "CVE-2018-25032",
-        "CVE-2022-0778",
-        "CVE-2020-28928",
+        "CVE-2022-37434",
         "CVE-2022-28391",
-        "ALPINE-13661"
+        "ALPINE-13661",
+        "CVE-2022-0778",
+        "CVE-2020-28928"
     ],
     "vulnerabilities": [
         {
@@ -20,16 +20,6 @@
             "fixedby": "1.2.12-r0"
         },
         {
-            "featurename": "libretls",
-            "featureversion": "3.3.3p1-r2",
-            "vulnerability": "CVE-2022-0778",
-            "namespace": "alpine:v3.14",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0778",
-            "severity": "Medium",
-            "fixedby": "3.3.3p1-r3"
-        },
-        {
             "featurename": "busybox",
             "featureversion": "1.33.1-r6",
             "vulnerability": "CVE-2022-28391",
@@ -38,6 +28,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28391",
             "severity": "Medium",
             "fixedby": "1.33.1-r7"
+        },
+        {
+            "featurename": "libretls",
+            "featureversion": "3.3.3p1-r2",
+            "vulnerability": "CVE-2022-0778",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0778",
+            "severity": "Medium",
+            "fixedby": "3.3.3p1-r3"
         },
         {
             "featurename": "musl",
