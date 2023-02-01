@@ -124,6 +124,15 @@ are available:
     Broker which can also be used in federated environments
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
     alternative NGSI-LD Broker
+    
+    
+##### NGSI-LD Context Broker Feature Comparison
+
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.6.1 ](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.06.01_60/gs_CIM009v010601p.pdf) which was  published in **September 2022**. 
+
+-  An Excel file detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub?output=xlsx)
+    
+-  An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
 
 #### Core Data Connectors
 
@@ -397,7 +406,7 @@ supporting the operations of the FIWARE Lab.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2021 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2023 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General
