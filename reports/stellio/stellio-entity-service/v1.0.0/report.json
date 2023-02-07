@@ -1,6 +1,8 @@
 {
     "image": "stellio/stellio-entity-service:v1.0.0",
     "unapproved": [
+        "CVE-2018-25032",
+        "CVE-2022-37434",
         "CVE-2021-42383",
         "ALPINE-13661",
         "CVE-2021-42380",
@@ -14,31 +16,49 @@
         "CVE-2022-28391",
         "CVE-2021-42378",
         "CVE-2021-42375",
-        "CVE-2018-25032",
-        "CVE-2022-37434",
-        "CVE-2020-28928",
-        "CVE-2022-0778"
+        "CVE-2022-0778",
+        "CVE-2020-28928"
     ],
     "vulnerabilities": [
         {
             "featurename": "busybox",
             "featureversion": "1.33.1-r3",
-            "vulnerability": "CVE-2022-28391",
+            "vulnerability": "CVE-2021-42385",
             "namespace": "alpine:v3.14",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28391",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42385",
             "severity": "Medium",
-            "fixedby": "1.33.1-r7"
+            "fixedby": "1.33.1-r6"
         },
         {
-            "featurename": "zlib",
-            "featureversion": "1.2.11-r3",
-            "vulnerability": "CVE-2018-25032",
+            "featurename": "libretls",
+            "featureversion": "3.3.3p1-r2",
+            "vulnerability": "CVE-2022-0778",
             "namespace": "alpine:v3.14",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0778",
             "severity": "Medium",
-            "fixedby": "1.2.12-r0"
+            "fixedby": "3.3.3p1-r3"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.33.1-r3",
+            "vulnerability": "CVE-2021-42383",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42383",
+            "severity": "Medium",
+            "fixedby": "1.33.1-r6"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.33.1-r3",
+            "vulnerability": "CVE-2021-42378",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
+            "severity": "Medium",
+            "fixedby": "1.33.1-r6"
         },
         {
             "featurename": "busybox",
@@ -73,12 +93,12 @@
         {
             "featurename": "busybox",
             "featureversion": "1.33.1-r3",
-            "vulnerability": "CVE-2021-42378",
+            "vulnerability": "CVE-2022-28391",
             "namespace": "alpine:v3.14",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28391",
             "severity": "Medium",
-            "fixedby": "1.33.1-r6"
+            "fixedby": "1.33.1-r7"
         },
         {
             "featurename": "busybox",
@@ -111,34 +131,14 @@
             "fixedby": "1.33.1-r6"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.33.1-r3",
-            "vulnerability": "CVE-2021-42385",
+            "featurename": "zlib",
+            "featureversion": "1.2.11-r3",
+            "vulnerability": "CVE-2018-25032",
             "namespace": "alpine:v3.14",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42385",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032",
             "severity": "Medium",
-            "fixedby": "1.33.1-r6"
-        },
-        {
-            "featurename": "busybox",
-            "featureversion": "1.33.1-r3",
-            "vulnerability": "CVE-2021-42383",
-            "namespace": "alpine:v3.14",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42383",
-            "severity": "Medium",
-            "fixedby": "1.33.1-r6"
-        },
-        {
-            "featurename": "libretls",
-            "featureversion": "3.3.3p1-r2",
-            "vulnerability": "CVE-2022-0778",
-            "namespace": "alpine:v3.14",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0778",
-            "severity": "Medium",
-            "fixedby": "3.3.3p1-r3"
+            "fixedby": "1.2.12-r0"
         },
         {
             "featurename": "busybox",
