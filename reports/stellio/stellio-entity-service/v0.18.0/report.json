@@ -1,10 +1,10 @@
 {
     "image": "stellio/stellio-entity-service:v0.18.0",
     "unapproved": [
-        "CVE-2018-25032",
-        "CVE-2022-37434",
         "CVE-2021-36159",
         "CVE-2021-30139",
+        "CVE-2018-25032",
+        "CVE-2022-37434",
         "CVE-2021-42385",
         "CVE-2021-42380",
         "CVE-2021-42384",
@@ -31,26 +31,6 @@
             "fixedby": "1.31.1-r22"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.31.1-r19",
-            "vulnerability": "CVE-2021-42378",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
-            "severity": "Medium",
-            "fixedby": "1.31.1-r21"
-        },
-        {
-            "featurename": "apk-tools",
-            "featureversion": "2.10.5-r1",
-            "vulnerability": "CVE-2021-36159",
-            "namespace": "alpine:v3.12",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36159",
-            "severity": "Medium",
-            "fixedby": "2.10.7-r0"
-        },
-        {
             "featurename": "apk-tools",
             "featureversion": "2.10.5-r1",
             "vulnerability": "CVE-2021-30139",
@@ -59,6 +39,26 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30139",
             "severity": "Medium",
             "fixedby": "2.10.6-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.11-r3",
+            "vulnerability": "CVE-2018-25032",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032",
+            "severity": "Medium",
+            "fixedby": "1.2.12-r0"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.31.1-r19",
+            "vulnerability": "CVE-2021-42378",
+            "namespace": "alpine:v3.12",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42378",
+            "severity": "Medium",
+            "fixedby": "1.31.1-r21"
         },
         {
             "featurename": "busybox",
@@ -101,14 +101,14 @@
             "fixedby": "1.31.1-r21"
         },
         {
-            "featurename": "zlib",
-            "featureversion": "1.2.11-r3",
-            "vulnerability": "CVE-2018-25032",
+            "featurename": "apk-tools",
+            "featureversion": "2.10.5-r1",
+            "vulnerability": "CVE-2021-36159",
             "namespace": "alpine:v3.12",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36159",
             "severity": "Medium",
-            "fixedby": "1.2.12-r0"
+            "fixedby": "2.10.7-r0"
         },
         {
             "featurename": "busybox",
