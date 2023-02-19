@@ -3,7 +3,6 @@
     "unapproved": [
         "CVE-2021-36159",
         "CVE-2021-30139",
-        "CVE-2019-15903",
         "CVE-2020-28928",
         "CVE-2019-5481",
         "CVE-2020-8177",
@@ -13,6 +12,7 @@
         "CVE-2020-8286",
         "CVE-2021-22898",
         "CVE-2020-8231",
+        "CVE-2019-15903",
         "CVE-2021-28831"
     ],
     "vulnerabilities": [
@@ -45,16 +45,6 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36159",
             "severity": "Medium",
             "fixedby": "2.10.7-r0"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.65.1-r0",
-            "vulnerability": "CVE-2020-8231",
-            "namespace": "alpine:v3.10",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8231",
-            "severity": "Medium",
-            "fixedby": "7.66.0-r2"
         },
         {
             "featurename": "expat",
@@ -115,6 +105,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8286",
             "severity": "Medium",
             "fixedby": "7.66.0-r3"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.65.1-r0",
+            "vulnerability": "CVE-2020-8231",
+            "namespace": "alpine:v3.10",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8231",
+            "severity": "Medium",
+            "fixedby": "7.66.0-r2"
         },
         {
             "featurename": "busybox",
