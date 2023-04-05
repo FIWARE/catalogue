@@ -129,7 +129,7 @@ available as history information through the temporal interface.
 ![](https://img.shields.io/github/release-date/FIWARE/context.Orion-LD.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/context.Orion-LD/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE/context.Orion-LD/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion-ld/) | :books: [Documentation](https://github.com/FIWARE/context.Orion-LD/tree/develop/doc/manuals-ld) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion-ld) | :dart: [Roadmap](https://github.com/FIWARE/context.Orion-LD/blob/develop/doc/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/FIWARE/context.Orion-LD/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/orion-ld) | :books: [Documentation](https://github.com/FIWARE/context.Orion-LD/tree/develop/doc/manuals-ld) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion-ld) | :dart: [Roadmap](https://github.com/FIWARE/context.Orion-LD/blob/develop/doc/roadmap.md) |
 | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
 #### What is Orion-LD?
@@ -206,7 +206,7 @@ PostgreSQL database allow efficient queries while allowing off-the-shelves stori
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-cygnus.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-cygnus/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/cygnus-ngsi/) | :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-cygnus/blob/master/doc/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/cygnus-ngsi)| :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-cygnus/blob/master/doc/roadmap.md) |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 
 
@@ -249,7 +249,7 @@ you can keep a historical record. Cygnus can also be used the filter and repost 
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/sth-comet/) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-sth-comet/blob/master/doc/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/sth-comet) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-sth-comet/blob/master/doc/roadmap.md) |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
 
@@ -279,7 +279,7 @@ statistics such as maxima, minima and trends can be observed.
 ![](https://img.shields.io/github/release-date/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ging/fiware-draco) | :whale: [Docker Hub](https://hub.docker.com/r/ging/fiware-draco) | :books: [Documentation](https://fiware-draco.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/draco) | :dart: [Roadmap](https://github.com/ging/fiware-draco/blob/master/docs/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/ging/fiware-draco) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/draco) | :books: [Documentation](https://fiware-draco.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/draco) | :dart: [Roadmap](https://github.com/ging/fiware-draco/blob/master/docs/roadmap.md) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 
 
@@ -353,7 +353,7 @@ conclusions as to the state of your smart solution and bring value to your solut
 ![](https://img.shields.io/github/release-date/orchestracities/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/last-commit/orchestracities/ngsi-timeseries-api.svg)
 
-| :octocat: [Git Repository](https://github.com/orchestracities/ngsi-timeseries-api/) | :whale: [Docker Hub](https://hub.docker.com/r/orchestracities/quantumleap/) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) | :dart: [Roadmap](https://github.com/orchestracities/ngsi-timeseries-api/blob/master/docs/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/orchestracities/ngsi-timeseries-api/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/quantumleap) | :books: [Documentation](https://quantumleap.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/quantum-leap) | :dart: [Roadmap](https://github.com/orchestracities/ngsi-timeseries-api/blob/master/docs/roadmap.md) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 
 
@@ -390,7 +390,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 ![](https://img.shields.io/github/last-commit/FIWARE/CanisMajor.svg)
 ![](https://img.shields.io/github/tag/FIWARE/CanisMajor.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE/CanisMajor/) | :whale: [Docker Hub](https://hub.docker.com/r/singhhp10691/canismajor) | :books: [Documentation](https://fiware.github.io/CanisMajor/) |
+| :octocat: [Git Repository](https://github.com/FIWARE/CanisMajor/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/canis-major) | :books: [Documentation](https://fiware.github.io/CanisMajor/) |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------- |
 
 
@@ -424,7 +424,7 @@ Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" 
 ![](https://img.shields.io/github/release-date/ficodes/ngsijs.svg)
 ![](https://img.shields.io/github/commits-since/ficodes/ngsijs/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/ficodes/ngsijs) | :whale: N/A | :books: [Site](http://ficodes.github.io/ngsijs/stable/NGSI.html) |
+| :octocat: [Git Repository](https://github.com/ficodes/ngsijs) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/ngsiproxy) | :books: [Site](http://ficodes.github.io/ngsijs/stable/NGSI.html) |
 | ------------------------------------------------------------- | ----------- | ---------------------------------------------------------------- |
 
 
