@@ -485,7 +485,7 @@ these two instruments and to combine the advantages they provide at a minimal de
 ![](https://img.shields.io/github/release-date/FIWARE/apollo.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/apollo/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE/apollo) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/apollo) | :books: [Documentation]((https://github.com/FIWARE/apollo/README.md) | :dart: [Roadmap]**T.B.D**|
+| :octocat: [Git Repository](https://github.com/FIWARE/apollo) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/apollo) | :books: [Documentation](https://github.com/FIWARE/apollo/README.md) | :dart: **T.B.D**|
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 
 
