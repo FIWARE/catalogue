@@ -14,7 +14,7 @@ To learn more about Data Publication, check out the
 ![](https://img.shields.io/github/release-date/conwetlab/FIWARE-CKAN-Extensions.svg)
 ![](https://img.shields.io/github/commits-since/conwetlab/FIWARE-CKAN-Extensions/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/ckan-extended)| :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 
 
@@ -60,9 +60,17 @@ without the need of installing new extensions or restarting the platform.
 ![](https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) | :books: [Documentation](https://business-api-ecosystem.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-apis) | :books: [Documentation](https://business-api-ecosystem.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
+| Logic Proxy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-logic-proxy) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-logic-proxy) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
+
+| Charging Backend  | :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-charging-backend) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-charging-backend) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
+
+| RSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-rss) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-rss) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
 
 ### What is the Business API Ecosystem?
 
@@ -115,7 +123,7 @@ the Biz Ecosystem RI implements the following APIs and Open Specifications:
 ![](https://img.shields.io/github/release-date/OPSILab/Idra.svg)
 ![](https://img.shields.io/github/commits-since/OPSILab/Idra/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/u/idraopendata/idra) | :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/r/idraopendata/idra/) | :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
 | ----------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ |
 
 

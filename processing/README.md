@@ -12,7 +12,7 @@ To learn more about context processing, analysis and visualization, check out th
 ![](https://img.shields.io/github/release-date/Wirecloud/wirecloud.svg)
 ![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/Wirecloud/wirecloud) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/wirecloud/) | :books: [Documentation](https://wirecloud.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/wirecloud) | :dart: [Roadmap](https://github.com/Wirecloud/wirecloud/blob/develop/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/Wirecloud/wirecloud) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/wirecloud) | :books: [Documentation](https://wirecloud.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/processing/wirecloud) | :dart: [Roadmap](https://github.com/Wirecloud/wirecloud/blob/develop/roadmap.md) |
 | ------------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 
 
@@ -87,13 +87,13 @@ lack of interoperability and openness to share and reuse data and dervied result
 
 **Core**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-core/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-core/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/perseo-core) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 
 
 **Frontend**
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/perseo-fe/) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/perseo-fe/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/perseo) | :books: [Documentation](https://fiware-perseo-fe.readthedocs.io/en/latest/) | :dart: [Roadmap](https://github.com/telefonicaid/perseo-fe/blob/master/documentation/roadmap.md) |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 
 
