@@ -492,7 +492,7 @@ these two instruments and to combine the advantages they provide at a minimal de
 #### What is FIWARE Apollo?
 
 In order to allow an NGSI-LD broker to receive data sent through subscriptions by another broker, Apollo translates notifications 
-into entity creation or update requests at the NGSI-LD api. For every entity received in the data-part of a notification, the proxy 
+into entity creation or update requests at the NGSI-LD API. For every entity received in the data-part of a notification, the proxy 
 first tries a POST `/entities/{entityId}/attrs/` to update(and overwrite the properties) the entity. If **404 - NOT FOUND** is returned 
 by the broker, the proxy will try to create the entity via POST `/entities`.
 
