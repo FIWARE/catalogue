@@ -49,7 +49,7 @@ local people, which in turn generate move tax money for the city to develop bett
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
 ![License](https://img.shields.io/github/license/coatrack/coatrack.svg)
 ![](https://img.shields.io/github/last-commit/coatrack/coatrack.svg)
-![](https://img.shields.io/github/tag/coatrack/coatrack.svg)
+![](https://img.shields.io/github/commits-since/coatrack/coatrack/latest.svg)
 
 | :octocat: [Git Repository](https://github.com/coatrack/coatrack/) | :whale: [Docker Hub](https://hub.docker.com/r/coatrack/admin/) | :books: [Documentation](https://github.com/coatrack/coatrack/wiki) | :dart: [Roadmap](https://github.com/coatrack/coatrack/wiki/roadmap.md) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
