@@ -82,4 +82,58 @@ Coatrack reduces the overhead in implementing common tasks such as:
 This allows development teams to concentrate on building and maintaining the features of their own API as a product,
 without spending time on ancillary features.
 
-The **CoatRack** project is part of [FIWARE](https://fiware.org/) and will be rated as part of the next release.
+<a name="apollo"/>
+
+### :seedling: Endpoint-Auth-Service
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/endpoint-auth-service.svg)
+![](https://img.shields.io/github/release-date/FIWARE/endpoint-auth-service.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/endpoint-auth-service/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/endpoint-auth-service) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/endpoint-configuration-service) | :books: [Documentation](https://github.com/FIWARE/endpoint-auth-service/README.md) | :dart: **T.B.D** |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+
+#### What is Endpoint-Auth-Service?
+
+In various use-cases, there is a need to apply authentication or authorization to outgoing requests for components that 
+do not handle this themselves - for example notifications in NGSI-LD brokers. This service provides that by adding an 
+envoy-proxy as sidecar to the component that gets forwarded all outgoing requests via ip-tables. The sidecar-proxy does
+request auth-information from the auth-provider and adds it to the requests accordingly. The endpoints to be handled and 
+there auth-information can be configured through endpoint-configuration-service.
+
+#### Why use the Endpoint-Auth-Service?
+
+Within data spaces, outgoing requests will need to be annotated as legitimate traffic coming from a specific trusted participant
+from within the data space. The Endpoint-Auth-Service does this work automatically and the architecture allows separation of
+the actual authentication flows from the proxy itself, thus giving more flexibility in terms of technology and reduces the complexity
+of the code inside the proxy.
+
+<a name="kong-plugins"/>
+
+### :seedling: FIWARE Kong Plugins 
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/kong-plugins-fiware.svg)
+![](https://img.shields.io/github/release-date/FIWARE/kong-plugins-fiware.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/kong-plugins-fiware/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/kong-plugins-fiware) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/kong) | :books: [Documentation](https://github.com/FIWARE/kong-plugins-fiware/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+
+#### What are FIWARE Kong Plugins ?
+
+Kong is a popular cloud-native API gateway acting as a reverse proxy ,that lets you manage, configure, and route requests to your APIs.
+The functionality of Kong can be extended through the use of plugins, allowing developers to introduce new security functionality within a 
+pre-existing API gateway framework
+
+The FIWARE Kong plugins offer targeted extensions to the existing framework simplifying connections to various components which are commonly
+used as part of the FIWARE Ecosystem (e.g. Keyrock, Keycloak)
+
+#### Why use the FIWARE Kong Plugins ?
+
+When creating a FIWARE based system, it is necessary to introduce a security system to protect your data. FIWARE is agnostic to the security
+stack implemented in the system, but through using Kong it is possible to connect to the authentication and authorization mechanims of existing 
+IDMs, PDPs etc.
