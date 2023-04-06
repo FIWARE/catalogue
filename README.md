@@ -5,14 +5,16 @@
 
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
 are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
-relevant source code repositories, documentation and Docker images.
+relevant source code repositories, documentation and container registry images on **Docker Hub** or **quay.io**.
+
+
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and
 developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
 
-| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) | :whale: <br/> [Docker Hub](https://hub.docker.com/u/fiware) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/><br/>&nbsp;&nbsp; [quay.io](https://quay.io/repository/fiware/) &nbsp;&nbsp; |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) |  
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |  --- | --- |
 
 
 ## Contents
