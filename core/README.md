@@ -19,7 +19,7 @@ To learn more about Core Context Management Enablers, check out the
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/orion/) | :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-orion/blob/master/doc/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-orion/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/orion) | :books: [Documentation](https://fiware-orion.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/orion) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-orion/blob/master/doc/roadmap.md) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 
 
@@ -472,3 +472,33 @@ The PySpark Connector was created with the idea of expanding the use of complian
 Python environment. Python is currently one of the most used programming languages for data analysis, providing lots of
 scientific libraries for data processing and visualization. This connector is able to open a communication path between
 these two instruments and to combine the advantages they provide at a minimal development cost.
+
+
+---
+
+<a name="apollo"/>
+
+### :seedling: Apollo
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/apollo.svg)
+![](https://img.shields.io/github/release-date/FIWARE/apollo.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/apollo/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/apollo) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/apollo) | :books: [Documentation]((https://github.com/FIWARE/apollo/README.md) | :dart: [Roadmap]**T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+
+#### What is FIWARE Apollo?
+
+In order to allow an NGSI-LD broker to receive data sent through subscriptions by another broker, Apollo translates notifications 
+into entity creation or update requests at the NGSI-LD api. For every entity received in the data-part of a notification, the proxy 
+first tries a POST `/entities/{entityId}/attrs/` to update(and overwrite the properties) the entity. If **404 - NOT FOUND** is returned 
+by the broker, the proxy will try to create the entity via POST `/entities`.
+
+#### Why use the FIWARE Apollo?
+
+Within data spaces it may be necessary to duplicate entity information across multiple brokers. For example, a receiving broker
+may use the raw data provided via a subscription, process it to add value and then offer additional insights on that data. By 
+using a _subscribe-and-duplicate_ mechanism, the data is automatically generated within a protected context broker and 
+it is possible to permit access via a known protected data entrypoint which then adds data to a context broker.
