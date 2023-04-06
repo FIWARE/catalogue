@@ -14,7 +14,7 @@ To learn more about Data Publication, check out the
 ![](https://img.shields.io/github/release-date/conwetlab/FIWARE-CKAN-Extensions.svg)
 ![](https://img.shields.io/github/commits-since/conwetlab/FIWARE-CKAN-Extensions/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/ckan-extended/) | :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/conwetlab/FIWARE-CKAN-Extensions) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/ckan-extended)| :books: [Documentation](https://fiware-ckan-extensions.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/ckan) | :dart: [Roadmap](https://github.com/conwetlab/FIWARE-CKAN-Extensions/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 
 
