@@ -12,11 +12,11 @@ To learn more about Data Publication, check out the
 ## :seedling: APInf (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
-![License](https://img.shields.io/github/license/apinf/platform.svg)
-![](https://img.shields.io/github/release-date/apinf/platform.svg)
-![](https://img.shields.io/github/commits-since/apinf/platform/latest.svg)
+![License](https://img.shields.io/github/license/FIWARE/api-umbrella.svg)
+![](https://img.shields.io/github/release-date/FIWARE/api-umbrella.svg)
+![](https://img.shields.io/github/commits-since/FIWARE/api-umbrella/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/apinf/platform) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://apinf-fiware.readthedocs.io/en/latest/) | :page_facing_up: [Site](https://apinf.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
+| :octocat: [Git Repository](https://github.com/FIWARE/api-umbrella) | :whale: [Docker Hub](https://hub.docker.com/u/apinf/platform) | :books: [Documentation](https://apinf-fiware.readthedocs.io/en/latest/) | :page_facing_up: [Site](https://apinf.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/apinf) |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 
 
