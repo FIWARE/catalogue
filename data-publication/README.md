@@ -115,7 +115,7 @@ the Biz Ecosystem RI implements the following APIs and Open Specifications:
 ![](https://img.shields.io/github/release-date/OPSILab/Idra.svg)
 ![](https://img.shields.io/github/commits-since/OPSILab/Idra/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/u/idraopendata/idra) | :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/OPSILab/Idra) | :whale: [Docker Hub](https://hub.docker.com/r/idraopendata/idra/) | :books: [Documentation](https://idra.rtfd.io/) | :page_facing_up: [Site](https://idra.eng.it/) | :dart: [Roadmap](https://github.com/OPSILab/Idra/blob/master/roadmap.md) |
 | ----------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ |
 
 
