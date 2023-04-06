@@ -60,9 +60,17 @@ without the need of installing new extensions or restarting the platform.
 ![](https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/business-api-ecosystem) | :books: [Documentation](https://business-api-ecosystem.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/Business-API-Ecosystem) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-apis) | :books: [Documentation](https://business-api-ecosystem.rtfd.io/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/data-publication/business-api) | :dart: [Roadmap](https://github.com/FIWARE-TMForum/Business-API-Ecosystem/blob/master/roadmap.md) |
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
+| Logic Proxy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-logic-proxy) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-logic-proxy) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
+
+| Charging Backend  | :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-charging-backend) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-charging-backend) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
+
+| RSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :octocat: [Git Repository](https://github.com/FIWARE-TMForum/business-ecosystem-rss) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/biz-ecosystem-rss) |
+|--- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | 
 
 ### What is the Business API Ecosystem?
 
