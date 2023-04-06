@@ -44,7 +44,7 @@ local people, which in turn generate move tax money for the city to develop bett
 
 <a name="coatrack"/>
 
-## :new: CoatRack (Incubated)
+## :seedling: CoatRack (Incubated)
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
 ![License](https://img.shields.io/github/license/coatrack/coatrack.svg)
