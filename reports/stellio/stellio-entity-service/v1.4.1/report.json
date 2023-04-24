@@ -1,14 +1,24 @@
 {
     "image": "stellio/stellio-entity-service:v1.4.1",
     "unapproved": [
-        "CVE-2020-28928",
-        "CVE-2022-37434",
-        "CVE-2018-25032",
-        "CVE-2022-0778",
+        "ALPINE-13661",
         "CVE-2022-28391",
-        "ALPINE-13661"
+        "CVE-2018-25032",
+        "CVE-2022-37434",
+        "CVE-2020-28928",
+        "CVE-2022-0778"
     ],
     "vulnerabilities": [
+        {
+            "featurename": "busybox",
+            "featureversion": "1.33.1-r6",
+            "vulnerability": "CVE-2022-28391",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28391",
+            "severity": "Medium",
+            "fixedby": "1.33.1-r7"
+        },
         {
             "featurename": "zlib",
             "featureversion": "1.2.11-r3",
@@ -30,16 +40,6 @@
             "fixedby": "3.3.3p1-r3"
         },
         {
-            "featurename": "busybox",
-            "featureversion": "1.33.1-r6",
-            "vulnerability": "CVE-2022-28391",
-            "namespace": "alpine:v3.14",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28391",
-            "severity": "Medium",
-            "fixedby": "1.33.1-r7"
-        },
-        {
             "featurename": "musl",
             "featureversion": "1.2.2-r3",
             "vulnerability": "CVE-2020-28928",
@@ -50,16 +50,6 @@
             "fixedby": "1.2.2_pre2-r0"
         },
         {
-            "featurename": "zlib",
-            "featureversion": "1.2.11-r3",
-            "vulnerability": "CVE-2022-37434",
-            "namespace": "alpine:v3.14",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37434",
-            "severity": "Unknown",
-            "fixedby": "1.2.12-r2"
-        },
-        {
             "featurename": "busybox",
             "featureversion": "1.33.1-r6",
             "vulnerability": "ALPINE-13661",
@@ -68,6 +58,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=ALPINE-13661",
             "severity": "Unknown",
             "fixedby": "1.33.1-r7"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.11-r3",
+            "vulnerability": "CVE-2022-37434",
+            "namespace": "alpine:v3.14",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37434",
+            "severity": "Unknown",
+            "fixedby": "1.2.12-r2"
         }
     ]
 }
