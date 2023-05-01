@@ -5,15 +5,16 @@
 
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
 are part of [FIWARE](https://www.fiware.org/developers/) and allow users and developers to easily navigate to the
-relevant source code repositories, documentation and Docker images.
+relevant source code repositories, documentation and container registry images on **Docker Hub** or **quay.io**.
+
+
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and
 developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
 
-| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [developer.&ZeroWidthSpace;fiware.org](https://www.fiware.org/developers/) | :books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-
+| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) |  
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | 
 
 ## Contents
 
@@ -355,12 +356,11 @@ same FIWARE release label should be completely interoperable and work nicely wit
 | ------------------------------------- | ----------------------------------------------------------------------------- |
 
 
-As well as source-code repositories and binaries, relevant components are available as Docker images and Helm-chart
+As well as source-code repositories and binaries, relevant components are available as container registry images and Helm-chart
 recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
 semantics that will be used by applications both to consume and to publish data.
-
-| [![Docker Hub](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)](https://hub.docker.com/u/fiware)<br>[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians: &nbsp; [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> [Smart Data Models](https://smartdatamodels.org) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ![](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)<br>[Docker Hub](https://hub.docker.com/u/fiware) | ![](https://img.shields.io/badge/quay.io-fiware-grey?logo=red%20hat&labelColor=EE0000)<br>[quay.io](https://quay.io/organization/fiware) | ![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)<br>[Artifact Hub](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians:<br> [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> <br> [Smart Data Models](https://smartdatamodels.org) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --- | --- |
 
 
 ## Testing
@@ -415,6 +415,9 @@ Public License.
 Additional permission is given to reproduce the texts found within the root project under the Creative Commons
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) License.
 
+<details>
+<summary><strong>Further information on the use of the GPL or AGPL open source license</strong></summary>
+
 ### Some FIWARE Components are distributed under GPL or AGPL open source licenses … Is it safe for me to use?
 
 Absolutely. Issues with GPL (or AGPL) licenses are mostly related with the fact that different people assign different
@@ -436,3 +439,5 @@ paragraph is valid for this purpose as per the report produced by Across Legal/I
 
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
 FIWARE Generic Enablers under a GPL, AGPL or any other open source license.
+    
+</details
