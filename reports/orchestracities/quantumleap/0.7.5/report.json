@@ -1,19 +1,19 @@
 {
     "image": "orchestracities/quantumleap:0.7.5",
     "unapproved": [
-        "CVE-2019-15903",
-        "CVE-2020-28928",
-        "CVE-2021-36159",
-        "CVE-2021-30139",
         "CVE-2021-28831",
-        "CVE-2020-8177",
-        "CVE-2020-8231",
-        "CVE-2019-5482",
+        "CVE-2020-28928",
         "CVE-2021-22898",
+        "CVE-2020-8169",
+        "CVE-2019-5482",
+        "CVE-2020-8231",
+        "CVE-2020-8177",
         "CVE-2019-5481",
-        "CVE-2020-8286",
         "CVE-2020-8285",
-        "CVE-2020-8169"
+        "CVE-2020-8286",
+        "CVE-2021-30139",
+        "CVE-2021-36159",
+        "CVE-2019-15903"
     ],
     "vulnerabilities": [
         {
@@ -37,26 +37,6 @@
             "fixedby": "7.66.0-r0"
         },
         {
-            "featurename": "expat",
-            "featureversion": "2.2.7-r0",
-            "vulnerability": "CVE-2019-15903",
-            "namespace": "alpine:v3.10",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15903",
-            "severity": "Medium",
-            "fixedby": "2.2.7-r1"
-        },
-        {
-            "featurename": "apk-tools",
-            "featureversion": "2.10.4-r2",
-            "vulnerability": "CVE-2021-30139",
-            "namespace": "alpine:v3.10",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30139",
-            "severity": "Medium",
-            "fixedby": "2.10.6-r0"
-        },
-        {
             "featurename": "busybox",
             "featureversion": "1.30.1-r2",
             "vulnerability": "CVE-2021-28831",
@@ -69,12 +49,22 @@
         {
             "featurename": "curl",
             "featureversion": "7.65.1-r0",
-            "vulnerability": "CVE-2020-8177",
+            "vulnerability": "CVE-2020-8169",
             "namespace": "alpine:v3.10",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8177",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8169",
             "severity": "Medium",
             "fixedby": "7.66.0-r1"
+        },
+        {
+            "featurename": "apk-tools",
+            "featureversion": "2.10.4-r2",
+            "vulnerability": "CVE-2021-30139",
+            "namespace": "alpine:v3.10",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30139",
+            "severity": "Medium",
+            "fixedby": "2.10.6-r0"
         },
         {
             "featurename": "curl",
@@ -85,6 +75,16 @@
             "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8231",
             "severity": "Medium",
             "fixedby": "7.66.0-r2"
+        },
+        {
+            "featurename": "curl",
+            "featureversion": "7.65.1-r0",
+            "vulnerability": "CVE-2020-8177",
+            "namespace": "alpine:v3.10",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8177",
+            "severity": "Medium",
+            "fixedby": "7.66.0-r1"
         },
         {
             "featurename": "apk-tools",
@@ -99,16 +99,6 @@
         {
             "featurename": "curl",
             "featureversion": "7.65.1-r0",
-            "vulnerability": "CVE-2020-8286",
-            "namespace": "alpine:v3.10",
-            "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8286",
-            "severity": "Medium",
-            "fixedby": "7.66.0-r3"
-        },
-        {
-            "featurename": "curl",
-            "featureversion": "7.65.1-r0",
             "vulnerability": "CVE-2020-8285",
             "namespace": "alpine:v3.10",
             "description": "",
@@ -119,12 +109,22 @@
         {
             "featurename": "curl",
             "featureversion": "7.65.1-r0",
-            "vulnerability": "CVE-2020-8169",
+            "vulnerability": "CVE-2020-8286",
             "namespace": "alpine:v3.10",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8169",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8286",
             "severity": "Medium",
-            "fixedby": "7.66.0-r1"
+            "fixedby": "7.66.0-r3"
+        },
+        {
+            "featurename": "expat",
+            "featureversion": "2.2.7-r0",
+            "vulnerability": "CVE-2019-15903",
+            "namespace": "alpine:v3.10",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15903",
+            "severity": "Medium",
+            "fixedby": "2.2.7-r1"
         },
         {
             "featurename": "curl",
