@@ -221,3 +221,6 @@
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
+[submodule "core/o2k-connector"]
+	path = core/o2k-connector
+	url = https://github.com/Engineering-Research-and-Development/o2k-connector
