@@ -519,7 +519,7 @@ it is possible to permit access via a known protected data entrypoint which then
 
 #### What is the O2K-Connector?
 
-O2K-Connector is a lightweight connector, built in Python, that enables context data sharing from Orion Context Broker 
+O2K-Connector is a lightweight connector, written in Python, that enables context data sharing from Orion Context Broker 
 towards Apache Kafka, supporting both NGSI-V2 and NGSI-LD interfaces. The connector supports both HTTP and MQTT protocols 
 communication to be easily integrated in the most common industrial scenarios.
 
