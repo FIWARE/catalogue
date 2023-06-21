@@ -502,3 +502,29 @@ Within data spaces it may be necessary to duplicate entity information across mu
 may use the raw data provided via a subscription, process it to add value and then offer additional insights on that data. By 
 using a _subscribe-and-duplicate_ mechanism, the data is automatically generated within a protected context broker and 
 it is possible to permit access via a known protected data entrypoint which then adds data to a context broker.
+
+---
+
+<a name="o2k-connector"/>
+
+### :seedling: O2K Connector
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/o2k-connector.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/o2k-connector.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/o2k-connector/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/o2k-connector) | :whale: **T.B.D** | :books: [Documentation](Engineering-Research-and-Development/o2k-connector/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+#### What is the O2K-Connector?
+
+O2K-Connector is a lightweight connector, built in Python, that enables context data sharing from Orion Context Broker 
+towards Apache Kafka, supporting both NGSI-V2 and NGSI-LD interfaces. The connector supports both HTTP and MQTT protocols 
+communication to be easily integrated in the most common industrial scenarios.
+
+#### Why use the O2K-Connector?
+Using O2K-Connector offers several benefits. Firstly, it simplifies the integration process between FIWARE and Apache 
+technologies by providing an  efficient solution for data forwarding, eliminating the need for complex and time-consuming 
+custom integration efforts. Secondly, O2K-Connector ensures reliable and scalable data transfer, allowing for real-time 
+processing and analysis of data in Apache Kafka by supporting the faster and lighter MQTT  Orion subscription.
