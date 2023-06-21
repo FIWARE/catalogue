@@ -168,6 +168,8 @@ The following is a list of Generic Enablers under incubation within the area of 
     developers to connect and push context data to any NGSI compliant context broker
 -   The [PySpark Connector](https://github.com/Engineering-Research-and-Development/fiware-orion-pyspark-connector)
     Generic Enabler creates a data bridge between context brokers and PySpark
+-   The [O2K Connector](https://github.com/Engineering-Research-and-Development/o2k-connector)
+    Generic Enabler that enables context data sharing from any NGSI Context Broker towards Apache Kafka
 -   The [Apollo](https://github.com/FIWARE/apollo) Generic Enabler creates entities based on notifications
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
