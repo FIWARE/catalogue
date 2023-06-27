@@ -218,3 +218,21 @@
 [submodule "core/o2k-connector"]
 	path = core/o2k-connector
 	url = https://github.com/Engineering-Research-and-Development/o2k-connector
+[submodule "security/trusted-issuers-list"]
+	path = security/trusted-issuers-list
+	url = https://github.com/FIWARE/trusted-issuers-list
+[submodule "security/dsba-pdp"]
+	path = security/dsba-pdp
+	url = https://github.com/FIWARE/dsba-pdp
+[submodule "security/vc-verifier"]
+	path = security/vc-verifier
+	url = https://github.com/FIWARE/VCVerifier
+[submodule "security/keycloak-vc-issuer"]
+	path = security/keycloak-vc-issuer
+	url = https://github.com/FIWARE/keycloak-vc-issuer
+[submodule "security/credentials-config-service"]
+	path = security/credentials-config-service
+	url = https://github.com/FIWARE/credentials-config-service
+[submodule "security/trusted-issuers-registry"]
+	path = security/trusted-issuers-registry
+	url = https://github.com/FIWARE/trusted-issuers-registry
