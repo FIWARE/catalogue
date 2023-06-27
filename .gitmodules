@@ -212,12 +212,6 @@
 [submodule "robotics/iotagent-opcua"]
 	path = robotics/iotagent-opcua
 	url = https://github.com/Engineering-Research-and-Development/iotagent-opcua.git
-[submodule "api-management/apinf/api-umbrella"]
-	path = api-management/apinf/api-umbrella
-	url = https://github.com/FIWARE/api-umbrella
-[submodule "api-management/apinf/apinf"]
-	path = api-management/apinf/apinf
-	url = https://github.com/apinf/platform
 [submodule "third-party/domibus"]
 	path = third-party/domibus
 	url = https://ec.europa.eu/digital-building-blocks/code/scm/edelivery/domibus.git
