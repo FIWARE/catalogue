@@ -271,6 +271,9 @@ development time by avoiding the need to implement and test bespoke secure syste
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-list)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-list.svg)
 
+| :octocat: [Git Repository](https://github.com/FIWARE/trusted-issuers-list) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/trusted-issuers-registry) | :books: [Documentation](https://github.com/FIWARE/trusted-issuers-list/blob/main/README.md) | 
+| --- | --- | --- |
+
 ### What is the Trusted Issuers List Service  ?
 
 The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework. In addition, a Trusted Issuers List API to manage the issuers is provided.   
@@ -279,9 +282,9 @@ The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry imple
 
 In an DSBA-compliant framework, the Verifier has to check for incoming [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) that the corresponding issuer is allowed to issue:
 
--  the given type of credential
--  with the given claims
--  and at the current time
+-   the given type of credential
+-   with the given claims
+-   and at the current time
 
 To do so, it requires a service that provides this information
 
@@ -293,6 +296,9 @@ To do so, it requires a service that provides this information
 ![License](https://img.shields.io/github/license/FIWARE/dsba-pdp.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/dsba-pdp)
 ![](https://img.shields.io/github/tag/FIWARE/dsba-pdp.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/dsba-pdp) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/dsba-pdp) | :books: [Documentation](https://github.com/FIWARE/dsba-pdp/blob/main/README.md) | 
+| --- | --- | --- |
 
 ### What is the DSBA PDP  ?
 
@@ -315,6 +321,9 @@ are able to create policies in common across a data space.
 ![](https://img.shields.io/github/last-commit/FIWARE/VCVerifier)
 ![](https://img.shields.io/github/tag/FIWARE/VCVerifier.svg)
 
+| :octocat: [Git Repository](https://github.com/FIWARE/VCVerifier) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/vcverifier) | :books: [Documentation](https://github.com/FIWARE/VCVerifier/blob/main/README.md) | 
+| --- | --- | --- |
+
 ### What is VCVerifier ?
 
 VCVerifier provides the necessary endpoints(see API) to offer SIOP-2/OIDC4VP compliant authentication flows. 
@@ -336,6 +345,9 @@ access to services.
 ![](https://img.shields.io/github/last-commit/FIWARE/keycloak-vc-issuer)
 ![](https://img.shields.io/github/tag/FIWARE/keycloak-vc-issuer.svg)
 
+| :octocat: [Git Repository](https://github.com/FIWARE/keycloak-vc-issuer) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/keycloak-vc-issuer) | :books: [Documentation](https://github.com/FIWARE/keycloak-vc-issuer/blob/main/README.md) | 
+| --- | --- | --- |
+
 ### What is the Keycloak VC-Issuer ?
 
 The Keycloak-VC-Issuer is plugin for [Keycloak](https://www.keycloak.org/) to support SIOP-2/ OIDC4VP clients and 
@@ -356,6 +368,9 @@ is able to issue a credential.
 ![](https://img.shields.io/github/last-commit/FIWARE/credentials-config-service)
 ![](https://img.shields.io/github/tag/FIWARE/credentials-config-service.svg)
 
+| :octocat: [Git Repository](https://github.com/FIWARE/credentials-config-service) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/credentials-config-service) | :books: [Documentation](https://github.com/FIWARE/credentials-config-service/blob/main/README.md) | 
+| --- | --- | --- |
+
 ### What is the Credentials Config Service ?
 
 The Credentials Config Service manages and provides information about services and the credentials they are using. It returns 
@@ -367,8 +382,8 @@ certain service.
 In an DSBA-compliant framework, a Verifier is responsible to communicate with wallets and verify the credentials they provide.
 To get this done, it needs information about:
 
--  the credentials to be requested from a wallet
--  the credentials and claims an issuer is allowed to issue
+-   the credentials to be requested from a wallet
+-   the credentials and claims an issuer is allowed to issue
   
 To do so, it requires a service that provides such information
 
@@ -380,6 +395,9 @@ To do so, it requires a service that provides such information
 ![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-registry.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-registry)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-registry.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/trusted-issuers-registry) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/trusted-issuers-registry) | :books: [Documentation](https://github.com/FIWARE/trusted-issuers-registry/blob/main/README.md) | 
+| --- | --- | --- |
 
 ### What is the Trusted Issuers Registry ?
 
