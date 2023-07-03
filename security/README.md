@@ -274,7 +274,12 @@ development time by avoiding the need to implement and test bespoke secure syste
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-list)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-list.svg)
 
+### What is the Trusted Issuers List Service  ?
+
 The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework. In addition, a Trusted Issuers List API to manage the issuers is provided.   
+
+### What is the Trusted Issuers List Service ?
+
 
 <a name="dbsa-pdp"/>
 
@@ -285,7 +290,11 @@ The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry imple
 ![](https://img.shields.io/github/last-commit/FIWARE/dsba-pdp)
 ![](https://img.shields.io/github/tag/FIWARE/dsba-pdp.svg)
 
+### What is the DSBA PDP  ?
+
 Implementation of a Policy-Desicion Point, evaluating Json-Web-Tokens containing VerifiableCredentials in an DSBA-compliant way. It also supports the evaluation in the context of i4Trust. 
+
+### Why use the DSBA PDP ?
 
 <a name="vc-verifier"/>
 
@@ -296,7 +305,11 @@ Implementation of a Policy-Desicion Point, evaluating Json-Web-Tokens containing
 ![](https://img.shields.io/github/last-commit/FIWARE/VCVerifier)
 ![](https://img.shields.io/github/tag/FIWARE/VCVerifier.svg)
 
+### What is VCVerifier ?
+
 VCVerifier provides the necessary endpoints(see API) to offer SIOP-2/OIDC4VP compliant authentication flows. It exchanges VerfiableCredentials for JWT, that can be used for authorization and authentication in down-stream components.
+
+### Why use VCVerifier ?
 
 <a name="keycloak-vc-issuer"/>
 
@@ -307,7 +320,11 @@ VCVerifier provides the necessary endpoints(see API) to offer SIOP-2/OIDC4VP com
 ![](https://img.shields.io/github/last-commit/FIWARE/keycloak-vc-issuer)
 ![](https://img.shields.io/github/tag/FIWARE/keycloak-vc-issuer.svg)
 
-The Keycloak-VC-Issuer is plugin for Keycloak to support SIOP-2/ OIDC4VP clients and issue VerifiableCredentials through the OIDC4VCI-Protocol to compliant wallets.  
+### What is the Keycloak VC-Issuer ?
+
+The Keycloak-VC-Issuer is plugin for Keycloak to support SIOP-2/ OIDC4VP clients and issue VerifiableCredentials through the OIDC4VCI-Protocol to compliant wallets. 
+
+### Why use the Keycloak VC-Issuer ?
 
 <a name="credentials-config-service"/>
 
@@ -318,7 +335,11 @@ The Keycloak-VC-Issuer is plugin for Keycloak to support SIOP-2/ OIDC4VP clients
 ![](https://img.shields.io/github/last-commit/FIWARE/credentials-config-service)
 ![](https://img.shields.io/github/tag/FIWARE/credentials-config-service.svg)
 
+### What is the Credentials Config Service ?
+
 The Credentials Config Service manages and provides information about services and the credentials they are using. It returns the scope to be requested from the wallet per service and the credentials and issuers that are considered to be trusted for a certain service. 
+
+### Why use the Credentials Config Service ?
 
 <a name="trusted-issuers-registry"/>
 
@@ -329,5 +350,8 @@ The Credentials Config Service manages and provides information about services a
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-registry)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-registry.svg)
 
+### What is the Trusted Issuers Registry ?
+
 The Trusted Issuers Registry provides both an EBSI Trusted Issuers Registry implementation and an iShare implementation. The service provides data from an NGSI-LD compliant backend and configuration files.
 
+### Why use the Trusted Issuers Registry ?
