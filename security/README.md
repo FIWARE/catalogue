@@ -261,3 +261,73 @@ account became temporarily blocked, a recover procedure password, a second facto
 
 Additional security checks and features improve the security and usability of a system, SPASSWORD helps to reduce
 development time by avoiding the need to implement and test bespoke secure system functions.
+
+
+
+
+<a name="trusted-issuers-list-service"/>
+
+## :seedling: Trusted Issuers List Service  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-list.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-list)
+![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-list.svg)
+
+The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework. In addition, a Trusted Issuers List API to manage the issuers is provided.   
+
+<a name="dbsa-pdp"/>
+
+## :seedling: DSBA PDP  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/dsba-pdp.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/dsba-pdp)
+![](https://img.shields.io/github/tag/FIWARE/dsba-pdp.svg)
+
+Implementation of a Policy-Desicion Point, evaluating Json-Web-Tokens containing VerifiableCredentials in an DSBA-compliant way. It also supports the evaluation in the context of i4Trust. 
+
+<a name="vc-verifier"/>
+
+## :seedling: VC-Verifier  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/VCVerifier.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/VCVerifier)
+![](https://img.shields.io/github/tag/FIWARE/VCVerifier.svg)
+
+VCVerifier provides the necessary endpoints(see API) to offer SIOP-2/OIDC4VP compliant authentication flows. It exchanges VerfiableCredentials for JWT, that can be used for authorization and authentication in down-stream components.
+
+<a name="keycloak-vc-issuer"/>
+
+## :seedling: Keycloak VC-Issuer  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/keycloak-vc-issuer.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/keycloak-vc-issuer)
+![](https://img.shields.io/github/tag/FIWARE/keycloak-vc-issuer.svg)
+
+The Keycloak-VC-Issuer is plugin for Keycloak to support SIOP-2/ OIDC4VP clients and issue VerifiableCredentials through the OIDC4VCI-Protocol to compliant wallets.  
+
+<a name="credentials-config-service"/>
+
+## :seedling: Credentials Config Service  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/credentials-config-service.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/credentials-config-service)
+![](https://img.shields.io/github/tag/FIWARE/credentials-config-service.svg)
+
+The Credentials Config Service manages and provides information about services and the credentials they are using. It returns the scope to be requested from the wallet per service and the credentials and issuers that are considered to be trusted for a certain service. 
+
+<a name="trusted-issuers-registry"/>
+
+## :seedling: Trusted Issuers Registry  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-registry.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-registry)
+![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-registry.svg)
+
+The Trusted Issuers Registry provides both an EBSI Trusted Issuers Registry implementation and an iShare implementation. The service provides data from an NGSI-LD compliant backend and configuration files.
+
