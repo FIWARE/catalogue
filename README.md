@@ -323,6 +323,19 @@ The following is a list of Generic Enablers under incubation within the area of 
     [SCIM v1.1](https://developer.okta.com/docs/reference/scim/scim-11/) standard
 -   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
     that enables extra security checks over user passwords
+-   [Trusted Issuers List Service](https://github.com/FIWARE/trusted-issuers-list) provides an EBSI Trusted Issuers Registry
+    implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework.
+-   [DSBA PDP](https://github.com/FIWARE/dsba-pdp) is a Policy-Desicion Point, evaluating Json-Web-Tokens
+    containing VerifiableCredentials in an DSBA-compliant way. It also supports the evaluation in the context of i4Trust.
+-   [VC-Verifier](https://github.com/FIWARE/VCVerifier) provides the necessary endpoints to offer SIOP-2/OIDC4VP
+    compliant authentication flows. It exchanges VerfiableCredentials for JWT, that can be used for authorization and authentication
+-   [Keycloak VC-Issuer](https://github.com/FIWARE/keycloak-vc-issuer) is a plugin for Keycloak to support SIOP-2/ OIDC4VP
+    clients and issue VerifiableCredentials through the OIDC4VCI-Protocol to compliant wallets.
+-   [Credentials Config Service](https://github.com/FIWARE/credentials-config-service) manages and provides information about
+    services and the credentials they are using. It returns the scope to be requested from the wallet per service and the credentials
+    and issuers that are considered to be trusted for a certain service.
+-   [Trusted Issuers Registry](https://github.com/FIWARE/trusted-issuers-registry) provides both an EBSI Trusted Issuers
+    Registry implementation and an iShare implementation.
 
 Further information can be found on dedicated pages linked to [Context Data/API Management](./api-management/README.md),
 [Publication and Monetization](./data-publication/README.md) and [Security](./security/README.md)
