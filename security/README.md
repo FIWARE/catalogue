@@ -261,3 +261,149 @@ account became temporarily blocked, a recover procedure password, a second facto
 
 Additional security checks and features improve the security and usability of a system, SPASSWORD helps to reduce
 development time by avoiding the need to implement and test bespoke secure system functions.
+
+<a name="trusted-issuers-list-service"/>
+
+## :seedling: Trusted Issuers List Service  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-list.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-list)
+![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-list.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/trusted-issuers-list) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/trusted-issuers-registry) | :books: [Documentation](https://github.com/FIWARE/trusted-issuers-list/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is the Trusted Issuers List Service  ?
+
+The Trusted-Issuers-List Service provides an EBSI Trusted Issuers Registry implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework. In addition, a Trusted Issuers List API to manage the issuers is provided.   
+
+### Why used the Trusted Issuers List Service ?
+
+In an DSBA-compliant framework, the Verifier has to check for incoming [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) that the corresponding issuer is allowed to issue:
+
+-   the given type of credential
+-   with the given claims
+-   and at the current time
+
+To do so, it requires a service that provides this information
+
+<a name="dbsa-pdp"/>
+
+## :seedling: DSBA PDP  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/dsba-pdp.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/dsba-pdp)
+![](https://img.shields.io/github/tag/FIWARE/dsba-pdp.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/dsba-pdp) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/dsba-pdp) | :books: [Documentation](https://github.com/FIWARE/dsba-pdp/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is the DSBA PDP  ?
+
+Implementation of a Policy-Desicion Point, evaluating Json-Web-Tokens containing [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) s in an DSBA-compliant way. It also supports the evaluation in the context of i4Trust. 
+
+### Why use the DSBA PDP ?
+
+A Policy Decision Point (PDP) is a mechanism that restricts access to resources by comparing them to a security policy. The
+permit/deny mechanism ensure than only authorised users are able to access a given resource. This PDP for data spaces uses 
+well-defined policy structures found within JWTs, where the policy structure follows the reccommendations made by the Data 
+Spaces Business Alliance ((DSBA)[https://data-spaces-business-alliance.eu/]) and therefore ensuring that multiple organisations
+are able to create policies in common across a data space.
+
+<a name="vc-verifier"/>
+
+## :seedling: VC-Verifier  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/VCVerifier.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/VCVerifier)
+![](https://img.shields.io/github/tag/FIWARE/VCVerifier.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/VCVerifier) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/vcverifier) | :books: [Documentation](https://github.com/FIWARE/VCVerifier/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is VCVerifier ?
+
+VCVerifier provides the necessary endpoints(see API) to offer SIOP-2/OIDC4VP compliant authentication flows. 
+It exchanges [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) for a JSON Web Token ([JWT](https://jwt.io/)), 
+that can be used for authorization and authentication in down-stream components.
+
+### Why use VCVerifier ?
+
+The JWT used for a Verifiable Credential is not the same JWT that can be used for authorization and authentication.
+The component reads in a Verifiable Credential and replaces it with an authorisation policy which can be used to permit 
+access to services.
+
+<a name="keycloak-vc-issuer"/>
+
+## :seedling: Keycloak VC-Issuer  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/keycloak-vc-issuer.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/keycloak-vc-issuer)
+![](https://img.shields.io/github/tag/FIWARE/keycloak-vc-issuer.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/keycloak-vc-issuer) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/keycloak-vc-issuer) | :books: [Documentation](https://github.com/FIWARE/keycloak-vc-issuer/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is the Keycloak VC-Issuer ?
+
+The Keycloak-VC-Issuer is plugin for [Keycloak](https://www.keycloak.org/) to support SIOP-2/ OIDC4VP clients and 
+issue [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) through the OIDC4VCI-Protocol to compliant wallets. 
+
+### Why use the Keycloak VC-Issuer ?
+
+Issuance of Verified credentials is an essential step in creating a common data space. Effectively creating a digital club
+card allowing a user to access various services. This plugin extends the existing Keycloak service so that Keycloak itself
+is able to issue a credential.
+
+<a name="credentials-config-service"/>
+
+## :seedling: Credentials Config Service  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/credentials-config-service.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/credentials-config-service)
+![](https://img.shields.io/github/tag/FIWARE/credentials-config-service.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/credentials-config-service) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/credentials-config-service) | :books: [Documentation](https://github.com/FIWARE/credentials-config-service/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is the Credentials Config Service ?
+
+The Credentials Config Service manages and provides information about services and the credentials they are using. It returns 
+the scope to be requested from the wallet per service and the credentials and issuers that are considered to be trusted for a 
+certain service. 
+
+### Why use the Credentials Config Service ?
+
+In an DSBA-compliant framework, a Verifier is responsible to communicate with wallets and verify the credentials they provide.
+To get this done, it needs information about:
+
+-   the credentials to be requested from a wallet
+-   the credentials and claims an issuer is allowed to issue
+  
+To do so, it requires a service that provides such information
+
+<a name="trusted-issuers-registry"/>
+
+## :seedling: Trusted Issuers Registry  (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-registry.svg)
+![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-registry)
+![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-registry.svg)
+
+| :octocat: [Git Repository](https://github.com/FIWARE/trusted-issuers-registry) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/trusted-issuers-registry) | :books: [Documentation](https://github.com/FIWARE/trusted-issuers-registry/blob/main/README.md) | 
+| --- | --- | --- |
+
+### What is the Trusted Issuers Registry ?
+
+The Trusted Issuers Registry provides both an EBSI Trusted Issuers Registry implementation and an iShare implementation. 
+The service provides data from an NGSI-LD compliant backend and configuration files.
+
+### Why use the Trusted Issuers Registry ?
+
+A Trusted Issuers Registry (TIR) is a decentralised registry for storing information about trusted issuers, such as public information and accreditations. The TIR stores all information within a smart contract in the form of Verifiable Accreditations, which are issued by Trust Chain participants or self-issued. Issuers can then designate proxies for credential verification that can be used to assess the validity of the credential or check whether it has been revoked.
