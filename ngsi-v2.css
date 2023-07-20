@@ -1,0 +1,4 @@
+.wy-side-nav-search a.icon-home:before {
+  content:url('https://img.shields.io/badge/NGSI-v2-5dc0cf.svg');
+  display: block !important;
+}
