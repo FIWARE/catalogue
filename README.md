@@ -162,6 +162,8 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
+-   [Mintaka](https://github.com/FIWARE/mintakas) is an add-on to the [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) providing an
+    implementation of the NGSI-LD temporal retrieval API.
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
 -   The [NGSI.js Library](https://github.com/ficodes/ngsijs) provides a series of JavaScript functions allowing
@@ -323,6 +325,8 @@ The following is a list of Generic Enablers under incubation within the area of 
     [SCIM v1.1](https://developer.okta.com/docs/reference/scim/scim-11/) standard
 -   [Keystone SPASSWORD](https://github.com/telefonicaid/fiware-keystone-spassword) is an OpenStack Keystone extension
     that enables extra security checks over user passwords
+-   [Anubis](https://github.com/orchestracities/anubis) is an RBAC Policy Execution Point that makes easier to reuse security
+    policies across different services
 -   [Trusted Issuers List Service](https://github.com/FIWARE/trusted-issuers-list) provides an EBSI Trusted Issuers Registry
     implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework.
 -   [DSBA PDP](https://github.com/FIWARE/dsba-pdp) is a Policy-Desicion Point, evaluating Json-Web-Tokens
