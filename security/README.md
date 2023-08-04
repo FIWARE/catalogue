@@ -164,7 +164,7 @@ these federated networks, or data spaces.
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-pep-steelskin.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-pep-steelskin/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-pep-steelskin) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/pep-steelskin) | :books: [Documentation](https://github.com/telefonicaid/fiware-pep-steelskin#README.md) |
 | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 
 
@@ -197,7 +197,7 @@ secured resource itself.
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/keypass) | :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
 
 
@@ -247,7 +247,7 @@ running Keystone installation and enhance the functionality of it.
 ![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-spassword)
 ![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-spassword.svg)
 
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | :whale: [Docker Hub](https://hub.docker.com/r/telefonicaiot/fiware-keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keystone-spassword) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/keystone-spassword) | :books: [Documentation](https://github.com/telefonicaid/fiware-keystone-spassword/README.md) |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 
 
@@ -261,6 +261,38 @@ account became temporarily blocked, a recover procedure password, a second facto
 
 Additional security checks and features improve the security and usability of a system, SPASSWORD helps to reduce
 development time by avoiding the need to implement and test bespoke secure system functions.
+
+<a name="anubis"/>
+
+## :seedling: Anubis (Incubated)
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-keypass) |  <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/anubis)| :books: [Documentation](telefonicaid/fiware-keypass#readme.md) |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
+
+
+### What is Anubis?
+
+Anubis is a flexible Policy Enforcement solution that makes easier to reuse security policies across different services, assuming the policies entail the same resource. In short we are dealing with policy portability.
+
+### Why use Anubis?
+
+Data portability often focuses on the mechanisms to exchange data and the formalisation of data representation: the emphasis is rarely put on the portability of security & privacy data policies. Enabling security and privacy data policy portability is clearly a step forward in enabling data sovereignty across different services.
+
+This project aims at enabling data sovereignty by introducing data privacy and security policy portability and prototyping distributed data privacy and security policy management, thus contributing to increase trust toward data sharing APIs and platforms.
+
+Approaches as the one proposed, increasing control by owners over their data and portability of data assets, are key to boost the establishment of trusted data spaces.
+
+The project is looking into
+
+-  Open standardized security & privacy data policies vocabulary.
+Linking an existing user profiling vocabulary to the security & privacy data policies vocabulary as a way to increase portability of policies and their compatibility to existing standards.
+-  A middleware supporting decentralised control and audit of security & privacy data policies by data owners (in the context of RESTful APIs).
+-  Translation from the security & privacy data policies vocabulary to other policy languages or APIs that are actually used for PEP.
 
 <a name="trusted-issuers-list-service"/>
 

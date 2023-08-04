@@ -236,3 +236,9 @@
 [submodule "security/trusted-issuers-registry"]
 	path = security/trusted-issuers-registry
 	url = https://github.com/FIWARE/trusted-issuers-registry
+[submodule "security/anubis"]
+	path = security/anubis
+	url = https://github.com/orchestracities/anubis
+[submodule "core/mintaka"]
+	path = core/mintaka
+	url = https://github.com/FIWARE/mintaka
