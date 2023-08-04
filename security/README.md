@@ -289,10 +289,12 @@ Approaches as the one proposed, increasing control by owners over their data and
 
 The project is looking into
 
--  Open standardized security & privacy data policies vocabulary.
-Linking an existing user profiling vocabulary to the security & privacy data policies vocabulary as a way to increase portability of policies and their compatibility to existing standards.
--  A middleware supporting decentralised control and audit of security & privacy data policies by data owners (in the context of RESTful APIs).
--  Translation from the security & privacy data policies vocabulary to other policy languages or APIs that are actually used for PEP.
+-   Open standardized security & privacy data policies vocabulary.
+    Linking an existing user profiling vocabulary to the security & privacy data policies vocabulary as a way to increase portability of policies and their compatibility to existing standards.
+-   A middleware supporting decentralised control and audit of security & privacy data
+    policies by data owners (in the context of RESTful APIs).
+-   Translation from the security & privacy data policies vocabulary to other policy
+    languages or APIs that are actually used for PEP.
 
 <a name="trusted-issuers-list-service"/>
 
