@@ -135,7 +135,7 @@ are available:
     
 ##### NGSI-LD Context Broker Feature Comparison
 
-The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.6.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.06.01_60/gs_CIM009v010601p.pdf) which was  published in **September 2022**. 
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.7.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.07.01_60/gs_cim009v010701p.pdf) which was  published in **June 2023**. 
 
 -   An Excel file detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub?output=xlsx)
     
