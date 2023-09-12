@@ -1,9 +1,9 @@
 set -e
 
-NAME="iot-agents/iotagent-ultralight" 
-SOURCE="telefonicaiot/iotagent-ul"
-DOCKER_TARGET="fiware/iotagent-ul"
-QUAY_TARGET="quay.io/fiware/iotagent-ul"
+NAME="security/keyrock" 
+SOURCE="ging/fiware-idm"
+DOCKER_TARGET="fiware/idm"
+QUAY_TARGET="quay.io/fiware/idm"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 

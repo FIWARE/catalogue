@@ -5,10 +5,11 @@ SOURCE="orchestracities/quantumleap"
 DOCKER_TARGET="fiware/quantum-leap"
 QUAY_TARGET="quay.io/fiware/quantumleap"
 
-
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
 VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
@@ -33,8 +34,4 @@ for i in "$@" ; do
     echo ""
 done
 
-for i in "$@" ; do
-    if [[ $i == "clean" ]]; then
-        docker rmi -f $(docker images -a -q) | true
-    fi
-done
+

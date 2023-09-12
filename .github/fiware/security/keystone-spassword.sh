@@ -1,9 +1,9 @@
 set -e
 
-NAME="iot-agents/iotagent-ultralight" 
-SOURCE="telefonicaiot/iotagent-ul"
-DOCKER_TARGET="fiware/iotagent-ul"
-QUAY_TARGET="quay.io/fiware/iotagent-ul"
+NAME="security/keystone-spassword" 
+SOURCE="telefonicaiot/fiware-keystone-spassword"
+DOCKER_TARGET="fiware/keystone-spassword"
+QUAY_TARGET="quay.io/fiware/keystone-spassword"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
@@ -28,11 +28,9 @@ function clone {
 for i in "$@" ; do
     if [[ $i == "docker" ]]; then
         clone "$SOURCE" "$VERSION" "$DOCKER_TARGET" true
-        clone "$SOURCE" "$VERSION"-distroless "$DOCKER_TARGET"
     fi
     if [[ $i == "quay" ]]; then
         clone "$SOURCE" "$VERSION" "$QUAY_TARGET" true
-        clone "$SOURCE" "$VERSION"-distroless "$QUAY_TARGET"
     fi
     echo ""
 done
