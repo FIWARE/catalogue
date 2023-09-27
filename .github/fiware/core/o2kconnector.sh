@@ -1,17 +1,17 @@
 set -e
 
 NAME="core/o2k-connector" 
-SOURCE="telefonicaiot/o2kconnector"
+SOURCE="rdlabengpa/o2k-connector"
 DOCKER_TARGET="fiware/o2kconnector"
 QUAY_TARGET="quay.io/fiware/o2kconnector"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSION=${VERSIONv#"v"}
 
-echo "NOT DONE - $VERSION"
-exit 0
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
