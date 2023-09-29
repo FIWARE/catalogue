@@ -2,8 +2,8 @@ set -e
 
 NAME="core/o2k-connector" 
 SOURCE="rdlabengpa/o2k-connector"
-DOCKER_TARGET="fiware/o2kconnector"
-QUAY_TARGET="quay.io/fiware/o2kconnector"
+DOCKER_TARGET="fiware/o2k-connector"
+QUAY_TARGET="quay.io/fiware/o2k-connector"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
