@@ -1,17 +1,17 @@
 set -e
 
-NAME="data-publication/business-api/usage-management" 
-SOURCE="telefonicaiot/usage-management"
-DOCKER_TARGET="fiware/usage-management"
-QUAY_TARGET="quay.io/fiware/usage-management"
+NAME="core/pyspark-connector" 
+SOURCE="rdlabengpa/fiware-orion-pyspark-connector"
+DOCKER_TARGET="fiware/pyspark-connector"
+QUAY_TARGET="quay.io/fiware/pyspark-connector"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSION=${VERSIONv#"v"}
 
-echo "NOT DONE - $VERSION"
-exit 0
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"

@@ -1,9 +1,9 @@
 set -e
 
-NAME="data-publication/business-api/product-inventory" 
-SOURCE="telefonicaiot/product-inventory"
-DOCKER_TARGET="fiware/product-inventory"
-QUAY_TARGET="quay.io/fiware/product-inventory"
+NAME="data-publication/business-api/logic-proxy" 
+SOURCE="fiware/biz-ecosystem-logic-proxy"
+DOCKER_TARGET="fiware/biz-ecosystem-logic-proxy"
+QUAY_TARGET="quay.io/fiware/biz-ecosystem-logic-proxy"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 

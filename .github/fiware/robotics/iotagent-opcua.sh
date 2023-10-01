@@ -1,17 +1,17 @@
 set -e
 
-NAME="data-publication/business-api/party-management" 
-SOURCE="telefonicaiot/party-management"
-DOCKER_TARGET="fiware/party-management"
-QUAY_TARGET="quay.io/fiware/party-management"
+NAME="robotics/iotagent-opcua" 
+SOURCE="iotagent4fiware/iotagent-opcua"
+DOCKER_TARGET="fiware/iotagent-opcua"
+QUAY_TARGET="quay.io/fiware/iotagent-opcua"
 
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSION=${VERSIONv#"v"}
 
-echo "NOT DONE - $VERSION"
-exit 0
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
