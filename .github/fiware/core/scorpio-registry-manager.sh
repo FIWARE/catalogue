@@ -1,13 +1,15 @@
 set -e
 
-NAME="core/cygnus" 
-SOURCE="telefonicaiot/fiware-cygnus"
-DOCKER_TARGET="fiware/cygnus-ngsi"
-QUAY_TARGET="quay.io/fiware/cygnus-ngsi"
+NAME="core/scorpio" 
+SOURCE="scorpiobroker/registry-manager"
+DOCKER_TARGET="fiware/scorpio-registry-manager"
+QUAY_TARGET="quay.io/fiware/scorpio-registry-manager"
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+
+VERSION=`echo ${VERSIONv} | sed 's/-.*//'`
 
 echo "VERSION - $VERSION"
 
@@ -26,11 +28,14 @@ function clone {
 
 for i in "$@" ; do
     if [[ $i == "docker" ]]; then
-        clone "$SOURCE" "$VERSION" "$DOCKER_TARGET" true
+        clone "$SOURCE" java-kafka-"$VERSION" "$DOCKER_TARGET" true
+        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$DOCKER_TARGET" || true
     fi
     if [[ $i == "quay" ]]; then
-        clone "$SOURCE" "$VERSION" "$QUAY_TARGET" true
+        clone "$SOURCE" java-kafka-"$VERSION" "$QUAY_TARGET" true
+        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$QUAY_TARGET"
     fi
     echo ""
 done
+
 

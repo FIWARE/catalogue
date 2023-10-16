@@ -1,16 +1,17 @@
 set -e
 
 NAME="core/scorpio" 
-SOURCE="scorpiobroker/all-in-one-runner"
-DOCKER_TARGET="fiware/scorpio"
-QUAY_TARGET="quay.io/fiware/scorpio"
+SOURCE="scorpiobroker/history-query-manager"
+DOCKER_TARGET="fiware/scorpio-history-query"
+QUAY_TARGET="quay.io/fiware/scorpio-history-query"
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
 
-echo "NOT DONE - $VERSION"
-exit 0
+VERSION=`echo ${VERSIONv} | sed 's/-.*//'`
+
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
@@ -27,10 +28,12 @@ function clone {
 
 for i in "$@" ; do
     if [[ $i == "docker" ]]; then
-        clone "$SOURCE" "$VERSION" "$DOCKER_TARGET" true
+        clone "$SOURCE" java-kafka-"$VERSION" "$DOCKER_TARGET" true
+        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$DOCKER_TARGET" || true
     fi
     if [[ $i == "quay" ]]; then
-        clone "$SOURCE" "$VERSION" "$QUAY_TARGET" true
+        clone "$SOURCE" java-kafka-"$VERSION" "$QUAY_TARGET" true
+        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$QUAY_TARGET"
     fi
     echo ""
 done
