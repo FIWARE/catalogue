@@ -2,15 +2,14 @@ set -e
 
 NAME="core/stellio" 
 SOURCE="stellio/stellio-api-gateway"
-DOCKER_TARGET="fiware/stellio"
-QUAY_TARGET="quay.io/fiware/stellio"
+DOCKER_TARGET="fiware/stellio-api-gateway"
+QUAY_TARGET="quay.io/fiware/stellio-api-gateway"
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
 VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
 
-echo "NOT DONE - $VERSION"
-exit 0
+echo "VERSION - $VERSION"
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
