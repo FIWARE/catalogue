@@ -9,9 +9,14 @@ QUAY_TARGET="quay.io/fiware/biz-ecosystem-logic-proxy"
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
 VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+DATE=`git -C $REPOSITORY log -1 --format=%ai $VERSION | awk '{print $1}'`
 
-echo "NOT DONE - $VERSION"
-exit 0
+function dateDiff {
+    CURRENTDATE=`date +"%Y-%m-%d"`
+    echo $(((`date -jf %Y-%m-%d "$CURRENTDATE" +%s` - `date -jf %Y-%m-%d "$1" +%s`)/86400))
+}
+echo "$SOURCE - $VERSION - $(dateDiff $DATE) days old."
+
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
