@@ -2,22 +2,18 @@
 
 MY_PATH="`dirname \"$0\"`"
 
-git submodule update --recursive --remote
+# git submodule update --recursive --remote
 
 for file in "$MY_PATH/$1"/*.sh
 do
     if [[ $file == *"/x-"* ]]; then
       if [[ "$2" ]]; then
         echo "Skipping: '$file'"
-      else
-         echo "Reporting: '$file'"
+        $file
       fi
-      $file
     else
       if [[ "$2" ]]; then
         echo "Cloning Enabler: '$file'"
-      else
-         echo "Reporting: '$file'"
       fi
       $file $2 $3 $4
     fi

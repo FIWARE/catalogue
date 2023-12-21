@@ -10,9 +10,13 @@ TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
 VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
 
 VERSION=`echo ${VERSIONv} | sed 's/-.*//'`
+DATE=`git -C $REPOSITORY log -1 --format=%ai $VERSIONv | awk '{print $1}'`
 
-echo "VERSION - $VERSION"
-
+function dateDiff {
+    CURRENTDATE=`date +"%Y-%m-%d"`
+    echo $(((`date -jf %Y-%m-%d "$CURRENTDATE" +%s` - `date -jf %Y-%m-%d "$1" +%s`)/86400))
+}
+echo "$SOURCE - $VERSION - $(dateDiff $DATE) days old."
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
    docker pull -q "$1":"$2"
