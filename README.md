@@ -137,7 +137,7 @@ are available:
 
 The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.7.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.07.01_60/gs_cim009v010701p.pdf) which was  published in **June 2023**. 
 
--   A spreadshee detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
+-   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
     
 -   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
 
