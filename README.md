@@ -55,7 +55,7 @@ FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integra
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
 specifications have evolved over time, initially matching
 [NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/), now aligning with the
-[ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
+[ETSI NGSI-LD standard](https://www.etsi.org/committee/). The FIWARE Community plays an active role in the evolution
 of ETSI NGSI-LD specifications which were based on NGSI-v2 and commits to deliver compatible open source implementations
 of the specs.
 
@@ -135,7 +135,7 @@ are available:
     
 ##### NGSI-LD Context Broker Feature Comparison
 
-The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.7.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.07.01_60/gs_cim009v010701p.pdf) which was  published in **June 2023**. 
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.8.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.08.01_60/gs_cim009v010801p.pdf) which was  published in **March 2024**. 
 
 -   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
     
