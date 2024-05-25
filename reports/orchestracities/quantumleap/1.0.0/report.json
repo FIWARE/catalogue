@@ -1,20 +1,20 @@
 {
     "image": "orchestracities/quantumleap:1.0.0",
     "unapproved": [
-        "CVE-2023-42366",
+        "CVE-2023-46219",
         "CVE-2023-46218",
-        "CVE-2023-46219"
+        "CVE-2023-42366"
     ],
     "vulnerabilities": [
         {
-            "featurename": "busybox",
-            "featureversion": "1.36.1-r2",
-            "vulnerability": "CVE-2023-42366",
+            "featurename": "curl",
+            "featureversion": "8.4.0-r0",
+            "vulnerability": "CVE-2023-46219",
             "namespace": "alpine:v3.18",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42366",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219",
             "severity": "Unknown",
-            "fixedby": "1.36.1-r6"
+            "fixedby": "8.5.0-r0"
         },
         {
             "featurename": "curl",
@@ -27,14 +27,14 @@
             "fixedby": "8.5.0-r0"
         },
         {
-            "featurename": "curl",
-            "featureversion": "8.4.0-r0",
-            "vulnerability": "CVE-2023-46219",
+            "featurename": "busybox",
+            "featureversion": "1.36.1-r2",
+            "vulnerability": "CVE-2023-42366",
             "namespace": "alpine:v3.18",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42366",
             "severity": "Unknown",
-            "fixedby": "8.5.0-r0"
+            "fixedby": "1.36.1-r6"
         }
     ]
 }
