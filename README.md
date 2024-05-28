@@ -17,9 +17,12 @@ FIWARE **Discord Channel**
 | <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) | <img width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> <br/> [Discord Channel](https://discord.gg/ZWvTUfepHr)
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 
-
+<div align="center">
+ 
 | <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit24.png" width="240" height="70" /></a> |
 | --- |
+
+</div>
 
 <!---  GLOBAL SUMMIT BANNER AD
 | <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit23.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.com/e/fiware-on-site-training-tickets-591474775977"><img src="https://fiware.github.io//catalogue/img/Training23.png" width="240" height="70" /></a> |
