@@ -2,8 +2,8 @@
     "image": "orchestracities/quantumleap:1.0.0",
     "unapproved": [
         "CVE-2023-42366",
-        "CVE-2023-46218",
-        "CVE-2023-46219"
+        "CVE-2023-46219",
+        "CVE-2023-46218"
     ],
     "vulnerabilities": [
         {
@@ -19,20 +19,20 @@
         {
             "featurename": "curl",
             "featureversion": "8.4.0-r0",
-            "vulnerability": "CVE-2023-46218",
+            "vulnerability": "CVE-2023-46219",
             "namespace": "alpine:v3.18",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219",
             "severity": "Unknown",
             "fixedby": "8.5.0-r0"
         },
         {
             "featurename": "curl",
             "featureversion": "8.4.0-r0",
-            "vulnerability": "CVE-2023-46219",
+            "vulnerability": "CVE-2023-46218",
             "namespace": "alpine:v3.18",
             "description": "",
-            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218",
             "severity": "Unknown",
             "fixedby": "8.5.0-r0"
         }

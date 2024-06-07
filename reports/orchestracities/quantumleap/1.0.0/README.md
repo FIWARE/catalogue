@@ -13,5 +13,5 @@ Vulnarabilties found: 3
 | Severity | Featurename | Version | CVE | Namespace | Description | Link | Fixed by |
 |----------|-------------|---------|-----|-----------|-------------|------|----------|
 |Unknown|busybox|1.36.1-r2|CVE-2023-42366|alpine:v3.18||https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42366|1.36.1-r6|
-|Unknown|curl|8.4.0-r0|CVE-2023-46218|alpine:v3.18||https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218|8.5.0-r0|
 |Unknown|curl|8.4.0-r0|CVE-2023-46219|alpine:v3.18||https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219|8.5.0-r0|
+|Unknown|curl|8.4.0-r0|CVE-2023-46218|alpine:v3.18||https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218|8.5.0-r0|
