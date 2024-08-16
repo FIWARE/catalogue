@@ -169,31 +169,34 @@ tools and combined with other information.
 
 #### What is Stellio?
 
-Stellio is a NGSI-LD context broker implementing the API specification published by the ETSI Industry Specification
+Stellio is a NGSI-LD context broker implementing the API specification published by the ETSI Industry Specification 
 Group for Context Information Management (ISG CIM). Context information means any piece of data which is contextualized
-in time, space and in relation to other data through linked data principles.
+in time, space and in relation to other data through linked data principles.  
 
 Stellio is built around a Kafka message broker for improved extensibility, scalability and decoupling of services. These
-services embed a graph database (Neo4J) for context management as well as a timeseries (TimescaleDB) and geospatial
-(PostGIS) database to manage temporal and geospatial properties.
+services embed a PostgreSQL database for context management, enhanced with timeseries (Timescale) and geospatial (PostGIS)
+extensions to efficiently manage temporal and geospatial properties. 
 
-Stellio is developed in Kotlin and lays on the Spring Boot and Spring Cloud frameworks. It is based on a micro-services
-architecture and follows the reactive and functional paradigms.
+Stellio, developed in Kotlin, is also built upon the Spring Boot and Spring Cloud frameworks. It is based on a modular 
+architecture and follows the reactive and functional paradigms. 
 
-Stellio acts as a central broker. It currently supports major operations on context information, subscriptions and
-temporal queries and targets full compliance with the NGSI-LD specification by the end of 2020. It does not aim to
-support NGSIv1 and NGSIv2 specifications.
+Stellio acts as a central broker and is currently adding support for distributed operations. It supports major 
+operations on context information, subscriptions and temporal queries. It does not aim to support NGSIv1 and NGSIv2 specifications. 
 
 #### Why use Stellio?
 
-In order to take the full benefit of the linked data nature of the NGSI-LD data model, Stellio uses the Neo4J labelled
-property graph database for the storage of the context information. Beside benefiting from Neo4J capabilities to
-efficiently handle graph data, this provides the underlying structure to perform syntactic and semantic validation of
-data, and opens up the door to exploit and analyze the graph with graph driven data science algorithms.
+Stellio is a mature and robust context broker deployed in many production environments. It is thoroughly tested 
+and has a clean code base backed by strong quality and security checks. 
 
-In addition, Stellio includes the support of the NGSI-LD API for querying the temporal evolution of entities, as long as
-the interface for performing geospatial queries. The included TimescaleDB and PostGIS extensions of the well-known
-PostgreSQL database allow efficient queries while allowing off-the-shelves storing of large volumes of historical data.
+In addition, Stellio includes the support of the NGSI-LD API for querying the temporal evolution of entities, as long 
+as the interface for performing geospatial queries. The included Timescale and PostGIS extensions of the well-known 
+PostgreSQL database allow efficient queries while allowing off-the-shelves storing of large volumes of historical data.  
+
+By leveraging the Spring Cloud features, it can easily be deployed in cloud native environments. 
+
+Finally, Stellio has native but optional support for authentication (based on the OpenID Connect and OAuth2 protocols) 
+and authorization. It is currently validated with the use of Keycloak as the complementary identity and access management
+solution. 
 
 ---
 
