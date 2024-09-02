@@ -16,14 +16,11 @@ exit 0
 
 function clone {
    echo 'cloning from '"$1 $2"' to '"$3"
-   docker pull -q "$1":"$2"
-   docker tag "$1":"$2" "$3":"$2"
-   docker push -q "$3":"$2"
+   skopeo copy --multi-arch all docker://"$1":"$2"  docker://"$3":"$2"
    
    if ! [ -z "$4" ]; then
         echo 'pushing '"$1 $2"' to latest'
-        docker tag "$1":"$2" "$3":latest
-        docker push -q "$3":latest
+        skopeo copy --multi-arch all docker://"$1":"$2"  docker://"$3":latest
    fi
 }
 

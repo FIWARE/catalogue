@@ -11,16 +11,21 @@ relevant source code repositories, documentation and container registry images o
 
 More information about what FIWARE is and how to use it can be found within the **FIWARE Tour Guide**, the **FIWARE
 Academy** and the **Step-by-Step Tutorials**. Generic questions about FIWARE can be asked on **Ask.FIWARE** and
-developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag.
+developer-based questions can be submitted on **Stack Overflow** using the FIWARE tag, and discussions raised on the
+FIWARE **Discord Channel**
+
+
  
-| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) | 
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) | <img width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> <br/> [Discord Channel](https://discord.gg/ZWvTUfepHr)
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 
-
-<!---  GLOBAL SUMMIT BANNER AD
-| <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit23.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.com/e/fiware-on-site-training-tickets-591474775977"><img src="https://fiware.github.io//catalogue/img/Training23.png" width="240" height="70" /></a> |
+---
+<div align="center">
+ 
+| <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit24.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.de/e/fiware-tech-training-naples-tickets-920143322447"><img src="https://fiware.github.io//catalogue/img/Training24.png" width="240" height="70" /></a> |
 | --- | --- |
---->
+
+</div>
 
 ## Contents
 
@@ -55,7 +60,7 @@ FIWARE NGSI is the API exported by a FIWARE Context Broker, used for the integra
 _"Powered by FIWARE"_ platform and by applications to update or consume context information. FIWARE NGSI API
 specifications have evolved over time, initially matching
 [NGSI-v2 specifications](http://fiware.github.io/specifications/ngsiv2/stable/), now aligning with the
-[ETSI NGSI-LD standard](https://www.etsi.org/committee/cim). The FIWARE Community plays an active role in the evolution
+[ETSI NGSI-LD standard](https://www.etsi.org/committee/). The FIWARE Community plays an active role in the evolution
 of ETSI NGSI-LD specifications which were based on NGSI-v2 and commits to deliver compatible open source implementations
 of the specs.
 
@@ -135,9 +140,9 @@ are available:
     
 ##### NGSI-LD Context Broker Feature Comparison
 
-The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.7.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.07.01_60/gs_cim009v010701p.pdf) which was  published in **June 2023**. 
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.8.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.08.01_60/gs_cim009v010801p.pdf) which was  published in **March 2024**. 
 
--   An Excel file detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub?output=xlsx)
+-   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
     
 -   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
 
