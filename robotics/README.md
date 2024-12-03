@@ -64,7 +64,7 @@ The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
 
-| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/beincpps/opcuaage) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-opcua) | :whale: [Docker Hub](https://hub.docker.com/r/iotagent4fiware/iotagent-opcua) | :books: [Documentation](https://iotagent-opcua.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/Engineering-Research-and-Development/iotagent-opcua/blob/master/roadmap.md) |
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 
 
@@ -74,6 +74,37 @@ This IoT Agent is designed to be a bridge between the [OPC Unified Architecture]
 [NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
+
+## :seedling: IoT Agent for AAS
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-aas.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-aas.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-aas/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-aas) | :whale: [Docker Hub](https://hub.docker.com/r/iotagent4fiware/iotagent-aas) | :books: None | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: None |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+
+
+IoT Agent accepting data from OPC UA devices.
+
+This IoT Agent is designed to be a bridge between the [Administration Asset Shell](https://reference.opcfoundation.org/I4AAS/v100/docs/4.1) protocol and the
+[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
+interface. It follows the standard interaction model defined in the
+[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
+
+## :seedling: Web UI for IoT Agents
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-ui.svg)
+![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-ui.svg)
+![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-ui/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/Engineering-Research-and-Development/iotagent-ui) | :whale: [Docker Hub](https://hub.docker.com/r/iotagent4fiware/iotagent-ui-spf) | :books: None| :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: None |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+
+
+The Angular-based web Single Page Application (SPA) that enables user-friendly interaction with FIWARE IoT Agents.
 
 ## :seedling: FIROS (Incubated)
 
