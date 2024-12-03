@@ -242,3 +242,9 @@
 [submodule "core/mintaka"]
 	path = core/mintaka
 	url = https://github.com/FIWARE/mintaka
+[submodule "robotics/iotagent-aas"]
+	path = robotics/iotagent-aas
+	url = https://github.com/Engineering-Research-and-Development/iotagent-aas
+[submodule "robotics/iotagent-ui"]
+	path = robotics/iotagent-ui
+	url = https://github.com/Engineering-Research-and-Development/iotagent-ui
