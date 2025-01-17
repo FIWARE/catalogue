@@ -1,15 +1,15 @@
 set -e
 
-NAME="core/scorpio" 
-SOURCE="scorpiobroker/history-entity-manager"
-DOCKER_TARGET="fiware/scorpio-history-entity"
-QUAY_TARGET="quay.io/fiware/scorpio-history-entity"
+NAME="robotics/iotagent-aas" 
+SOURCE="iotagent4fiware/iotagent-aas"
+DOCKER_TARGET="fiware/iotagent-aas"
+QUAY_TARGET="quay.io/fiware/iotagent-aas"
+
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
 VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
-
-VERSION=`echo ${VERSIONv} | sed 's/-.*//'`
+VERSION=${VERSIONv#"v"}
 DATE=`git -C $REPOSITORY log -1 --format=%ai $VERSIONv | awk '{print $1}'`
 
 function dateDiff {
@@ -30,12 +30,10 @@ function clone {
 
 for i in "$@" ; do
     if [[ $i == "docker" ]]; then
-        clone "$SOURCE" java-kafka-"$VERSION" "$DOCKER_TARGET" true
-#        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$DOCKER_TARGET" || true
+        clone "$SOURCE" "$VERSION" "$DOCKER_TARGET" true
     fi
     if [[ $i == "quay" ]]; then
-        clone "$SOURCE" java-kafka-"$VERSION" "$QUAY_TARGET" true
-#        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$QUAY_TARGET" || true
+        clone "$SOURCE" "$VERSION" "$QUAY_TARGET" true
     fi
     echo ""
 done
