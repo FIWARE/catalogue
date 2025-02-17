@@ -25,6 +25,7 @@ jobs:
 
     strategy:
       fail-fast: false
+      max-parallel: 6
       matrix:
         containers: ${{fromJson(needs.get-containers.outputs.container-matrix)}}
 
