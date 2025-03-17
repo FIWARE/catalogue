@@ -21,6 +21,12 @@ FIWARE **Discord Channel**
 
 ---
 
+
+<div align="center">
+<a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit25.png" width="240" height="70" /></a>
+</div>
+
+
 <!--
 <div align="center">
  
