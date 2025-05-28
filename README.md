@@ -21,12 +21,12 @@ FIWARE **Discord Channel**
 
 ---
 
-<div align="center">
+<!--div align="center">
  
 | <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit25.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.co.uk/e/fiware-global-summit-2025-rabat-smart-city-morocco-tickets-1249129843989"><img src="https://fiware.github.io//catalogue/img/Training25.png" width="240" height="70" /></a> |
 | --- | --- |
 
-</div>
+</div-->
 
 
 ## Contents
