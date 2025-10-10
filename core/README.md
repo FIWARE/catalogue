@@ -531,3 +531,59 @@ Using O2K-Connector offers several benefits. Firstly, it simplifies the integrat
 technologies by providing an  efficient solution for data forwarding, eliminating the need for complex and time-consuming 
 custom integration efforts. Secondly, O2K-Connector ensures reliable and scalable data transfer, allowing for real-time 
 processing and analysis of data in Apache Kafka by supporting the faster and lighter MQTT  Orion subscription.
+
+<a name="filip"/>
+
+### :seedling: FiLip
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/RWTH-EBC/FiLiP.svg)
+![](https://img.shields.io/github/release-date/RWTH-EBC/FiLiP.svg)
+![](https://img.shields.io/github/commits-since/RWTH-EBC/FiLiP/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/RWTH-EBC/FiLiP) | :whale: **T.B.D** | :books: [Documentation](https://github.com/RWTH-EBC/FiLiP/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+#### What is FiLip?
+
+FiLiP (Fiware Library for Python) is a python software development kit (SDK) for accelerating the development of web services that use Fiware's Generic Enablers (GEs) as backend.
+
+It is mainly based on the Pydantic package which is a sophisticated library for data validation and settings management using python type annotations. Pydantic enforces type hints at runtime, and provides user friendly errors when data is invalid. We mainly use the Pydantic model to build our own data model structure required for efficient data model parsing and validation and interaction with FIWARE services' RestAPIs.
+
+For API interaction, FiLiP relies on the well-known requests package. It is important to understand that we do not in any way restrict any features of requests.
+
+Furthermore, FiLiP is designed to help with the fast development of FIWARE-based applications and avoid hundreds of lines of boilerplate, but it cannot substitute learning the basic concepts behind the used FIWARE components.
+
+Currently, FiLiP supports APIs from Orion, LD-Brokers, IoT-Agents and Quantumleap. 
+
+#### Why use FiLip?
+
+The motivation for creating  a client library rather than relying on an auto-generated from the Open API spec is as follows:
+
+-  Auto-generated code tends to become rather bulky and its quality strongly depends on the provided input data.
+-  Manipulating generated code can result in a big hassle for maintenance if additional features need to be integrated.
+-  The underlying NGSI (Next Generation Service Interface) for FIWARE is a rather generic specification. Hence, generated models
+   may also be   of generic types as lists and dicts in Python. So there is no real benefit. Furthermore, there is no chance for
+   reasonable validation and error handling.
+
+<a name="entirety"/>
+
+### :seedling: Entirety
+
+[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/N5GEH/n5geh.tools.entirety.svg)
+![](https://img.shields.io/github/release-date/N5GEH/n5geh.tools.entirety.svg)
+![](https://img.shields.io/github/commits-since/N5GEH/n5geh.tools.entirety.svg)
+
+| :octocat: [Git Repository](https://github.com/N5GEH/n5geh.tools.entirety) | :whale: **T.B.D** | :books: [Documentation](https://github.com/N5GEH/n5geh.tools.entirety/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+#### What is Entirety?
+
+Entirety is a web-based graphical user interface (GUI) meant to provide easy access to some of FIWARE's Generic Enablers (GE) without requiring deeper knowledge on their APIs: Context Brokers like Orion and the IoT Agent JSON. Entirety is python-based and relies on the FIWARE Library for Python (FiLiP) for the communication with the GE APIs.
+
+Entirety holds modules (as displayed on the left hand side of the GUI) providing features to perform CRUD (create, read, update, delete) operations to entities in the Context Broker, devices in the IoT Agent, and subscriptions / notifications to QuantumLeap or other applications. Furthermore, Entirety provides a graphical overview of the semantic relationships between entities in the Semantics module as well as a store for standardized data models that can be either created or imported from external sources.
+
+#### Why use Entirety?
+
+Entirety simplifies the process of updating context data and displays relationships between entities allowing for simpler interactions between components.
