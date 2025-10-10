@@ -52,7 +52,7 @@ jobs:
         cd ../..
 
         cd security/trusted-issuers-registry
-        git checkout 0.3.4
+        git checkout 0.11.1
         cd ../..
 
         git add -A .
