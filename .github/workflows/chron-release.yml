@@ -33,11 +33,11 @@ jobs:
         
         cd core/apollo
         git checkout 0.0.20
-        cd ../../..
+        cd ../..
 
         cd core/quantum-leap
         git checkout 1.0.0
-        cd ../../..
+        cd ../..
 
         cd data-publication/business-api/charging-backend
         git checkout 10.4.0
@@ -45,15 +45,15 @@ jobs:
 
         cd robotics/Fast-DDS
         git checkout v3.3.0
-        cd ../../..
+        cd ../..
 
         cd security/dsba-pdp
         git checkout 1.2.0
-        cd ../../..
+        cd ../..
 
         cd security/trusted-issuers-registry
         git checkout 0.3.4
-        cd ../../..
+        cd ../..
 
         git add -A .
         git commit -m "Merge master into releases" -a
