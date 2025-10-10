@@ -248,3 +248,9 @@
 [submodule "robotics/iotagent-ui"]
 	path = robotics/iotagent-ui
 	url = https://github.com/Engineering-Research-and-Development/iotagent-ui
+[submodule "core/filip"]
+	path = core/filip
+	url = https://github.com/RWTH-EBC/FiLiP
+[submodule "core/entirety"]
+	path = core/entirety
+	url = https://github.com/N5GEH/n5geh.tools.entirety
