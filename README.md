@@ -180,6 +180,8 @@ The following is a list of Generic Enablers under incubation within the area of 
 -   The [O2K Connector](https://github.com/Engineering-Research-and-Development/o2k-connector)
     Generic Enabler that enables context data sharing from any NGSI Context Broker towards Apache Kafka
 -   The [Apollo](https://github.com/FIWARE/apollo) Generic Enabler creates entities based on notifications
+-   The [FiLiP]([https://github.com/RWTH-EBC/FiLiP)) is a python software development kit for FIWARE Components
+-   The [Entirety](https://github.com/N5GEH/n5geh.tools.entirety) Generic Enabler is a web-based GUI for context broker interactions
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
