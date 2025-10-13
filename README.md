@@ -152,10 +152,6 @@ The NGSI-LD Specification is regularly updated published by ETSI. The latest spe
 
 Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
--   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is enables a means of managing the
-    history of context which is created as a stream of data and can be injected into multiple data sinks, including many
-    popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data platforms such as Hadoop, Storm
-    or Spark. The component is based on Apache Flume
 -   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an alternative data persistence mechanism for
     managing the history of context. It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and
@@ -164,8 +160,6 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
     integrated with popular Big Data platforms (Spark and Flink).
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
--   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
-    short-term history of context data (typically months) on MongoDB
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
@@ -201,19 +195,10 @@ context updates:
 
     -   [IoT Agent for JSON](https://github.com/telefonicaid/iotagent-json) - a bridge between HTTP/MQTT messaging (with
         a JSON payload) and NGSI
-    -   [IoT Agent for LWM2M](https://github.com/telefonicaid/lightweightm2m-iotagent) - a bridge between the
-        [Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and
-        NGSI
-    -   [IoT Agent for Ultralight](https://github.com/telefonicaid/iotagent-ul) - a bridge between HTTP/MQTT messaging
-        (with an UltraLight2.0 payload) and NGSI
     -   [IoT Agent for LoRaWAN](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) - a bridge between the
         [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and NGSI
     -   [IoT Agent for OPC-UA](https://github.com/Engineering-Research-and-Development/iotagent-opcua) - a bridge
         between the [OPC Unified Architecture](http://www.opcua.us/) protocol and NGSI
-    -   [IoT Agent for Sigfox](https://github.com/telefonicaid/sigfox-iotagent) - a bridge between the
-        [Sigfox](https://www.sigfox.com/en) protocol and NGSI
-    -   [IoT Agent for ISOXML](https://github.com/FIWARE/iotagent-isoxml) - a bridge between the ISOXML/ADAPT protocol
-        for agricultural machinery and NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT
         Agent.
 
@@ -440,7 +425,7 @@ supporting the operations of the FIWARE Lab.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2023 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2025 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General
@@ -474,4 +459,4 @@ paragraph is valid for this purpose as per the report produced by Across Legal/I
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
 FIWARE Generic Enablers under a GPL, AGPL or any other open source license.
     
-</details
+</details>
