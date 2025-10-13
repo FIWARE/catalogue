@@ -487,11 +487,11 @@ Currently, FiLiP supports APIs from Orion, LD-Brokers, IoT-Agents and Quantumlea
 
 The motivation for creating  a client library rather than relying on an auto-generated from the Open API spec is as follows:
 
--  Auto-generated code tends to become rather bulky and its quality strongly depends on the provided input data.
--  Manipulating generated code can result in a big hassle for maintenance if additional features need to be integrated.
--  The underlying NGSI (Next Generation Service Interface) for FIWARE is a rather generic specification. Hence, generated models
-   may also be   of generic types as lists and dicts in Python. So there is no real benefit. Furthermore, there is no chance for
-   reasonable validation and error handling.
+-   Auto-generated code tends to become rather bulky and its quality strongly depends on the provided input data.
+-   Manipulating generated code can result in a big hassle for maintenance if additional features need to be integrated.
+-   The underlying NGSI (Next Generation Service Interface) for FIWARE is a rather generic specification. Hence, generated models
+    may also be   of generic types as lists and dicts in Python. So there is no real benefit. Furthermore, there is no chance for
+    reasonable validation and error handling.
 
 <a name="entirety"/>
 
