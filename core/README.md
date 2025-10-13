@@ -473,7 +473,7 @@ processing and analysis of data in Apache Kafka by supporting the faster and lig
 
 #### What is FiLip?
 
-FiLiP (Fiware Library for Python) is a python software development kit (SDK) for accelerating the development of web services that use Fiware's Generic Enablers (GEs) as backend.
+FiLiP (FIWARE Library for Python) is a python software development kit (SDK) for accelerating the development of web services that use Fiware's Generic Enablers (GEs) as backend.
 
 It is mainly based on the Pydantic package which is a sophisticated library for data validation and settings management using python type annotations. Pydantic enforces type hints at runtime, and provides user friendly errors when data is invalid. We mainly use the Pydantic model to build our own data model structure required for efficient data model parsing and validation and interaction with FIWARE services' RestAPIs.
 
