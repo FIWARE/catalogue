@@ -163,7 +163,7 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
--   [Mintaka](https://github.com/FIWARE/mintakas) is an add-on to the [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) providing an
+-   [Mintaka](https://github.com/FIWARE/mintaka) is an add-on to the [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) providing an
     implementation of the NGSI-LD temporal retrieval API.
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
@@ -210,19 +210,13 @@ The following is a list of Generic Enablers under incubation within the area of 
 
 -   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento, making
     media processing easier to program.
--   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
-    the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented
-    as part of the product.
 -   The [Fast DDS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
     middleware in [ROS2](https://index.ros.org/doc/ros2/), the widely known Robot Operating System, therefore it helps
     to interface with ROS2-based robotics systems.
 -   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
     [DDS](https://www.omg.org/spec/DDS) middleware, adapted to run in extremely constrained resource devices (e.g.
     micro-controllers).
--   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
-    domain and the cloud, transforming [ROS](https://www.ros.org/) messages into NGSI v2 and vice versa.
--   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
-    users to exchange electronic data and documents with one another in a reliable and trusted way.
+
 -   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation
     gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1)
     IoT platforms.
@@ -256,24 +250,12 @@ Further information can be found on dedicated pages linked to
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./data-publication/README.md)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiwa89re.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
 
-You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using Generic
-Enablers of the security chapter:
-
--   The [Keyrock Identity Management](https://github.com/ging/fiware-idm) Generic Enabler brings support to secure and
-    private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of
-    personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
--   The [Wilma PEP Proxy](https://github.com/ging/fiware-pep-proxy) Generic Enabler brings support of proxy functions
-    within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control
-    schema.
--   The [AuthZForce PDP/PAP](https://github.com/authzforce/server) Generic Enabler brings support to PDP/PAP functions
-    within an access control schema based on the XACML standard.
-
-The incorporation of components and features to support **Advanced Data Usage Control** have been introduced as part of
-FIWARE Release 7.7. For a summary of vision and current status of work in this area, please visit the usage control
-pages found at: [https://github.com/ging/fiware-usage-control](https://github.com/ging/fiware-usage-control)
+You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using the IDM of your
+choice, (such as [Keyrock](https://github.com/ging/fiware-idm/), [Keycloak](https://github.com/keycloak/keycloak), 
+[Keystone](https://github.com/openstack/keystone) etc.) supplemented by the Generic Enablers of the security chapter.
 
 This area also contains a chapter for the publication and monetization of context data resources, available through the
 core Orion Context Broker component of your platform:
@@ -291,16 +273,10 @@ core Orion Context Broker component of your platform:
 The following is a list of Generic Enablers under incubation within the area of API management, publication and
 monetization:
 
--   [APInf](https://github.com/apinf/platform) API Management Framework is a tool for API owners to manage their APIs.
-    It provides all the necessary features to run business with APIs and makes it easy for API consumers to find and
-    start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
 -   [Endpoint-Auth-Service](https://github.com/FIWARE/endpoint-auth-service) transparently adds
     authentication/authorization information to outgoing http-requests
--   [Kong Plugins](https://github.com/FIWARE/kong-plugins-fiware) extends the functionality of the
-    [Kong](https://github.com/kong/kong) API Gateway to cover additional PEP scenarios applicable to context data
-    sharing
 
 The following is a list of Generic Enablers under incubation within the area of Security:
 
