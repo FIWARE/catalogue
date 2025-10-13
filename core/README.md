@@ -500,7 +500,7 @@ The motivation for creating  a client library rather than relying on an auto-gen
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/N5GEH/n5geh.tools.entirety.svg)
 ![](https://img.shields.io/github/release-date/N5GEH/n5geh.tools.entirety.svg)
-![](https://img.shields.io/github/commits-since/N5GEH/n5geh.tools.entirety.svg)
+![](https://img.shields.io/github/commits-since/N5GEH/n5geh.tools.entirety/latest.svg)
 
 | :octocat: [Git Repository](https://github.com/N5GEH/n5geh.tools.entirety) | :whale: **T.B.D** | :books: [Documentation](https://github.com/N5GEH/n5geh.tools.entirety/README.md) | :dart: **T.B.D**|
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
