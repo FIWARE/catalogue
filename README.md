@@ -142,11 +142,11 @@ are available:
     
 ##### NGSI-LD Context Broker Feature Comparison
 
-The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.8.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.08.01_60/gs_cim009v010801p.pdf) which was  published in **March 2024**. 
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.9.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.09.01_60/gs_cim009v010901p.pdf) which was  published in **July 2025**. 
 
--   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
+-   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.9.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
     
--   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
+-   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.9.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
 
 #### Core Data Connectors
 
