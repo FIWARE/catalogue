@@ -73,25 +73,6 @@ This IoT Agent is designed to be a bridge between [JSON](https://json.org/) and 
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-## IoT Agent for Ultralight
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
-![License](https://img.shields.io/github/license/telefonicaid/iotagent-ul.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/iotagent-ul.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-ul/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/telefonicaid/iotagent-ul) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/iotagent-ul)| :books: [Documentation](https://fiware-iotagent-ul.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/iotagent-ul/blob/master/docs/roadmap.md) |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-
-
-IoT Agent for the Ultralight 2.0 protocol (with [AMQP](https://www.amqp.org/), [HTTP](https://www.w3.org/Protocols/) and
-[MQTT](https://mqtt.org/) transports)
-
-This IoT Agent is designed to be a bridge between Ultralight and the
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-interface. It follows the standard interaction model defined in the
-[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
 ## IoT Agent for LoRaWaN
 
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
@@ -111,60 +92,7 @@ the
 interface. It follows the standard interaction model defined in the
 [IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
 
-## IoT Agent for LightWeight Machine2Machine
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
-![License](https://img.shields.io/github/license/telefonicaid/lightweightm2m-iotagent.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/lightweightm2m-iotagent.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/lightweightm2m-iotagent/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/telefonicaid/lightweightm2m-iotagent) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/lightweightm2m-iotagent)| :books: [Documentation](https://fiware-iotagent-lwm2m.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/idas) | :dart: [Roadmap](https://github.com/telefonicaid/lightweightm2m-iotagent/blob/master/docs/roadmap.md) |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-
-
-IoT Agent accepting COAP requests.
-
-This IoT Agent is designed to be a bridge between the [OMA](https://www.omaspecworks.org/)
-[Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and the
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-interface. It follows the standard interaction model defined in the
-[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
-## :seedling: IoT Agent for Sigfox (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
-![License](https://img.shields.io/github/license/telefonicaid/sigfox-iotagent.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/sigfox-iotagent.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/sigfox-iotagent/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/telefonicaid/sigfox-iotagent) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/sigfox-iotagent)| :books: [Documentation](https://github.com/telefonicaid/sigfox-iotagent/tree/master/docs) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/telefonicaid/sigfox-iotagent/blob/master/docs/roadmap.md) |
-| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
-
-
-IoT Agent for the Sigfox protocol.
-
-This IoT Agent is designed to be a bridge between the [Sigfox](https://www.sigfox.com/en) protocol and the
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-interface. It follows the standard interaction model defined in the
-[IoT Agent Framework Library](https://iotagent-node-lib.rtfd.io).
-
-## :seedling: IoT Agent for ADAPT/ISOXML (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
-![License](https://img.shields.io/github/license/FIWARE/iotagent-isoxml.svg)
-![](https://img.shields.io/github/release-date/FIWARE/iotagent-isoxml.svg)
-![](https://img.shields.io/github/commits-since/FIWARE/iotagent-isoxml/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/FIWARE/iotagent-isoxml) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/iotagent-isoxml) | :books: [Documentation](https://fiware-iotagent-isoxml.readthedocs.io/) | :mortar_board: Academy : **TBD** | :dart: [Roadmap](https://github.com/FIWARE/iotagent-isoxml/blob/master/docs/roadmap.md) |
-| --------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------- |
-
-
-IoT Agent for the ISOXML/ADAPT protocol.
-
-An Internet of Things Agent for the ISO 11783 protocol (with [HTTP](https://www.w3.org/Protocols/)). This IoT Agent is
-designed to be a bridge between ISOXML/ADAPT and the
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/FIWARE/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-interface of a context broker.
+---
 
 ## Kurento
 
@@ -224,18 +152,3 @@ Openvidu is a simple (easy to deploy/ easy to use) way to have advanced media st
 is opensource, compatible with multiple frontend and backend technologies. It provides support for many media
 transmission protocols. It hides the specifics and allows you to focus in your use case and business logic.
 
-## :seedling: Open MTC (Incubated)
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
-![License](https://img.shields.io/github/license/OpenMTC/OpenMTC.svg)
-![](https://img.shields.io/github/last-commit/OpenMTC/OpenMTC.svg)
-![](https://img.shields.io/github/tag/OpenMTC/OpenMTC.svg)
-
-| :octocat: [Git Repository](https://github.com/OpenMTC/OpenMTC) | :whale: [Docker Hub](https://hub.docker.com/u/openmtc) | :books: [Documentation](https://fiware-openmtc.readthedocs.io/) | :page_facing_up: [Site](https://www.openmtc.org/) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/iot-agents/open-mtc) |
-| -------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-
-
-A reference implementation of the [oneM2M](http://www.onem2m.org/) standard, for conducting applied research and
-developing innovative M2M and IoT applications. It offers an
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-interface for connection to the Orion Context Broker
