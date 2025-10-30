@@ -16,8 +16,9 @@ jobs:
     - name: Create local changes
       run: |
         # git submodule update --init --recursive
-        git -c submodule."core/enitrety".update=none -c submodule."data-publication/idra".update=none submodule update --init --recursive
-        git submodule update --recursive --remote
+        # git  -c submodule."data-publication/idra".update=none submodule update --init --recursive
+        git submodule update --init
+        git submodule update --remote
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
