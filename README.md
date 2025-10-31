@@ -134,9 +134,9 @@ are available:
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
     supports both NGSI-LD and the NGSI-v2 APIs.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
-    Broker which can also be used in federated environments
+    Broker which can also be used in federated environments.
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
-    alternative NGSI-LD Broker
+    alternative NGSI-LD Broker which can also be used in federated environments and implements an optional Keycloak connection allowing fine-grained access control to the NGSI-LD entities.
     
     
 ##### NGSI-LD Context Broker Feature Comparison
