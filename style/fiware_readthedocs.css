@@ -1,0 +1,892 @@
+/* highlight styles */
+@import url("https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.6#038;subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://www.fiware.org/style/Fonts/fontawesome/css/fontawesome.min.css");
+@import url("https://www.fiware.org/style/Fonts/fontawesome/css/all.css");
+@import url("monokai_sublime_.css");
+@import url("pygments-monokai.css");
+
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696969;
+}
+
+p {
+  margin-bottom: 0px !important;
+  padding-bottom: 10px;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+a {
+  font-weight: 500;
+  color: #002e67 !important;
+}
+
+a:hover {
+  color: #002e67;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+  color: #002e67 !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 18px;
+  box-shadow: none !important;
+  border-top: 1px solid #a8a8a8 !important;
+  padding: 15px 0px 0px 0px !important;
+  margin: 40px 0px 10px 0px !important;
+}
+
+h1>img,
+h2>img,
+h3>img,
+h4>img,
+h5>img,
+h6>img {
+  margin-bottom: 0px !important;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  border-top: none !important;
+}
+
+h3 {
+  font-size: 16px;
+  border-top: none !important;
+  padding-top: 0px !important;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  color: #777 !important;
+  border-top: none !important;
+  padding-top: 0px !important;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+h1:first-of-type+ul,
+h2:first-of-type+ul {
+  display: none;
+}
+
+hr {
+  width: auto;
+}
+
+div[role="navigation"] hr {
+  box-shadow: none;
+  border-top: 1px solid #e1e4e5;
+}
+
+div[role="main"] {
+  margin-left: 0%;
+  /* margin-right:40%; */
+  max-width: 760px;
+  min-height: 65vh;
+}
+
+/* Menu */
+nav.wy-nav-side {
+  background-color: #f4fbfc !important;
+  padding-bottom: 0 !important;
+  height: 100% !important;
+}
+
+nav>div.wy-menu.wy-menu-vertical>ul>li>a {
+  font-size: 0.81rem !important;
+  font-weight: 700 !important;
+  color: #002e67 !important;
+  text-transform: uppercase;
+}
+
+nav>div.wy-menu.wy-menu-vertical>ul>li.current>a {
+  font-size: 0.81rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  background-color: #002e67 !important;
+}
+
+.wy-menu-vertical .subnav a {
+  font-weight: 500 !important;
+  padding: 0.4045em 1.618em;
+}
+
+nav>div.wy-menu.wy-menu-vertical>ul>li>a:hover {
+  color: #ffffff !important;
+  /*font-weight: 500 !important;*/
+}
+
+.wy-menu-vertical {
+  padding-bottom: 25%;
+}
+
+.wy-menu-vertical a {
+  border-bottom: 1px solid #e5f5f7;
+  /* padding: 0.4045em 1.5em; */
+}
+
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+  height: auto;
+  display: inline-block !important;
+  line-height: 1.4em;
+  padding: 1em 1.8em 0.3em;
+  margin-bottom: 0;
+  display: block;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-size: 80%;
+  white-space: break-spaces;
+}
+
+.wy-menu-vertical li.current ul {
+  border: none !important;
+}
+
+/* .wy-menu-vertical li ul {
+  background-color: #f5f5f5 !important;
+} */
+
+li.toctree-l1 {
+  position: relative;
+}
+
+li.toctree-l1:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://www.fiware.org/style/imgs/Navigation/circle-outline.svg) center center no-repeat;
+  background-size: 10px;
+  top: 4px;
+  right: 10px;
+  position: absolute;
+}
+
+li.toctree-l1:hover:after {
+  background: url(https://www.fiware.org/style/imgs/Navigation/circle-white.svg) center center no-repeat;
+  background-size: 10px;
+}
+
+li.toctree-l1.current:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://www.fiware.org/style/imgs/Navigation/circle.svg) center center no-repeat;
+  background-size: 10px;
+  top: 4px;
+  right: 10px;
+  position: absolute;
+}
+
+li.toctree-l1.current:hover:after {
+  background: url(https://www.fiware.org/style/imgs/Navigation/circle-white.svg) center center no-repeat;
+  background-size: 10px;
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+  font-weight: 700 !important;
+  border: none !important;
+}
+
+.wy-menu-vertical li.toctree-l2.current {
+  padding-bottom: 0px;
+}
+
+.wy-menu-vertical li.toctree-l3 {
+  font-size: 100%;
+  background-color: transparent !important;
+  padding-bottom: 0px !important;
+}
+
+.wy-menu-vertical li.toctree-l3.current {
+  background-color: #002e67 !important;
+  color: #ffffff !important;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+  display: block;
+  background: transparent !important;
+  padding: 0.4045em 3.5em !important;
+  font-size: 14.4px;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a:hover {
+  background-color: #002e67 !important;
+  color: #ffffff !important;
+}
+
+.wy-menu-vertical li.toctree-l1.current li.toctree-l2.current>ul {
+  display: block;
+  padding-bottom: 0;
+  background: transparent !important;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current>ul {
+  display: block;
+  padding-bottom: 5px;
+  background-color: #f4fbfc !important;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4.current {
+  padding-bottom: 0px !important;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+  background: #f4fbfc;
+  font-size: 14.4px;
+  padding: 0.4045em 3.5em !important;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a:hover {
+  background-color: #002e67 !important;
+  color: #ffffff !important;
+}
+
+/* .toctree-expand {
+  display: none !important;
+}*/
+/* .fa:before,
+.wy-menu-vertical li span.toctree-expand:before,
+.wy-menu-vertical li.on a span.toctree-expand:before,
+.wy-menu-vertical li.current > a span.toctree-expand:before,
+.rst-content .admonition-title:before,
+.rst-content h1 .headerlink:before,
+.rst-content h2 .headerlink:before,
+.rst-content h3 .headerlink:before,
+.rst-content h4 .headerlink:before,
+.rst-content h5 .headerlink:before,
+.rst-content h6 .headerlink:before,
+.rst-content dl dt .headerlink:before,
+.rst-content p.caption .headerlink:before,
+.rst-content table > caption .headerlink:before,
+.rst-content tt.download span:first-child:before,
+.rst-content code.download span:first-child:before,
+.icon:before,
+.wy-dropdown .caret:before,
+.wy-inline-validate.wy-inline-validate-success .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-info .wy-input-context:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://www.fiware.org/style/imgs/Navigation/chevron-down.svg)
+    center center no-repeat;
+  background-size: 10px;
+  top: 4px;
+  left: 0px;
+  position: absolute;
+}
+.fa-plus-square-o:before,
+.wy-menu-vertical li span.toctree-expand:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://www.fiware.org/style/imgs/Navigation/chevron-down.svg) center center no-repeat;
+  background-size: 10px;
+  top: 4px;
+  left: 14px;
+  position: absolute;
+}
+
+.fa-minus-square-o:before,
+.wy-menu-vertical li.on a span.toctree-expand:before,
+.wy-menu-vertical li.current>a span.toctree-expand:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://www.fiware.org/style/imgs/Navigation/chevron-up_blue.svg) center center no-repeat;
+  background-size: 10px;
+  top: 4px;
+  left: 14px;
+  position: absolute;
+}
+
+.wy-menu-vertical li.toctree-l1.current>a span.toctree-expand:before {
+  display: none;
+} */
+
+/* .wy-menu-vertical li.current>a button.toctree-expand,
+.wy-menu-vertical li.on a button.toctree-expand {
+  color: #002e67;
+}
+
+.wy-menu-vertical li.current>a button.toctree-expand:hover,
+.wy-menu-vertical li.on a button.toctree-expand:hover {
+  color: #fff;
+} */
+
+.wy-menu-vertical li.current {
+  background: #f4fbfc;
+  /* padding-bottom: 16px; */
+  border-right: none;
+}
+
+.wy-menu-vertical .current>a {
+  background: #f4fbfc !important;
+  color: #002e67 !important;
+}
+
+.wy-menu-vertical li.current a {
+  font-weight: 500 !important;
+  border: none !important;
+  /* padding-left: 1.618em!important; */
+}
+
+.wy-menu-vertical li.current a:hover {
+  font-weight: 500 !important;
+  background-color: #002e67;
+  color: #ffffff !important;
+}
+
+/* .wy-menu-vertical li.toctree-l1 > a[href="index.html"] {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+} */
+.wy-menu-vertical li.current>a:hover {
+  background-color: #002e67 !important;
+  border: none !important;
+}
+
+.wy-menu-vertical a:hover {
+  background-color: #002e67;
+  color: #ffffff !important;
+}
+
+.wy-menu-vertical span {
+  font-size: 0.81rem !important;
+  font-weight: 700 !important;
+  color: #002e67 !important;
+  text-transform: uppercase !important;
+}
+
+.wy-menu-vertical li.current span {
+  font-weight: 600 !important;
+  color: #002e67 !important;
+}
+
+.wy-menu-vertical li button.toctree-expand {
+  display: block;
+  float: left;
+  margin-left: -1.2em;
+  line-height: 18px;
+  color: #002e67 !important;
+  border: none;
+  background: none;
+  padding: 0
+}
+
+.wy-menu-vertical li button.toctree-expand:hover {
+  color: #fff !important;
+}
+
+.wy-menu-vertical li.current>a:hover button.toctree-expand,
+.wy-menu-vertical li.on a:hover button.toctree-expand {
+  color: #fff !important;
+}
+
+.wy-menu-vertical li.current>a button.toctree-expand,
+.wy-menu-vertical li.on a button.toctree-expand {
+  display: block;
+  line-height: 18px;
+  color: #002e67 !important;
+}
+
+.rst-versions {
+  background: #002e67 none !important;
+  border-top: 0 !important;
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+  padding: 10px 15px !important;
+  height: auto !important;
+}
+
+.rst-versions .rst-current-version {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  color: #ffffff !important;
+  background-color: #002e67 !important;
+  padding: 0px !important;
+}
+
+.rst-current-version span {
+  flex: auto !important;
+}
+
+.rst-versions a {
+  color: #fff !important;
+  /* text-decoration: underline !important; */
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+}
+
+.rst-versions a:hover {
+  color: #fff !important;
+}
+
+.rst-versions .rst-other-versions {
+  color: #fff !important;
+}
+
+.rst-versions .rst-other-versions hr {
+  border-color: #fff !important;
+}
+
+.rst-versions .rst-other-versions dt {
+  font-weight: 600 !important;
+}
+
+/* Search */
+.wy-side-nav-search {
+  clear: both !important;
+  padding: 60px 10px 24px 12px;
+  margin-bottom: 24px;
+  background-image: url("https://www.fiware.org/style/imgs/Badges/Logo_FIWARE.svg") !important;
+  background-size: auto 24px !important;
+  background-repeat: no-repeat !important;
+  background-position: 20px 20px !important;
+  background-color: #e5f5f7;
+  border-bottom-color: transparent;
+  border-bottom-width: 0px;
+  border-right: rgba(255, 255, 255, 0) solid 1px;
+  border-style: none;
+  position: sticky;
+  top: 0;
+}
+
+.wy-side-nav-search:before {
+  content: "";
+  display: none;
+}
+
+.wy-side-nav-search:after {
+  content: "";
+  display: none;
+}
+
+.wy-side-nav-search input[type="text"] {
+  border-radius: 20px;
+  background-color: #fff !important;
+  box-shadow: none;
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 10px 5px 40px;
+  margin: 16px 8px 0px 8px;
+  background-image: url("https://www.fiware.org/wp-content/uploads/ico_search.png") !important;
+  background-position: 4% !important;
+  background-repeat: no-repeat !important;
+  width: 94%;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: border-color 0.4s ease-out;
+}
+
+.wy-side-nav-search input[type="text"]:focus {
+  border: 2px solid #5dc0cf;
+  color: #000;
+  box-shadow: none;
+}
+
+.wy-side-nav-search input[type="text"]:-internal-autofill-selected {
+  appearance: none !important;
+  background-image: url("https://www.fiware.org/wp-content/uploads/ico_search.png") !important;
+  background-position: 4% !important;
+  background-repeat: no-repeat !important;
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.wy-side-nav-search input[type="text"]::placeholder {
+  color: #696969;
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+}
+
+.wy-side-nav-search input[type="text"]:active {
+  color: #000;
+}
+
+.wy-side-nav-search a {
+  background-color: transparent !important;
+}
+
+.wy-side-nav-search .version {
+  display: none;
+}
+
+/* Icon */
+
+.fa {
+  font-family: "Font Awesome 6 Free" !important;
+}
+
+.fa:before {
+  line-height: 1.7em !important;
+}
+
+.rst-versions .rst-current-version .fa {
+  font-weight: 600 !important;
+}
+
+.rst-versions.rst-badge {
+  right: 5px !important;
+  bottom: 5px !important;
+}
+
+.rst-versions.rst-badge .fa-book {
+  padding-right: 10px;
+}
+
+.rst-versions.rst-badge .fa-caret-down {
+  padding-left: 20px !important;
+}
+
+.wy-side-nav-search a.icon-home {
+  white-space: pre-wrap;
+}
+
+a.icon-home {
+  color: #000 !important;
+  white-space: pre-line !important;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+  text-align: left !important;
+  font-size: x-large !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  margin: 0 0 0 0 !important;
+  width: 100%;
+}
+
+.fa-home:before,
+.icon-home:before {
+  display: none !important;
+  /* content: none !important; */
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  border-radius: 0px;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 12px 8px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #002e67 !important;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+  box-shadow: none;
+  vertical-align: middle;
+  zoom: 1;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.btn:hover {
+  background-color: #002e67 !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.btn:visited {
+  background-color: #002e67 !important;
+  color: #fff !important;
+}
+
+.btn:visited:hover {
+  background-color: #002e67 !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Navigation Breadcrums */
+.wy-breadcrumbs {
+  text-transform: capitalize !important;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.wy-breadcrumbs li a:first-child {
+  padding-left: 0;
+  color: #002e67;
+}
+
+.wy-nav-top {
+  background-color: #002e67;
+  padding: 0px 1em;
+}
+
+.wy-nav-top>a {
+  text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: x-large;
+  text-decoration: none !important;
+}
+
+.wy-nav-top>a:hover {
+  color: #ffffff !important;
+}
+
+/* Content */
+.wy-body-for-nav {
+  background-image: none !important;
+}
+
+.wy-nav-content {
+  max-width: none !important;
+  background-color: #fff;
+}
+
+.rst-content img {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.rst-content a img {
+  background-color: transparent;
+  border-style: none;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.rst-content blockquote {
+  max-width: 100%;
+  word-break: break-spaces;
+  line-height: 24px;
+  padding: 24px 24px 15px 24px;
+  margin: 16px 0px 28px;
+  border: 0px;
+  border-left: 3px solid #5dc0cf;
+  font-weight: 500;
+  color: #5dc0cf;
+  font-style: italic;
+  background-color: #f4fbfc;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.rst-content pre {
+  margin: 0 0 24px;
+}
+
+.rst-content pre code {
+  color: #fff;
+  background-color: #333 !important;
+  border-radius: 5px;
+  padding: 16px !important;
+  word-break: break-spaces;
+}
+
+.rst-content code {
+  color: #5dc0cf;
+}
+
+code {
+  padding: 0px !important;
+  border-width: 0px !important;
+  font-family: "Roboto Mono", monospace !important;
+  background-color: transparent !important;
+  font-size: 100% !important;
+  color: #5dc0cf;
+  white-space: break-spaces !important;
+  border: none !important;
+}
+
+h1>code,
+h2>code,
+h3>code,
+h4>code {
+  font-size: 100%;
+  font-family: "Roboto Mono", monospace;
+  text-transform: none;
+}
+
+.hljs {
+  white-space: break-spaces !important;
+  font-size: 90% !important;
+}
+
+/* Tables */
+.rst-content .section .docutils {
+  overflow-x: auto !important;
+  display: block;
+  font-size: smaller;
+  line-height: 1.3em;
+}
+
+.wy-table thead,
+.rst-content table.docutils thead,
+.rst-content table.field-list thead {
+  overflow-wrap: break-word;
+  vertical-align: top;
+}
+
+tr {
+  background-color: #f4fbfc;
+}
+
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+  background-color: #e5f5f7;
+}
+
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td img {
+  background-color: transparent;
+  border-style: none;
+}
+
+.rst-content table.docutils td {
+  white-space: break-spaces;
+}
+
+.rst-content table.docutils th {
+  white-space: break-spaces;
+}
+
+td {
+  border-color: #fff !important;
+  vertical-align: top !important;
+  padding: 20px 10px !important;
+}
+
+th {
+  background-color: #002e67;
+  color: #fff;
+  border-color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  padding: 10px !important;
+}
+
+th code {
+  color: #fff !important;
+}
+
+td code {
+  font-size: small;
+}
+
+/* Bullet points */
+.wy-plain-list-disc,
+.rst-content .section ul,
+.rst-content .toctree-wrapper ul,
+article ul {
+  margin-bottom: 10px;
+}
+
+.wy-plain-list-disc li,
+.rst-content .section ul li,
+.rst-content .toctree-wrapper ul li,
+article ul li {
+  padding-bottom: 10px;
+}
+
+.wy-plain-list-disc li li,
+.rst-content .section ul li li,
+.rst-content .toctree-wrapper ul li li,
+article ul li li {
+  padding-bottom: 10px;
+}
+
+.wy-plain-list-disc li li li,
+.rst-content .section ul li li li,
+.rst-content .toctree-wrapper ul li li li,
+article ul li li li {
+  padding-bottom: 10px;
+}
+
+.wy-plain-list-disc li ul,
+.rst-content .section ul li ul,
+.rst-content .toctree-wrapper ul li ul,
+article ul li ul {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.wy-plain-list-decimal,
+.rst-content .section ol,
+.rst-content ol.arabic,
+article ol {
+  margin-bottom: 10px;
+}
+
+.wy-plain-list-decimal li,
+.rst-content .section ol li,
+.rst-content ol.arabic li,
+article ol li {
+  padding-bottom: 10px;
+}
+
+li::marker {
+  color: #002e67;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  color: #696969;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .wy-nav-content-wrap .wy-nav-content {
+    padding: 4.5em 1em 1em 1em;
+  }
+
+  div[role="main"] {
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 90% !important;
+  }
+
+  .wy-nav-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .wy-nav-top>a {
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-size: 16px;
+    text-decoration: none !important;
+  }
+
+  .rst-content img {
+    width: auto !important;
+  }
+}
+
