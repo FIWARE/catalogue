@@ -1,6 +1,6 @@
 # Catalogue<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left">
 
-![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
+![FIWARE Catalogue](https://fiware.github.io/catalogue/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
@@ -116,7 +116,7 @@ architectural chapters.
 
 ### Core Context Management
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./core/README.md)
 
 #### Core Context Broker components
 
@@ -180,10 +180,10 @@ Further information can be found on dedicated pages linked to [Core Context Mana
 
 ### Interface with IoT, Robots and Third-Party Systems
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./iot-agents/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/third-party.svg)](./third-party/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/media-streams.svg)](./iot-agents/README.md)
 
 A number of Generic Enablers are available making it easier to interface with the Internet of Things (IoT), Robots and
 Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to
@@ -225,8 +225,8 @@ Further information can be found on dedicated pages linked to [IoT Agents](./iot
 
 ### Context Processing, Analysis and Visualization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/visualization.svg)](./processing/README.md)
 
 A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the
 purpose of implementing the “smart behaviour” expected in any application:
@@ -247,10 +247,10 @@ Further information can be found on dedicated pages linked to
 
 ### Context Data/API Management, Publication and Monetization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./data-publication/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/api-management.svg)](./data-publication/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/data-publication.svg)](./data-publication/README.md)
 [![](https://nexus.lab.fiwa89re.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./security/README.md)
 
 You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using the IDM of your
 choice, (such as [Keyrock](https://github.com/ging/fiware-idm/), [Keycloak](https://github.com/keycloak/keycloak), 
@@ -315,7 +315,7 @@ Further information can be found on dedicated pages linked to [Context Data/API 
 
 ### Deployment Tools
 
-![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
+![FIWARE Catalogue](https://fiware.github.io/catalogue/badges/chapters/deployment-tools.svg)
 
 Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found
 within the descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub
@@ -353,7 +353,7 @@ same FIWARE release label should be completely interoperable and work nicely wit
 As well as source-code repositories and binaries, relevant components are available as container registry images and Helm-chart
 recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
 semantics that will be used by applications both to consume and to publish data.
-| ![](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)<br>[Docker Hub](https://hub.docker.com/u/fiware) | ![](https://img.shields.io/badge/quay.io-fiware-grey?logo=red%20hat&labelColor=EE0000)<br>[quay.io](https://quay.io/organization/fiware) | ![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)<br>[Artifact Hub](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians:<br> [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> <br> [Smart Data Models](https://smartdatamodels.org) |
+| ![](https://fiware.github.io/catalogue/badges/docker/fiware.svg)<br>[Docker Hub](https://hub.docker.com/u/fiware) | ![](https://img.shields.io/badge/quay.io-fiware-grey?logo=red%20hat&labelColor=EE0000)<br>[quay.io](https://quay.io/organization/fiware) | ![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)<br>[Artifact Hub](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians:<br> [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> <br> [Smart Data Models](https://smartdatamodels.org) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --- | --- |
 
 

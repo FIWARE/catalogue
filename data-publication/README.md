@@ -9,7 +9,7 @@ To learn more about Data Publication, check out the
 
 ## Extensions to CKAN
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/data-publication.svg)](./README.md)
 ![License](https://img.shields.io/github/license/conwetlab/FIWARE-CKAN-Extensions.svg)
 ![](https://img.shields.io/github/release-date/conwetlab/FIWARE-CKAN-Extensions.svg)
 ![](https://img.shields.io/github/commits-since/conwetlab/FIWARE-CKAN-Extensions/latest.svg)
@@ -55,7 +55,7 @@ without the need of installing new extensions or restarting the platform.
 
 ## Business API Ecosystem
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/data-monetization.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE-TMForum/Business-API-Ecosystem.svg)
 ![](https://img.shields.io/github/release-date/FIWARE-TMForum/Business-API-Ecosystem.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE-TMForum/Business-API-Ecosystem/latest.svg)
@@ -118,7 +118,7 @@ the Biz Ecosystem RI implements the following APIs and Open Specifications:
 
 ## Idra
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/data-publication.svg)](./README.md)
 ![License](https://img.shields.io/github/license/OPSILab/Idra.svg)
 ![](https://img.shields.io/github/release-date/OPSILab/Idra.svg)
 ![](https://img.shields.io/github/commits-since/OPSILab/Idra/latest.svg)

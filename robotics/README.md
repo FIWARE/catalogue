@@ -2,7 +2,7 @@
 
 ## :seedling: Fast DDS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/release-date/eProsima/Fast-RTPS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Fast-RTPS/latest.svg)
@@ -21,7 +21,7 @@ as a tool to implement DDS or use past versions of the specification.
 
 ## :seedling: Micro XRCE-DDS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./robotics/README.md)
 ![License](https://img.shields.io/github/license/eProsima/Micro-XRCE-DDS.svg)
 ![](https://img.shields.io/github/release-date/eProsima/Micro-XRCE-DDS.svg)
 ![](https://img.shields.io/github/commits-since/eProsima/Micro-XRCE-DDS/latest.svg)
@@ -59,7 +59,7 @@ The **Micro XRCE-DDS** project is part of [FIWARE](https://fiware.org/) and will
 
 ## IoT Agent for OPC UA
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-opcua.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-opcua/latest.svg)
@@ -77,7 +77,7 @@ interface. It follows the standard interaction model defined in the
 
 ## :seedling: IoT Agent for AAS
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-aas.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-aas.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-aas/latest.svg)
@@ -95,7 +95,7 @@ interface. It follows the standard interaction model defined in the
 
 ## :seedling: Web UI for IoT Agents
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/iotagent-ui.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/iotagent-ui.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/iotagent-ui/latest.svg)
@@ -108,7 +108,7 @@ The Angular-based web Single Page Application (SPA) that enables user-friendly i
 
 ## :seedling: FIROS (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./robotics/README.md)
 ![License](https://img.shields.io/github/license/iml130/firos.svg)
 ![](https://img.shields.io/github/release-date/iml130/firos.svg)
 ![](https://img.shields.io/github/commits-since/iml130/firos/latest.svg)

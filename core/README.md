@@ -14,7 +14,7 @@ To learn more about Core Context Management Enablers, check out the
 
 ### Orion
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
@@ -64,7 +64,7 @@ The use of the Orion context broker is mandatory for any [platform](https://mark
 
 ### Scorpio
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
 ![](https://img.shields.io/github/release-date/ScorpioBroker/ScorpioBroker.svg)
 ![](https://img.shields.io/github/commits-since/ScorpioBroker/ScorpioBroker/latest.svg)
@@ -124,7 +124,7 @@ available as history information through the temporal interface.
 
 ### Orion-LD
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/context.Orion-LD.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/context.Orion-LD.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/context.Orion-LD/latest.svg)
@@ -159,7 +159,7 @@ tools and combined with other information.
 
 ### Stellio
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
 ![](https://img.shields.io/github/last-commit/stellio-hub/stellio-context-broker.svg)
 ![](https://img.shields.io/github/tag/stellio-hub/stellio-context-broker.svg)
@@ -204,7 +204,7 @@ solution.
 
 ### Draco
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
@@ -241,7 +241,7 @@ current business needs.
 
 ### Cosmos
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
@@ -278,7 +278,7 @@ conclusions as to the state of your smart solution and bring value to your solut
 
 ### QuantumLeap
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/orchestracities/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/release-date/orchestracities/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/last-commit/orchestracities/ngsi-timeseries-api.svg)
@@ -315,7 +315,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 ### :seedling: Canis Major (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/CanisMajor.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/CanisMajor.svg)
 ![](https://img.shields.io/github/tag/FIWARE/CanisMajor.svg)
@@ -349,7 +349,7 @@ Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" 
 
 ### :seedling: NGSI-JS Library (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ficodes/ngsijs.svg)
 ![](https://img.shields.io/github/release-date/ficodes/ngsijs.svg)
 ![](https://img.shields.io/github/commits-since/ficodes/ngsijs/latest.svg)
@@ -378,7 +378,7 @@ NGSI compliant context broker, the removes the need to write custom JavaScript c
 
 ### :seedling: PySpark Connector
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-orion-pyspark-connector.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-orion-pyspark-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-orion-pyspark-connector/latest.svg)
@@ -410,7 +410,7 @@ these two instruments and to combine the advantages they provide at a minimal de
 
 ### :seedling: Apollo
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/apollo.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/apollo.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/apollo/latest.svg)
@@ -439,7 +439,7 @@ it is possible to permit access via a known protected data entrypoint which then
 
 ### :seedling: O2K Connector
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/o2k-connector.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/o2k-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/o2k-connector/latest.svg)
@@ -463,7 +463,7 @@ processing and analysis of data in Apache Kafka by supporting the faster and lig
 
 ### :seedling: FiLip
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/RWTH-EBC/FiLiP.svg)
 ![](https://img.shields.io/github/release-date/RWTH-EBC/FiLiP.svg)
 ![](https://img.shields.io/github/commits-since/RWTH-EBC/FiLiP/latest.svg)
@@ -497,7 +497,7 @@ The motivation for creating  a client library rather than relying on an auto-gen
 
 ### :seedling: Entirety
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/N5GEH/n5geh.tools.entirety.svg)
 ![](https://img.shields.io/github/release-date/N5GEH/n5geh.tools.entirety.svg)
 ![](https://img.shields.io/github/commits-since/N5GEH/n5geh.tools.entirety/latest.svg)

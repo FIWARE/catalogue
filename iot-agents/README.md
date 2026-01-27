@@ -40,7 +40,7 @@ interface.
 
 ## IoT Agent Framework Library
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-node-lib.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-node-lib.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-node-lib/latest.svg)
@@ -56,7 +56,7 @@ standalone component. It is used in the following IoT Agents:
 
 ## IoT Agent for JSON
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/iotagent-json.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/iotagent-json.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/iotagent-json/latest.svg)
@@ -75,7 +75,7 @@ interface. It follows the standard interaction model defined in the
 
 ## IoT Agent for LoRaWaN
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/iot-agents.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 ![](https://img.shields.io/github/release-date/Atos-Research-and-Innovation/IoTagent-LoRaWAN.svg)
 ![](https://img.shields.io/github/commits-since/Atos-Research-and-Innovation/IoTagent-LoRaWAN/latest.svg)
@@ -96,7 +96,7 @@ interface. It follows the standard interaction model defined in the
 
 ## Kurento
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/media-streams.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Kurento/kurento-media-server.svg)
 ![](https://img.shields.io/badge/tag-6.9.0-blue.svg)
 
@@ -130,7 +130,7 @@ multimedia communications in a fast, simple and easy way.
 
 ## :seedling: OpenVidu (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/github/license/OpenVidu/openvidu.svg)
 ![](https://img.shields.io/github/release-date/OpenVidu/openvidu.svg)
 ![](https://img.shields.io/github/commits-since/OpenVidu/openvidu/latest.svg)

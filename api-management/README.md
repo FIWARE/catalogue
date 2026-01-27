@@ -11,7 +11,7 @@ To learn more about Data Publication, check out the
 
 ## :seedling: CoatRack (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/api-management.svg)](./README.md)
 ![License](https://img.shields.io/github/license/coatrack/coatrack.svg)
 ![](https://img.shields.io/github/last-commit/coatrack/coatrack.svg)
 ![](https://img.shields.io/github/commits-since/coatrack/coatrack/latest.svg)
@@ -51,7 +51,7 @@ without spending time on ancillary features.
 
 ### :seedling: Endpoint-Auth-Service
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/api-management.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/endpoint-auth-service.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/endpoint-auth-service.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/endpoint-auth-service/latest.svg)
@@ -79,7 +79,7 @@ of the code inside the proxy.
 
 ### :seedling: FIWARE Kong Plugins
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/api-management.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/kong-plugins-fiware.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/kong-plugins-fiware.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/kong-plugins-fiware/latest.svg)
