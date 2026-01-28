@@ -20,8 +20,7 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
 
-        git submodule init
-        git submodule sync
+        git -c submodule.core/entirety.update=none submodule update --init --recursive 
         git merge origin/master --strategy-option theirs || true
         git submodule foreach 'git reset HEAD $path'   
         git submodule foreach 'git checkout `git describe --tags $(git rev-list --tags --max-count=1)`'  || true
