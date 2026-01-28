@@ -400,7 +400,7 @@ supporting the operations of the FIWARE Lab.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2025 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2026 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General
