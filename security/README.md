@@ -15,7 +15,7 @@ To learn more about Security, Authorization and API Access Control, check out th
 
 ## Keyrock Identity Manager
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-idm.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-idm/latest.svg)
@@ -61,7 +61,7 @@ Programmers guide
 
 ## Wilma PEP Proxy
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-pep-proxy.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-pep-proxy/latest.svg)
@@ -86,7 +86,7 @@ top of their REST APIs so it is tested and used in many different scenarios.
 
 ## Authzforce PDP
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/authzforce/server.svg)
 ![](https://img.shields.io/github/release-date/authzforce/server.svg)
 ![](https://img.shields.io/github/commits-since/authzforce/server/latest.svg)
@@ -125,7 +125,7 @@ policies; Requesting authorization decisions based on those policies, in a XACML
 
 ## :seedling: FIWARE TRUE Connector (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-true-connector.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-true-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-true-connector/latest.svg)
@@ -159,7 +159,7 @@ these federated networks, or data spaces.
 
 ## :seedling: Steelskin PEP Proxy (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-pep-steelskin.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-pep-steelskin.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-pep-steelskin/latest.svg)
@@ -192,7 +192,7 @@ secured resource itself.
     
 ## :seedling: Keypass (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keypass.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
@@ -217,7 +217,7 @@ creating a flexible security framework which can be applied to any microservice.
 
 ## :seedling: Keystone SCIM (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-scim.svg)
 ![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-scim)
 ![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-scim.svg)
@@ -242,7 +242,7 @@ running Keystone installation and enhance the functionality of it.
     
 ## :seedling: Keystone SPASSWORD (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keystone-spassword.svg)
 ![](https://img.shields.io/github/last-commit/telefonicaid/fiware-keystone-spassword)
 ![](https://img.shields.io/github/tag/telefonicaid/fiware-keystone-spassword.svg)
@@ -266,7 +266,7 @@ development time by avoiding the need to implement and test bespoke secure syste
 
 ## :seedling: Anubis (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-keypass.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-keypass.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-keypass/latest.svg)
@@ -300,7 +300,7 @@ The project is looking into
 
 ## :seedling: Trusted Issuers List Service  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-list.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-list)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-list.svg)
@@ -326,7 +326,7 @@ To do so, it requires a service that provides this information
 
 ## :seedling: DSBA PDP  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/dsba-pdp.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/dsba-pdp)
 ![](https://img.shields.io/github/tag/FIWARE/dsba-pdp.svg)
@@ -350,7 +350,7 @@ are able to create policies in common across a data space.
 
 ## :seedling: VC-Verifier  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/VCVerifier.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/VCVerifier)
 ![](https://img.shields.io/github/tag/FIWARE/VCVerifier.svg)
@@ -374,7 +374,7 @@ access to services.
 
 ## :seedling: Keycloak VC-Issuer  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/keycloak-vc-issuer.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/keycloak-vc-issuer)
 ![](https://img.shields.io/github/tag/FIWARE/keycloak-vc-issuer.svg)
@@ -397,7 +397,7 @@ is able to issue a credential.
 
 ## :seedling: Credentials Config Service  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/credentials-config-service.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/credentials-config-service)
 ![](https://img.shields.io/github/tag/FIWARE/credentials-config-service.svg)
@@ -425,7 +425,7 @@ To do so, it requires a service that provides such information
 
 ## :seedling: Trusted Issuers Registry  (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/trusted-issuers-registry.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/trusted-issuers-registry)
 ![](https://img.shields.io/github/tag/FIWARE/trusted-issuers-registry.svg)

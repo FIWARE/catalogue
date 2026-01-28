@@ -14,7 +14,7 @@ To learn more about Core Context Management Enablers, check out the
 
 ### Orion
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/fiware-orion.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/fiware-orion/latest.svg)
@@ -64,7 +64,7 @@ The use of the Orion context broker is mandatory for any [platform](https://mark
 
 ### Scorpio
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
 ![](https://img.shields.io/github/release-date/ScorpioBroker/ScorpioBroker.svg)
 ![](https://img.shields.io/github/commits-since/ScorpioBroker/ScorpioBroker/latest.svg)
@@ -124,7 +124,7 @@ available as history information through the temporal interface.
 
 ### Orion-LD
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/context.Orion-LD.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/context.Orion-LD.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/context.Orion-LD/latest.svg)
@@ -159,7 +159,7 @@ tools and combined with other information.
 
 ### Stellio
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/stellio-hub/stellio-context-broker.svg)
 ![](https://img.shields.io/github/last-commit/stellio-hub/stellio-context-broker.svg)
 ![](https://img.shields.io/github/tag/stellio-hub/stellio-context-broker.svg)
@@ -202,82 +202,9 @@ solution.
 
 ## Context-Data Awareness
 
-### Cygnus
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
-![License](https://img.shields.io/github/license/telefonicaid/fiware-cygnus.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/fiware-cygnus.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/fiware-cygnus/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-cygnus/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/cygnus-ngsi)| :books: [Documentation](https://fiware-cygnus.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/cygnus) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-cygnus/blob/master/doc/roadmap.md) |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-
-
-#### What is Cygnus?
-
-Cygnus is a connector in charge of persisting context data sources into other third-party databases and storage systems,
-creating a historical view of the context. Internally, Cygnus is based on Apache Flume,
-[Flume](https://flume.apache.org/) is a data flow system based on the concepts of flow-based programming. It supports
-powerful and scalable directed graphs of data routing, transformation, and system mediation logic. It was built to
-automate the flow of data between systems. While the term 'dataflow' can be used in a variety of contexts, we use it
-here to mean the automated and managed flow of information between systems.
-
-Each data persistence agent within Cygnus is composed of three parts - a listener or source in charge of receiving the
-data, a channel where the source puts the data once it has been transformed into a Flume event, and a sink, which takes
-Flume events from the channel in order to persist the data within its body into a third-party storage.
-
-#### Why Use Cygnus?
-
-Persisting historical context data is useful for big data analysis - it can be used to discover trends, or data can be
-sampled and aggregated to remove the influence of outlying data measurements. However within each Smart Solution, the
-significance of each entity type will differ and entities and attributes may need to be sampled at different rates.
-
-Since the business requirements for using context data differ from application to application, no single standard use
-case for historical data persistence exists. Therefore rather than overloading the context broker with the job of
-historical context data persistence, this role has been separated out into a separate, highly configurable component -
-Cygnus.
-
-Cygnus plays the role of a connector between the Orion Context Broker (which is an
-[NGSI](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/Fiware/specifications/master/OpenAPI/ngsiv2/ngsiv2-openapi.json)
-source of data) and a wide range of external systems such as [MySQL](https://www.mysql.com/),
-[MongoDB](https://www.mongodb.org/) etc. You should use Cygnus if you need to process and persist context data so that
-you can keep a historical record. Cygnus can also be used the filter and repost context data back into Orion.
-
----
-
-### STH Comet
-
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
-![License](https://img.shields.io/github/license/telefonicaid/fiware-sth-comet.svg)
-![](https://img.shields.io/github/release-date/telefonicaid/fiware-sth-comet.svg)
-![](https://img.shields.io/github/commits-since/telefonicaid/fiware-sth-comet/latest.svg)
-
-| :octocat: [Git Repository](https://github.com/telefonicaid/fiware-sth-comet/) | <img style="height:1em" src="https://quay.io/static/img/quay_favicon.png"/> [quay.io](https://quay.io/repository/fiware/sth-comet) | :books: [Documentation](https://fiware-sth-comet.rtfd.io) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/core/sth-comet) | :dart: [Roadmap](https://github.com/telefonicaid/fiware-sth-comet/blob/master/doc/roadmap.md) |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-
-
-#### What is STH Comet?
-
-Short Time Historic (STH) - Comet is a component of the FIWARE ecosystem in charge of managing (storing and retrieving)
-historical raw and aggregated time series context information about the evolution in time of context data (i.e., entity
-attribute values) registered in an Orion Context Broker instance.
-
-#### Why use STH Comet?
-
-The creation and analysis of trend data is a common requirement of context-driven systems - therefore the FIWARE
-platform offers a generic enabler (STH-Comet) specifically to deal with the issue of persisting and interpreting time
-series data.
-
-Within the FIWARE platform, historical context data can be persisted to a database - this results in a series of data
-points. Each time-stamped data point represents the state of context entities at a given moment in time. The individual
-data points are relatively meaningless on their own, it is only through combining a series data points that meaningful
-statistics such as maxima, minima and trends can be observed.
-
----
-
 ### Draco
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-draco.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-draco/latest.svg)
@@ -314,7 +241,7 @@ current business needs.
 
 ### Cosmos
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/release-date/ging/fiware-cosmos-orion-flink-connector.svg)
 ![](https://img.shields.io/github/commits-since/ging/fiware-cosmos-orion-flink-connector/latest.svg)
@@ -351,7 +278,7 @@ conclusions as to the state of your smart solution and bring value to your solut
 
 ### QuantumLeap
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/orchestracities/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/release-date/orchestracities/ngsi-timeseries-api.svg)
 ![](https://img.shields.io/github/last-commit/orchestracities/ngsi-timeseries-api.svg)
@@ -388,7 +315,7 @@ The **QuantumLeap** project is part of [FIWARE](https://fiware.org/) and will be
 
 ### :seedling: Canis Major (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/CanisMajor.svg)
 ![](https://img.shields.io/github/last-commit/FIWARE/CanisMajor.svg)
 ![](https://img.shields.io/github/tag/FIWARE/CanisMajor.svg)
@@ -422,7 +349,7 @@ Canis Major aims to make the integration of DLT's easier in "Powered By FIWARE" 
 
 ### :seedling: NGSI-JS Library (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/ficodes/ngsijs.svg)
 ![](https://img.shields.io/github/release-date/ficodes/ngsijs.svg)
 ![](https://img.shields.io/github/commits-since/ficodes/ngsijs/latest.svg)
@@ -451,7 +378,7 @@ NGSI compliant context broker, the removes the need to write custom JavaScript c
 
 ### :seedling: PySpark Connector
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/fiware-orion-pyspark-connector.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/fiware-orion-pyspark-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/fiware-orion-pyspark-connector/latest.svg)
@@ -483,7 +410,7 @@ these two instruments and to combine the advantages they provide at a minimal de
 
 ### :seedling: Apollo
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/FIWARE/apollo.svg)
 ![](https://img.shields.io/github/release-date/FIWARE/apollo.svg)
 ![](https://img.shields.io/github/commits-since/FIWARE/apollo/latest.svg)
@@ -512,7 +439,7 @@ it is possible to permit access via a known protected data entrypoint which then
 
 ### :seedling: O2K Connector
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
 ![License](https://img.shields.io/github/license/Engineering-Research-and-Development/o2k-connector.svg)
 ![](https://img.shields.io/github/release-date/Engineering-Research-and-Development/o2k-connector.svg)
 ![](https://img.shields.io/github/commits-since/Engineering-Research-and-Development/o2k-connector/latest.svg)
@@ -531,3 +458,59 @@ Using O2K-Connector offers several benefits. Firstly, it simplifies the integrat
 technologies by providing an  efficient solution for data forwarding, eliminating the need for complex and time-consuming 
 custom integration efforts. Secondly, O2K-Connector ensures reliable and scalable data transfer, allowing for real-time 
 processing and analysis of data in Apache Kafka by supporting the faster and lighter MQTT  Orion subscription.
+
+<a name="filip"/>
+
+### :seedling: FiLip
+
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/RWTH-EBC/FiLiP.svg)
+![](https://img.shields.io/github/release-date/RWTH-EBC/FiLiP.svg)
+![](https://img.shields.io/github/commits-since/RWTH-EBC/FiLiP/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/RWTH-EBC/FiLiP) | :whale: **N/A** | :books: [Documentation](https://github.com/RWTH-EBC/FiLiP/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+#### What is FiLip?
+
+FiLiP (FIWARE Library for Python) is a python software development kit (SDK) for accelerating the development of web services that use Fiware's Generic Enablers (GEs) as backend.
+
+It is mainly based on the Pydantic package which is a sophisticated library for data validation and settings management using python type annotations. Pydantic enforces type hints at runtime, and provides user friendly errors when data is invalid. We mainly use the Pydantic model to build our own data model structure required for efficient data model parsing and validation and interaction with FIWARE services' RestAPIs.
+
+For API interaction, FiLiP relies on the well-known requests package. It is important to understand that we do not in any way restrict any features of requests.
+
+Furthermore, FiLiP is designed to help with the fast development of FIWARE-based applications and avoid hundreds of lines of boilerplate, but it cannot substitute learning the basic concepts behind the used FIWARE components.
+
+Currently, FiLiP supports APIs from Orion, LD-Brokers, IoT-Agents and Quantumleap. 
+
+#### Why use FiLip?
+
+The motivation for creating  a client library rather than relying on an auto-generated from the Open API spec is as follows:
+
+-   Auto-generated code tends to become rather bulky and its quality strongly depends on the provided input data.
+-   Manipulating generated code can result in a big hassle for maintenance if additional features need to be integrated.
+-   The underlying NGSI (Next Generation Service Interface) for FIWARE is a rather generic specification. Hence, generated models
+    may also be   of generic types as lists and dicts in Python. So there is no real benefit. Furthermore, there is no chance for
+    reasonable validation and error handling.
+
+<a name="entirety"/>
+
+### :seedling: Entirety
+
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/N5GEH/n5geh.tools.entirety.svg)
+![](https://img.shields.io/github/release-date/N5GEH/n5geh.tools.entirety.svg)
+![](https://img.shields.io/github/commits-since/N5GEH/n5geh.tools.entirety/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/N5GEH/n5geh.tools.entirety) | :whale: [Docker](https://ghcr.io/n5geh/n5geh.tools.entirety) | :books: [Documentation](https://github.com/N5GEH/n5geh.tools.entirety/README.md) | :dart: **T.B.D**|
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+
+#### What is Entirety?
+
+Entirety is a web-based graphical user interface (GUI) meant to provide easy access to some of FIWARE's Generic Enablers (GE) without requiring deeper knowledge on their APIs: Context Brokers like Orion and the IoT Agent JSON. Entirety is python-based and relies on the FIWARE Library for Python (FiLiP) for the communication with the GE APIs.
+
+Entirety holds modules (as displayed on the left hand side of the GUI) providing features to perform CRUD (create, read, update, delete) operations to entities in the Context Broker, devices in the IoT Agent, and subscriptions / notifications to QuantumLeap or other applications. Furthermore, Entirety provides a graphical overview of the semantic relationships between entities in the Semantics module as well as a store for standardized data models that can be either created or imported from external sources.
+
+#### Why use Entirety?
+
+Entirety simplifies the process of updating context data and displays relationships between entities allowing for simpler interactions between components.

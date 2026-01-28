@@ -7,7 +7,7 @@ To learn more about context processing, analysis and visualization, check out th
 
 ## Wirecloud
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/visualization.svg)](./README.md)
 ![License](https://img.shields.io/badge/License-AGPLv3+%20with%20classpath--like%20exception-orange.svg)
 ![](https://img.shields.io/github/release-date/Wirecloud/wirecloud.svg)
 ![](https://img.shields.io/github/commits-since/Wirecloud/wirecloud/latest.svg)
@@ -51,7 +51,7 @@ By using Wirecloud you have access to the following key features:
 
 ## FogFlow
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-BSD--4--clause-green)
 ![](https://img.shields.io/github/release-date/smartfog/fogflow.svg)
 ![](https://img.shields.io/github/commits-since/smartfog/fogflow/latest.svg)
@@ -80,7 +80,7 @@ lack of interoperability and openness to share and reuse data and dervied result
 
 ## :seedling: Perseo (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/processing.svg)](./README.md)
 ![License](https://img.shields.io/github/license/telefonicaid/perseo-core.svg)
 ![](https://img.shields.io/github/release-date/telefonicaid/perseo-core.svg)
 ![](https://img.shields.io/github/commits-since/telefonicaid/perseo-core/latest.svg)

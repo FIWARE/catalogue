@@ -5,7 +5,7 @@ externally.
 
 ## :seedling: Domibus (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/third-party.svg)](./README.md)
 ![License](https://img.shields.io/badge/license-EUPL--1.2-orange) ![](https://img.shields.io/badge/tag-5.0-blue.svg)
 
 | :octocat: [Git Repository](https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery) | :whale: [Docker Hub](https://hub.docker.com/r/fiware/domibus-tomcat/) | :books: [Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) | :mortar_board: [Academy](https://fiware-academy.readthedocs.io/en/latest/third-party/domibus) | :dart: Roadmap : **TBD** |
@@ -52,7 +52,7 @@ This project is part of [FIWARE](https://fiware.org/) and has been rated as foll
 
 ## :seedling: Oliot (Incubated)
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/third-party.svg)](./README.md)
 ![License](https://img.shields.io/github/license/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg)
 ![](https://img.shields.io/github/last-commit/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg)
 ![](https://img.shields.io/github/tag/yalewkidane/FIWARE_EPCIS_Mediation_Gateway.svg)

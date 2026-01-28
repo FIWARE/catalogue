@@ -1,6 +1,6 @@
 # Catalogue<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left">
 
-![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/cross-chapter.svg)
+![FIWARE Catalogue](https://fiware.github.io/catalogue/badges/chapters/cross-chapter.svg)
 [![License AGPL](https://img.shields.io/github/license/fiware/catalogue.svg)](https://opensource.org/licenses/AGPL-3.0)
 
 This is an umbrella repository which briefly introduces each of the components (also referred as Generic Enablers) which
@@ -16,16 +16,17 @@ FIWARE **Discord Channel**
 
 
  
-| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/) |:books: <br/> [Tour Guide](https://fiwaretourguide.rtfd.io) | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | :capital_abcd: <br/> [Tutorials](https://fiware-tutorials.rtfd.io) | :question: <br/> [Ask.&ZeroWidthSpace;FIWARE](https://ask.fiware.org/questions/) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) | <img width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> <br/> [Discord Channel](https://discord.gg/ZWvTUfepHr)
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-
+| <img src="https://fiware.github.io/catalogue/img/fiware-emoji.png" height="20px" width="20px"/><br/> [fiware.org](https://www.fiware.org/developers/)  | :mortar_board: <br/> [Academy](https://fiware-academy.readthedocs.io) | <img src="https://img.shields.io/badge/NGSI-v2-5dc0cf.svg" /> <br/> <img src="https://img.shields.io/badge/NGSI-LD-d6604d.svg" /> <br/> [Tutorials](https://github.com/FIWARE/tutorials.Step-by-Step) | ![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow) <br/> [Stack Overflow](https://stackoverflow.com/questions/tagged/fiware) | <img width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> <br/> [Discord Channel](https://discord.gg/ZWvTUfepHr)
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 ---
-<div align="center">
+
+<!--div align="center">
  
-| <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit24.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.de/e/fiware-tech-training-naples-tickets-920143322447"><img src="https://fiware.github.io//catalogue/img/Training24.png" width="240" height="70" /></a> |
+| <a href="https://www.fiware.org/global-summit/"><img src="https://fiware.github.io//catalogue/img/Summit25.png" width="240" height="70" /></a> | <a href="https://www.eventbrite.co.uk/e/fiware-global-summit-2025-rabat-smart-city-morocco-tickets-1249129843989"><img src="https://fiware.github.io//catalogue/img/Training25.png" width="240" height="70" /></a> |
 | --- | --- |
 
-</div>
+</div-->
+
 
 ## Contents
 
@@ -115,7 +116,7 @@ architectural chapters.
 
 ### Core Context Management
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/core.svg)](./core/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./core/README.md)
 
 #### Core Context Broker components
 
@@ -133,27 +134,23 @@ are available:
 -   The [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) Generic Enabler is a NGSI-LD Broker, which
     supports both NGSI-LD and the NGSI-v2 APIs.
 -   The [Scorpio Broker](https://github.com/ScorpioBroker/ScorpioBroker) Generic Enabler is an alternative NGSI-LD
-    Broker which can also be used in federated environments
+    Broker which can also be used in federated environments.
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
-    alternative NGSI-LD Broker
+    alternative NGSI-LD Broker which can also be used in federated environments and implements an optional Keycloak connection allowing fine-grained access control to the NGSI-LD entities.
     
     
 ##### NGSI-LD Context Broker Feature Comparison
 
-The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.8.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.08.01_60/gs_cim009v010801p.pdf) which was  published in **March 2024**. 
+The NGSI-LD Specification is regularly updated published by ETSI. The latest specification is [version 1.9.1](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.09.01_60/gs_cim009v010901p.pdf) which was  published in **July 2025**. 
 
--   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
+-   A spreadsheet detailing the current compatibility of the bleeding edge development version of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.9.1 specification can be viewed and downloaded [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOjsDf3lqhwuypJ---pZN2OlqFRl0jyoTV0ewQ1WFnpe7xQary3uxRjunbgJkwQ/pub)
     
--   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.6.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
+-   An Excel file detailing the compatibility of the latest FIWARE Release of each context broker (Orion-LD, Scorpio, Stellio) against the features of the 1.9.1 specification can be downloaded [here](https://fiware.github.io/catalogue/excel/NGSI-LD%20Brokers%20Implementation%20Status.xlsx)
 
 #### Core Data Connectors
 
 Accompanying a Context Broker component as part of Core Context Management, a number of Data Connectors are available:
 
--   The [Cygnus](https://github.com/telefonicaid/fiware-cygnus) Generic Enabler is enables a means of managing the
-    history of context which is created as a stream of data and can be injected into multiple data sinks, including many
-    popular databases such as PostgreSQL, MySQL, MongoDB or AWS DynamoDB or as Big Data platforms such as Hadoop, Storm
-    or Spark. The component is based on Apache Flume
 -   The [Draco](https://github.com/ging/fiware-draco) Generic Enabler is an alternative data persistence mechanism for
     managing the history of context. It is based on Apache NiFi and is a dataflow system based on the concepts of
     flow-based programming. It supports powerful and scalable directed graphs of data routing, transformation, and
@@ -162,12 +159,10 @@ Accompanying a Context Broker component as part of Core Context Management, a nu
     integrated with popular Big Data platforms (Spark and Flink).
 -   The [QuantumLeap](https://github.com/smartsdk/ngsi-timeseries-api/) Generic Enabler supports the storage of context
     data into a time series database (CrateDB and Timescale)
--   The [STH Comet](https://github.com/telefonicaid/fiware-sth-comet/) Generic Enabler brings the means for storing a
-    short-term history of context data (typically months) on MongoDB
 
 The following is a list of Generic Enablers under incubation within the area of Core Data Connectors systems:
 
--   [Mintaka](https://github.com/FIWARE/mintakas) is an add-on to the [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) providing an
+-   [Mintaka](https://github.com/FIWARE/mintaka) is an add-on to the [Orion-LD Context Broker](https://github.com/FIWARE/context.Orion-LD) providing an
     implementation of the NGSI-LD temporal retrieval API.
 -   The [Canis Major](https://github.com/fiware/CanisMajor) Generic Enabler is a blockchain adaptor that supports
     various DLTs, the adaptor aims to submit the data to DLT using FIWARE Technologies
@@ -178,15 +173,17 @@ The following is a list of Generic Enablers under incubation within the area of 
 -   The [O2K Connector](https://github.com/Engineering-Research-and-Development/o2k-connector)
     Generic Enabler that enables context data sharing from any NGSI Context Broker towards Apache Kafka
 -   The [Apollo](https://github.com/FIWARE/apollo) Generic Enabler creates entities based on notifications
+-   The [FiLiP](https://github.com/RWTH-EBC/FiLiP)  Generic Enabler is a python software development kit for FIWARE Components
+-   The [Entirety](https://github.com/N5GEH/n5geh.tools.entirety) Generic Enabler is a web-based GUI for context broker interactions
 
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
 ### Interface with IoT, Robots and Third-Party Systems
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/robotics.svg)](./robotics/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/third-party.svg)](./third-party/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/media-streams.svg)](./iot-agents/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/iot-agents.svg)](./iot-agents/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/robotics.svg)](./robotics/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/third-party.svg)](./third-party/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/media-streams.svg)](./iot-agents/README.md)
 
 A number of Generic Enablers are available making it easier to interface with the Internet of Things (IoT), Robots and
 Third-party systems for the purpose of gathering valuable context information or trigger actuations in response to
@@ -197,19 +194,10 @@ context updates:
 
     -   [IoT Agent for JSON](https://github.com/telefonicaid/iotagent-json) - a bridge between HTTP/MQTT messaging (with
         a JSON payload) and NGSI
-    -   [IoT Agent for LWM2M](https://github.com/telefonicaid/lightweightm2m-iotagent) - a bridge between the
-        [Lightweight M2M](https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/) protocol and
-        NGSI
-    -   [IoT Agent for Ultralight](https://github.com/telefonicaid/iotagent-ul) - a bridge between HTTP/MQTT messaging
-        (with an UltraLight2.0 payload) and NGSI
     -   [IoT Agent for LoRaWAN](https://github.com/Atos-Research-and-Innovation/IoTagent-LoRaWAN) - a bridge between the
         [LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/) protocol and NGSI
     -   [IoT Agent for OPC-UA](https://github.com/Engineering-Research-and-Development/iotagent-opcua) - a bridge
         between the [OPC Unified Architecture](http://www.opcua.us/) protocol and NGSI
-    -   [IoT Agent for Sigfox](https://github.com/telefonicaid/sigfox-iotagent) - a bridge between the
-        [Sigfox](https://www.sigfox.com/en) protocol and NGSI
-    -   [IoT Agent for ISOXML](https://github.com/FIWARE/iotagent-isoxml) - a bridge between the ISOXML/ADAPT protocol
-        for agricultural machinery and NGSI
     -   [IoT Agent library](https://github.com/telefonicaid/iotagent-node-lib/) - library for developing your own IoT
         Agent.
 
@@ -221,19 +209,13 @@ The following is a list of Generic Enablers under incubation within the area of 
 
 -   The [OpenVidu](https://github.com/OpenVidu/openvidu/) Generic Enabler is an abstraction layer for Kurento, making
     media processing easier to program.
--   The [OpenMTC](https://github.com/OpenMTC/OpenMTC) Incubated Generic Enabler brings an open source implementation of
-    the [OneM2M](http://www.onem2m.org/) standard. A northbound interface with the Orion Context Broker is implemented
-    as part of the product.
 -   The [Fast DDS](https://github.com/eProsima/Fast-RTPS) Incubated Generic Enabler has been adopted as default
     middleware in [ROS2](https://index.ros.org/doc/ros2/), the widely known Robot Operating System, therefore it helps
     to interface with ROS2-based robotics systems.
 -   The [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS) Incubated Generic Enabler is a lite version of the
     [DDS](https://www.omg.org/spec/DDS) middleware, adapted to run in extremely constrained resource devices (e.g.
     micro-controllers).
--   The [FIROS](https://github.com/iml130/firos) Incubated Generic Enabler works as a translator between the robotics
-    domain and the cloud, transforming [ROS](https://www.ros.org/) messages into NGSI v2 and vice versa.
--   The [Domibus](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/domibus) Incubated Generic Enabler helps
-    users to exchange electronic data and documents with one another in a reliable and trusted way.
+
 -   The [Oliot](https://github.com/yalewkidane/FIWARE_EPCIS_Mediation_Gateway) Incubated Generic Enabler is a mediation
     gateway which translates information from NGSI based platforms to [EPCIS based](https://www.gs1.org/epcis/epcis/1-1)
     IoT platforms.
@@ -243,8 +225,8 @@ Further information can be found on dedicated pages linked to [IoT Agents](./iot
 
 ### Context Processing, Analysis and Visualization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/processing.svg)](./processing/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](./processing/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/processing.svg)](./processing/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/visualization.svg)](./processing/README.md)
 
 A number of Generic Enablers are available making it easier to process, analyze or visualize context information for the
 purpose of implementing the “smart behaviour” expected in any application:
@@ -265,26 +247,14 @@ Further information can be found on dedicated pages linked to
 
 ### Context Data/API Management, Publication and Monetization
 
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/api-management.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-publication.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
-[![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/security.svg)](./security/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/api-management.svg)](./data-publication/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/data-publication.svg)](./data-publication/README.md)
+[![](https://nexus.lab.fiwa89re.org/repository/raw/public/badges/chapters/data-monetization.svg)](./data-publication/README.md)
+[![](https://fiware.github.io/catalogue/badges/chapters/security.svg)](./security/README.md)
 
-You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using Generic
-Enablers of the security chapter:
-
--   The [Keyrock Identity Management](https://github.com/ging/fiware-idm) Generic Enabler brings support to secure and
-    private OAuth2-based authentication of users and devices, user profile management, privacy-preserving disposition of
-    personal data, Single Sign-On (SSO) and Identity Federation across multiple administration domains.
--   The [Wilma PEP Proxy](https://github.com/ging/fiware-pep-proxy) Generic Enabler brings support of proxy functions
-    within OAuth2-based authentication schemas. It also implements PEP functions within an XACML-based access control
-    schema.
--   The [AuthZForce PDP/PAP](https://github.com/authzforce/server) Generic Enabler brings support to PDP/PAP functions
-    within an access control schema based on the XACML standard.
-
-The incorporation of components and features to support **Advanced Data Usage Control** have been introduced as part of
-FIWARE Release 7.7. For a summary of vision and current status of work in this area, please visit the usage control
-pages found at: [https://github.com/ging/fiware-usage-control](https://github.com/ging/fiware-usage-control)
+You can implement secured access to components in the architecture of any “Powered by FIWARE” solution using the IDM of your
+choice, (such as [Keyrock](https://github.com/ging/fiware-idm/), [Keycloak](https://github.com/keycloak/keycloak), 
+[Keystone](https://github.com/openstack/keystone) etc.) supplemented by the Generic Enablers of the security chapter.
 
 This area also contains a chapter for the publication and monetization of context data resources, available through the
 core Orion Context Broker component of your platform:
@@ -302,16 +272,10 @@ core Orion Context Broker component of your platform:
 The following is a list of Generic Enablers under incubation within the area of API management, publication and
 monetization:
 
--   [APInf](https://github.com/apinf/platform) API Management Framework is a tool for API owners to manage their APIs.
-    It provides all the necessary features to run business with APIs and makes it easy for API consumers to find and
-    start using the standard APIs.
 -   [CoatRack](https://github.com/coatrack/coatrack/) is a third-party backend-to-backend communications framework
     facilitating API access, monitoring and monetization.
 -   [Endpoint-Auth-Service](https://github.com/FIWARE/endpoint-auth-service) transparently adds
     authentication/authorization information to outgoing http-requests
--   [Kong Plugins](https://github.com/FIWARE/kong-plugins-fiware) extends the functionality of the
-    [Kong](https://github.com/kong/kong) API Gateway to cover additional PEP scenarios applicable to context data
-    sharing
 
 The following is a list of Generic Enablers under incubation within the area of Security:
 
@@ -351,7 +315,7 @@ Further information can be found on dedicated pages linked to [Context Data/API 
 
 ### Deployment Tools
 
-![FIWARE Catalogue](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/deployment-tools.svg)
+![FIWARE Catalogue](https://fiware.github.io/catalogue/badges/chapters/deployment-tools.svg)
 
 Most FIWARE components are available as [Docker Images](https://hub.docker.com/u/fiware), direct links can be found
 within the descriptions of each generic enabler. A `docker-compose.yml` may also be available within the GitHub
@@ -389,7 +353,7 @@ same FIWARE release label should be completely interoperable and work nicely wit
 As well as source-code repositories and binaries, relevant components are available as container registry images and Helm-chart
 recipes for Kubernetes. Smart Data Models for NGSI-v2 and NGSI-LD help to define harmonised representation formats and
 semantics that will be used by applications both to consume and to publish data.
-| ![](https://nexus.lab.fiware.org/repository/raw/public/badges/docker/fiware.svg)<br>[Docker Hub](https://hub.docker.com/u/fiware) | ![](https://img.shields.io/badge/quay.io-fiware-grey?logo=red%20hat&labelColor=EE0000)<br>[quay.io](https://quay.io/organization/fiware) | ![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)<br>[Artifact Hub](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians:<br> [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> <br> [Smart Data Models](https://smartdatamodels.org) |
+| ![](https://fiware.github.io/catalogue/badges/docker/fiware.svg)<br>[Docker Hub](https://hub.docker.com/u/fiware) | ![](https://img.shields.io/badge/quay.io-fiware-grey?logo=red%20hat&labelColor=EE0000)<br>[quay.io](https://quay.io/organization/fiware) | ![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fiware)<br>[Artifact Hub](https://artifacthub.io/packages/search?repo=fiware) | :globe_with_meridians:<br> [Helm Charts](https://github.com/FIWARE/helm-charts/) | <img src="https://json-ld.org/favicon.ico" align="center" height="25"> <br> [Smart Data Models](https://smartdatamodels.org) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --- | --- |
 
 
@@ -436,7 +400,7 @@ supporting the operations of the FIWARE Lab.
 
 ## License
 
-[License: AGPL-3.0](LICENSE) © 2018-2023 FIWARE Foundation e.V.
+[License: AGPL-3.0](LICENSE) © 2018-2026 FIWARE Foundation e.V.
 
 The FIWARE Catalogue includes additional submodules which have been obtained under license - check the `README` of each
 submodule for more details. Some of these elements are available under a more permissive license than Affero General
@@ -470,4 +434,4 @@ paragraph is valid for this purpose as per the report produced by Across Legal/I
 This means that there is absolute no risk that you are forced to release the software that you may have developed using
 FIWARE Generic Enablers under a GPL, AGPL or any other open source license.
     
-</details
+</details>
