@@ -25,6 +25,7 @@ jobs:
 
     strategy:
       fail-fast: false
+      max-parallel: 6
       matrix:
         containers: ${{fromJson(needs.get-containers.outputs.container-matrix)}}
 
@@ -52,7 +53,7 @@ jobs:
           reportFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/report.json"
           markdownFile: "/github/workspace/reports/${{steps.image-info.outputs.name}}/${{steps.image-info.outputs.version}}/README.md"
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         # dont fail on not output
         continue-on-error: true
         with:
@@ -74,7 +75,7 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: reports
           path: ./reports

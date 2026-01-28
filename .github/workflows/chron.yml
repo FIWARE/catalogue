@@ -15,8 +15,10 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        git submodule update --init --recursive
-        git submodule update --recursive --remote
+        # git submodule update --init --recursive
+        # git  -c submodule."data-publication/idra".update=none submodule update --init --recursive
+        git submodule update --init
+        git submodule update --remote
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"

@@ -31,11 +31,11 @@ function clone {
 for i in "$@" ; do
     if [[ $i == "docker" ]]; then
         clone "$SOURCE" java-kafka-"$VERSION" "$DOCKER_TARGET" true
-        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$DOCKER_TARGET" || true
+        # clone "$SOURCE" ubuntu-kafka-"$VERSION" "$DOCKER_TARGET" || true
     fi
     if [[ $i == "quay" ]]; then
         clone "$SOURCE" java-kafka-"$VERSION" "$QUAY_TARGET" true
-        clone "$SOURCE" ubuntu-kafka-"$VERSION" "$QUAY_TARGET"
+        # clone "$SOURCE" ubuntu-kafka-"$VERSION" "$QUAY_TARGET" || true
     fi
     echo ""
 done

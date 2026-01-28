@@ -30,6 +30,30 @@ jobs:
         cd third-party/domibus
         git checkout 5.0
         cd ../..
+        
+        cd core/apollo
+        git checkout 0.0.20
+        cd ../..
+
+        cd core/quantum-leap
+        git checkout 1.0.0
+        cd ../..
+
+        cd data-publication/business-api/charging-backend
+        git checkout 10.4.0
+        cd ../../..
+
+        cd robotics/Fast-DDS
+        git checkout v3.3.0
+        cd ../..
+
+        cd security/dsba-pdp
+        git checkout 1.2.0
+        cd ../..
+
+        cd security/trusted-issuers-registry
+        git checkout 0.11.1
+        cd ../..
 
         git add -A .
         git commit -m "Merge master into releases" -a
@@ -39,6 +63,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: releases
+        force: true
     - name: Summarize latest releases
       run: |
         SUMMARY=$(git submodule -q foreach '  echo $(basename `git rev-parse --show-toplevel`) `git describe --tags $(git rev-list --tags --max-count=1)`'  || true)

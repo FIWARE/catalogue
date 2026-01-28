@@ -1,14 +1,16 @@
 set -e
 
-NAME="core/sth-comet" 
-SOURCE="telefonicaiot/fiware-sth-comet"
-DOCKER_TARGET="fiware/sth-comet"
-QUAY_TARGET="quay.io/fiware/sth-comet"
+NAME="robotics/iotagent-aas" 
+SOURCE="iotagent4fiware/iotagent-aas"
+DOCKER_TARGET="fiware/iotagent-aas"
+QUAY_TARGET="quay.io/fiware/iotagent-aas"
+
 
 REPOSITORY="$(git rev-parse --show-toplevel)/$NAME" 
 TAGS="$(git -C $REPOSITORY rev-list --tags --max-count=1 )"
-VERSION=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
-DATE=`git -C $REPOSITORY log -1 --format=%ai $VERSION | awk '{print $1}'`
+VERSIONv=$(git -C $REPOSITORY describe --exclude 'FIWARE*' --tags $TAGS )
+VERSION=${VERSIONv#"v"}
+DATE=`git -C $REPOSITORY log -1 --format=%ai $VERSIONv | awk '{print $1}'`
 
 function dateDiff {
     CURRENTDATE=`date +"%Y-%m-%d"`
@@ -35,4 +37,5 @@ for i in "$@" ; do
     fi
     echo ""
 done
+
 
