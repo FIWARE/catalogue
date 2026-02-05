@@ -175,7 +175,8 @@ The following is a list of Generic Enablers under incubation within the area of 
 -   The [Apollo](https://github.com/FIWARE/apollo) Generic Enabler creates entities based on notifications
 -   The [FiLiP](https://github.com/RWTH-EBC/FiLiP)  Generic Enabler is a python software development kit for FIWARE Components
 -   The [Entirety](https://github.com/N5GEH/n5geh.tools.entirety) Generic Enabler is a web-based GUI for context broker interactions
-
+-   The [Kafnus](https://github.com/FIWARE/catalogue/blob/master/core/README.md#kafnus) Generic Enabler is a modern replacement for Cygnus based on Kafka.
+  
 Further information can be found on dedicated pages linked to [Core Context Management](./core/README.md)
 
 ### Interface with IoT, Robots and Third-Party Systems
