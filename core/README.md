@@ -514,3 +514,19 @@ Entirety holds modules (as displayed on the left hand side of the GUI) providing
 #### Why use Entirety?
 
 Entirety simplifies the process of updating context data and displays relationships between entities allowing for simpler interactions between components.
+
+----
+
+### Kafnus
+
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/github/license/telefonicaid/kafnus.svg)
+![](https://img.shields.io/github/release-date/telefonicaid/kafnus.svg)
+![](https://img.shields.io/github/commits-since/telefonicaid/kafnus/latest.svg)
+
+Kafnus is a smart city data persistence system, designed as a modern replacement for Cygnus, built on top of Kafka.
+
+It processes NGSI notifications from the Context Broker (CB) and stores them in PostGIS and MongoDB, leveraging technologies like Kafka Stream, Kafka Connect, and custom connectors.
+
+This project is part of FIWARE. For more information check the FIWARE Catalogue entry for the Core Context Management.
+
