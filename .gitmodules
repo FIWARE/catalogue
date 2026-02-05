@@ -221,3 +221,9 @@
 [submodule "core/entirety"]
 	path = core/entirety
 	url = https://github.com/N5GEH/n5geh.tools.entirety
+[submodule "core/kafnus/kafnus"]
+	path = core/kafnus/kafnus
+	url = https://github.com/telefonicaid/kafnus
+[submodule "core/kafnus/kafnus-connect"]
+	path = core/kafnus/kafnus-connect
+	url = https://github.com/telefonicaid/kafnus-connect
