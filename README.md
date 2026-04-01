@@ -334,7 +334,7 @@ mature technologies, compatible with IDS and CEF Building Blocks, that may accel
 market and the materialization of initiatives like GAIA-X in Europe.
 
 The concrete selection of FIWARE components proposed as building blocks for the creation of Data Spaces can be found on
-dedicated pages linked to [FIWARE for Data Spaces](./data-spaces).
+the dedicated repository [FIWARE Data Spaces](https://github.com/FIWARE/data-spaces).
 
 ## Management of FIWARE Releases
 
