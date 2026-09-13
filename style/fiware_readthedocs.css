@@ -703,8 +703,9 @@ a.icon-home {
 }
 
 .rst-content pre code {
-  color: #fff;
-  background-color: #333 !important;
+  color: #445e91;
+  background-color: #f2f0f0 !important;
+  border: solid 1px black !important;
   border-radius: 5px;
   padding: 16px !important;
   word-break: break-spaces;
