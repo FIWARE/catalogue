@@ -200,6 +200,52 @@ solution.
 
 ---
 
+### Antares
+
+[![](https://fiware.github.io/catalogue/badges/chapters/core.svg)](./README.md)
+![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
+![](https://img.shields.io/github/release-date/joinedcontext/Antares-NGSI-LD-Context-Broker.svg)
+![](https://img.shields.io/github/commits-since/joinedcontext/Antares-NGSI-LD-Context-Broker/latest.svg)
+
+| :octocat: [Git Repository](https://github.com/joinedcontext/Antares-NGSI-LD-Context-Broker) | :whale: [Container Registry](https://github.com/joinedcontext/Antares-NGSI-LD-Context-Broker/pkgs/container/antares-broker) | :books: [Documentation](https://antaresbroker.joinedcontext.com/) | :rocket: [Browser Demo](https://antaresbroker.joinedcontext.com/demo/) |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
+
+#### What is Antares?
+
+Antares is an NGSI-LD context broker written in Rust, implementing the API specification ETSI GS CIM 009 V1.9.1
+published by the ETSI Industry Specification Group for Context Information Management (ISG CIM). It is an independent
+implementation that shares no code with Orion-LD, Scorpio or Stellio, and federates with them over the standard NGSI-LD
+distributed operations API.
+
+Antares ships as a single native binary and selects its storage with one setting (`ANTARES_STORE`), exposing the same
+API in every mode: an in-memory store for tests and demos, a file store (redb, fsync before every acknowledgement) for a
+durable single node without a database, PostgreSQL with PostGIS for production, and TimescaleDB when temporal queries
+dominate. NATS JetStream adds multi-instance scale-out and rolling updates. Notifications are delivered over HTTP and
+MQTT, selected per subscription endpoint.
+
+The broker also compiles to WebAssembly. The browser build serves `/ngsi-ld/v1/*` from a Service Worker, so the same
+broker runs inside a web page with nothing installed.
+
+#### Why use Antares?
+
+Antares passes all 1822 test cases of the ETSI NGSI-LD test suite for CIM 009 V1.9.1 in every native store mode. The
+repository vendors the suite with test-side corrections, each justified from the specification text and none weakening a
+test. The suite runs in continuous integration against each store mode, a role-split multi-container deployment and the
+browser build, and the per-store results are [published](https://antaresbroker.joinedcontext.com/reports/latest/) with
+each run.
+
+Its footprint suits small and edge installations: about 9 MiB of resident memory idle and about 35 MiB on average while
+the complete conformance suite runs. The same binary scales to production deployments with stateless broker instances, a
+PostgreSQL primary/replica pair and NATS JetStream, and can be split by role (API, matcher, notifier, temporal,
+registry) on Kubernetes.
+
+Multi-tenancy uses one shared schema isolated by `tenant_id` and PostgreSQL Row-Level Security. A tenant exists from the
+first request that names it, and the broker sets no limit on the number of tenants. Health, readiness and Prometheus
+metrics are exposed under `/q/`, and traces and logs export over OpenTelemetry (OTLP/HTTP).
+
+---
+
 ## Context-Data Awareness
 
 ### Draco

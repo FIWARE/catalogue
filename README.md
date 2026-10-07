@@ -137,6 +137,9 @@ are available:
     Broker which can also be used in federated environments.
 -   The [Stellio Context Broker](https://github.com/stellio-hub/stellio-context-broker) Generic Enabler is another
     alternative NGSI-LD Broker which can also be used in federated environments and implements an optional Keycloak connection allowing fine-grained access control to the NGSI-LD entities.
+-   The [Antares Context Broker](https://github.com/joinedcontext/Antares-NGSI-LD-Context-Broker) is a lightweight
+    NGSI-LD Broker written in Rust, with in-memory, file, PostgreSQL and TimescaleDB storage, NATS JetStream scale-out
+    and a WebAssembly build that runs the broker in the browser.
     
     
 ##### NGSI-LD Context Broker Feature Comparison
